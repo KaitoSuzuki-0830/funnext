@@ -96,7 +96,7 @@ class ProfilesController extends Controller
         $user->profile->twitter = $request->twitter;
 
         $user->save();
-        $useer->profile->save();
+        $user->profile->save();
 
         if($request->has('password')){
             $user->password = bcrypt($request->password);
