@@ -11,6 +11,8 @@
 |
 */
 
+use App\Http\Controllers\ProfilesController;
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -18,3 +20,15 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::group(['middleware'=>'auth'],function(){
+    Route::get('user/profile',[
+        'uses'=>'Profilescontroller@index',
+        'as'=>'user.update'
+    ]);
+
+    Route::put('/profile/update',[
+        'uses' =>'ProfilesController@update',
+        'as' =>'profile.update'
+    ]);
+});
