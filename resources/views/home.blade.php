@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    ようこそ！{{ $user->name}}さん
+                    ようこそ！
                 </div>
             </div>
         </div>

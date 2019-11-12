@@ -2,7 +2,7 @@
 @section('content')
 
 <div class="card">
- <div class="card-header">プロフィールを編集する</div>
+ <div class="card-header">プロフィール編集</div>
  <div class="card-body">
      @if(count($errors)>0)
       <ul class="list-group">
