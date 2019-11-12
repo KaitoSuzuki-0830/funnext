@@ -14,17 +14,6 @@
             <!-- Right Side Of Navbar -->
             <ul class="navbar-nav mr-auto">
                 <!-- Authentication Links -->
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">新規グループ投稿</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">000とは</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">ヘルプ</a>
-                    </li>
-                </ul>
                 @guest
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
