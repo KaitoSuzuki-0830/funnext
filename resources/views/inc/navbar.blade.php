@@ -9,12 +9,20 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Left Side Of Navbar -->
-            <ul class="navbar-nav ">
-
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">新規グループ投稿</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">000とは</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ヘルプ</a>
+                </li>
             </ul>
 
             <!-- Right Side Of Navbar -->
-            <ul class="navbar-nav ">
+            <ul class="navbar-nav mr-auto">
                 <!-- Authentication Links -->
                 @guest
                     <li class="nav-item">
