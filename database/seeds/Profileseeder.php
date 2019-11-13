@@ -21,8 +21,9 @@ class Profileseeder extends Seeder
         ]);
 
         Profile::create([
-            'user-id'=>$user->id,
+            'user_id'=>$user->id,
             'avatar' =>'uploads/avatar/sample.png',
+            'place'=>'Tokyo',
             'about' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. At architecto repellat sapiente nemo cupiditate eaque adipisci praesentium laboriosam, commodi assumenda sit quae minus impedit tempora sint amet. Eius, inventore dolore?',
             'facebook' => 'https://www.facebook.com/kati-frantz',
             'instagram'=>'https://www.instagram.com/kati',
