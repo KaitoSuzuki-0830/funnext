@@ -16,7 +16,7 @@ class Profileseeder extends Seeder
     {
         $user=User::create([
             'name'=>'kaito',
-            'email'=>'exmple@gmail.com',
+            'email'=>'example@gmail.com',
             'password'=>bcrypt('password')
         ]);
 
