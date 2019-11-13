@@ -14,10 +14,10 @@
             <ul class="navbar-nav ml-auto">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">グループを作る</a>
+                            <a class="nav-link" href="#">集まりを探す</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">集まりを探す</a>
+                            <a class="nav-link" href="#">グループを作る</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">000とは</a>
