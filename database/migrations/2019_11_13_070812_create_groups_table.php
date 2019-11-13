@@ -19,6 +19,7 @@ class CreateGroupsTable extends Migration
             $table->string('slug');
             $table->text('description');
             $table->string('featured');
+            $table->integer('number');
             $table->string('category');
             $table->timestamps();
         });
