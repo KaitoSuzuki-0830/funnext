@@ -83,7 +83,7 @@ class ProfilesController extends Controller
             $avatar = $request->avatar;
             $avatar_new_name = time().$avatar->getClientOriginalName();
             $avatar->move('uploads/avatar/',$avatar_new_name);
-            $user->profile->avatar = 'uploads/avatar/'.$avatar_new_name;
+            $user->profile->avatar = secure_asset('uploads/avatar/'.$avatar_new_name);
             $user->profile->save();
         }
 

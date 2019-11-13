@@ -3,6 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Post;
+use App\Http\Requests\CreateGroupRequest;
+use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Auth;
+use App\Category;
 
 class GroupsController extends Controller
 {
@@ -13,7 +18,8 @@ class GroupsController extends Controller
      */
     public function index()
     {
-        //
+        $groups = Group::all();
+        return view('groups.index')->with('groups',$groups);
     }
 
     /**
@@ -23,7 +29,8 @@ class GroupsController extends Controller
      */
     public function create()
     {
-        //
+        return view('groups.create')->with('user',Auth::user())
+                                    ->with('categories',Category::all());
     }
 
     /**
@@ -32,9 +39,9 @@ class GroupsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(CreateGroupRequest $request)
     {
-        //
+
     }
 
     /**
