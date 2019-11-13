@@ -31,7 +31,7 @@
     <input type="password" name="password" class="form-control">
 </div>
 <div class="form-group">
-    <label for="username">場所</label>
+    <label for="place">場所</label>
     <select name="pref">
         <option value="">選択してください</option>
         <option value="北海道">北海道</option>

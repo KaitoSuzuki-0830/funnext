@@ -89,7 +89,7 @@ class ProfilesController extends Controller
 
         $user->name = $request->name;
         $user->email = $request->email;
-        $user->profile->place = $request->place;
+        $user->profile->place = $request->pref;
         $user->profile->about = $request->about;
         $user->profile->facebook = $request->facebook;
         $user->profile->instagram = $request->instagram;
