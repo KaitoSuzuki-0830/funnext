@@ -19,7 +19,7 @@ class GroupsController extends Controller
      */
     public function index()
     {
-        $groups = Group::all();
+        $groups = group::all();
         return view('groups.index')->with('groups',$groups);
     }
 
@@ -42,7 +42,7 @@ class GroupsController extends Controller
      */
     public function store(CreateGroupRequest $request)
     {
-        $group = new Group;
+        $group = new group;
         $group->name = $request->name;
         $group->slug = str_slug($request->name);
         $group->description = $request->description;
@@ -78,7 +78,7 @@ class GroupsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Group $group)
+    public function edit(group $group)
     {
         return view('groups.edit')->with('group',$group)
                                   ->with('user',Auth::user())
@@ -105,7 +105,7 @@ class GroupsController extends Controller
             $group->featured = $featured_new_name;
         }
 
-        $post->save();
+        $group->save();
 
         Session::flash('success','グループを更新しました');
 
@@ -121,7 +121,8 @@ class GroupsController extends Controller
     public function destroy(group $group)
     {
         $group->delete();
-        Session::flash('success','グループを削除しました')
+        Session::flash('success','グループを削除しました');
         return redirect(route('groups.index'));
     }
+
 }

@@ -32,3 +32,6 @@ Route::group(['middleware'=>'auth'],function(){
         'as' =>'profile.update'
     ]);
 });
+Route::resource('groups','GroupsController');
+Route::resource('category','CategoryController');
+
