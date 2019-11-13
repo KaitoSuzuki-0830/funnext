@@ -25,12 +25,12 @@
                 @else
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                            <img src="{{ isset($user)? asset($user->profile->avatar): Auth::user()->profile->avatar }}" alt="{{ Auth::user()->name}}" height="80px" width="80px" style="border-radius: 50%" class="profile-image img-circle">
+                            <img src="{{ isset($user)? asset($user->profile->avatar): Auth::user()->profile->avatar }}" alt="{{ Auth::user()->name}}" height="50px" width="50px" style="border-radius: 50%" class="profile-image img-circle">
                             {{ Auth::user()->name }} <span class="caret"></span>
                         </a>
 
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{ route('user.profile') }}">My Profile</a>
+                            <a class="dropdown-item" href="{{ route('user.profile') }}">プロフィール設定</a>
                             <a class="dropdown-item" href="{{ route('logout')}}"
                                onclick="event.preventDefault();
                                              document.getElementById('logout-form').submit();">
