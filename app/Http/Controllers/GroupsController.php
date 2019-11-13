@@ -8,6 +8,7 @@ use App\Http\Requests\CreateGroupRequest;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Auth;
 use App\Category;
+use App\group;
 
 class GroupsController extends Controller
 {
@@ -41,7 +42,22 @@ class GroupsController extends Controller
      */
     public function store(CreateGroupRequest $request)
     {
+        $group = new Group;
+        $group->name = $request->name;
+        $group->slug = str_slug($request->name);
+        $group->description = $request->description;
+        $group->category_id = $request->category_id;
+        $group->user_id = Auth::user()->id;
 
+        $featured = $request->featured;
+        $featured_new_name = time().$featured->getClientOriginalName();
+        $featured->move('uploads/groups/',$featured_new_name);
+        $group->featured = $featured_new_name;
+
+        $group->save();
+
+        Session::flash('success','新しいグループを作成しました！');
+        return redirect(route('groups.index'));
     }
 
     /**
@@ -50,9 +66,10 @@ class GroupsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(group $group)
     {
-        //
+        return view('groups.show')->with('group',$group)
+                                  ->with('user',Auth::user());
     }
 
     /**
@@ -61,9 +78,11 @@ class GroupsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Group $group)
     {
-        //
+        return view('groups.edit')->with('group',$group)
+                                  ->with('user',Auth::user())
+                                  ->with('categories',Category::all());
     }
 
     /**
@@ -73,9 +92,24 @@ class GroupsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(CreateGroupRequest $request,group $group)
     {
-        //
+        $group->name = $request->name;
+        $group->slug = str_slug($request->name);
+        $group->description = $request->description;
+        $group->category_id = $request->category_id;
+        if($request->hasFile('featured')){
+            $featured = $request->featured;
+            $featured_new_name = time().$featured->getClientOriginalName();
+            $featured->move('uploads/groups/',$featured_new_name);
+            $group->featured = $featured_new_name;
+        }
+
+        $post->save();
+
+        Session::flash('success','グループを更新しました');
+
+        return redirect(route('groups.index'));
     }
 
     /**
@@ -84,8 +118,10 @@ class GroupsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(group $group)
     {
-        //
+        $group->delete();
+        Session::flash('success','グループを削除しました')
+        return redirect(route('groups.index'));
     }
 }
