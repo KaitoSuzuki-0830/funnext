@@ -9,7 +9,7 @@
     <thead>
      <tr>
       <th>カテゴリー名</th>
-      <th><a href="{{ route('category.create')}}" class="btn btn-info">カテゴリーを追加する</a></th>
+      <th><a href="{{ route('category.create')}}" class="btn btn-outline-success">カテゴリーを追加する</a></th>
      </tr>
     </thead>
     <tbody>
