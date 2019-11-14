@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
  <div class="card">
-   <div class="card-header">{{ isset($category)?'Edit Category':'Create Category'}}</div>
+   <div class="card-header">{{ isset($category)?'カテゴリーを編集':'カテゴリーを作成'}}</div>
    <div class="card-body">
     @if(count($errors)>0)
      <ul class="list-group">
@@ -16,12 +16,12 @@
        @method('PUT')
       @endif
       <div class="form-group">
-        <label for="name">Name</label>
+        <label for="name">カテゴリー名</label>
         <input type="text" name="name" class="form-control" value={{ isset($category)? $category->name :''}}>
       </div>
       <div class="form-group text-center">
         <button type="submit" class="btn btn-success btn-block">
-         {{ isset($category)?'Edit Category': 'Create Category'}}
+         {{ isset($category)?'カテゴリーを編集': 'カテゴリーを作成'}}
         </button>
       </div>
      </form>
