@@ -39,7 +39,7 @@ class CategoryController extends Controller
      */
     public function store(CreteCategoryRequest $request)
     {
-        dd($request->all());
+        //dd($request->all());
         $category =new Category;
         $category->name = $request->name;
         $category->save();
