@@ -10,6 +10,7 @@
      <tr>
       <th>カテゴリー名</th>
       <th><a href="{{ route('category.create')}}" class="btn btn-success">カテゴリーを追加する</a></th>
+      <th><a href="{{ route('groups.create')}}" class="btn btn-primary">グループ作成に戻る</a></th>
      </tr>
     </thead>
     <tbody>
