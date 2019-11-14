@@ -51,10 +51,6 @@ class ContactsController extends Controller
     $request->session()->regenerateToken();
 
     return view('contacts.complete');
-}
-public function complete(ContactRequest $request)
-{
-    // ...
 
     // 送信メール
     \Mail::send(new \App\Mail\Contact([
@@ -80,6 +76,7 @@ public function complete(ContactRequest $request)
         'body' => $request->body
     ], 'from'));
 }
+
 
 
 }
