@@ -21,6 +21,7 @@ class CreateGroupsTable extends Migration
             $table->string('featured');
             $table->integer('number');
             $table->integer('category_id');
+            $table->integer('user_id');
             $table->timestamps();
         });
     }
