@@ -18,7 +18,7 @@
     </div>
     <div class="form-group">
      <label for="description">グループ説明</label>
-     <textarea name="description" id="ck-editor" cols="10" rows="10" class="form-control"></textarea>
+     <textarea name="description"  cols="10" rows="10" class="form-control"></textarea>
     </div>
     <div class="form-group">
      <label for="category">カテゴリーを選択してください</label>
