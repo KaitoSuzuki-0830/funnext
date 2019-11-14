@@ -36,7 +36,7 @@
         <input type="file" name="featured" class="form-control">
     </div>
     <div class="form-group text-center">
-        <button type="submit" class="btn btn-success btn-block">グループを作成</button>
+        <button type="submit" class="btn btn-success btn-lg">グループを作成</button>
     </div>
     </form>
      </div>

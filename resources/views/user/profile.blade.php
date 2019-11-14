@@ -100,7 +100,7 @@
     <input type="text" name="twitter" class="form-control" value="{{ $user->profile->twitter}}">
 </div>
 <div class="form-group text-center">
-    <button type="submit" class="btn btn-success btn-block">プロフィールを更新する</button>
+    <button type="submit" class="btn btn-success btn-sm">プロフィールを更新する</button>
 </div>
  </form>
  </div>
