@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Accumulation'),
+    'name' => env('APP_NAME', 'Relaccumulation'),
 
     /*
     |--------------------------------------------------------------------------
