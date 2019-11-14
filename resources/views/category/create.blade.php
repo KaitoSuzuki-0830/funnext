@@ -20,7 +20,7 @@
         <input type="text" name="name" class="form-control" value={{ isset($category)? $category->name :''}}>
       </div>
       <div class="form-group text-center">
-        <button type="submit" class="btn btn-success btn-block">
+        <button type="submit" class="btn btn-success btn-lg">
          {{ isset($category)?'カテゴリーを編集': 'カテゴリーを作成'}}
         </button>
       </div>
