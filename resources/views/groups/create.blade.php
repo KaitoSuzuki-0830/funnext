@@ -27,6 +27,9 @@
             <option value="{{ $category->id}}">{{ $category->name }}</option>
         @endforeach
      </select>
+     <div class="form-group">
+         <a href="{{route('category.create')}}">カテゴリーがございませんか?</a>
+     </div>
     </div>
     <div class="form-group">
         <label for="featured">グループ写真</label>
