@@ -23,8 +23,8 @@
     <div class="form-group">
      <label for="category">カテゴリーを選択してください</label>
      <select name="category_id" class="form-control">
-       @foreach ($categories as $category)
-        <option value="{{ $category->id}}">{{ $category->name }}</option>
+       @foreach($categories as $category)
+            <option value="{{ $category->id}}">{{ $category->name }}</option>
         @endforeach
      </select>
     </div>
