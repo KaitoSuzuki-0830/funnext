@@ -9,6 +9,7 @@
     <thead>
      <tr>
       <th>カテゴリー名</th>
+      <th><a href="{{ route('category.edit')}}">カテゴリーを追加</a></th>
      </tr>
     </thead>
     <tbody>
