@@ -67,6 +67,7 @@ class CategoryController extends Controller
      */
     public function edit(Category $category)
     {
+        $category =category::find($category);
         return view('category.create')->with('category',$category);
     }
 
