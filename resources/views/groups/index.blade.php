@@ -15,7 +15,7 @@
      <tbody>
          @foreach($groups as $group)
          <tr>
-             <td><img src="{{ secure_asset('uploads/groups/'.$group->featured)}}" alt="{{ $group->name}}" height="90px" style="border-radius: 80%"></td>
+             <td><img src="{{ secure_asset($group->featured)}}" alt="{{ $group->name}}" height="90px" style="border-radius: 80%"></td>
              <td>{{ $group->name}}</td>
              <td><a href="{{ route('groups.show',['id'=>$group->id])}}" class="btn btn-primary"><i class="far fa-eye"></i></a></td>
              <td>
