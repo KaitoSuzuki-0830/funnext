@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use App\Profile;
+use App\User;
 
 class UserTableseeder extends Seeder
 {
@@ -12,7 +13,11 @@ class UserTableseeder extends Seeder
      */
     public function run()
     {
-        $user=factory(App\User::class,1)->create();
+        $user=User::create([
+            'name'=>'user',
+            'email'=>'sample@gmail.com',
+            'password'=>bcrypt('password')
+        ]);;
 
         Profile::create([
             'user_id'=>$user->id,
