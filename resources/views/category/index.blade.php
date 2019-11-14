@@ -9,7 +9,6 @@
     <thead>
      <tr>
       <th>カテゴリー名</th>
-      <th></th>
      </tr>
     </thead>
     <tbody>
