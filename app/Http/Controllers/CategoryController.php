@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
 use App\Category;
-use App\Http\Requests\CreateCategoryRequest;
+use App\Http\Requests\CreteCategoryRequest;
 use Illuminate\Support\Facades\Auth;
 
 class CategoryController extends Controller
@@ -37,7 +37,7 @@ class CategoryController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(CreateCategoryRequest $request)
+    public function store(CreteCategoryRequest $request)
     {
         dd($request->all());
         $category =new Category;
