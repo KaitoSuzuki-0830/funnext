@@ -21,7 +21,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::group(['middleware'=>'auth'],function(){
+
     Route::get('user/profile',[
         'uses'=>'ProfilesController@index',
         'as'=>'user.profile'
@@ -31,7 +31,7 @@ Route::group(['middleware'=>'auth'],function(){
         'uses' =>'ProfilesController@update',
         'as' =>'profile.update'
     ]);
-});
+
 Route::resource('groups','GroupsController');
 Route::resource('category','CategoryController');
 
