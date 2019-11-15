@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateGroupsCategory extends Migration
+class CreateGroupsPlanTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,10 @@ class CreateGroupsCategory extends Migration
      */
     public function up()
     {
-        Schema::create('groups_category', function (Blueprint $table) {
+        Schema::create('groups_plan', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->integer('group_id');
-            $table->integer('category_id');
+            $table->integer('plan_id');
             $table->timestamps();
         });
     }
@@ -28,6 +28,6 @@ class CreateGroupsCategory extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('groups_category');
+        Schema::dropIfExists('groups_plan');
     }
 }
