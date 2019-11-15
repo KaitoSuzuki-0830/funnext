@@ -12,10 +12,10 @@ class ChatSeeder extends Seeder
     public function run()
     {
         // テーブル内のデータを一旦全削除
-        \Illuminate\Support\Facades\DB::table('article')->truncate();
+        \Illuminate\Support\Facades\DB::table('chat')->truncate();
 
         // データのインサート
-        DB::table('article')->insert([
+        DB::table('chat')->insert([
             [
                 'user_id' => 2,
                 'title' => 'title1',
