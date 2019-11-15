@@ -13,12 +13,8 @@ class ChatsController extends Controller
      */
     public function index()
     {
-        $msgs = [
-            'おはよう',
-            'こんにちは',
-            'こんばんは'
-        ];
-         return view('chat.index',['msgs'=> $msgs]);
+        $chat = Chat::all();
+        return view('chat.index',['chats'=>$chat]);
     }
 
     /**
