@@ -38,6 +38,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::resource('groups','GroupsController');
 Route::resource('category','CategoryController');
 
+Route::resource('plans','PlansController');
+
 Route::get('contact','ContactsController@index');
 Route::post('contact/confirm','ContactsController@confirm');
 Route::post('contact/complete','ContactsController@complete');
