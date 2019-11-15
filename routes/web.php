@@ -41,5 +41,6 @@ Route::resource('category','CategoryController');
 Route::get('contact','ContactsController@index');
 Route::post('contact/confirm','ContactsController@confirm');
 Route::post('contact/complete','ContactsController@complete');
+
 Route::get('/chat','ChatsController@index');
 
