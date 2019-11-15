@@ -30,7 +30,8 @@ class PlansController extends Controller
      */
     public function create()
     {
-        return view('')
+        return view('plans.create')->with('user',Auth::user())
+                                  ->with('categories',Category::all());
     }
 
     /**
@@ -39,9 +40,26 @@ class PlansController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(CreatePlanRequest $request)
     {
-        //
+        $plan = new plan;
+        $plan->title = $request->title;
+        $plan->slug = str_slug($request->name);
+        $plan->description = $request->description;
+        $plan->price = $request->price;
+        $plan->pref_id = $request->pref_id;
+        $plan->category_id = $request->category_id;
+        $plan->user_id = Auth::user()->id;
+
+        $featured = $request->featured;
+        $featured_new_name = time().$featured->getClientOriginalName();
+        $featured->move('uploads/plans/',$featured_new_name);
+        $plan->featured = secure_asset('uploads/plans/'.featured_new_name);
+
+        $plan->save();
+
+        Session::flash('success','新しい企画が生まれました!');
+        return redirect(route('plans.index'));
     }
 
     /**
@@ -52,7 +70,8 @@ class PlansController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('plans.show')->with('plan',$plan)
+                                ->with('user',Auth::user());
     }
 
     /**
@@ -61,9 +80,11 @@ class PlansController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(plan $plan)
     {
-        //
+        return view('plans.edit')->with('plan',$plan)
+                                ->with('user',Auth::user())
+                                ->with('categories',Category::all());
     }
 
     /**
@@ -73,9 +94,25 @@ class PlansController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(CreatePlanRequest $request, plan $plan)
     {
-        //
+        $plan->title = $request->title;
+        $plan->slug = str_slug($request->name);
+        $plan->description = $request->description;
+        $plan->price = $request->price;
+        $plan->pref_id = $request->pref_id;
+        $plan->category_id = $request->category_id;
+        if($request->hasFile('featured')){
+            $featured = $request->featured;
+            $featured_new_name = time().$featured->getClientOriginalName();
+            $featured->move('uploads/plans/',$featured_new_name);
+            $plan->featured = $featured_new_name;
+        }
+
+        $plan->save();
+        Session::flash('success','企画を更新しました');
+
+        return redirect(route('plans.index'));
     }
 
     /**
@@ -84,8 +121,10 @@ class PlansController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(plan $paln)
     {
-        //
+        $plan->delete();
+        Session::flash('success','企画を削除しました');
+        return redirect(route('plans.index'));
     }
 }
