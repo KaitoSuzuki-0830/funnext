@@ -8,7 +8,7 @@
                 <div class="card-header">Help</div>
 
                 <div class="card-body">
-
+                    @include('contacts.index')
                 </div>
             </div>
         </div>

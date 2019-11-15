@@ -18,15 +18,15 @@
                         </div>
                     @endif
 
-                    {!! Form::open(['url' => 'contact/confirm',
+                    {!! contact::open(['url' => 'contact/confirm',
                                 'class' => 'form-horizontal']) !!}
 
                     <div class="form-group{{ $errors->has('type') ? ' has-error' : '' }}">
-                        {!! Form::label('type', 'お問い合わせ種類:', ['class' => 'col-sm-2 control-label']) !!}
+                        {!! contact::label('type', 'お問い合わせ種類:', ['class' => 'col-sm-2 control-label']) !!}
                         <div class="col-sm-10">
                             @foreach($types as $key => $value)
                                 <label class="checkbox-inline">
-                                    {!! Form::checkbox('type[]', $value) !!}
+                                    {!! contact::checkbox('type[]', $value) !!}
                                     {{ $value }}
                                 </label>
                             @endforeach
@@ -39,9 +39,9 @@
                     </div>
 
                     <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
-                        {!! Form::label('name', 'お名前:', ['class' => 'col-sm-2 control-label']) !!}
+                        {!! contact::label('name', 'お名前:', ['class' => 'col-sm-2 control-label']) !!}
                         <div class="col-sm-10">
-                            {!! Form::text('name', null, ['class' => 'form-control']) !!}
+                            {!! contact::text('name', null, ['class' => 'form-control']) !!}
 
                             @if ($errors->has('name'))
                                 <span class="help-block">
@@ -52,9 +52,9 @@
                     </div>
 
                     <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                        {!! Form::label('email', 'メールアドレス:', ['class' => 'col-sm-2 control-label']) !!}
+                        {!! contact::label('email', 'メールアドレス:', ['class' => 'col-sm-2 control-label']) !!}
                         <div class="col-sm-10">
-                            {!! Form::email('email', null, ['class' => 'form-control']) !!}
+                            {!! contact::email('email', null, ['class' => 'form-control']) !!}
                             @if ($errors->has('email'))
                                 <span class="help-block">
                                     <strong>{{ $errors->first('email') }}</strong>
@@ -64,11 +64,11 @@
                     </div>
 
                     <div class="form-group{{ $errors->has('gender') ? ' has-error' : '' }}">
-                        {!! Form::label('gender', '性別:', ['class' => 'col-sm-2 control-label']) !!}
+                        {!! contact::label('gender', '性別:', ['class' => 'col-sm-2 control-label']) !!}
                         <div class="col-sm-10">
                             @foreach($genders as $key => $value)
                                 <label class="checkbox-inline">
-                                    {!! Form::radio('gender', $value) !!}
+                                    {!! contact::radio('gender', $value) !!}
                                     {{ $value }}
                                 </label>
                             @endforeach
@@ -81,9 +81,9 @@
                     </div>
 
                     <div class="form-group{{ $errors->has('body') ? ' has-error' : '' }}">
-                        {!! Form::label('body', '内容:', ['class' => 'col-sm-2 control-label']) !!}
+                        {!! contact::label('body', '内容:', ['class' => 'col-sm-2 control-label']) !!}
                         <div class="col-sm-10">
-                            {!! Form::textarea('body', null, ['class' => 'form-control']) !!}
+                            {!! contact::textarea('body', null, ['class' => 'form-control']) !!}
                             @if ($errors->has('email'))
                                 <span class="help-block">
                                     <strong>{{ $errors->first('email') }}</strong>
@@ -93,11 +93,11 @@
                     </div>
 
                     <div class="form-group{{ $errors->has('gender') ? ' has-error' : '' }}">
-                        {!! Form::label('gender', '性別:', ['class' => 'col-sm-2 control-label']) !!}
+                        {!! contact::label('gender', '性別:', ['class' => 'col-sm-2 control-label']) !!}
                         <div class="col-sm-10">
                             @foreach($genders as $key => $value)
                                 <label class="checkbox-inline">
-                                    {!! Form::radio('gender', $value) !!}
+                                    {!! contact::radio('gender', $value) !!}
                                     {{ $value }}
                                 </label>
                             @endforeach
@@ -110,9 +110,9 @@
                     </div>
 
                     <div class="form-group{{ $errors->has('body') ? ' has-error' : '' }}">
-                        {!! Form::label('body', '内容:', ['class' => 'col-sm-2 control-label']) !!}
+                        {!! contact::label('body', '内容:', ['class' => 'col-sm-2 control-label']) !!}
                         <div class="col-sm-10">
-                            {!! Form::textarea('body', null, ['class' => 'form-control']) !!}
+                            {!! contact::textarea('body', null, ['class' => 'form-control']) !!}
                             @if ($errors->has('body'))
                                 <span class="help-block">
                                     <strong>{{ $errors->first('body') }}</strong>
@@ -123,11 +123,11 @@
 
                     <div class="form-group">
                         <div class="col-sm-10 col-sm-offset-2">
-                            {!! Form::submit('確認', ['class' => 'btn btn-primary']) !!}
+                            {!! contact::submit('確認', ['class' => 'btn btn-primary']) !!}
                         </div>
                     </div>
 
-                    {!! Form::close() !!}
+                    {!! contact::close() !!}
                 </div>
             </div>
         </div>
