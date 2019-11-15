@@ -32,7 +32,7 @@
                         </tr>
                     </table>
 
-                    {!! Form::open(['url' => 'contact/complete',
+                    {!! contact::open(['url' => 'contact/complete',
                                     'class' => 'form-horizontal',
                                     'id' => 'post-input']) !!}
 
@@ -43,15 +43,15 @@
                                     <input name="{{ $key }}[]" type="hidden" value="{{ $subValue }}">
                                 @endforeach
                             @else
-                                {!! Form::hidden($key, $value) !!}
+                                {!! contact::hidden($key, $value) !!}
                             @endif
 
                         @endif
                     @endforeach
 
-                    {!! Form::submit('戻る', ['name' => 'action', 'class' => 'btn']) !!}
-                    {!! Form::submit('送信', ['name' => 'action', 'class' => 'btn btn-primary']) !!}
-                    {!! Form::close() !!}
+                    {!! contact::submit('戻る', ['name' => 'action', 'class' => 'btn']) !!}
+                    {!! contact::submit('送信', ['name' => 'action', 'class' => 'btn btn-primary']) !!}
+                    {!! contact::close() !!}
                 </div>
             </div>
         </div>
