@@ -85,7 +85,6 @@ class PlansController extends Controller
     {
         return view('plans.edit')->with('plan',$plan)
                                 ->with('user',Auth::user())
-                                ->with('price',$price)
                                 ->with('categories',Category::all());
     }
 
