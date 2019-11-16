@@ -122,8 +122,8 @@
                     </div>
 
                     <div class="form-group">
-                        <div class="col-sm-10 col-sm-offset-2">
-                            {!! Form::submit('確認', ['class' => 'btn btn-primary']) !!}
+                        <div class="col-sm-10 col-sm-offset-2 text-center">
+                            {!! Form::submit('送信', ['class' => 'btn btn-success btn-lg']) !!}
                         </div>
                     </div>
 
