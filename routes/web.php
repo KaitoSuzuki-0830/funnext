@@ -40,9 +40,9 @@ Route::resource('category','CategoryController');
 
 Route::resource('plans','PlansController');
 
-Route::get('contact','ContactsController@index');
-Route::post('contact/confirm','ContactsController@confirm');
-Route::post('contact/complete','ContactsController@complete');
+Route::get('contacts','ContactsController@index');
+Route::post('contacts/confirm','ContactsController@confirm');
+Route::post('contacts/complete','ContactsController@complete');
 
 Route::get('/chat','ChatsController@index');
 
