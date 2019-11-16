@@ -21,18 +21,18 @@
                     {!! Form::open(['url' => 'contact/confirm',
                                 'class' => 'form-horizontal']) !!}
 
-                    <div class="form-group{{ $errors->has('type') ? ' has-error' : '' }}">
-                        {!! Form::label('type', 'お問い合わせ種類:', ['class' => 'col-sm-2 control-label']) !!}
+                    <div class="form-group{{ $errors->has('types') ? ' has-error' : '' }}">
+                        {!! Form::label('types', 'お問い合わせ種類:', ['class' => 'col-sm-2 control-label']) !!}
                         <div class="col-sm-10">
                             @foreach($types as $key => $value)
                                 <label class="checkbox-inline">
-                                    {!! Form::checkbox('type[]', $value) !!}
+                                    {!! Form::checkbox('types[]', $value) !!}
                                     {{ $value }}
                                 </label>
                             @endforeach
-                            @if ($errors->has('type'))
+                            @if ($errors->has('types'))
                                 <span class="help-block">
-                                <strong>{{ $errors->first('type') }}</strong>
+                                <strong>{{ $errors->first('types') }}</strong>
                             </span>
                             @endif
                         </div>
