@@ -7,7 +7,7 @@
             <div class="panel panel-default">
                 <div class="panel-heading">お問い合わせ　確認画面</div>
                 <div class="panel-body">
-                    <p>誤りがないことを確認のうえ送信ボタンをクリックしてください。</p>
+                    <p>※誤りがないことを確認のうえ送信ボタンをクリックしてください。</p>
 
                     <table class="table">
                         <tr>
@@ -48,10 +48,15 @@
 
                         @endif
                     @endforeach
-
-                    {!! Form::submit('戻る', ['name' => 'action', 'class' => 'btn']) !!}
-                    {!! Form::submit('送信', ['name' => 'action', 'class' => 'btn btn-primary']) !!}
-                    {!! Form::close() !!}
+                    <div class="col-sm-10 col-sm-offset-2 text-center">
+                        {!! Form::submit('戻る', ['name' => 'action', 'class' => 'btn btn-light ']) !!}
+                    </div>
+                    <div class="col-sm-10 col-sm-offset-2 text-center">
+                        {!! Form::submit('送信', ['name' => 'action', 'class' => 'btn btn-primary']) !!}]
+                    </div>
+                    <div class="col-sm-10 col-sm-offset-2 text-center">
+                        {!! Form::close() !!}
+                    </div>
                 </div>
             </div>
         </div>
