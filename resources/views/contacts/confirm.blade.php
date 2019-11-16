@@ -50,13 +50,9 @@
                     @endforeach
                     <div class="col-sm-10 col-sm-offset-2 text-center">
                         {!! Form::submit('戻る', ['name' => 'action', 'class' => 'btn btn-light ']) !!}
-                    </div>
-                    <div class="col-sm-10 col-sm-offset-2 text-center">
                         {!! Form::submit('送信', ['name' => 'action', 'class' => 'btn btn-primary']) !!}]
                     </div>
-                    <div class="col-sm-10 col-sm-offset-2 text-center">
                         {!! Form::close() !!}
-                    </div>
                 </div>
             </div>
         </div>
