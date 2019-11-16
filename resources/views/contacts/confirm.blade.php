@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="panel panel-default">
-                <div class="panel-heading">お問い合わせ</div>
+                <div class="panel-heading">お問い合わせ　確認画面</div>
                 <div class="panel-body">
                     <p>誤りがないことを確認のうえ送信ボタンをクリックしてください。</p>
 
@@ -32,7 +32,7 @@
                         </tr>
                     </table>
 
-                    {!! Form::open(['url' => 'contact/complete',
+                    {!! Form::open(['url' => 'contacts/complete',
                                     'class' => 'form-horizontal',
                                     'id' => 'post-input']) !!}
 
