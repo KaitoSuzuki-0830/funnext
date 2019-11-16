@@ -25,8 +25,8 @@
                         {!! Form::label('type', 'お問い合わせ種類:', ['class' => 'col-sm-2 control-label']) !!}
                         <div class="col-sm-10">
                             @foreach($types as $key => $value)
-                                <label class="checkbox-inline">
-                                    {!! Form::checkbox('type[]', $value) !!}
+                                <label class="select-inline">
+                                    {!! Form::select('type[]', $value) !!}
                                     {{ $value }}
                                 </label>
                             @endforeach
