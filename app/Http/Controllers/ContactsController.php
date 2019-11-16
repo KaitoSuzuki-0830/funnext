@@ -77,6 +77,4 @@ class ContactsController extends Controller
     ], 'from'));
 }
 
-
-
 }
