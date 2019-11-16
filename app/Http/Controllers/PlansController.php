@@ -10,6 +10,7 @@ use App\plan;
 use App\Category;
 use App\User;
 
+
 class PlansController extends Controller
 {
     /**
@@ -58,7 +59,7 @@ class PlansController extends Controller
 
         $plan->save();
 
-        Session::flash('success','新しい企画が生まれました!');
+        Session::flash('success','新しい企画を作成しました!');
         return redirect(route('plans.index'));
     }
 
@@ -84,6 +85,7 @@ class PlansController extends Controller
     {
         return view('plans.edit')->with('plan',$plan)
                                 ->with('user',Auth::user())
+                                ->with('price',$price)
                                 ->with('categories',Category::all());
     }
 
@@ -123,8 +125,26 @@ class PlansController extends Controller
      */
     public function destroy(plan $paln)
     {
-        $plan->delete();
+        $paln->delete();
         Session::flash('success','企画を削除しました');
         return redirect(route('plans.index'));
     }
+    public function trashed(){
+        $plans= plan::onlyTrashed()->get();
+        return view('plans.trash')->with('plans',$plans);
+     }
+
+     public function restore($id){
+         $plan = plan::withTrashed()->where('id',$id)->first();
+         $plan->restore();
+         Session::flash('success','plan Restored successfully');
+         return redirect(route('plans.index'));
+     }
+
+     public function kill($id){
+         $plan = plan::withTrashed()->where('id',$id)->first();
+         $plan->forceDelete();
+         Session::flash('success','plan Deleted Permanently successfully');
+         return redirect(route('plans.trashed'));
+     }
 }
