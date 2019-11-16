@@ -91,36 +91,6 @@
                             @endif
                         </div>
                     </div>
-
-                    <div class="form-group{{ $errors->has('gender') ? ' has-error' : '' }}">
-                        {!! Form::label('gender', '性別:', ['class' => 'col-sm-2 control-label']) !!}
-                        <div class="col-sm-10">
-                            @foreach($genders as $key => $value)
-                                <label class="checkbox-inline">
-                                    {!! Form::radio('gender', $value) !!}
-                                    {{ $value }}
-                                </label>
-                            @endforeach
-                            @if ($errors->has('gender'))
-                                <span class="help-block">
-                            <strong>{{ $errors->first('gender') }}</strong>
-                        </span>
-                            @endif
-                        </div>
-                    </div>
-
-                    <div class="form-group{{ $errors->has('body') ? ' has-error' : '' }}">
-                        {!! Form::label('body', '内容:', ['class' => 'col-sm-2 control-label']) !!}
-                        <div class="col-sm-10">
-                            {!! Form::textarea('body', null, ['class' => 'form-control']) !!}
-                            @if ($errors->has('body'))
-                                <span class="help-block">
-                                    <strong>{{ $errors->first('body') }}</strong>
-                                </span>
-                            @endif
-                        </div>
-                    </div>
-
                     <div class="form-group">
                         <div class="col-sm-10 col-sm-offset-2 text-center">
                             {!! Form::submit('送信', ['class' => 'btn btn-success btn-lg']) !!}
