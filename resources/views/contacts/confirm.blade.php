@@ -49,8 +49,8 @@
                         @endif
                     @endforeach
                     <div class="col-sm-10 col-sm-offset-2 text-center">
-                        {!! Form::submit('戻る', ['name' => 'action', 'class' => 'btn btn-light ']) !!}
-                        {!! Form::submit('送信', ['name' => 'action', 'class' => 'btn btn-primary']) !!}]
+                        {!! Form::submit('戻る', ['name' => 'action', 'class' => 'btn btn-outline-secondary']) !!}
+                        {!! Form::submit('送信', ['name' => 'action', 'class' => 'btn btn-primary']) !!}
                     </div>
                         {!! Form::close() !!}
                 </div>
