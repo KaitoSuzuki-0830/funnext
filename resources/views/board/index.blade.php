@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title','Board.index')
+@section('title','board.index')
 
 @section('menubar')
     @parent

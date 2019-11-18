@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use App\Board;
+use App\board;
 use Illuminate\Http\Request;
 
 class BoardController extends Controller
 {
     public function index(Request $request){
-        $items = Board::all();
+        $items = board::all();
         return view('board.index',['items'=>$items]);
     }
 
@@ -17,8 +17,8 @@ class BoardController extends Controller
     }
 
     public function create(Request $request){
-        $this->validate($request,Board::$rules);
-        $board = new Board;
+        $this->validate($request,board::$rules);
+        $board = new board;
         $form = $request->all();
         unset($form['_token']);
         $board->fill($form)->save();
