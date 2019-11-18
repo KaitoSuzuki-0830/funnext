@@ -20,7 +20,7 @@
                             <a class="nav-link" href="{{ route('groups.create')}}">グループを作る</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/about">000とは</a>
+                            <a class="nav-link" href="/about">Relaccumとは</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/help">ヘルプ</a>
