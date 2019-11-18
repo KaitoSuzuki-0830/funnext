@@ -4,9 +4,9 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <div class="panel panel-default">
-                <div class="panel-heading"><h2>お問い合わせ</h2></div>
-                <div class="panel-body">
+            <div class="card">
+                <div class="card-header"><h2>お問い合わせ</h2></div>
+                <div class="card-body">
                     {{-- エラーの表示 --}}
                     @if ($errors->any())
                         <div class="alert alert-danger">
@@ -22,7 +22,7 @@
                                 'class' => 'form-horizontal']) !!}
 
                     <div class="form-group{{ $errors->has('type') ? ' has-error' : '' }}">
-                        {!! Form::label('type', 'お問い合わせ種類:', ['class' => 'col-sm-2 control-label']) !!}
+                        {!! Form::label('type', 'お問い合わせ種類', ['class' => 'col-sm-2 control-label']) !!}
                         <div class="col-sm-10">
                             @foreach($types as $key => $value)
                                 <label class="checkbox-inline">
@@ -39,7 +39,7 @@
                     </div>
 
                     <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
-                        {!! Form::label('name', 'お名前:', ['class' => 'col-sm-2 control-label']) !!}
+                        {!! Form::label('name', 'お名前', ['class' => 'col-sm-2 control-label']) !!}
                         <div class="col-sm-10">
                             {!! Form::text('name', null, ['class' => 'form-control']) !!}
 
@@ -52,7 +52,7 @@
                     </div>
 
                     <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                        {!! Form::label('email', 'メールアドレス:', ['class' => 'col-sm-2 control-label']) !!}
+                        {!! Form::label('email', 'メールアドレス', ['class' => 'col-sm-2 control-label']) !!}
                         <div class="col-sm-10">
                             {!! Form::email('email', null, ['class' => 'form-control']) !!}
                             @if ($errors->has('email'))
@@ -64,7 +64,7 @@
                     </div>
 
                     <div class="form-group{{ $errors->has('gender') ? ' has-error' : '' }}">
-                        {!! Form::label('gender', '性別:', ['class' => 'col-sm-2 control-label']) !!}
+                        {!! Form::label('gender', '性別', ['class' => 'col-sm-2 control-label']) !!}
                         <div class="col-sm-10">
                             @foreach($genders as $key => $value)
                                 <label class="checkbox-inline">
@@ -81,7 +81,7 @@
                     </div>
 
                     <div class="form-group{{ $errors->has('body') ? ' has-error' : '' }}">
-                        {!! Form::label('body', '内容:', ['class' => 'col-sm-2 control-label']) !!}
+                        {!! Form::label('body', '内容', ['class' => 'col-sm-2 control-label']) !!}
                         <div class="col-sm-10">
                             {!! Form::textarea('body', null, ['class' => 'form-control']) !!}
                             @if ($errors->has('email'))
