@@ -92,8 +92,8 @@
     <input type="text" name="facebook" class="form-control" value="{{ $user->profile->facebook}}">
 </div>
 <div class="form-group">
-    <label for="In">Instagram</label>
-    <input type="text" name="instagram" class="form-control" value="{{ $user->profile->instagram}}">
+    <label for="In">Webリンク</label>
+    <input type="text" name="weblink" class="form-control" value="{{ $user->profile->instagram}}">
 </div>
 <div class="form-group">
     <label for="tw">Twitter</label>
