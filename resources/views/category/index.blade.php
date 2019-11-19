@@ -16,12 +16,12 @@
      @foreach($categories as $category)
       <tr>
           <td>{{ $category->name}}</td>
-          <td><a href="{{ route('category.edit',['id'=>$category->id])}}" class="btn btn-info">編集</a></td>
+          <td><a href="{{ route('category.edit',['id'=>$category->id])}}" class="btn btn-info"><i class="fas fa-edit"> 編集</i></a></td>
           <td>
             <form action="{{ route('category.destroy',['id'=>$category->id])}}" method="post">
              @csrf
              @method('DELETE')
-             <button class="btn btn-danger">削除</i></button>
+             <button class="btn btn-danger"><i class="fas fa-trash-alt"></i> 削除</button>
             </form>
           </td>
       </tr>
@@ -29,7 +29,7 @@
     </tbody>
    </table>
    <div class="form-group text-center">
-    <a href="{{route('groups.create')}}" class="btn btn-primary">グループ作成に戻る</a>
+    <a href="{{route('groups.create')}}" class="btn btn-primary"><i class="fas fa-arrow-left"></i> 戻る</a>
    </div>
  @else
   <p class="text-center">カテゴリーはありません</p>
