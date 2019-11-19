@@ -11,7 +11,7 @@
         </ul>
     @endif
     <form action="{{ route('groups.store')}}" method="post" enctype="multipart/form-data">
-    @csrf
+    {{csrf_field()}}
     <div class="form-group">
      <label for="name">グループ名</label>
      <input type="text" name="name" class="form-control">
