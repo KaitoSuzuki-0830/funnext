@@ -9,7 +9,7 @@
     <thead>
      <tr>
       <th>カテゴリー名</th>
-      <th><a href="{{ route('category.create')}}" class="btn btn-success"><i class="fas fa-plus"></i>追加</a></th>
+      <th><a href="{{ route('category.create')}}" class="btn btn-success"><i class="fas fa-plus"></i>　追加</a></th>
      </tr>
     </thead>
     <tbody>
