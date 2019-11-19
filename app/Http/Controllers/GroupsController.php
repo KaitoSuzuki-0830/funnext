@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Auth;
 use App\Category;
 use App\group;
+use App\plan;
 
 class GroupsController extends Controller
 {
@@ -31,7 +32,8 @@ class GroupsController extends Controller
     public function create()
     {
         return view('groups.create')->with('user',Auth::user())
-                                    ->with('categories',Category::all());
+                                    ->with('categories',Category::all())
+                                    ->with('plans',plan::all());
     }
 
     /**

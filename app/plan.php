@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class plan extends Model
+class Plan extends Model
 {
     public function category(){
         return $this->belongsTo('App\Category');
@@ -17,4 +17,5 @@ class plan extends Model
     public function groups(){
         return $this->belongsToMany('App\group');
     }
+
 }
