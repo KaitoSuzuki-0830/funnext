@@ -13,7 +13,7 @@ class AddSoftdeleteToPlans extends Migration
      */
     public function up()
     {
-        Schema::table('plan', function (Blueprint $table) {
+        Schema::table('plans', function (Blueprint $table) {
             $table->softDeletes();
         });
     }
