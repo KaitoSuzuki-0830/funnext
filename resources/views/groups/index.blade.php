@@ -9,7 +9,8 @@
       <tr>
         <th>写真</th>
         <th>グループ名</th>
-        <th colspan="2"></th>
+        <th>詳細</th>
+        <th>削除</th>
       </tr>
      </thead>
      <tbody>
