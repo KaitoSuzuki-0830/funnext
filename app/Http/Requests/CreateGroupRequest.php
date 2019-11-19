@@ -24,9 +24,9 @@ class CreateGroupRequest extends FormRequest
     public function rules()
     {
         return [
-            'name'=>'required|max:20',
-            'description'=>'required|min:30',
-            'featured'=>'nullable|image',
+            'name'=>'required',
+            'description'=>'required',
+            'featured'=>'required|image',
             'category_id'=>'required'
         ];
     }
