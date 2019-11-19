@@ -1,9 +1,9 @@
 @extends('layouts.app')
 @section('content')
 <div class="card">
- <div class="card-header">グループ詳細
-    <a href="{{ route('groups.edit',['id'=>$group->id])}}" class="btn btn-info"><i class="far fa-edit"> 編集</i></a>
- </div>
+ <div class="card-header col-sm-8">グループ詳細</div>
+ <div class="card-header col-sm-4"></div><a href="{{ route('groups.edit',['id'=>$group->id])}}" class="btn btn-info"><i class="far fa-edit"> 編集</i></a>
+
 
  <div class="card-body">
      <h5 class="card-title">{{ $group->name}}</h5>
