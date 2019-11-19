@@ -18,7 +18,12 @@ Route::get('/', function () {
 });
 
 Route::view('/about', 'about');
-Route::view('/help', 'help');
+Route::get('/help', function(){
+    $types = Contact::$types;
+        $genders = Contact::$genders;
+
+        return view('help',compact('types','genders'));
+});
 
 Auth::routes();
 
