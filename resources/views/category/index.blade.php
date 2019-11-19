@@ -29,6 +29,9 @@
      @endforeach
     </tbody>
    </table>
+   <div class="form-group text-center">
+    <input type="submit" class="btn btn-success btn-block" value="戻る">
+   </div>
  @else
   <p class="text-center">カテゴリーはありません</p>
  @endif
