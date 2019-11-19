@@ -10,7 +10,6 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -28,6 +27,17 @@
             @yield('content')
         </div>
     </div>
+    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script>
+        @if(Session::has('success'))
+            toastr.success("{{ Session::get('success')}}")
+        @endif
+        @if(Session::has('info'))
+            toastr.info("{{ Session::get('info')}}")
+        @endif
+
+    </script>
     <script id="dsq-count-scr" src="//myproduct.disqus.com/count.js" async></script>
 </body>
 </html>
