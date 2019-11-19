@@ -3,8 +3,8 @@
 <div class="card">
  <div class="card-header">
   <div class="row">
-    <div class="col-sm-8">グループ詳細</div>
-    <div class="col-sm-4">
+    <div class="col-sm-10">グループ詳細</div>
+    <div class="col-sm-2">
         <a href="{{ route('groups.edit',['id'=>$group->id])}}" class="btn btn-info"><i class="far fa-edit"> 編集</i></a>
     </div>
   </div>
