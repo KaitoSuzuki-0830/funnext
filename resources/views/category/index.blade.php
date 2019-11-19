@@ -30,7 +30,7 @@
     </tbody>
    </table>
    <div class="form-group text-center">
-    <input type="submit" class="btn btn-success btn-block" value="戻る">
+    <a href="{{route('groups.create')}}" class="btn btn-primary">グループ作成に戻る</a>
    </div>
  @else
   <p class="text-center">カテゴリーはありません</p>
