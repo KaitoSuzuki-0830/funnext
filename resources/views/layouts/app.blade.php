@@ -28,5 +28,6 @@
             @yield('content')
         </div>
     </div>
+    <script id="dsq-count-scr" src="//myproduct.disqus.com/count.js" async></script>
 </body>
 </html>
