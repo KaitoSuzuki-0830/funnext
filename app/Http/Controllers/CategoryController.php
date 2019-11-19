@@ -44,7 +44,7 @@ class CategoryController extends Controller
         $category->name = $request->name;
         $category->save();
 
-        Session::flash('success','カテゴリーを更新しました');
+        Session::flash('success','カテゴリーを作成しました');
         return redirect(route('category.index'));
     }
 
