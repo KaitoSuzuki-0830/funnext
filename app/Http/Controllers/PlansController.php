@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests\CreatePlanRequest;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Auth;
-use App\plan;
+use App\Plan;
 use App\Category;
 use App\User;
 
@@ -20,7 +20,7 @@ class PlansController extends Controller
      */
     public function index()
     {
-        $plans = plan::all();
+        $plans = Plan::all();
         return view('plans.index')->with('plans',$plans);
     }
 
@@ -43,7 +43,7 @@ class PlansController extends Controller
      */
     public function store(CreatePlanRequest $request)
     {
-        $plan = new plan;
+        $plan = new Plan;
         $plan->title = $request->title;
         $plan->slug = str_slug($request->name);
         $plan->description = $request->description;
@@ -69,7 +69,7 @@ class PlansController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(plan $plan)
+    public function show(Plan $plan)
     {
         return view('plans.show')->with('plan',$plan)
                                 ->with('user',Auth::user());
@@ -81,7 +81,7 @@ class PlansController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(plan $plan)
+    public function edit(Plan $plan)
     {
         return view('plans.edit')->with('plan',$plan)
                                 ->with('user',Auth::user())
@@ -95,7 +95,7 @@ class PlansController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(CreatePlanRequest $request, plan $plan)
+    public function update(CreatePlanRequest $request, Plan $plan)
     {
         $plan->title = $request->title;
         $plan->slug = str_slug($request->name);
@@ -122,28 +122,28 @@ class PlansController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(plan $paln)
+    public function destroy(Plan $paln)
     {
         $paln->delete();
         Session::flash('success','企画を削除しました');
         return redirect(route('plans.index'));
     }
     public function trashed(){
-        $plans= plan::onlyTrashed()->get();
+        $plans= Plan::onlyTrashed()->get();
         return view('plans.trash')->with('plans',$plans);
      }
 
      public function restore($id){
-         $plan = plan::withTrashed()->where('id',$id)->first();
-         $plan->restore();
-         Session::flash('success','plan Restored successfully');
+         $Plan = Plan::withTrashed()->where('id',$id)->first();
+         $Plan->restore();
+         Session::flash('success','Plan Restored successfully');
          return redirect(route('plans.index'));
      }
 
      public function kill($id){
-         $plan = plan::withTrashed()->where('id',$id)->first();
-         $plan->forceDelete();
-         Session::flash('success','plan Deleted Permanently successfully');
+         $Plan = Plan::withTrashed()->where('id',$id)->first();
+         $Plan->forceDelete();
+         Session::flash('success','Plan Deleted Permanently successfully');
          return redirect(route('plans.trashed'));
      }
 }
