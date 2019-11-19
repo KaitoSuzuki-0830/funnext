@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::view('/about', 'about');
-Route::get('/help','ContactsController');
+Route::get('/help','ContactsController@help');
 
 Auth::routes();
 

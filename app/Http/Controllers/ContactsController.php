@@ -21,6 +21,14 @@ class ContactsController extends Controller
         return view('contacts.index',compact('types','genders'));
     }
 
+
+    public function help(){
+        $types = Contact::$types;
+        $genders = Contact::$genders;
+
+        return view('help',compact('types','genders'));
+    }
+
     public function confirm(ContactRequest $request)
     {
         $contact = new Contact($request->all());
