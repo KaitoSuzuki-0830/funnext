@@ -88,15 +88,15 @@
     <textarea name="about" id="about" cols="6" rows="6" class="form-control">{{ $user->profile->about}}</textarea>
 </div>
 <div class="form-group">
-    <label for="fb">Facebook</label>
+    <label for="fb"><i class="fab fa-facebook-square">Facebook</i></label>
     <input type="text" name="facebook" class="form-control" value="{{ $user->profile->facebook}}">
 </div>
 <div class="form-group">
-    <label for="tw">Twitter</label>
+    <label for="tw"><i class="fab fa-twitter">Twitter</i></label>
     <input type="text" name="twitter" class="form-control" value="{{ $user->profile->twitter}}">
 </div>
 <div class="form-group">
-    <label for="In">Webリンク</label>
+    <label for="In"><i class="fas fa-link">Webリンク</i></label>
     <input type="text" name="weblink" class="form-control" value="{{ $user->profile->instagram}}">
 </div>
 <div class="form-group text-center">
