@@ -88,11 +88,11 @@
     <textarea name="about" id="about" cols="6" rows="6" class="form-control">{{ $user->profile->about}}</textarea>
 </div>
 <div class="form-group">
-    <label for="fb"><i class="fab fa-facebook-square">Facebook</i></label>
+    <label for="fb"><i class="fab fa-facebook-square" style="color:blue">Facebook</i></label>
     <input type="text" name="facebook" class="form-control" value="{{ $user->profile->facebook}}">
 </div>
 <div class="form-group">
-    <label for="tw"><i class="fab fa-twitter">Twitter</i></label>
+    <label for="tw"><i class="fab fa-twitter" style="color:aqua">Twitter</i></label>
     <input type="text" name="twitter" class="form-control" value="{{ $user->profile->twitter}}">
 </div>
 <div class="form-group">
