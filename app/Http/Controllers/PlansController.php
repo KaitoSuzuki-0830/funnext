@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Auth;
 use App\Plan;
 use App\Category;
+use App\Prefecture;
 use App\User;
 
 
@@ -33,7 +34,7 @@ class PlansController extends Controller
     {
         return view('plans.create')->with('user',Auth::user())
                                   ->with('categories',Category::all())
-                                  ->with('prefectures',);
+                                  ->with('prefectures',Prefecture::all());
     }
 
     /**
