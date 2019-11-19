@@ -33,7 +33,7 @@
 <div class="form-group">
     <label for="place">場所</label>
     @foreach ($prefectures as $pref)
-    <select name="prefecture" id="pref_id">{{$prectures as $pref}}</select>
+    <select name="prefecture" id="pref_id">{{$pref}}</select>
     @endforeach
 </div>
 <div class="form-group">
