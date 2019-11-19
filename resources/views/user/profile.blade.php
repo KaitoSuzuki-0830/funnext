@@ -92,12 +92,12 @@
     <input type="text" name="facebook" class="form-control" value="{{ $user->profile->facebook}}">
 </div>
 <div class="form-group">
-    <label for="In">Webリンク</label>
-    <input type="text" name="weblink" class="form-control" value="{{ $user->profile->instagram}}">
-</div>
-<div class="form-group">
     <label for="tw">Twitter</label>
     <input type="text" name="twitter" class="form-control" value="{{ $user->profile->twitter}}">
+</div>
+<div class="form-group">
+    <label for="In">Webリンク</label>
+    <input type="text" name="weblink" class="form-control" value="{{ $user->profile->instagram}}">
 </div>
 <div class="form-group text-center">
     <button type="submit" class="btn btn-success btn-sm">プロフィールを更新する</button>

@@ -25,9 +25,9 @@ class Profileseeder extends Seeder
             'avatar' =>'uploads/avatar/sample.png',
             'place'=>'Tokyo',
             'about' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. At architecto repellat sapiente nemo cupiditate eaque adipisci praesentium laboriosam, commodi assumenda sit quae minus impedit tempora sint amet. Eius, inventore dolore?',
-            'facebook' => 'https://www.facebook.com/kati-frantz',
-            'instagram'=>'https://www.instagram.com/kati',
-            'twitter'=>'https://www.twitter.com/kati'
+            'facebook' => 'facebookアカウント追加してください',
+            'instagram'=>'その他webリンクを追加する',
+            'twitter'=>'Twitterアカウント追加してください'
         ]);
     }
 }
