@@ -11,7 +11,7 @@ class PrefSeeder extends Seeder
      */
     public function run()
     {
-        $prefectures = [Tokyo,Kyoto];
+        $prefectures = ['Tokyo','Kyoto'];
 
         foreach($prefectures as $pref){
             Prefecture::create([
