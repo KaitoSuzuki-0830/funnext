@@ -10,7 +10,7 @@
       @endforeach
       </ul>
   @endif
-   <form action="{{ route('plans.store')}}" method="plan" enctype="multipart/form-data">
+   <form action="{{ route('plans.store')}}" method="post" enctype="multipart/form-data">
     @csrf
     <div class="form-group">
      <label for="title">Title</label>
