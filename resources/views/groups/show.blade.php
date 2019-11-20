@@ -1,19 +1,18 @@
 @extends('layouts.app')
 @section('content')
 <div class="card">
- <div class="card-header">
-  <div class="row">
-    <div class="col-sm-10">グループについて</div>
-    <div class="col-sm-2">
-        <a href="{{ route('groups.edit',['id'=>$group->id])}}"><i class="far fa-edit"> グループ編集</i></a>
-    </div>
-  </div>
-</div>
-
  <div class="card-body">
-     <h3 class="card-title">{{ $group->name}}</h3>
-        <img src="{{ secure_asset('uploads/groups/'.$group->featured)}}" alt="{{ $group->title }}" height="250px" width="100%">
-     <p class="card-text">{{ $group->description}}</p>
+    <div class="row">
+        <div class="col-sm-8">
+            <img src="{{ secure_asset('uploads/groups/'.$group->featured)}}" alt="{{ $group->title }}" height="250px" width="100%">
+        </div>
+        <div class="col-sm-4">
+            <h1>{{ $group->name}}</h2>
+            <p>{{ $group->user_id}}</p>
+            <p>{{ $group->category_id}}</p>
+        </div>
+    </div>
+    <p class="card-text">{{ $group->description}}</p>
      <div class="row">
           <div class="col-sm-10"><a href="{{ route('plans.index')}}"><i class="fas fa-list"> イベント一覧</i></a></div>
           <div class="col-sm-2"><a href="{{ route('plans.create')}}"><i class="fas fa-plus"> イベント作成</i></a></div>
