@@ -53,7 +53,7 @@ class GroupsController extends Controller
 
         $featured = $request->featured;
         $featured_new_name = time().$featured->getClientOriginalName();
-        $featured->move(public_path().'/uploads/groups/',$featured_new_name);
+        $featured->move(public_path().'/storage/public/uploads/groups/',$featured_new_name);
         $group->featured = secure_asset('uploads/groups/'.$featured_new_name);
 
         $group->save();
