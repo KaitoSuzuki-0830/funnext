@@ -34,7 +34,7 @@
     <label for="place">場所</label>
     <select name="prefecture" id="pref_id">
     @foreach ($prefecture as $pref)
-        <option value="{{$pref->name}}">{{$pref}}</option>
+        <option value="{{$pref->name}}">{{$pref->name}}</option>
     @endforeach
     </select>
 </div>
