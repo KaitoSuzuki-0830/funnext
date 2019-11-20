@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
  <div class="card">
-  <div class="card-header">Edit plan</div>
+  <div class="card-header">イベントを編集</div>
   <div class="card-body">
   @if(count($errors) >0)
      <ul class="list-group">
@@ -14,15 +14,15 @@
     @csrf
     @method('PUT')
     <div class="form-group">
-     <label for="title">Title</label>
+     <label for="title">タイトル</label>
      <input type="text" name="title" class="form-control" value="{{ $plan->title}}">
     </div>
     <div class="form-group">
-     <label for="description">Description</label>
+     <label for="description">イベント説明</label>
      <textarea name="description" id="" rows="10" cols="10" class="form-control">{{ $plan->description }}</textarea>
     </div>
     <div class="form-group">
-            <label for="category">Select Category</label>
+            <label for="category">カテゴリーを選択</label>
             <select name = "category_id" class="form-control">
                 @foreach ($categories as $category)
                    <option value="{{ $category->id}}"
@@ -34,11 +34,11 @@
             </select>
     </div>
     <div class="form-group">
-     <label for="featured">Featured Image</label>
+     <label for="featured">イメージ写真</label>
      <input type="file" name="featured" class="form-control">
     </div>
     <div class="form-group text-center">
-     <button type="submit" class="btn btn-success btn-block">Update plan</button>
+     <button type="submit" class="btn btn-success btn-block">更新する</button>
     </div>
     </form>
   </div>

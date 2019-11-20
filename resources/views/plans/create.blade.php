@@ -22,7 +22,7 @@
     </div>
     <div class="form-group">
      <label for="description">イベント説明</label>
-     <textarea name="description" id="ck-editor" rows="10" cols="10" class="form-control"></textarea>
+     <textarea name="description" rows="10" cols="10" class="form-control"></textarea>
     </div>
     <div class="form-group">
         <label for="price">値段（１人当り)</label>

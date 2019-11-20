@@ -87,7 +87,8 @@ class PlansController extends Controller
     {
         return view('plans.edit')->with('plan',$plan)
                                 ->with('user',Auth::user())
-                                ->with('categories',Category::all());
+                                ->with('categories',Category::all())
+                                ->with('prefecture',Prefecture::all());
     }
 
     /**

@@ -3,8 +3,8 @@
      <table class="table table-bordered">
      <thead>
         <tr>
-          <th>Image</th>
-          <th>Title</th>
+          <th>イメージ</th>
+          <th>タイトル</th>
           <th colspan="2"></th>
          </tr>
      </thead>
@@ -26,7 +26,7 @@
      </tbody>
      </table>
    @else
-     <P class ="text-center">No plan found.</p>
+     <P class ="text-center">イベントはありません</p>
   @endif
   </div>
   </div>
