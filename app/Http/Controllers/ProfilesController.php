@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Prefecture;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
@@ -15,7 +16,8 @@ class ProfilesController extends Controller
      */
     public function index()
     {
-     return view('user.profile')->with('user',Auth::user());
+     return view('user.profile')->with('user',Auth::user())
+                                ->with('prefecture',Prefecture::all());
     }
 
     /**
