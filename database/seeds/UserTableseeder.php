@@ -22,11 +22,10 @@ class UserTableseeder extends Seeder
         Profile::create([
             'user_id'=>$user->id,
             'avatar' =>'uploads/avatar/sample.png',
-            'place'=>'Tokyo',
-            'about' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. At architecto repellat sapiente nemo cupiditate eaque adipisci praesentium laboriosam, commodi assumenda sit quae minus impedit tempora sint amet. Eius, inventore dolore?',
-            'facebook' => 'https://www.facebook.com/kati-frantz',
-            'instagram'=>'https://www.instagram.com/kati',
-            'twitter'=>'https://www.twitter.com/kati'
+            'about' => '自己紹介を記入してください。より具体的に書くことであなたことをより理解できるプロフィールになります。',
+            'facebook' => 'https://www.facebook.com/',
+            'twitter'=>'https://www.twitter.com/',
+            'instagram'=>'webサイトを追加する'
         ]);
     }
 }
