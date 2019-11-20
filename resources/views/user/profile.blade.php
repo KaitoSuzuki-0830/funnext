@@ -32,9 +32,11 @@
 </div>
 <div class="form-group">
     <label for="place">場所</label>
+    <select name="prefecture" id="pref_id">
     @foreach ($prefecture as $pref)
-    <select name="prefecture" id="pref_id">{{$pref}}</select>
+        <option value="{{$pref->name}}">{{$pref}}</option>
     @endforeach
+    </select>
 </div>
 <div class="form-group">
     <label for="about">自己紹介</label>
