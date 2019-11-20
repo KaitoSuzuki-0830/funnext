@@ -31,7 +31,7 @@
     <input type="password" name="password" class="form-control">
 </div>
 <div class="form-group">
-    <label for="place">場所</label>
+    <label for="name">場所</label>
     <select name="prefecture" id="pref_id">
     @foreach ($prefecture as $pref)
         <option value="{{$pref->name}}">{{$pref->name}}</option>
@@ -43,19 +43,19 @@
     <textarea name="about" id="about" cols="6" rows="6" class="form-control">{{ $user->profile->about}}</textarea>
 </div>
 <div class="form-group">
-    <label for="fb"><i class="fab fa-facebook-square" style="color:blue"></i>Facebook</label>
+    <label for="fb"><i class="fab fa-facebook-square" style="color:blue"></i> Facebook</label>
     <input type="text" name="facebook" class="form-control" value="{{ $user->profile->facebook}}">
 </div>
 <div class="form-group">
-    <label for="tw"><i class="fab fa-twitter" style="color:aqua"></i>Twitter</label>
+    <label for="tw"><i class="fab fa-twitter" style="color:aqua"></i> Twitter</label>
     <input type="text" name="twitter" class="form-control" value="{{ $user->profile->twitter}}">
 </div>
 <div class="form-group">
-    <label for="In"><i class="fas fa-link"></i>Webリンク</label>
+    <label for="In"><i class="fas fa-link"></i> Webリンク</label>
     <input type="text" name="weblink" class="form-control" value="{{ $user->profile->instagram}}">
 </div>
 <div class="form-group text-center">
-    <button type="submit" class="btn btn-success btn-sm">プロフィールを更新する</button>
+    <button type="submit" class="btn btn-success btn-sm">更新する</button>
 </div>
  </form>
  </div>
