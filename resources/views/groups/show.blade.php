@@ -10,11 +10,15 @@
   </div>
 </div>
 
-
  <div class="card-body">
-     <h5 class="card-title">{{ $group->name}}</h5>
-     <img src="{{ secure_asset('uploads/groups/'.$group->featured)}}" alt="{{ $group->title }}" height="250px" width="100%">
+     <h3 class="card-title">{{ $group->name}}</h3>
+        <img src="{{ secure_asset('uploads/groups/'.$group->featured)}}" alt="{{ $group->title }}" height="250px" width="100%">
      <p class="card-text">{{ $group->description}}</p>
+     <div class="row">
+          <div class="col-sm-8"><a href="{{ route('plans.index')}}"><i class="fas fa-list"> イベント一覧</i></a></div>
+          <div class="col-sm-4"><a href="{{ route('plans.create')}}"><i class="fas fa-plus"> イベント作成</i></a></div>
+     </div>
+ </div>
      <div id="disqus_thread"></div>
      {{-- 　　ディスカッションページ --}}
         <script>
