@@ -3,9 +3,9 @@
 <div class="card">
  <div class="card-header">
   <div class="row">
-    <div class="col-sm-10">グループ詳細</div>
+    <div class="col-sm-10">グループについて</div>
     <div class="col-sm-2">
-        <a href="{{ route('groups.edit',['id'=>$group->id])}}"><i class="far fa-edit"> 編集</i></a>
+        <a href="{{ route('groups.edit',['id'=>$group->id])}}"><i class="far fa-edit"> グループ編集</i></a>
     </div>
   </div>
 </div>
