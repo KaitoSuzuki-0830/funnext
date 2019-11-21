@@ -15,12 +15,12 @@
     </div>
     <div class="row">
         <div class="col-sm-8">
-            <a href="#">説明</a>
-            <h3>{{ $group->description}}</h3>
+            <a href="#"　class="text-center">グループ概要</a>
+            <p><h3>{{ $group->description}}</h3></p>
         </div>
         <div class="col-sm-4">
             <a href="{{ route('plans.create')}}"><i class="fas fa-plus"> イベント作成</i></a>
-            <a href="{{ route('plans.index')}}"><i class="fas fa-list"> イベント一覧</i></a>
+            <p><a href="{{ route('plans.index')}}"><i class="fas fa-list"> イベント一覧</i></a></p>
         </div>
     </div>
  </div>
