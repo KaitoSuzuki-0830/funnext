@@ -21,18 +21,9 @@ class GroupsController extends Controller
      */
     public function index()
     {
-        $url = 'https://s3.'.env('AWS_REGION').'.amazonaws.com/'.env('AWS_BUCKET').'/';
-         $iamges = [];
-         $files = Storage::disk('s3')->files('images');
-          foreach($files as $file) {
-              $images[] = [
-                  'name'=>str_replace('images/','',$file),
-                  'src'=>$url.$file
-              ];
-          }
+
         $groups = group::all();
-        return view('groups.index')->with('groups',$groups)
-                                    ->with('images',$images);
+        return view('groups.index')->with('groups',$groups);
     }
 
     /**
