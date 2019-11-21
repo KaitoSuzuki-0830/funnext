@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
  <div class="card">
-     <div class="card-header">グループを作成</div>
+     <div class="card-header">グループを作成しましょう</div>
      <div class="card-body">
      @if(count($errors)>0)
         <ul class="list-group">
