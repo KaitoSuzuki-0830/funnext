@@ -37,9 +37,7 @@
         </div>
         <div class="col-sm-4">
             <h3>グループ代表</h3>
-            <p>{{ $group->user->name}}</p>
             <h3>メンバー <a href="#">全一覧</a></h3>
-            <p>{{$group->profile->avatar}}</p>
         </div>
     </div>
     <hr>
