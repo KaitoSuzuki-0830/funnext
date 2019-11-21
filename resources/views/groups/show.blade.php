@@ -43,7 +43,7 @@
     <hr>
     <div class="row container-fluid ">
         <div class="col-sm-8">
-            <h5 class="text-center">イベントリスト (Count) <a href="#">一覧</a></h5>
+            <h5>イベントリスト (Count) <a href="#">一覧</a></h5>
         </div>
     </div>
 </body>
