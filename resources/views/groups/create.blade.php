@@ -35,7 +35,7 @@
         {{ csrf_field()}}
     <div class="form-group">
         <label for="featured">グループ写真</label>
-        <input type="file" name="image" id="image" class="form-control">
+        <input type="file" name="featured" id="image" class="form-control">
     </div>
     <div class="form-group"><button type="submit" class="btn btn-primary">Uploard</button></div>
     </form>
