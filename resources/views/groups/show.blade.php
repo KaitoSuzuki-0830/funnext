@@ -12,11 +12,11 @@
             <p><i class="fas fa-tag"></i> {{ $group->category->name}}</p>
             <p><i class="fas fa-home"></i> {{ $group->created_at}}</p>
             <p></p>
-            <p>Share: <i class="fab fa-facebook fa-2x"style="color:blue"></i>   <i class="fab fa-twitter fa-2x" style="color:aqua"></i></p>
+            <p>Share: <i class="fab fa-facebook fa-2x" style="color:blue"></i>   <i class="fab fa-twitter fa-2x" style="color:aqua"></i></p>
         </div>
     </div>
     <hr>
-    <div class="row">
+    <div class="row" height="200px" width="100%">
         <div class="col-sm-8">
             <a href="#">概要</a>
             <a href="{{ route('plans.index')}}">イベント</a>
@@ -27,9 +27,9 @@
         <div class="col-sm-4">
             <button type="submit" class="btn btn-danger" value="グループに参加する"></button>
             <button type="submit" class="btn btn-outline-secondary" value="..."></button>
-
         </div>
     </div>
+    <hr>
     <div class="row">
         <div class="col-sm-8">
             <a href="#"　class="text-center">グループ概要</a>
