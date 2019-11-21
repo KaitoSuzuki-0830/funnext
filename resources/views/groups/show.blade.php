@@ -1,16 +1,17 @@
 @extends('layouts.app')
 @section('content')
-<div class="card">
- <div class="card-body">
+<body>
     <div class="row">
         <div class="col-sm-8">
-            <img src="{{ secure_asset('uploads/groups/'.$group->featured)}}" alt="{{ $group->title }}" height="250px" width="100%">
+            <img src="{{ secure_asset('uploads/groups/'.$group->featured)}}" alt="{{ $group->title }}" height="350px" width="100%">
         </div>
         <div class="col-sm-4">
             <h1>{{ $group->name}}</h1>
             <p><i class="fas fa-user"></i> {{ $group->user->name}}</p>
             <p><i class="fas fa-tag"></i> {{ $group->category->name}}</p>
             <p><i class="fas fa-home"></i> {{ $group->created_at}}</p>
+            <p></p>
+            <p>Share: <i class="fab fa-facebook"></i> <i class="fab fa-twitter"></i></p>
         </div>
     </div>
     <hr>
@@ -25,7 +26,8 @@
         </div>
     </div>
     <hr>
- </div>
+
+</body>
      <div id="disqus_thread"></div>
      {{-- 　　ディスカッションページ --}}
         <script>
