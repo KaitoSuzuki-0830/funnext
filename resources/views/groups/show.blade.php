@@ -44,11 +44,13 @@
     <div class="row">
         <div class="col-sm-6">
             <h5>イベントリスト (Count)</h5>
+
         </div>
         <div class="col-sm-6">
             <a href="#">一覧</a>
         </div>
     </div>
+
 </body>
      <div id="disqus_thread"></div>
      {{-- 　　ディスカッションページ --}}
