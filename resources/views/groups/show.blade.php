@@ -41,10 +41,9 @@
         </div>
     </div>
     <hr>
-    <div class="row">
+    <div class="row container-fluid ">
         <div class="col-sm-8">
-         <div class="col-sm-8">イベントリスト (Count)</div>
-         <div class="col-sm-4"><a href="#">一覧</a></div>
+            <h5 class="text-center">イベントリスト (Count) <a href="#">一覧</a></h5>
         </div>
     </div>
 </body>
