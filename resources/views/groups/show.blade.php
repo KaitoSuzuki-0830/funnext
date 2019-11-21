@@ -12,7 +12,7 @@
             <p><i class="fas fa-tag"></i> {{ $group->category->name}}</p>
             <p><i class="fas fa-home"></i> {{ $group->created_at}}</p>
             <p></p>
-            <p>Share: <i class="fab fa-facebook fa-2x" style="color:blue"></i>   <i class="fab fa-twitter fa-2x" style="color:aqua"></i></p>
+            <p>Share: <i class="fab fa-facebook fa-1x" style="color:blue"></i>   <i class="fab fa-twitter fa-1x" style="color:aqua"></i></p>
         </div>
     </div>
     <hr>
@@ -32,11 +32,14 @@
     <hr>
     <div class="row">
         <div class="col-sm-8">
-            <a href="#"　class="text-center">グループ概要</a>
+            <h3 class="text-center"><a href="#">グループ概要</a></h3>
             <p>{{ $group->description}}</p>
         </div>
         <div class="col-sm-4">
-
+            <h3>グループ代表</h3>
+            <p>{{ $group->user->name}}</p>
+            <h3>メンバー <a href="#">全一覧</a></h3>
+            <p>{{$group->profile->avatar}}</p>
         </div>
     </div>
     <hr>
