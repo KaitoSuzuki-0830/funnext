@@ -89,9 +89,9 @@
                          src="https://checkout.stripe.com/checkout.js" class="stripe-button"
                          data-key="{{ env('STRIPE_KEY') }}"
                          data-amount="100"
-                         data-name="Stripe決済デモ"
+                         data-name="Stripe決済"
                          data-label="決済をする"
-                         data-description="これはデモ決済です"
+                         data-description="決算テスト"
                          data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
                          data-locale="auto"
                          data-currency="JPY">
