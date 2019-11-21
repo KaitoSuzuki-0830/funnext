@@ -12,7 +12,7 @@
             <p><i class="fas fa-tag"></i> {{ $group->category->name}}</p>
             <p><i class="fas fa-home"></i> {{ $group->created_at}}</p>
             <p></p>
-            <p>Share: <i class="fab fa-facebook fa-1x" style="color:blue"></i>   <i class="fab fa-twitter fa-1x" style="color:aqua"></i></p>
+            <p>Share: <i class="fab fa-facebook fa-2x" style="color:blue"></i>   <i class="fab fa-twitter fa-2x" style="color:aqua"></i></p>
         </div>
     </div>
     <hr>
@@ -21,7 +21,7 @@
             <a href="#">概要</a>
             <a href="{{ route('plans.index')}}">イベント</a>
             <a href="#">メンバー</a>
-            <a href="#">会話スペース</a>
+            <a href="#">会話</a>
             {{-- <i href="{{ route('plans.create')}}"><i class="fas fa-plus"> イベント作成</i></i> --}}
         </div>
         <div class="col-sm-4">
@@ -32,12 +32,12 @@
     <hr>
     <div class="row">
         <div class="col-sm-8">
-            <h3 class="text-center"><a href="#">グループ概要</a></h3>
+            <h5 class="text-center"><a href="#">グループ概要</a></h5>
             <p>{{ $group->description}}</p>
         </div>
         <div class="col-sm-4">
-            <h3>グループ代表</h3>
-            <h3>メンバー <a href="#">全一覧</a></h3>
+            <h5>グループ代表</h5>
+            <h5>メンバー <a href="#">一覧</a></h5>
         </div>
     </div>
     <hr>
