@@ -13,6 +13,7 @@
             <p><i class="fas fa-home"></i> {{ $group->created_at}}</p>
         </div>
     </div>
+    <hr>
     <div class="row">
         <div class="col-sm-8">
             <a href="#"　class="text-center">グループ概要</a>
@@ -23,6 +24,7 @@
             <p><a href="{{ route('plans.index')}}"><i class="fas fa-list"> イベント一覧</i></a></p>
         </div>
     </div>
+    <hr>
  </div>
      <div id="disqus_thread"></div>
      {{-- 　　ディスカッションページ --}}
