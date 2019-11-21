@@ -3,26 +3,40 @@
 <body>
     <div class="row">
         <div class="col-sm-8">
-            <img src="{{ secure_asset('uploads/groups/'.$group->featured)}}" alt="{{ $group->title }}" height="350px" width="100%">
+            <img src="{{ secure_asset('uploads/groups/'.$group->featured)}}" alt="{{ $group->title }}" height="500px" width="100%">
         </div>
         <div class="col-sm-4">
             <h1>{{ $group->name}}</h1>
+            <p></p>
             <p><i class="fas fa-user"></i> {{ $group->user->name}}</p>
             <p><i class="fas fa-tag"></i> {{ $group->category->name}}</p>
             <p><i class="fas fa-home"></i> {{ $group->created_at}}</p>
             <p></p>
-            <p>Share: <i class="fab fa-facebook fa-3x"style="color:blue"></i>   <i class="fab fa-twitter fa-3x" style="color:aqua"></i></p>
+            <p>Share: <i class="fab fa-facebook fa-2x"style="color:blue"></i>   <i class="fab fa-twitter fa-2x" style="color:aqua"></i></p>
         </div>
     </div>
     <hr>
+    <div class="row">
+        <div class="col-sm-8">
+            <a href="#">概要</a>
+            <a href="{{ route('plans.index')}}">イベント</a>
+            <a href="#">メンバー</a>
+            <a href="#">会話スペース</a>
+            {{-- <i href="{{ route('plans.create')}}"><i class="fas fa-plus"> イベント作成</i></i> --}}
+        </div>
+        <div class="col-sm-4">
+            <button type="submit" class="btn btn-danger" value="グループに参加する"></button>
+            <button type="submit" class="btn btn-outline-secondary" value="..."></button>
+
+        </div>
+    </div>
     <div class="row">
         <div class="col-sm-8">
             <a href="#"　class="text-center">グループ概要</a>
             <p>{{ $group->description}}</p>
         </div>
         <div class="col-sm-4">
-            <a href="{{ route('plans.create')}}"><i class="fas fa-plus"> イベント作成</i></a>
-            <p><a href="{{ route('plans.index')}}"><i class="fas fa-list"> イベント一覧</i></a></p>
+
         </div>
     </div>
     <hr>
