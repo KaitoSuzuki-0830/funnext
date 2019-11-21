@@ -11,7 +11,7 @@
             <p><i class="fas fa-tag"></i> {{ $group->category->name}}</p>
             <p><i class="fas fa-home"></i> {{ $group->created_at}}</p>
             <p></p>
-            <p>Share: <i class="fab fa-facebook fa-3x"></i> <i class="fab fa-twitter fa-3x"></i></p>
+            <p>Share: <i class="fab fa-facebook fa-3x"style="color:blue"></i>   <i class="fab fa-twitter fa-3x" style="color:aqua"></i></p>
         </div>
     </div>
     <hr>
