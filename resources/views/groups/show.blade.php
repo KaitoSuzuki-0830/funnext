@@ -25,7 +25,7 @@
             {{-- <i href="{{ route('plans.create')}}"><i class="fas fa-plus"> イベント作成</i></i> --}}
         </div>
         <div class="col-sm-4">
-            <button type="submit" class="btn btn-danger" value="グループに参加する"></button>
+            <button type="submit" class="btn btn-danger" value="参加"></button>
             <button type="submit" class="btn btn-outline-secondary" value="..."></button>
         </div>
     </div>
@@ -41,7 +41,12 @@
         </div>
     </div>
     <hr>
-
+    <div class="row">
+        <div class="col-sm-8">
+         <div class="col-sm-8">イベントリスト (Count)</div>
+         <div class="col-sm-4"><a href="#">一覧</a></div>
+        </div>
+    </div>
 </body>
      <div id="disqus_thread"></div>
      {{-- 　　ディスカッションページ --}}
