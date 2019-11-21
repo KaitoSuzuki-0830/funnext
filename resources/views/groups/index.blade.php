@@ -16,7 +16,10 @@
      <tbody>
          @foreach($groups as $group)
          <tr>
-             <td><img src="{{ secure_asset($group->featured)}}" alt="{{ $group->name}}" height="90px" style="border-radius: 80%"></td>
+             <td>@foreach($images as $image)
+                 <img src="{{$image['src']}}" alt="{{ $group->name}}" height="90px" style="border-radius: 80%">
+
+            </td>
              <td>{{ $group->name}}</td>
              <td><a href="{{ route('groups.show',['id'=>$group->id])}}" class="btn btn-primary"><i class="far fa-eye"></i></a></td>
              <td>
@@ -24,7 +27,15 @@
                 @csrf
                 @method('DELETE')
                 <button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+
               </td>
+              <td>
+                    <form action="{{url('images/'.$image['name'])}}" method="POST">
+                      @csrf
+                      @method('DELETE')
+                      <button class="btn btn-danger">Remove</button>
+                      @endforeach
+                    </td>
          </tr>
      @endforeach
      </tbody>

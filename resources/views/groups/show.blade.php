@@ -7,7 +7,7 @@
             <img src="{{ secure_asset('uploads/groups/'.$group->featured)}}" alt="{{ $group->title }}" height="250px" width="100%">
         </div>
         <div class="col-sm-4">
-            <h1>{{ $group->name}}</h2>
+            <h1>{{ $group->name}}</h1>
             <p>{{ $group->user_id}}</p>
             <p>{{ $group->category_id}}</p>
         </div>

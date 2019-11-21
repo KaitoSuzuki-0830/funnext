@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Auth;
 use App\Category;
 use App\group;
 use App\plan;
+use Illuminate\Support\Facades\Storage;
 
 class GroupsController extends Controller
 {
@@ -20,8 +21,18 @@ class GroupsController extends Controller
      */
     public function index()
     {
+        $url = 'https://s3.'.env('AWS_DEFAULT_REGION').'.amazonaws.com/'.env('AWS_BUCKET').'/';
+         $iamges = [];
+         $files = Storage::disk('s3')->files('images');
+          foreach($files as $file) {
+              $images[] = [
+                  'name'=>str_replace('images/','',$file),
+                  'src'=>$url.$file
+              ];
+          }
         $groups = group::all();
-        return view('groups.index')->with('groups',$groups);
+        return view('groups.index')->with('groups',$groups)
+                                    ->with('images',$images);
     }
 
     /**
@@ -53,8 +64,9 @@ class GroupsController extends Controller
 
         $featured = $request->featured;
         $featured_new_name = time().$featured->getClientOriginalName();
-        $featured->move('uploads/groups/',$featured_new_name);
-        $group->featured = secure_asset('uploads/groups/'.$featured_new_name);
+        $filePath = 'images/'.$featured_new_name;
+        Storage::disk('s3')->put($filePath,file_get_contents($featured));
+        $group->featured = secure_asset('images/'.$featured_new_name);
 
         $group->save();
 
@@ -120,11 +132,13 @@ class GroupsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(group $group)
+    public function destroy(group $group,$image)
     {
         $group->delete();
+        Storage::disk('s3')->delete('images/'.$image);
         Session::flash('success','グループを削除しました');
         return redirect(route('groups.index'));
     }
+
 
 }

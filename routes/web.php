@@ -36,6 +36,8 @@ Route::get('/home', 'HomeController@index')->name('home');
     ]);
 
 Route::resource('groups','GroupsController');
+Route::resource('images','GroupsController',['only'=>['store','destroy']]);
+
 Route::resource('category','CategoryController');
 
 Route::resource('plans','PlansController');
