@@ -8,8 +8,8 @@
         </div>
         <div class="col-sm-4">
             <h1>{{ $group->name}}</h1>
-            <p>{{ $group->user_id}}</p>
-            <p>{{ $group->category_id}}</p>
+            <p>{{ $group->user->name}}</p>
+            <p>{{ $group->category->name}}</p>
         </div>
     </div>
     <p class="card-text">{{ $group->description}}</p>
