@@ -1,40 +1,19 @@
 @extends('layouts.app')
 @section('content')
- <div class="card">
-  <div class="card-header">グループ一覧</div>
-  <div class="card-body">
-    @if(count($groups)>0)
-    <table class="table table-bordered">
-     <thead>
-      <tr>
-        <th>写真</th>
-        <th>グループ名</th>
-        <th>詳細</th>
-        <th>削除</th>
-      </tr>
-     </thead>
-     <tbody>
-         @foreach($groups as $group)
-         <tr>
-             <td>
-                 <img src="{{$group->featured}}" alt="{{ $group->name}}" height="90px" style="border-radius: 80%">
-            </td>
-             <td>{{ $group->name}}</td>
-             <td><a href="{{ route('groups.show',['id'=>$group->id])}}" class="btn btn-primary"><i class="far fa-eye"></i></a></td>
-             <td>
-              <form action="{{ route('groups.destroy',['id'=>$group->id])}}" method="post">
-                @csrf
-                @method('DELETE')
-                <button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
-
-              </td>
-         </tr>
-     @endforeach
-     </tbody>
-    </table>
-    @else
-     <p class="text-center">グループはありません</p>
-    @endif
-  </div>
- </div>
+<div class="container-fluid">
+    <img src="" alt="image">
+</div>
+    <div class="card-body">
+    <div>グループ一覧</div>
+    @foreach($groups as $group)
+    <div class="card bg-dark text-white">
+        <img src="{{$groups->featured}}" class="card-img" alt="featured">
+        <div class="card-img-overlay">
+            <h5 class="card-title">{{$groups->name}}</h5>
+            <p class="card-text">members</p>
+            <p class="card-text"><i class="fas fa-tag"></i> {{$categories->name}}</p>
+        </div>
+    @endforeach
+    </div>
+    </div>
 @endsection
