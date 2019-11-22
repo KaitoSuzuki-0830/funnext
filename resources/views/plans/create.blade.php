@@ -53,7 +53,7 @@
         @endforeach
      </select>
     </div>
-    <div class="form-group">
+    <div class="form-group text-right">
         <a href="{{route('category.create')}}">カテゴリーがございませんか?</a>
     </div>
     <div class="form-group text-center">
