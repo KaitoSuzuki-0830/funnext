@@ -25,14 +25,11 @@
      <textarea name="description" rows="10" cols="10" class="form-control"></textarea>
     </div>
     <div class="form-group">
-        <div class="row">
-            <div class="col-sm-2"><label for="price">参加費（１人当り)</label></div>
-            <div class="col-sm-10"><input type="text" name="price" class="form-control"></div>
-        </div>
+        <label for="price">参加費（１人当り)</label>
+        <input type="text" name="price" class="form-control">
     </div>
     <div class="form-group">
         <div class="row">
-            <div class="col-sm-1"></div>
             <div class="col-sm-1"><label for="name">場所1:</label></div>
             <div class="col-sm-1">
                 <select name="prefecture" id="pref_id">
@@ -43,7 +40,7 @@
             </div>
             <div class="col-sm-1"></div>
             <div class="col-sm-1"><label for="place">場所2:</label></div>
-            <div class="col-sm-7">
+            <div class="col-sm-8">
                 <input type="text" name="place" class="form-control" placeholder="具体的な住所を貼り付けてください">
             </div>
         </div>
