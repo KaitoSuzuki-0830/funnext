@@ -19,8 +19,8 @@ class TwitterController extends Controller
             "status"=>
              'New Photo Post!'.PHP_EOL.
              '新しいイベントが投稿されました！'.PHP_EOL.
-             'タイトル「'.$title.'」'.PHP_EOL.
-             '#イベント　＃Relaccum #リレキューム'.PHP_EOL.
+             'タイトル「'.'$title'.'」'.PHP_EOL.
+             '#イベント　＃Relaccum #リレキューム'.PHP_EOL
         ]);
     }
 }
