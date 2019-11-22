@@ -1,3 +1,5 @@
+@extends('layouts.app')
+@section('content')
 <div class="card-body">
     @if(count($plans) > 0)
      <table class="table table-bordered">
