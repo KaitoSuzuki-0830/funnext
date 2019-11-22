@@ -87,7 +87,7 @@
                         {{ csrf_field() }}
                      <script
                          src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                         data-key="{{ env('STRIPE_KEY') }}"
+                         data-key="pk_test_EtHmYNmqSKAqc3JTRo7H98vx003VgTohui"
                          data-amount="100"
                          data-name="Stripe決済"
                          data-label="決済をする"
