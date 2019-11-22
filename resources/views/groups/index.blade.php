@@ -4,7 +4,7 @@
     <img src="" alt="image">
 </div>
     <div class="card-body">
-    <div>グループ一覧</div>
+    <h3>グループ一覧</h3>
     @foreach($groups as $group)
     <div class="card bg-dark text-white">
         <img src="{{asset($groups->featured)}}" class="card-img" alt="{{$groups->title}}" height="300px" width="33%">
