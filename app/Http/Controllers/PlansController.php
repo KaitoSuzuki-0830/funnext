@@ -51,8 +51,9 @@ class PlansController extends Controller
         $plan->description = $request->description;
         $plan->price = $request->price;
         $plan->pref_id = $request->pref_id;
-        $plan->category_id = $request->category_id;
+        $plan->place = $request->place;
         $plan->user_id = Auth::user()->id;
+        $plan->category_id = $request->category_id;
 
         $featured = $request->featured;
         $featured_new_name = time().$featured->getClientOriginalName();
