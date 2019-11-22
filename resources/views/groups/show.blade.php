@@ -37,7 +37,7 @@
         </div>
         <div class="col-sm-4">
             <h5>グループ代表</h5>
-            <h5>メンバー <a href="#">一覧</a></h5>
+            <h5>メンバー(Count)<a href="#">一覧</a></h5>
         </div>
     </div>
     <hr>
