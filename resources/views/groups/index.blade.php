@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <div class="input-group bg-dark text-white p-3">
-    <input type="text" class="form-control" placeholder="グループ検索">
+    <input type="text"  placeholder="グループ検索">
     <span class="input-group-btn">
         <button type="button" class="btn btn-default">ボタン</button>
     </span>
