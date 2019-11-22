@@ -4,6 +4,7 @@
     <div class="col-md-2"></div>
     <div class="col-md-6 p-2">
         <input type="text"  placeholder="グループ検索" >
+        <a href="#"><i class="fas fa-search" size="2px"></i></a>
     </div>
     <div class="col-md-2">
         <button type="submit" class="btn btn-success">グループ</button>
