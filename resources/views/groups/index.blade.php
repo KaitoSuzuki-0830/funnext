@@ -3,7 +3,7 @@
 <div class="input-group bg-dark text-white p-3">
     <div class="col-md-2"></div>
     <div class="col-md-6 p-2">
-        <input type="text" placeholder=" &#xf;グループ検索" class="fas">
+        <input type="submit" placeholder="&#xf; グループ検索" class="fas">
     </div>
     <div class="col-md-2">
         <button type="submit" class="btn btn-success">グループ</button>
