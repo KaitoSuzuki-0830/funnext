@@ -1,10 +1,10 @@
 @extends('layouts.app')
 @section('content')
 <div class="input-group bg-dark text-white p-3">
-    <div class="col-md-6">
+    <div class="col-md-5　p-1">
         <input type="text"  placeholder="グループ検索"><i class="fas fa-search"></i>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-5">
         <button type="submit" class="btn btn-success">グループ</button>
         <button type="submit" class="btn btn-danger">イベント一覧</button>
     </div>
