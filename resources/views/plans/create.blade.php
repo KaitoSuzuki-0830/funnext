@@ -31,7 +31,7 @@
     <div class="form-group">
         <label for="name">場所1</label>
         <select name="prefecture" id="pref_id">
-        @foreach ($prefecture as $pref)
+        @foreach ($prefectures as $pref)
             <option value="{{$pref->name}}">{{$pref->name}}</option>
         @endforeach
         </select>
