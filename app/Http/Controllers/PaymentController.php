@@ -9,7 +9,7 @@ use Stripe\Charge;
 class PaymentController extends Controller
 {
     public function pay(Request $request){
-        Stripe::setApiKey('sk_test_UEqp4NMzfktQXsr4Tvp6yrR400oKsFFHIR');
+        Stripe::setApiKey('sk_live_xW6OBKr4m2zOxNBHZYUizSoG006zeGwfsx');
 
         $charge = Charge::create(array(
             'amount'=>100,
