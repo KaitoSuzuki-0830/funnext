@@ -38,8 +38,8 @@
                 @endforeach
                 </select>
             </div>
-            <div class="col-sm-1"><label for="place">場所2:</label></div>
-            <div class="col-sm-9">
+            <div class="col-sm-2"><label for="place">場所2:</label></div>
+            <div class="col-sm-8">
                 <input type="text" name="place" class="form-control" placeholder="具体的な住所を貼り付けてください">
             </div>
         </div>
