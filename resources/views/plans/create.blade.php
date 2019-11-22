@@ -29,19 +29,19 @@
         <input type="text" name="price" class="form-control">
     </div>
     <div class="form-group">
-        <label for="name">場所1</label>
-        <select name="prefecture" id="pref_id">
-        @foreach ($prefectures as $pref)
-            <option value="{{$pref->name}}">{{$pref->name}}</option>
-        @endforeach
-        </select>
-    </div>
-    <div class="form-group">
         <div class="row">
+            <div class="col-sm-2"><label for="name">場所1</label></div>
+            <div class="col-sm-4">
+                <select name="prefecture" id="pref_id">
+                @foreach ($prefectures as $pref)
+                <option value="{{$pref->name}}">{{$pref->name}}</option>
+                @endforeach
+                </select>
+            </div>
             <div class="col-sm-2">
                 <label for="place">場所2</label>
             </div>
-            <div class="col-sm-8">
+            <div class="col-sm-4">
                 <input type="text" name="place" class="form-control" placeholder="具体的な住所を貼り付けてください">
             </div>
         </div>
