@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::view('/summary','summary');
 Route::view('/about', 'about');
 Route::get('/help','ContactsController@help');
 
