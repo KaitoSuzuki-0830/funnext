@@ -9,13 +9,13 @@ use Stripe\Charge;
 class PaymentController extends Controller
 {
     public function pay(Request $request){
-        Stripe::setApiKey('STRIPE_SECRET');
+        Stripe::setApiKey(env('STRIPE_KEY'));
 
         $charge = Charge::create(array(
             'amount'=>100,
             'currency'=>'jpy',
             'source'=>request()->stripeToken,
         ));
-        return back();
+        return redirect()->back();
     }
 }
