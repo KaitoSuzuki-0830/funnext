@@ -36,7 +36,7 @@
         @endforeach
         </select>
     </div>
-    <div class="form-group">
+    <div class="form-group　form-inline">
         <label for="place">場所2</label>
         <input type="text" name="place" class="form-control">
     </div>
