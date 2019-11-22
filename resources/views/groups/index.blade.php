@@ -5,13 +5,12 @@
     <div class="col-md-4">
         <input type="text"  placeholder="グループ検索">
     </div>
-    <div class="col-md-2">
+    <div class="col-md-3">
         <button type="submit" class="btn btn-success">グループ</button>
     </div>
     <div class="col-md-3">
-        <button type="submit" class="btn btn-danger">イベント一覧</button>
+        <button type="submit" class="btn btn-danger">イベント</button>
     </div>
-    <div class="col-md-1"></div>
 </div>
 <div class="card-body">
   <h3>グループ一覧</h3>
