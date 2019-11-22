@@ -38,7 +38,7 @@
     </div>
     <div class="form-group">
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-2">
                 <label for="place">場所2</label>
             </div>
             <div class="col-sm-8">
