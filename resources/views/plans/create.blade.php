@@ -36,9 +36,15 @@
         @endforeach
         </select>
     </div>
-    <div class="form-group　box-inline">
-        <label for="place">場所2</label>
-        <input type="text" name="place" class="form-control">
+    <div class="form-group">
+        <div class="row">
+            <div class="col-sm-4">
+                <label for="place">場所2</label>
+            </div>
+            <div class="col-sm-8">
+                <input type="text" name="place" class="form-control" placeholder="具体的な住所を貼り付けてください">
+            </div>
+        </div>
     </div>
     <div class="form-group">
      <label for="category">カテゴリーを選択してください</label>
