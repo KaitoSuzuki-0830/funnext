@@ -83,7 +83,7 @@
                 <div class="title m-b-md">
                     Laravel MYProduct
                 </div>
-                <form action="{{ asset('pay') }}" method="POST">
+                <form action="{{ route('pay') }}" method="POST">
                         {{ csrf_field() }}
                      <script
                          src="https://checkout.stripe.com/checkout.js" class="stripe-button"

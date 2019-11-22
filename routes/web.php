@@ -46,4 +46,4 @@ Route::get('contacts','ContactsController@index');
 Route::post('contacts/confirm','ContactsController@confirm');
 Route::post('contacts/complete','ContactsController@complete');
 
-Route::post('/pay','PaymentController@pay');
+Route::post('/pay','PaymentController@pay')->name('pay');
