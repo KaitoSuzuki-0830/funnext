@@ -1,3 +1,5 @@
 .container {
-    background-image: url(jed-villejo-bEcC0nyIp2g-unsplash.jpg);
+    width:100%;
+    height: 70%;
+    background: url(’jed-villejo-bEcC0nyIp2g-unsplash.jpg’);
 }
