@@ -3,7 +3,7 @@
 <div class="container-fluid">
     <img src="find.jpg" alt="image">
 </div>
-<div class="input-group">
+<div class="input-group bg-dark text-white">
     <input type="text" class="form-control" placeholder="グループ検索">
     <span class="input-group-btn">
         <button type="button" class="btn btn-default">ボタン</button>
@@ -12,7 +12,7 @@
 <div class="card-body">
   <h3>グループ一覧</h3>
   @foreach($groups as $group)
-  <div class="card bg-dark text-white">
+  <div class="card ">
     <img src="{{asset($group->featured)}}" class="card-img" alt="{{$group->title}}" height="300px" width="33%">
     <div class="card-img-overlay">
         <h5 class="card-title">{{$group->name}}</h5>
