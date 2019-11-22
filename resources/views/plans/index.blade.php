@@ -1,5 +1,5 @@
 <div class="card-body">
-    @if(count($plan) >0)
+    @if(count($plans) > 0)
      <table class="table table-bordered">
      <thead>
         <tr>
