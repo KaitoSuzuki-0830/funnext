@@ -2,13 +2,13 @@
 @section('content')
 <div class="input-group bg-dark text-white p-3">
     <div class="col-md-2"></div>
-    <div class="col-md-4">
-        <input type="text"  placeholder="グループ検索">
+    <div class="col-md-6 p-2">
+        <input type="text"  placeholder="グループ検索" >
     </div>
-    <div class="col-md-3">
+    <div class="col-md-2">
         <button type="submit" class="btn btn-success">グループ</button>
     </div>
-    <div class="col-md-3">
+    <div class="col-md-2">
         <button type="submit" class="btn btn-danger">イベント</button>
     </div>
 </div>
