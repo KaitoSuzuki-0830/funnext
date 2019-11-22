@@ -7,7 +7,7 @@
     <div>グループ一覧</div>
     @foreach($groups as $group)
     <div class="card bg-dark text-white">
-        <img src="{{$groups->featured}}" class="card-img" alt="featured">
+        <img src="{{asset($groups->featured)}}" class="card-img" alt="{{$groups->title}}" height="300px" width="33%">
         <div class="card-img-overlay">
             <h5 class="card-title">{{$groups->name}}</h5>
             <p class="card-text">members</p>
