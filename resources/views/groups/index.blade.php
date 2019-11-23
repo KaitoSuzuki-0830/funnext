@@ -11,10 +11,11 @@
             <input class="form-control my-0 py-1" type="text" placeholder="Search" aria-label="Search">
         </div>
     </div>
-    <div class="col-md-2">
+    <div class="col-md2"></div>
+    <div class="col-md-1">
         <button type="submit" class="btn btn-success">グループ</button>
     </div>
-    <div class="col-md-2">
+    <div class="col-md-1">
         <button type="submit" class="btn btn-danger">イベント</button>
     </div>
 </div>
