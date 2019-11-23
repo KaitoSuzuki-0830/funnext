@@ -49,4 +49,9 @@ class User extends Authenticatable
         return $this->hasOne('App\plan');
     }
 
+    public function socialAccounts()
+    {
+        return $this->hasMany('App\SocialAccount');
+    }
+
 }
