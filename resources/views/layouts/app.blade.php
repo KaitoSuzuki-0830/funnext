@@ -25,7 +25,7 @@
     <div id="app">
         @include('inc.navbar')
         <div class="container">
-            @yield('content')
+        @yield('content')
         </div>
     </div>
     <script src="{{ asset('js/app.js') }}"></script>
