@@ -13,10 +13,10 @@
     </div>
     <div class="col-md-2"></div>
     <div class="col-md-1">
-        <button type="submit" class="btn btn-success">グループ</button>
+        <a href="{{route('groups.index')}}" class="btn btn-success" role="button">グループ</a>
     </div>
     <div class="col-md-1">
-        <button type="submit" class="btn btn-danger">イベント</button>
+        <a href="{{route('plans.index')}}" class="btn btn-danger" role="button">イベント</a>
     </div>
 </div>
 <div class="card-body">
