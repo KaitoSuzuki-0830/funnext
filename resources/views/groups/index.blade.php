@@ -2,8 +2,12 @@
 @section('content')
 <div class="input-group bg-dark text-white p-3">
     <div class="col-md-2"></div>
-    <div class="col-md-6 p-2">
-        <input type="submit" placeholder="&#xf; グループ検索" class="fas">
+    <div class="input-group md-form form-sm form-1 pl-0">
+        <div class="input-group-prepend">
+            <span class="input-group-text cyan lighten-2" id="basic-text1"><i class="fas fa-search text-white"
+            aria-hidden="true"></i></span>
+        </div>
+        <input class="form-control my-0 py-1" type="text" placeholder="Search" aria-label="Search">
     </div>
     <div class="col-md-2">
         <button type="submit" class="btn btn-success">グループ</button>
@@ -16,7 +20,7 @@
   <h3>グループ一覧</h3>
   @foreach($groups as $group)
   <div class="card ">
-    <img src="{{asset($group->featured)}}" class="card-img" alt="{{$group->title}}" height="300px" width="33%">
+    <img src="{{asset($group->featured)}}" class="card-img" alt="{{$group->title}}" height="200px" width="33%">
     <div class="card-img-overlay">
         <h5 class="card-title">{{$group->name}}</h5>
         <p class="card-text">members</p>
