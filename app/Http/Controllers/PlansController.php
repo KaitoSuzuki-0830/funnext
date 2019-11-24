@@ -47,7 +47,7 @@ class PlansController extends Controller
     {
         $plan = new Plan;
         $plan->title = $request->title;
-        $plan->slug = str_slug($request->name);
+        $plan->slug = str_slug($request->title);
         $plan->description = $request->description;
         $plan->price = $request->price;
         $plan->pref_id = $request->pref_id;
@@ -115,7 +115,7 @@ class PlansController extends Controller
         }
 
         $plan->save();
-        Session::flash('success','企画を更新しました');
+        Session::flash('success','イベントを更新しました');
 
         return redirect(route('plans.index'));
     }
@@ -129,7 +129,7 @@ class PlansController extends Controller
     public function destroy(Plan $paln)
     {
         $paln->delete();
-        Session::flash('success','企画を削除しました');
+        Session::flash('success','イベントを削除しました');
         return redirect(route('plans.index'));
     }
     public function trashed(){
