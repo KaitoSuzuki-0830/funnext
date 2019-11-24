@@ -43,9 +43,10 @@
     <a href="{{route('plans.index')}}" class="card">
     <img src="{{asset($plan->featured)}}" class="card-img" alt="{{$plan->title}}" height="200px" width="33%">
     <div class="card-img-overlay">
-        <div class="card-title"><h3>{{$plan->name}}</h3></div>
-        <p class="card-text">members</p>
+        <div class="card-title"><h3>{{$plan->title}}</h3></div>
         <p class="card-text"><i class="fas fa-tag"></i>{{$plan->category->name}}</p>
+        <p class="card-text"><i class="fas fa-map-marker-alt"></i>{{$plan->prefecuture->name}}</p>
+        <p class="card-text"><i class="fas fa-yen-sign"></i>{{$plan->price}}</p>
     </div>
     </a>
     </div>

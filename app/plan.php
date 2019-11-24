@@ -14,8 +14,12 @@ class Plan extends Model
         return $this->belongsTo('App\User');
     }
 
-    public function groups(){
+    public function group(){
         return $this->belongsToMany('App\group');
+    }
+
+    public function prefecture(){
+        return $this->hasOne('App\Prefecture');
     }
 
 }

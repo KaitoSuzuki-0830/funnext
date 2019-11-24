@@ -12,4 +12,8 @@ class profile extends Model
     public function user(){
         return $this->belongsTo('App\User');
     }
+
+    public function prefectures(){
+        return $this->hasOne('App\Prefecture');
+    }
 }
