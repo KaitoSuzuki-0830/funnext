@@ -21,7 +21,7 @@
 </div>
 <hr>
   <h3>グループ一覧</h3>
-  <div class="card-deck" style="width:33%;">
+  <div class="card-deck" style="width:20rem;">
   @foreach($groups as $group)
   <a href="{{route('groups.index')}}" class="card">
     <img src="{{asset($group->featured)}}" class="card-img" alt="{{$group->title}}" height="200px" width="33%">
