@@ -22,12 +22,12 @@
 <div class="card-body">
   <h3>グループ一覧</h3>
   @foreach($groups as $group)
-  <div class="card ">
+  <div class="card">
     <img src="{{asset($group->featured)}}" class="card-img" alt="{{$group->title}}" height="200px" width="33%">
     <div class="card-img-overlay">
         <h5 class="card-title">{{$group->name}}</h5>
         <p class="card-text">members</p>
-        <p class="card-text"><i class="fas fa-tag"></i> {{$group->category->name}}</p>
+        <p class="card-text"><i class="fas fa-tag"></i>{{$groups->category->name}}</p>
     </div>
   @endforeach
   </div>
