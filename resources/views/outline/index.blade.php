@@ -21,9 +21,9 @@
 </div>
 <hr>
   <h3>グループ一覧</h3>
-  <div class="container">
-  <div class="row-fluid">
   @foreach($groups as $group)
+  <div class="d-inline">
+  <div class="row">
   <div class="col-md-4">
   <div class="card-deck" style="width:20rem;">
     <a href="{{route('groups.index')}}" class="card">
@@ -34,6 +34,7 @@
         <p class="card-text"><i class="fas fa-tag"></i>{{$group->category->name}}</p>
     </div>
     </a>
+    </div>
     </div>
     </div>
     </div>
