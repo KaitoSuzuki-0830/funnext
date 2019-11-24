@@ -83,20 +83,7 @@
                 <div class="title m-b-md">
                     Laravel MYProduct
                 </div>
-                <form action="{{ route('pay') }}" method="POST">
-                        {{ csrf_field() }}
-                     <script
-                         src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                         data-key="pk_test_EtHmYNmqSKAqc3JTRo7H98vx003VgTohui"
-                         data-amount="100"
-                         data-name="Stripe決済"
-                         data-label="決済をする"
-                         data-description="Laravel-Myproduct.payment"
-                         data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
-                         data-locale="auto"
-                         data-currency="JPY">
-                     </script>
-                </form>
+
 
             </div>
         </div>
