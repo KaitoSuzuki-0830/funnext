@@ -45,7 +45,7 @@
     <div class="card-img-overlay">
         <div class="card-title"><h3>{{$plan->title}}</h3></div>
         <p class="card-text"><i class="fas fa-tag"></i>{{$plan->category->name}}</p>
-        <p class="card-text"><i class="fas fa-map-marker-alt"></i>{{$plan->prefecuture->name}}</p>
+        <p class="card-text"><i class="fas fa-map-marker-alt"></i>{{$plan->prefecture->name}}</p>
         <p class="card-text"><i class="fas fa-yen-sign"></i>{{$plan->price}}</p>
     </div>
     </a>
