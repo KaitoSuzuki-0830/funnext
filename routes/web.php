@@ -48,3 +48,6 @@ Route::post('contacts/complete','ContactsController@complete');
 Route::post('/pay','PaymentController@pay')->name('pay');
 
 Route::get('/user/{userId}','UserController@show');
+
+Route::get('login/{provider}', 'Auth\LoginController@redirectToProvider');
+Route::get('login/{provider}/callback','Auth\LoginController@handleProviderCallback');
