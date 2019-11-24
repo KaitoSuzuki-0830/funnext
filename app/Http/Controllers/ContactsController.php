@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\ContactRequest;
 use App\Http\Controllers\Controller;
-use App\Contact;
+use App\Contacts;
 
 class ContactsController extends Controller
 {
