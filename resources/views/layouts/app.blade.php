@@ -42,5 +42,7 @@
 
     </script>
     <script id="dsq-count-scr" src="//myproduct.disqus.com/count.js" async></script>
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v5.0&appId=467764400530816&autoLogAppEvents=1"></script>
 </body>
 </html>

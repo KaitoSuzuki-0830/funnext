@@ -12,7 +12,8 @@
             <p><i class="fas fa-tag"></i> {{ $group->category->name}}</p>
             <p><i class="fas fa-home"></i> {{ $group->created_at}}</p>
             <p></p>
-            <p>Share: <i class="fab fa-facebook fa-2x" style="color:blue"></i>   <i class="fab fa-twitter fa-2x" style="color:aqua"></i></p>
+            <p>Share:<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">シェア</a></div>
+            </p>
         </div>
     </div>
     <hr>
