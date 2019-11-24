@@ -11,15 +11,14 @@
 |
 */
 
-use App\Http\Controllers\OutlineController;
-use App\Http\Controllers\ProfilesController;
+
 
 Route::get('/', function () {
     return view('welcome');
 });
 
 Route::view('/about', 'about');
-Route::resource('outline.index','OutlineController');
+Route::view('outline.index','OutlineController@index');
 Route::get('/help','ContactsController@help');
 
 Auth::routes();
