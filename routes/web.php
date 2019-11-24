@@ -19,8 +19,8 @@ Route::get('/', function () {
 });
 
 Route::view('/about', 'about');
+Route::view('outline.index','OutlineController@index');
 Route::get('/help','ContactsController@help');
-Route::resource('outline','OutlineController');
 
 Auth::routes();
 
