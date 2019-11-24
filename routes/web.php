@@ -38,9 +38,7 @@ Route::put('/profile/update',[
 
 Route::resource('groups','GroupsController');
 Route::resource('images','GroupsController',['only'=>['store','destroy']]);
-
 Route::resource('category','CategoryController');
-
 Route::resource('plans','PlansController');
 
 Route::get('contacts','ContactsController@index');

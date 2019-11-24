@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Auth;
 use App\Plan;
 use App\Category;
 use App\Prefecture;
+use App\group;
 use App\User;
 
 
