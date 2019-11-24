@@ -21,8 +21,8 @@
 </div>
 <hr>
   <h3>グループ一覧</h3>
-  <div class="card-deck" style="width:20rem;">
   @foreach($groups as $group)
+  <div class="card-deck" style="width:20rem;">
     <a href="{{route('groups.index')}}" class="card">
     <img src="{{asset($group->featured)}}" class="card-img" alt="{{$group->title}}" height="200px" width="33%">
     <div class="card-img-overlay">
@@ -30,7 +30,23 @@
         <p class="card-text">members</p>
         <p class="card-text"><i class="fas fa-tag"></i>{{$group->category->name}}</p>
     </div>
-  </a>
+    </a>
+    <a href="{{route('groups.index')}}" class="card">
+            <img src="{{asset($group->featured)}}" class="card-img" alt="{{$group->title}}" height="200px" width="33%">
+            <div class="card-img-overlay">
+                <div class="card-title"><h3>{{$group->name}}</h3></div>
+                <p class="card-text">members</p>
+                <p class="card-text"><i class="fas fa-tag"></i>{{$group->category->name}}</p>
+            </div>
+            </a>
+            <a href="{{route('groups.index')}}" class="card">
+                    <img src="{{asset($group->featured)}}" class="card-img" alt="{{$group->title}}" height="200px" width="33%">
+                    <div class="card-img-overlay">
+                        <div class="card-title"><h3>{{$group->name}}</h3></div>
+                        <p class="card-text">members</p>
+                        <p class="card-text"><i class="fas fa-tag"></i>{{$group->category->name}}</p>
+                    </div>
+                    </a>
 </div>
 </div>
 </div>
