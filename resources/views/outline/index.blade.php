@@ -27,7 +27,7 @@
     <div class="card-img-overlay">
         <h5 class="card-title">{{$group->name}}</h5>
         <p class="card-text">members</p>
-        <p class="card-text"><i class="fas fa-tag"></i>{{$groups->category->name}}</p>
+        <p class="card-text"><i class="fas fa-tag"></i>{{$group->category->name}}</p>
     </div>
   @endforeach
   </div>
