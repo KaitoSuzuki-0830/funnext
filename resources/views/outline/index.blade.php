@@ -22,7 +22,7 @@
 <hr>
   <h3>グループ一覧</h3>
   @foreach($groups as $group)
-  <div class="d-inline">
+  <div class="d-inline-block">
   <div class="card-deck" style="width:20rem;">
     <a href="{{route('groups.index')}}" class="card">
     <img src="{{asset($group->featured)}}" class="card-img" alt="{{$group->title}}" height="200px" width="33%">
