@@ -21,7 +21,11 @@
 </div>
 <hr>
   <h3>グループ一覧</h3>
+  <div class="container">
+  <div class="row-fluid">
   @foreach($groups as $group)
+  <div class="col-md-4">
+  <div class="card-columns-fluid">
   <div class="card-deck" style="width:20rem;">
     <a href="{{route('groups.index')}}" class="card">
     <img src="{{asset($group->featured)}}" class="card-img" alt="{{$group->title}}" height="200px" width="33%">
@@ -32,5 +36,9 @@
     </div>
     </a>
     </div>
+    </div>
+    </div>
   @endforeach
+</div>
+</div>
 @endsection
