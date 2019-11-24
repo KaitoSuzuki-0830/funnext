@@ -9,7 +9,6 @@
     <p class="card-text">{{ $plan->description}}</p>
     <div class="float-left">
         <a href="{{ route('plans.edit',['id'=>$plan->id])}}" class="btn btn-info"><i class="far fa-edit"></i></a>
-
     </div>
   </div>
  </div>

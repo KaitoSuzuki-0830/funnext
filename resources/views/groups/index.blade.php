@@ -7,7 +7,7 @@
         <tr>
           <th>イメージ</th>
           <th>タイトル</th>
-          <th colspan="2"></th>
+          <th colspan="2">編集</th>
         </tr>
      </thead>
      <tbody>
