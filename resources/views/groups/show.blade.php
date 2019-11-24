@@ -49,7 +49,7 @@
             <h5>イベントリスト (Count)</h5>
             @foreach($plans as $plan)
             <div class="card-deck" style="width:100%;">
-            <img src="{{asset($plan->featured)}}" class="card-img-top" alt="{{$plan->name}}">
+            <img src="{{ secure_asset($plan->featured)}}" class="card-img-top" alt="{{$plan->name}}">
             <div class="card-body">
             <div class="card-title"><h3>{{$plan->title}}</h3></div>
             <p class="card-text"><i class="fas fa-map-marker-alt"></i> {{$plan->prefecture->name}}</p>
