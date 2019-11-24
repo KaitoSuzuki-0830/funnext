@@ -19,8 +19,8 @@
         <a href="{{route('plans.index')}}" class="btn btn-danger" role="button">イベント</a>
     </div>
 </div>
-<hr>
-<h3>グループ一覧</h3>
+
+<h3>グループ　一覧</h3>
 @foreach($groups as $group)
   <div class="d-inline-block">
   <div class="card-deck" style="width:24rem;">
@@ -35,4 +35,21 @@
     </div>
     </div>
 @endforeach
+<hr>
+<h3>イベント　一覧</h3>
+@foreach($plans as $plan)
+  <div class="d-inline-block">
+  <div class="card-deck" style="width:24rem;">
+    <a href="{{route('plans.index')}}" class="card">
+    <img src="{{asset($plan->featured)}}" class="card-img" alt="{{$plan->title}}" height="200px" width="33%">
+    <div class="card-img-overlay">
+        <div class="card-title"><h3>{{$plan->name}}</h3></div>
+        <p class="card-text">members</p>
+        <p class="card-text"><i class="fas fa-tag"></i>{{$plan->category->name}}</p>
+    </div>
+    </a>
+    </div>
+    </div>
+@endforeach
+
 @endsection
