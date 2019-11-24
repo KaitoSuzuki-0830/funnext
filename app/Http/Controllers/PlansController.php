@@ -128,7 +128,7 @@ class PlansController extends Controller
      */
     public function destroy(Plan $paln)
     {
-        $plan->delete();
+        $paln->delete();
         Session::flash('success','イベントを削除しました');
         return redirect(route('plans.index'));
     }
