@@ -22,4 +22,8 @@ class Plan extends Model
         return $this->hasOne('App\Prefecture');
     }
 
+    public function profile(){
+        return $this->hasOne('App\Profile');
+    }
+
 }

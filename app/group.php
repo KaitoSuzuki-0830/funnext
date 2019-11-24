@@ -18,7 +18,11 @@ class group extends Model
         return $this->belongsTo('App\User');
     }
 
-    public function plans(){
-        return $this->belongsToMany('App\plan');
+    public function plan(){
+        return $this->belongsToMany('App\Plan');
+    }
+
+    public function profile(){
+        return $this->belongsTo('App\Profile');
     }
 }

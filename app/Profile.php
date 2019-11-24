@@ -4,6 +4,8 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 use App\User;
+use App\Plan;
+use App\group;
 
 class profile extends Model
 {
@@ -15,5 +17,13 @@ class profile extends Model
 
     public function prefectures(){
         return $this->hasOne('App\Prefecture');
+    }
+
+    public function plan(){
+        return $this->belongsTo('App\Plan');
+    }
+
+    public function group(){
+        return $this->belongsTo('App\Group');
     }
 }
