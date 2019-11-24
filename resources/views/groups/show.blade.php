@@ -62,9 +62,9 @@
                      <script
                          src="https://checkout.stripe.com/checkout.js" class="stripe-button"
                          data-key="pk_test_EtHmYNmqSKAqc3JTRo7H98vx003VgTohui"
-                         data-amount="{{$plan->price,['id'=>$plan->id]}}
+                         data-amount="{{$plan->price,['id'=>$plan->id]}}"
                          data-name="イベント参加"
-                         data-label="決済をする"
+                         data-label="お支払い"
                          data-description="Laravel-Myproduct.payment"
                          data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
                          data-locale="auto"
