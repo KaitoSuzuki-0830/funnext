@@ -12,9 +12,9 @@
      </thead>
      <tbody>
 
-      @foreach($groups as $group)
+    @foreach($groups as $group)
         <tr>
-           <td> <img src="{{ asset('uploads/groups/'.$groups->featured)}}" alt="{{ $groups->title }}" height="90px" width="90px"style="border-radius: 80%"></td>
+           <td><img src="{{ asset('uploads/groups/'.$groups->featured)}}" alt="{{ $groups->title }}" height="90px" width="90px"style="border-radius: 80%"></td>
            <td>{{ $group->title}}</td>
            <td><a href="{{ route('groups.show',['id'=>$groups->id])}}" class="btn btn-primary"><i class="far fa-eye"></i></a></td>
            <td>
@@ -27,7 +27,7 @@
        @endforeach
      </tbody>
      </table>
-   @else
+  @else
      <P class ="text-center">イベントはありません</p>
   @endif
   </div>
