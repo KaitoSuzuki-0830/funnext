@@ -25,7 +25,7 @@
   <div class="d-inline-block">
   <div class="card-deck" style="width:24rem;">
     <a href="{{route('groups.index')}}" class="card">
-    <img src="{{asset($group->featured)}}" class="card-img" alt="{{$group->name}}" height="200px" width="33%">
+    <img src="{{asset($group->featured)}}" class="card-img" alt="{{$group->name}}" height="100%" width="100%">
     <div class="card-img-overlay">
         <div class="card-title"><h3>{{$group->name}}</h3></div>
         <p class="card-text">members</p>

@@ -128,13 +128,13 @@ class PlansController extends Controller
      */
     public function destroy(Plan $paln)
     {
-        $paln->delete();
+        $plan->delete();
         Session::flash('success','イベントを削除しました');
         return redirect(route('plans.index'));
     }
     public function trashed(){
-        $plans= Plan::onlyTrashed()->get();
-        return view('plans.trash')->with('plans',$plans);
+        $plan= Plan::onlyTrashed()->get();
+        return view('plans.trash')->with('plans',$plan);
      }
 
      public function restore($id){
