@@ -24,7 +24,7 @@
 @foreach($groups as $group)
   <div class="d-inline-block">
   <div class="card-deck" style="width:24rem;">
-    <a href="{{route('groups.index')}}" class="card">
+    <a href="{{route('groups.index',['id'=>$group->id])}}" class="card">
     <img src="{{asset($group->featured)}}" class="card-img" alt="{{$group->name}}" height="100%" width="100%">
     <div class="card-img-overlay">
         <div class="card-title"><h3>{{$group->name}}</h3></div>
@@ -40,7 +40,7 @@
 @foreach($plans as $plan)
   <div class="d-inline-block">
   <div class="card-deck" style="width:24rem;">
-    <a href="{{route('plans.index')}}" class="card">
+    <a href="{{route('plans.index',['id'=>$plan->id])}}" class="card">
     <img src="{{asset($plan->featured)}}" class="card-img" alt="{{$plan->title}}" height="100%" width="100%">
     <div class="card-img-overlay">
         <div class="card-title"><h3>{{$plan->title}}</h3></div>

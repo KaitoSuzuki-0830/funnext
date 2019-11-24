@@ -8,17 +8,17 @@
           <th>イメージ</th>
           <th>タイトル</th>
           <th colspan="2"></th>
-         </tr>
+        </tr>
      </thead>
      <tbody>
 
     @foreach($groups as $group)
         <tr>
-           <td><img src="{{ asset('uploads/groups/'.$groups->featured)}}" alt="{{ $groups->title }}" height="90px" width="90px"style="border-radius: 80%"></td>
-           <td>{{ $group->title}}</td>
-           <td><a href="{{ route('groups.show',['id'=>$groups->id])}}" class="btn btn-primary"><i class="far fa-eye"></i></a></td>
+           <td><img src="{{ asset('uploads/groups/'.$group->featured)}}" alt="{{ $group->name }}" height="90px" width="90px"style="border-radius: 80%"></td>
+           <td>{{ $group->name}}</td>
+           <td><a href="{{ route('groups.show',['id'=>$group->id])}}" class="btn btn-primary"><i class="far fa-eye"></i></a></td>
            <td>
-             <form action="{{ route('groups.destroy',['id' => $groups->id])}}" method="groups">
+             <form action="{{ route('groups.destroy',['id' => $group->id])}}" method="groups">
                @csrf
                @method('DELETE')
                <button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
@@ -28,7 +28,7 @@
      </tbody>
      </table>
   @else
-     <P class ="text-center">イベントはありません</p>
+     <P class ="text-center">グループはありません</p>
   @endif
   </div>
   </div>
