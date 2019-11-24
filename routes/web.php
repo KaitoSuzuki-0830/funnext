@@ -11,6 +11,7 @@
 |
 */
 
+use App\Http\Controllers\OutlineController;
 use App\Http\Controllers\ProfilesController;
 
 Route::get('/', function () {
@@ -19,21 +20,22 @@ Route::get('/', function () {
 
 Route::view('/about', 'about');
 Route::get('/help','ContactsController@help');
+Route::resource('outline','OutlineController');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
 
-    Route::get('user/profile',[
-        'uses'=>'ProfilesController@index',
-        'as'=>'user.profile'
-    ]);
+Route::get('user/profile',[
+    'uses'=>'ProfilesController@index',
+    'as'=>'user.profile'
+]);
 
-    Route::put('/profile/update',[
-        'uses' =>'ProfilesController@update',
-        'as' =>'profile.update'
-    ]);
+Route::put('/profile/update',[
+    'uses' =>'ProfilesController@update',
+    'as' =>'profile.update'
+]);
 
 Route::resource('groups','GroupsController');
 Route::resource('images','GroupsController',['only'=>['store','destroy']]);
