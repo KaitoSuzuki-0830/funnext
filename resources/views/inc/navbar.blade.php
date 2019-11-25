@@ -20,8 +20,6 @@
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="{{ route('groups.create') }}">グループ</a>
                                     <a class="dropdown-item" href="{{ route('plans.create')}}">イベント</a>
-                                    <form id="logout-form" action="{{ route('home') }}" method="POST" style="display: none;">
-                                    </form>
                                 </div>
                         </li>
 
