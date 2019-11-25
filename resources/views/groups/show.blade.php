@@ -18,7 +18,7 @@
         </div>
     </div>
     </div>
-    <hr>
+<hr>
     <div class="row" height="20%" width="100%">
         <div class="col-sm-8">
             <a href="#">概要</a>
@@ -47,11 +47,11 @@
     </div>
 <hr>
     <div class="row">
-        <div class="col-sm-6">
-            <h5>イベントリスト (Count)</h5>
+        <div class="col-sm-8">
+            <h5><a href="#">イベント　リスト</a></h5>
             @foreach($plans as $plan)
-                <div class="card-deck" style="width:100%;">
-                    <img src="{{ $plan->featured }}" class="card-img-top" alt="{{$plan->name}}" height="200px" width="200px">
+                <div class="card" style="width:100%;">
+                    <img src="{{ $plan->featured }}" class="card-img-top" alt="{{$plan->title}}" height="200px" width="200px">
                         <div class="card-body">
                             <div class="card-title"><h3>{{$plan->title}}</h3></div>
                             {{-- <p class="card-text"><i class="fas fa-map-marker-alt"></i> {{$plan->prefecture->name}}</p> --}}
@@ -66,7 +66,7 @@
                                     data-key="pk_test_EtHmYNmqSKAqc3JTRo7H98vx003VgTohui"
                                     data-amount="{{$plan->price}}"
                                     data-name="イベント参加"
-                                    data-label="お支払い"
+                                    data-label="参加する"
                                     data-description="Laravel-Myproduct.payment"
                                     data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
                                     data-locale="auto"
@@ -79,13 +79,14 @@
         </div>
         @endforeach
     </div>
-        <div class="col-sm-6">
+        <div class="col-sm-4">
             <a href="#">一覧</a>
         </div>
     </div>
-
 </body>
-     <div id="disqus_thread"></div>
+<hr>
+    <div class="col-md-6 col-md-offset-4">
+     <div id="disqus_thread">
      {{-- 　　ディスカッションページ --}}
         <script>
 
