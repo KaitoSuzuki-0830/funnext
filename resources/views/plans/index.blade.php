@@ -18,7 +18,7 @@
            <td>{{ $plan->title}}</td>
            <td><a href="{{ route('plans.show',['id'=>$plan->id])}}" class="btn btn-primary"><i class="far fa-eye"></i></a></td>
            <td>
-             <form action="{{ route('plans.destroy',['id' => $plan->id])}}" method="plan">
+             <form action="{{ route('plans.destroy',['id' => $plan->id])}}" method="post">
                @csrf
                @method('DELETE')
                <button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
