@@ -61,7 +61,7 @@
                                 <form action="{{ route('pay') }}" method="POST">
                                     {{ csrf_field() }}
                                     <script
-                                        src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                                        src="https://checkout.stripe.com/checkout.js" class="stripe-button justify-content-center"
                                         data-key="pk_test_EtHmYNmqSKAqc3JTRo7H98vx003VgTohui"
                                         data-amount="{{$plan->price}}"
                                         data-name="参加費を支払う"
