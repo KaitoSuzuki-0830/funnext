@@ -29,7 +29,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/help">ヘルプ</a>
                     </li>
-                <!-- Authentication Links -->>
+                <!-- Authentication Links -->
                 @guest
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('login') }}">{{ __('ログイン') }}</a>
