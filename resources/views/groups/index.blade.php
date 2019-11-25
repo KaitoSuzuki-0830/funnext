@@ -1,11 +1,12 @@
 @extends('layouts.app')
 @section('content')
 <div class="card-body">
+    <h1>グループ一覧</h1>
     @if(count($groups) > 0)
      <table class="table table-bordered">
      <thead>
         <tr>
-          <th class="text-alin-center">イメージ</th>
+          <th class="th_vertical_align_middle">イメージ</th>
           <th>タイトル</th>
           <th>詳細</th>
           <th>削除</th>
