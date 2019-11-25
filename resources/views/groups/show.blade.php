@@ -57,21 +57,22 @@
                             <p class="card-text"><i class="far fa-map"></i> {{$plan->place}}</p>
                             <p class="card-text"><i class="fas fa-tag"></i>{{$group->category->name}}</p>
                             <p class="card-text">{{$plan->description}}</p>
-                            <p class="card-text"><i class="fas fa-yen-sign"></i> {{$plan->price}}</p>
+                            <p class="card-text"><i class="fas fa-yen-sign"></i> {{$plan->price}}
                                 <form action="{{ route('pay') }}" method="POST">
                                     {{ csrf_field() }}
-                                <script
-                                    src="https://checkout.stripe.com/checkout.js" class="stripe-button　text-right"
-                                    data-key="pk_test_EtHmYNmqSKAqc3JTRo7H98vx003VgTohui"
-                                    data-amount="{{$plan->price}}"
-                                    data-name="参加費を支払う"
-                                    data-label="参加する"
-                                    data-description="Laravel-Myproduct.payment"
-                                    data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
-                                    data-locale="auto"
-                                    data-currency="JPY">
-                                </script>
+                                    <script
+                                        src="https://checkout.stripe.com/checkout.js" class="stripe-button　text-right"
+                                        data-key="pk_test_EtHmYNmqSKAqc3JTRo7H98vx003VgTohui"
+                                        data-amount="{{$plan->price}}"
+                                        data-name="参加費を支払う"
+                                        data-label="参加する"
+                                        data-description="Laravel-Myproduct.payment"
+                                        data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                                        data-locale="auto"
+                                        data-currency="JPY">
+                                    </script>
                                 </form>
+                            </p>
                         </div>
                 </div>
         </div>
