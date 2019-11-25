@@ -34,7 +34,7 @@
                 @guest
                         <a class="nav-link" href="{{ route('login') }}">{{ __('ログイン') }}</a>
                     @if (Route::has('register'))
-                            <a class="nav-link" href="{{ route('register') }}">{{ __('登録') }}</a>
+                        <a class="nav-link" href="{{ route('register') }}">{{ __('登録') }}</a>
                     @endif
                 @else
                     <li class="nav-item dropdown">
