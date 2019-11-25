@@ -9,7 +9,7 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Left Side Of Navbar -->
-
+            <ul class="navbar-nav mr-auto">
             <!-- Right Side Of Navbar -->
             <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
@@ -17,10 +17,10 @@
                         </li>
                         <li class="nav-item">
                             <a href="nav-link" href="#">作る</a>
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                {{-- <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="{{ route('groups.create') }}">グループ</a>
                                     <a class="dropdown-item" href="{{ route('plans.create')}}">イベント</a>
-                                </div>
+                                </div> --}}
                         </li>
 
                         <li class="nav-item">
@@ -49,7 +49,7 @@
 
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="{{ route('user.profile') }}">プロフィール設定</a>
-                            <a class="dropdown-item" href="{{ route('logout')}}"
+                            <a class="dropdown-item" href="{{ route('logout') }}"
                                onclick="event.preventDefault();
                                              document.getElementById('logout-form').submit();">
                                 {{ __('ログアウト') }}
