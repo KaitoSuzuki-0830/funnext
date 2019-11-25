@@ -6,10 +6,10 @@
      <table class="table table-bordered">
      <thead>
         <tr>
-          <th>イメージ</th>
-          <th>タイトル</th>
-          <th>詳細</th>
-          <th>削除</th>
+          <th width="100">イメージ</th>
+          <th width="100">タイトル</th>
+          <th width="100">詳細</th>
+          <th width="100">削除</th>
         </tr>
      </thead>
      <tbody>
