@@ -35,6 +35,7 @@ class PlansController extends Controller
     {
         return view('plans.create')->with('user',Auth::user())
                                   ->with('categories',Category::all())
+                                  ->with('groups',group::all())
                                   ->with('prefectures',Prefecture::all());
     }
 

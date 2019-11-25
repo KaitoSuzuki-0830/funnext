@@ -55,12 +55,13 @@ class GroupsController extends Controller
 
         $featured = $request->featured;
         $featured_new_name = time().$featured->getClientOriginalName();
-        $filePath = 'images/'.$featured_new_name;
-        Storage::disk('s3')->put($filePath,file_get_contents($featured));
+        // $filePath = 'images/'.$featured_new_name;
+        // Storage::disk('s3')->put($filePath,file_get_contents($featured));
         $group->featured = secure_asset('images/'.$featured_new_name);
 
-
         $group->save();
+
+        $group->plans()->attach($request->plans);
 
         Session::flash('success','新しいグループを作成しました！');
         return redirect(route('groups.index'));
@@ -113,6 +114,8 @@ class GroupsController extends Controller
         }
 
         $group->save();
+
+        $group->plans()->sync($request->plan);
 
         Session::flash('success','グループを更新しました');
 
