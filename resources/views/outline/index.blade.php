@@ -36,7 +36,7 @@
     </div>
 @endforeach
 <hr>
-<h3>イベント　一覧</h3>
+{{-- <h3>イベント　一覧</h3>
 @foreach($plans as $plan)
   <div class="d-inline-block">
   <div class="card-deck" style="width:24rem;">
@@ -51,6 +51,6 @@
     </a>
     </div>
     </div>
-@endforeach
+@endforeach --}}
 
 @endsection
