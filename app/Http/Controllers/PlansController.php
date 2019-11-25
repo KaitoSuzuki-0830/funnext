@@ -127,28 +127,11 @@ class PlansController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Plan $paln)
+    public function destroy(Plan $plan)
     {
-        $paln->delete();
+        $plan->delete();
         Session::flash('success','イベントを削除しました');
         return redirect(route('plans.index'));
     }
-    public function trashed(){
-        $plan= Plan::onlyTrashed()->get();
-        return view('plans.trash')->with('plans',$plan);
-     }
 
-     public function restore($id){
-         $Plan = Plan::withTrashed()->where('id',$id)->first();
-         $Plan->restore();
-         Session::flash('success','Plan Restored successfully');
-         return redirect(route('plans.index'));
-     }
-
-     public function kill($id){
-         $Plan = Plan::withTrashed()->where('id',$id)->first();
-         $Plan->forceDelete();
-         Session::flash('success','Plan Deleted Permanently successfully');
-         return redirect(route('plans.trashed'));
-     }
 }
