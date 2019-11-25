@@ -12,16 +12,6 @@
 
             <!-- Right Side Of Navbar -->
             <ul class="navbar-nav ml-auto">
-                    @guest
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('login') }}">{{ __('ログイン') }}</a>
-                        </li>
-                    @if (Route::has('register'))
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('register') }}">{{ __('登録') }}</a>
-                        </li>
-                    @endif
-                @else
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('outline.index')}}">探す</a>
                         </li>
@@ -31,7 +21,6 @@
                                     <a class="dropdown-item" href="{{ route('groups.create') }}">グループ</a>
                                     <a class="dropdown-item" href="{{ route('plans.create')}}">イベント</a>
                                     <form id="logout-form" action="{{ route('home') }}" method="POST" style="display: none;">
-                                    @csrf
                                     </form>
                                 </div>
                             </a>
@@ -43,7 +32,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/help">ヘルプ</a>
                         </li>
-                    </ul>
+            </ul>
                 <!-- Authentication Links -->
                 @guest
                     <li class="nav-item">
@@ -57,7 +46,7 @@
                 @else
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                            <img src="{{ isset($user)? secure_asset($user->profile->avatar): Auth::user()->profile->avatar }}" alt="{{ Auth::user()->name}}" height="50px" width="50px" style="border-radius: 50%" class="profile-image img-circle">
+                                <img src="{{ isset($user)? secure_asset($user->profile->avatar): Auth::user()->profile->avatar }}" alt="{{ Auth::user()->name}}" height="50px" width="50px" style="border-radius: 50%" class="profile-image img-circle">
                             {{ Auth::user()->name }} <span class="caret"></span>
                         </a>
 
