@@ -16,13 +16,15 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('outline.index')}}">集まりを探す</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item　dropdown">
+                            <a class="nav-link" href="{{ route('groups.create')}}">作る
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="{{ route('groups.create') }}">グループ</a>
                                     <a class="dropdown-item" href="{{ route('plans.create')}}">イベント</a>
                                 </div>
-                            {{-- <a class="nav-link" href="{{ route('groups.create')}}">グループを作る</a> --}}
+                            </a>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="/about">Relaccumとは</a>
                         </li>
