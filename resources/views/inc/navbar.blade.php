@@ -12,23 +12,23 @@
 
             <!-- Right Side Of Navbar -->
             <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('outline.index')}}">探す</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">作る</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('outline.index')}}">探す</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">作る</a>
                                 {{-- <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="{{ route('groups.create') }}">グループ</a>
                                     <a class="dropdown-item" href="{{ route('plans.create')}}">イベント</a>
                                 </div> --}}
-                        </li>
+                    </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="/about">Relaccumとは</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/help">ヘルプ</a>
-                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">Relaccumとは</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/help">ヘルプ</a>
+                    </li>
             </ul>
                 <!-- Authentication Links -->
                 @guest
