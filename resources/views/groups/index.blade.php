@@ -6,20 +6,20 @@
      <table class="table table-bordered">
      <thead>
         <tr>
-          <th width="150">イメージ</th>
-          <th width="150">タイトル</th>
-          <th width="150">詳細</th>
-          <th width="150">削除</th>
+          <th>イメージ</th>
+          <th>タイトル</th>
+          <th>詳細</th>
+          <th>削除</th>
         </tr>
      </thead>
      <tbody>
 
     @foreach($groups as $group)
         <tr>
-           <td　width="150"><img src="{{ $group->featured }}" alt="{{ $group->name }}" height="80px" width="100px;"></td>
-           <td width="150">{{ $group->name}}</td>
-           <td width="150"><a href="{{ route('groups.show',['id'=>$group->id])}}" class="btn btn-primary"><i class="far fa-eye"></i></a></td>
-           <td width="150">
+           <td><img src="{{ $group->featured }}" alt="{{ $group->name }}" height="100px" width="100px;"></td>
+           <td>{{ $group->name}}</td>
+           <td><a href="{{ route('groups.show',['id'=>$group->id])}}" class="btn btn-primary"><i class="far fa-eye"></i></a></td>
+           <td>
              <form action="{{ route('groups.destroy',['id' => $group->id])}}" method="groups">
                @csrf
                @method('DELETE')
