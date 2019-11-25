@@ -16,14 +16,13 @@
                             <a class="nav-link" href="{{ route('outline.index')}}">探す</a>
                         </li>
                         <li class="nav-item">
-                            <a href="nav-link" href="#">作る
+                            <a href="nav-link" href="#">作る</a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="{{ route('groups.create') }}">グループ</a>
                                     <a class="dropdown-item" href="{{ route('plans.create')}}">イベント</a>
                                     <form id="logout-form" action="{{ route('home') }}" method="POST" style="display: none;">
                                     </form>
                                 </div>
-                            </a>
                         </li>
 
                         <li class="nav-item">
