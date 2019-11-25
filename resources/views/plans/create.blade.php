@@ -31,19 +31,29 @@
     <div class="form-group">
         <div class="row">
             <div class="col-sm-1"><label for="name">場所1:</label></div>
-            <div class="col-sm-1">
+            <div class="col-sm-2">
                 <select name="pref_id" class="form-control">
                 @foreach ($prefectures as $pref)
                 <option value="{{$pref->id}}">{{$pref->name}}</option>
                 @endforeach
                 </select>
             </div>
-            <div class="col-sm-1"></div>
             <div class="col-sm-1"><label for="place">場所2:</label></div>
             <div class="col-sm-8">
                 <input type="text" name="place" class="form-control" placeholder="具体的な住所を貼り付けてください">
             </div>
         </div>
+    </div>
+    <div class="form-group">
+     <label for="group">グループを選択してください</label>
+     <select name="group_id" class="form-control">
+        @foreach ($groups as $group)
+            <option value="{{ $group->id}}">{{ $group->name }}</option>
+        @endforeach
+     </select>
+    </div>
+    <div class="form-group text-right">
+        <a href="{{route('groups.create')}}">グループがない時は...</a>
     </div>
     <div class="form-group">
      <label for="category">カテゴリーを選択してください</label>
@@ -57,9 +67,9 @@
         <a href="{{route('category.create')}}">カテゴリーがございませんか?</a>
     </div>
     <div class="form-group text-center">
-     <button type="submit" class="btn btn-success btn-lg">イベント作成</button>
+        <button type="submit" class="btn btn-success btn-lg">イベント作成</button>
     </div>
-    </form>
-  </div>
+</form>
+</div>
 </div>
 @endsection
