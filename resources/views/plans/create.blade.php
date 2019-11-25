@@ -32,9 +32,9 @@
         <div class="row">
             <div class="col-sm-1"><label for="name">場所1:</label></div>
             <div class="col-sm-1">
-                <select name="prefecture" id="pref_id">
+                <select name="pref_id" class="form-control">
                 @foreach ($prefectures as $pref)
-                <option value="{{$pref->name}}">{{$pref->name}}</option>
+                <option value="{{$pref->id}}">{{$pref->name}}</option>
                 @endforeach
                 </select>
             </div>
