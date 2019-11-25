@@ -14,7 +14,7 @@
             <ul class="navbar-nav ml-auto">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('outline.index')}}">集まりを探す</a>
+                            <a class="nav-link" href="{{ route('outline.index')}}">探す</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
