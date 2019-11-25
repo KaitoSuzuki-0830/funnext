@@ -69,7 +69,7 @@ class LoginController extends Controller
        return Socialite::driver($provider)->redirect();
    }
 
-   public function handleProviderCallback($provider)
+   public function handleProviderCallback1($provider)
    {
        try {
            $user = Socialite::driver($provider)->user();
@@ -83,7 +83,7 @@ class LoginController extends Controller
    }
 
 
-   public function findOrCreateUser($providerUser, $provider)
+  /* public function findOrCreateUser($providerUser, $provider)
    {
        $account = SocialIdentity::whereProviderName($provider)
                   ->whereProviderId($providerUser->getId())
@@ -93,7 +93,7 @@ class LoginController extends Controller
            return $account->user;
        } else {
            $user = User::whereEmail($providerUser->getEmail())->first();
-
+       }
            if (! $user) {
                $user = User::create([
                    'email' => $providerUser->getEmail(),
@@ -108,4 +108,6 @@ class LoginController extends Controller
 
            return $user;
        }
+    }*/
+
 }
