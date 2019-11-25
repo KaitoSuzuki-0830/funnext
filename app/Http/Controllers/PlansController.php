@@ -59,7 +59,7 @@ class PlansController extends Controller
         $featured = $request->featured;
         $featured_new_name = time().$featured->getClientOriginalName();
         $featured->move('uploads/plans/',$featured_new_name);
-        $plan->featured = secure_asset('uploads/plans/'.featured_new_name);
+        $plan->featured = secure_asset('uploads/plans/'.$featured_new_name);
 
         $plan->save();
 
