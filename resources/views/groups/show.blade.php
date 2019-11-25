@@ -47,7 +47,7 @@
 <hr>
     <div class="row">
         <div class="col-sm-8">
-            <h5><a href="#">イベント　リスト</a></h5>
+            <h5><a href="#">イベントリスト</a></h5>
             @foreach($plans as $plan)
                 <div class="card" style="width:100%;">
                     <img src="{{ $plan->featured }}" class="card-img-top" alt="{{$plan->title}}" height="200px" width="200px">
@@ -77,9 +77,8 @@
         </div>
         @endforeach
     </div>
-        <div class="col-sm-4"></div>
+    <div class="col-sm-4"></div>
     </div>
-</body>
 <hr>
     <div class="col-md-6 col-md-offset-3">
      <div id="disqus_thread">
@@ -106,4 +105,5 @@
         {{-- 　　ディスカッションページ　ここまで --}}
         </div>
         </div>
+</body>
 @endsection
