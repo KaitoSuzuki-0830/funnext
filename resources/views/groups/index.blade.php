@@ -16,7 +16,7 @@
 
     @foreach($groups as $group)
         <tr>
-           <td><img src="{{ $group->featured }}" alt="{{ $group->name }}" height="80px" width="100px;"></td>
+           <td　width="100"><img src="{{ $group->featured }}" alt="{{ $group->name }}" height="80px" width="100px;"></td>
            <td>{{ $group->name}}</td>
            <td><a href="{{ route('groups.show',['id'=>$group->id])}}" class="btn btn-primary"><i class="far fa-eye"></i></a></td>
            <td>
