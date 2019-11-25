@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Post;
 use App\Http\Requests\CreateGroupRequest;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Auth;
@@ -34,8 +33,7 @@ class GroupsController extends Controller
     public function create()
     {
         return view('groups.create')->with('user',Auth::user())
-                                    ->with('categories',Category::all())
-                                    ->with('plans',plan::all());
+                                    ->with('categories',Category::all());
     }
 
     /**
