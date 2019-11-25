@@ -5,7 +5,7 @@
      <table class="table table-bordered">
      <thead>
         <tr>
-          <th>イメージ</th>
+          <th class="text-alin-center">イメージ</th>
           <th>タイトル</th>
           <th>詳細</th>
           <th>削除</th>
