@@ -9,14 +9,14 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Left Side Of Navbar -->
-            <ul class="navbar-nav mr-auto">
+
             <!-- Right Side Of Navbar -->
             <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('outline.index')}}">探す</a>
                         </li>
                         <li class="nav-item">
-                            <a href="nav-link" href="#">作る</a>
+                            <a class="nav-link" href="#">作る</a>
                                 {{-- <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="{{ route('groups.create') }}">グループ</a>
                                     <a class="dropdown-item" href="{{ route('plans.create')}}">イベント</a>
