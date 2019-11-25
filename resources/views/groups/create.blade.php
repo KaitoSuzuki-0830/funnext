@@ -37,8 +37,6 @@
         <label for="featured">グループ写真</label>
         <input type="file" name="featured" id="image" class="form-control">
     </div>
-    <div class="form-group"><button type="submit" class="btn btn-primary">Uploard</button></div>
-    </form>
     </div>
     <div class="form-group text-center">
         <button type="submit" class="btn btn-success btn-lg">グループを作成</button>
