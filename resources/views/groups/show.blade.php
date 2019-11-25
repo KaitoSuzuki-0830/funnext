@@ -17,7 +17,6 @@
             </p>
         </div>
     </div>
-    </div>
 <hr>
     <div class="row" height="20%" width="100%">
         <div class="col-sm-8">
@@ -58,14 +57,14 @@
                             <p class="card-text"><i class="far fa-map"></i> {{$plan->place}}</p>
                             <p class="card-text"><i class="fas fa-tag"></i>{{$group->category->name}}</p>
                             <p class="card-text">{{$plan->description}}</p>
-                            <p class="card-text" style="inline"><i class="fas fa-yen-sign"></i> {{$plan->price}}
+                            <p class="card-text"><i class="fas fa-yen-sign"></i> {{$plan->price}}</p>
                                 <form action="{{ route('pay') }}" method="POST">
                                     {{ csrf_field() }}
                                 <script
-                                    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                                    src="https://checkout.stripe.com/checkout.js" class="stripe-button　text-right"
                                     data-key="pk_test_EtHmYNmqSKAqc3JTRo7H98vx003VgTohui"
                                     data-amount="{{$plan->price}}"
-                                    data-name="イベント参加"
+                                    data-name="参加費を支払う"
                                     data-label="参加する"
                                     data-description="Laravel-Myproduct.payment"
                                     data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
@@ -73,7 +72,6 @@
                                     data-currency="JPY">
                                 </script>
                                 </form>
-                            </p>
                         </div>
                 </div>
         </div>
