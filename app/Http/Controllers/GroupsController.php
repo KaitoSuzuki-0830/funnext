@@ -74,7 +74,8 @@ class GroupsController extends Controller
     public function show(group $group)
     {
         return view('groups.show')->with('group',$group)
-                                  ->with('user',Auth::user());
+                                  ->with('user',Auth::user())
+                                  ->with('plans',Plan::all());
     }
 
     /**
