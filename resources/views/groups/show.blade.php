@@ -1,6 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <body>
+    <div class="container">
     <div class="row">
         <div class="col-sm-8">
             <img src="{{ $group->featured }}" alt="{{ $group->title }}" height="200px" width="100%">
@@ -15,6 +16,7 @@
             <p><div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">シェア</a></div>
             </p>
         </div>
+    </div>
     </div>
     <hr>
     <div class="row" height="20%" width="100%">
