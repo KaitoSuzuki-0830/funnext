@@ -3,7 +3,7 @@
 <body>
     <div class="row">
         <div class="col-sm-8">
-            <img src="{{ $group->featured }}" alt="{{ $group->title }}" height="500px" width="100%">
+            <img src="{{ $group->featured }}" alt="{{ $group->title }}" height="300px" width="300px">
         </div>
         <div class="col-sm-4">
             <h1>{{ $group->name}}</h1>
