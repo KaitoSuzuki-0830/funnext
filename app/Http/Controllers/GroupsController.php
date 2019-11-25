@@ -59,6 +59,7 @@ class GroupsController extends Controller
         Storage::disk('s3')->put($filePath,file_get_contents($featured));
         $group->featured = secure_asset('images/'.$featured_new_name);
 
+
         $group->save();
 
         Session::flash('success','新しいグループを作成しました！');

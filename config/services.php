@@ -35,15 +35,15 @@ return [
     ],
 
     'facebook' => [
-        'client_id' => env('467764400530816'),  // Your Facebook App ID
-        'client_secret' => env('5d59abbd8cdffa1a1366466714abcfa9'), // Your Facebook App Secret
-        'redirect' => env('http://laravel-myproduct.herokuapp.com/'),
+        'client_id' => env('FACEBOOK_CLIENT_ID'),  // Your Facebook App ID
+        'client_secret' => env('FACEBOOK_CLIENT_SECRET'), // Your Facebook App Secret
+        'redirect' => env('FACEBOOK_URL'),
     ],
 
     'twitter' => [
-        'client_id' => env('uE4ru9ej2SjqsvKmW535bBA8z'),  // Your Twitter Client ID
-        'client_secret' => env('pBsXQMdW9p9JEjMGisfzNPQHMVWNVo7KPkbX7cZwLTVJM3UYWf '), // Your Twitter Client Secret
-        'redirect' => env('http://laravel-myproduct.herokuapp.com/login/twitter/callback'),
+        'client_id' => env('TWITTER_CLIENT_ID'),  // Your Twitter Client ID
+        'client_secret' => env('TWITTER_CLIENT_SECRET '), // Your Twitter Client Secret
+        'redirect' => env('TWITTER_URL'),
     ],
 
 ];

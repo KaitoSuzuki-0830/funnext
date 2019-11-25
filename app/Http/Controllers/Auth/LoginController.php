@@ -41,35 +41,12 @@ class LoginController extends Controller
         $this->middleware('guest')->except('logout');
     }
 
-    /**
-     * OAuth認証の結果受け取り
-     *
-     * @param str $provider
-     * @return \Illuminate\Http\Response
-     */
-    public function handleProviderCallback($provider)
-    {
-        try {
-            $providerUser = Socialite::with($provider)->user();
-        } catch(\Exception $e) {
-            return redirect('/login')->with('oauth_error', '予期せぬエラーが発生しました');
-        }
-
-        if ($email = $providerUser->getEmail()) {
-            Auth::login(SocialService::findOrCreate($providerUser, $provider));
-            return redirect($this->redirectTo);
-        } else {
-            return redirect('/login')->with('oauth_error', 'メールアドレスが取得できませんでした');
-        }
-
-    }
-
     public function redirectToProvider($provider)
    {
        return Socialite::driver($provider)->redirect();
    }
 
-   public function handleProviderCallback1($provider)
+   public function handleProviderCallback($provider)
    {
        try {
            $user = Socialite::driver($provider)->user();
@@ -83,7 +60,7 @@ class LoginController extends Controller
    }
 
 
-  /* public function findOrCreateUser($providerUser, $provider)
+   public function findOrCreateUser($providerUser, $provider)
    {
        $account = SocialIdentity::whereProviderName($provider)
                   ->whereProviderId($providerUser->getId())
@@ -93,7 +70,7 @@ class LoginController extends Controller
            return $account->user;
        } else {
            $user = User::whereEmail($providerUser->getEmail())->first();
-       }
+
            if (! $user) {
                $user = User::create([
                    'email' => $providerUser->getEmail(),
@@ -108,6 +85,5 @@ class LoginController extends Controller
 
            return $user;
        }
-    }*/
-
+   }
 }
