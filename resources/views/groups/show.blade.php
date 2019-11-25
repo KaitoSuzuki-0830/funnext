@@ -79,13 +79,11 @@
         </div>
         @endforeach
     </div>
-        <div class="col-sm-4">
-            <a href="#">一覧</a>
-        </div>
+        <div class="col-sm-4"></div>
     </div>
 </body>
 <hr>
-    <div class="col-md-6 col-md-offset-4">
+    <div class="col-md-6 col-md-offset-3">
      <div id="disqus_thread">
      {{-- 　　ディスカッションページ --}}
         <script>
