@@ -34,7 +34,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('login') }}">{{ __('ログイン') }}</a>
                     </li>
-                    @if (Route::has('register'))
+                @if (Route::has('register'))
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('register') }}">{{ __('登録') }}</a>
                     </li>
@@ -50,7 +50,7 @@
                             <a class="dropdown-item" href="{{ route('user.profile') }}">プロフィール設定</a>
                             <a class="dropdown-item" href="{{ route('logout') }}"
                                onclick="event.preventDefault();
-                                             document.getElementById('logout-form').submit();">
+                                        document.getElementById('logout-form').submit();">
                                 {{ __('ログアウト') }}
                             </a>
 
