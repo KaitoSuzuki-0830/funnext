@@ -1,9 +1,9 @@
 @extends('layouts.app')
 @section('content')
 <main>
-<div class="input-group bg-blue text-white p-2">
-    <div class="col-md-2"></div>
-    <div class="col-md-4">
+<div class="input-group bg-dark text-white p-2">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
         <form action="/search" method="get">
           <div class="input-group">
               <input type="search" name="search" class="form-control">
@@ -13,16 +13,13 @@
           </div>
         </form>
     </div>
-    <div class="col-md-2"></div>
-    <div class="col-md-1">
-        <a href="{{route('groups.index')}}" class="btn btn-success" role="button">グループ</a>
-    </div>
-    <div class="col-md-1">
-        <a href="{{route('plans.index')}}" class="btn btn-danger" role="button">イベント</a>
-    </div>
+    <div class="col-md-1"></div>
+</div>
+<div class="row">
+    <div class="col-md-11"><h3>グループ</h3></div>
+    <div class="col-md-1"><a href="{{route('groups.index')}}">See all</a></div>
 </div>
 
-<h3>グループ　一覧</h3>
 @foreach($groups as $group)
   <div class="d-inline-block">
   <div class="card-deck" style="width:24rem;">
@@ -39,7 +36,11 @@
 </div>
 @endforeach
 <hr>
-<h3>Category list</h3>
+<div class="row">
+    <div class="col-md-11"><h3>Category</h3></div>
+    <div class="col-md-1"><a href="{{route('plans.index')}}">See all</a></div>
+</div>
+
 @foreach($categories as $category)
     <div class="d-inline-block">
         <div class="card-deck" style="width:24rem;">
