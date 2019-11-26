@@ -7,7 +7,7 @@
                 <div class="card-title"><h3>{{$plan->title}}</h3></div>
                 {{-- <p class="card-text"><i class="fas fa-map-marker-alt"></i> {{$plan->prefecture->name}}</p> --}}
                 <p class="card-text"><i class="far fa-map"></i> {{$plan->place}}</p>
-                <p class="card-text"><i class="fas fa-tag"></i> {{$group->category->name}}</p>
+                <p class="card-text"><i class="fas fa-tag"></i> {{$plan->category->name}}</p>
                 <p class="card-text"><i class="fas fa-users"></i> {{$plan->$group->name}}</p>
                 <p class="card-text">{{$plan->description}}</p>
                 <p class="card-text"><i class="fas fa-yen-sign"></i> {{$plan->price}}
