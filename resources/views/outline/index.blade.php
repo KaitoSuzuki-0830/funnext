@@ -17,6 +17,7 @@
     <div class="col-md-1"></div>
 </div>
 </header>
+
 <main>
 <div class="row">
     <div class="col-md-10"><h3>グループ</h3></div>
@@ -46,7 +47,7 @@
 
 @foreach($categories as $category)
     <div class="d-inline-block">
-        <div class="card-deck" style="width:15rem;">
+        <div class="card-deck" style="width:18rem;">
             <a href="" class="card">
                 <img src="#" alt="#" class="card-img" height="200px" width="200px">
                 <div class="card-img-overlay">
@@ -58,9 +59,10 @@
     </div>
 @endforeach
 </main>
+
 <footer>
     <div class="container-fluid">
-        <tbody class="input-group bg-dark">
+        <tbody class="input-group bg-dark p-5">
             <a href="/about">使い方</a>
         <hr>
         <tbody class="row">
