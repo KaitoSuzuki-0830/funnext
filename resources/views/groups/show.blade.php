@@ -4,7 +4,7 @@
     <div class="container">
     <div class="row">
         <div class="col-sm-8">
-            <img src="{{ $group->featured }}" alt="{{ $group->title }}" height="200px" width="100%">
+            <img src="{{ $group->featured }}" alt="{{ $group->title }}" height="300px" width="100%">
         </div>
         <div class="col-sm-4">
             <h1>{{ $group->name}}</h1>
@@ -18,7 +18,7 @@
         </div>
     </div>
 <hr>
-    <div class="row" height="20%" width="100%">
+    <div class="row" height="50px" width="100%">
         <div class="col-sm-8">
             <a href="#">概要</a>
             <a href="{{ route('plans.index')}}">イベント</a>
@@ -75,9 +75,9 @@
                             </p>
                         </div>
                 </div>
-        @endforeach
-    </div>
-    <div class="col-sm-4"></div>
+            @endforeach
+            </div>
+        <div class="col-sm-4"></div>
     </div>
 <hr>
     <div class="col-md-6 col-md-offset-3">
