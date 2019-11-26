@@ -59,7 +59,7 @@
 @endforeach
 </main>
 <footer>
-    <div class="input-group bg-dark text-white p-2">
+    <div class="input-group bg-dark text-white p-5">
 
     </div>
 
