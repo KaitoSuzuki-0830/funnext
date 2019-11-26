@@ -16,8 +16,8 @@
     <div class="col-md-1"></div>
 </div>
 <div class="row">
-    <div class="col-md-11"><h3>グループ</h3></div>
-    <div class="col-md-1"><a href="{{route('groups.index')}}">See all</a></div>
+    <div class="col-md-10"><h3>グループ</h3></div>
+    <div class="col-md-2"><a href="{{route('groups.index')}}"><h4>See all</h4></a></div>
 </div>
 
 @foreach($groups as $group)
@@ -37,8 +37,8 @@
 @endforeach
 <hr>
 <div class="row">
-    <div class="col-md-11"><h3>Category</h3></div>
-    <div class="col-md-1"><a href="{{route('plans.index')}}">See all</a></div>
+    <div class="col-md-10"><h3>Category</h3></div>
+    <div class="col-md-2"><a href="{{route('plans.index')}}"><h4>See all</h4></a></div>
 </div>
 
 @foreach($categories as $category)
