@@ -62,6 +62,7 @@ class GroupsController extends Controller
         $group->save();
 
         $group->plans()->attach($request->plan_id);
+        $group->users()->attach($request->user_id);
 
         Session::flash('success','新しいグループを作成しました！');
         return redirect(route('groups.index'));

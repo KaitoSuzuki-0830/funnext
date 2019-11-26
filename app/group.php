@@ -14,7 +14,7 @@ class group extends Model
         return $this->belongsTo('App\Category');
     }
 
-    public function user(){
+    public function users(){
         return $this->belongsToMany('App\User');
     }
 

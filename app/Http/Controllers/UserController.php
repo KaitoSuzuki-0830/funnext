@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\User;
-use App\Services\SocialService;
+use App\group;
 
 class UserController extends Controller
 {
@@ -19,15 +19,6 @@ class UserController extends Controller
 
         $user = User::findOrFail($userId);
 
-        // social_account情報
-        $socialAccounts = [];
-        foreach ($user->socialAccounts as $account) {
-            $socialAccounts[$account->provider_name]['link'] = SocialService::findLink($account->provider_name, $account->token, $account->secret_token);
-        }
-
-        return view('user/show', [
-            'user'              => $user,
-            'socialAccounts'    => $socialAccounts
-        ]);
+        $user->groups()->attach($request->group_id);
     }
 }
