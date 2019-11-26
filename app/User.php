@@ -42,7 +42,7 @@ class User extends Authenticatable
     }
 
     public function groups(){
-        return $this->hasMany('App\group');
+        return $this->belongsToMany('App\group');
     }
 
     public function plan(){
