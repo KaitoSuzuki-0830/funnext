@@ -60,7 +60,7 @@
 </main>
 <footer>
     <div class="container-fluid">
-        <div class="input-group bg-dark text-white p-5">
+        <div class="input-group bg-dark">
             <a href="/about">使い方</a>
         <hr>
         <div class="row">
@@ -69,18 +69,17 @@
                     <th>アカウント</th>
                     <th>探す・作る</th>
                     <th>サービス</th>
-                    <th>Follow us</th>
                 </thead>
                 <tbody>
-                    <td><p></p><a href="">Sign up</a></td>
-                    <td><p></p><a href="">グループ</a></td>
-                    <td><p></p><a href="">About</a></td>
-                    <td><p></p><a href="">Log in</a></td>
-                    <td><p></p><a href="">イベント</a></td>
-                    <td><p></p><a href="">Contact</a></td>
-                    <td><p></p><a href=""></a></td>
-                    <td><p></p><a href="">カテゴリー</a></td>
-                    <td><p></p><a href=""></a></td>
+                    <td><a href="">Sign up</a></td>
+                    <td><a href="">グループ</a></td>
+                    <td><a href="">About</a></td>
+                    <td><a href="">Log in</a></td>
+                    <td><a href="">イベント</a></td>
+                    <td><a href="">Contact</a></td>
+                    <td><a href=""></a></td>
+                    <td><a href="">カテゴリー</a></td>
+                    <td><a href=""></a></td>
                     </tbody>
             </div>
             <div class="col-md-4">
