@@ -59,8 +59,8 @@
 @endforeach
 </main>
 <footer>
-    <div class="input-group bg-dark text-white p-5">
-        <div class="container-fluid">
+    <div class="container-fluid">
+        <div class="input-group bg-dark text-white p-5">
             <a href="/about">使い方</a>
         <hr>
         <div class="row">
@@ -95,6 +95,5 @@
         <p>Terms of Service ・ Privacy Policy ・ Cookie Policy</p>
         </div>
     </div>
-
 </footer>
 @endsection
