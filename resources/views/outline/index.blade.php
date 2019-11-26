@@ -63,25 +63,36 @@
         <div class="container">
             <a href="/about">使い方</a>
         <hr>
-            <thead>
-                <th>アカウント</th>
-                <th>探す・作る</th>
-                <th>サービス</th>
-            </thead>
-            <tbody>
-                <td><a href=""></a>Sign up</td>
-                <td><a href=""></a>グループ</td>
-                <td><a href=""></a>About</td>
-                <td><a href=""></a>Log in</td>
-                <td><a href=""></a>イベント</td>
-                <td><a href=""></a>Contact</td>
-                <td><a href=""></a></td>
-                <td><a href=""></a>カテゴリー</td>
-                <td><a href=""></a></td>
-            </tbody>
+        <div class="row">
+            <div class="col-md-8">
+                <thead>
+                    <th>アカウント</th>
+                    <th>探す・作る</th>
+                    <th>サービス</th>
+                    <th>Follow us</th>
+                </thead>
+                <tbody>
+                    <td><p></p><a href="">Sign up</a></td>
+                    <td><p></p><a href="">グループ</a></td>
+                    <td><p></p><a href="">About</a></td>
+                    <td><p></p><a href="">Log in</a></td>
+                    <td><p></p><a href="">イベント</a></td>
+                    <td><p></p><a href="">Contact</a></td>
+                    <td><p></p><a href=""></a></td>
+                    <td><p></p><a href="">カテゴリー</a></td>
+                    <td><p></p><a href=""></a></td>
+                    </tbody>
+            </div>
+            <div class="col-md-4">
+                <thead>
+                    <th>Follow us</th>
+                </thead>
+            </div>
+        </div>
+
         <hr>
         <small>©︎ Relaccum 2019 ・　KaitoSuzuki</small>
-        <small>Terms of Service ・ Privacy Policy ・ Cookie Policy</small>
+        <p>Terms of Service ・ Privacy Policy ・ Cookie Policy</p>
         </div>
     </div>
 
