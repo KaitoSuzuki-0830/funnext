@@ -46,7 +46,7 @@
 
 @foreach($categories as $category)
     <div class="d-inline-block">
-        <div class="card-deck" style="width:24rem;">
+        <div class="card-deck" style="width:15rem;">
             <a href="" class="card">
                 <img src="#" alt="#" class="card-img" height="200px" width="200px">
                 <div class="card-img-overlay">
@@ -60,11 +60,11 @@
 </main>
 <footer>
     <div class="container-fluid">
-        <div class="input-group bg-dark">
+        <tbody class="input-group bg-dark">
             <a href="/about">使い方</a>
         <hr>
-        <div class="row">
-            <div class="col-md-8">
+        <tbody class="row">
+            <tbody class="col-md-8">
                 <thead>
                     <th>アカウント</th>
                     <th>探す・作る</th>
@@ -81,13 +81,13 @@
                     <td><a href="">カテゴリー</a></td>
                     <td><a href=""></a></td>
                     </tbody>
-            </div>
+            </tbody>
             <div class="col-md-4">
                 <thead>
                     <th>Follow us</th>
                 </thead>
             </div>
-        </div>
+        </tbody>
 
         <hr>
         <small>©︎ Relaccum 2019 ・　KaitoSuzuki</small>
