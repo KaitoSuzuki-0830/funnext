@@ -11,8 +11,8 @@
       <th>イメージ</th>
       <th>カテゴリー名</th>
       <th>グループ一覧</th>
-      <th><a href="{{ route('category.create')}}" class="btn btn-success"><i class="fas fa-plus"></i>　追加</a></th>
-      <th>削除</th>
+      <th colspan="2"><a href="{{ route('category.create')}}" class="btn btn-success"><i class="fas fa-plus"></i>　追加</a></th>
+
 
      </tr>
     </thead>
