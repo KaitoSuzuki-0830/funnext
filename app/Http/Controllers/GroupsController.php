@@ -90,11 +90,11 @@ class GroupsController extends Controller
                                   ->with('user',Auth::user());
 
         // フィルター機能
-        $name = DB::table('groups')
-                            ->select('Category')
-                            ->groupBy('Category')
-                            ->orderBy('Controller','ASC')
-                            ->get();
+        // $name = DB::table('groups')
+        //                     ->select('Category')
+        //                     ->groupBy('Category')
+        //                     ->orderBy('Controller','ASC')
+        //                     ->get();
     }
 
     /**
