@@ -16,7 +16,7 @@ class OutlineController extends Controller
      */
     public function index()
     {
-        $groups = group::all();
+        $groups = group::take(6)->get();
         $plans = plan::all();
         return view('outline.index')->with('groups',$groups)
                                     ->with('plans',$plans);
