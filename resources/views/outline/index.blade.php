@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<main>
+<header>
 <div class="input-group bg-dark text-white p-2">
     <div class="col-md-1"></div>
     <div class="col-md-10">
@@ -15,9 +15,11 @@
     </div>
     <div class="col-md-1"></div>
 </div>
+</header>
+<main>
 <div class="row">
     <div class="col-md-10"><h3>グループ</h3></div>
-    <div class="col-md-2"><a href="{{route('groups.index')}}"><h4>See all</h4></a></div>
+    <div class="col-md-2"><a href="{{route('groups.index')}}"><h5>See all</h5></a></div>
 </div>
 
 @foreach($groups as $group)
@@ -38,7 +40,7 @@
 <hr>
 <div class="row">
     <div class="col-md-10"><h3>Category</h3></div>
-    <div class="col-md-2"><a href="{{route('plans.index')}}"><h4>See all</h4></a></div>
+    <div class="col-md-2"><a href="{{route('plans.index')}}"><h5>See all</h5></a></div>
 </div>
 
 @foreach($categories as $category)
