@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Plan;
 use App\group;
+use DB;
 
 class OutlineController extends Controller
 {
