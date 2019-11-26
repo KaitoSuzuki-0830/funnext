@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Category extends Model
 {
     public function group(){
-        return $this->hasMany('App\Group');
+        return $this->hasMany('App\group');
     }
 
     public function plan(){
