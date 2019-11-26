@@ -1,13 +1,15 @@
 @extends('layouts.app')
 @section('content')
 <div class="card-body">
+    <h1>イベント　一覧</h1>
     @if(count($plans) > 0)
      <table class="table table-bordered">
      <thead>
         <tr>
           <th>イメージ</th>
           <th>タイトル</th>
-          <th colspan="2"></th>
+          <th>詳細</th>
+          <th>削除</th>
          </tr>
      </thead>
      <tbody>
