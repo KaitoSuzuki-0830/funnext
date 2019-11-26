@@ -77,7 +77,8 @@ class PlansController extends Controller
     public function show(Plan $plan)
     {
         return view('plans.show')->with('plan',$plan)
-                                ->with('user',Auth::user());
+                                ->with('user',Auth::user())
+                                ->with('groups',group::all());
     }
 
     /**
