@@ -23,19 +23,19 @@
 
 <h3>グループ　一覧</h3>
 @foreach($groups as $group)
-  <a class="d-inline-block">
-  <a class="card-deck" style="width:24rem;">
+  <div class="d-inline-block">
+  <div class="card-deck" style="width:24rem;">
     <a href="{{route('groups.show',['id'=>$group->id])}}" class="card">
     <img src="{{asset($group->featured)}}" class="card-img" alt="{{$group->name}}" height="200px" width="200px">
-    <a class="card-img-overlay">
+    <div class="card-img-overlay">
         <div class="card-title"><h3>{{$group->name}}</h3></div>
         <p class="card-text"><i class="fas fa-users"></i> members</p>
         <p class="card-text"><i class="fas fa-tag"></i>{{$group->category->name}}</p>
         <p class="card-text"><i class="fas fa-plus-circle fa-2x"></i></p>
+    </div>
     </a>
-    </a>
-    </a>
-    </a>
+    </div>
+</div>
 @endforeach
 <hr>
 {{-- <h3>イベント　一覧</h3>
