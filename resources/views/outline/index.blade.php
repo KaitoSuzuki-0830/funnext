@@ -2,6 +2,7 @@
 @section('content')
 <header>
 <div class="input-group bg-dark text-white p-2">
+    {{-- Search box  --}}
     <div class="col-md-1"></div>
     <div class="col-md-10">
         <form action="/search" method="get">

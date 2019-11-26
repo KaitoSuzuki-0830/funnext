@@ -17,6 +17,7 @@ class OutlineController extends Controller
     {
         $groups = group::take(6)->get();
         $categories = Category::take(6)->get();
+
         return view('outline.index')->with('groups',$groups)
                                     ->with('categories',$categories);
     }
@@ -24,8 +25,11 @@ class OutlineController extends Controller
      public function search(Request $request)
     {
         $search = $request->get('search');
-        $groups = group::where('name','like','%'.$search.'%')->get();
-        return view('outline.index')->with('groups',$groups);
+        $groups = group::where('name','like','%'.$search.'%')->get()
+        $categories = Category::where('name','like','%'.$search.'%')->get();
+
+        return view('outline.index')->with('groups',$groups)
+                                    ->with('categories',$categories);
     }
     /**
      * Show the form for creating a new resource.
