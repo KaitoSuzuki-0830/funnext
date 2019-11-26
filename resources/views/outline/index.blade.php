@@ -47,9 +47,9 @@
 
 @foreach($categories as $category)
     <div class="d-inline-block">
-        <div class="card-deck" style="width:18rem;">
-            <a href="" class="card">
-                <img src="#" alt="#" class="card-img" height="200px" width="200px">
+        <div class="card-deck" style="width:19rem;">
+            <a href="#" class="card">
+                <img src="#" alt="#" class="card-img" height="200px" width="150px">
                 <div class="card-img-overlay">
                     <h3>{{$category->name}}</h3>
                     <p class="card-text"><i class="fas fa-users"></i> Group's count</p>
