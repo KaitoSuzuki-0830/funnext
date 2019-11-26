@@ -48,7 +48,7 @@
     <div class="row">
         <div class="col-sm-8">
             <h5 class="text-center"><a href="#">イベントリスト</a></h5>
-            @foreach($plans as $plan)
+            @foreach($group->plans() as $plan)
                 <div class="card" style="width:100%;">
                     <img src="{{ $plan->featured }}" class="card-img-top" alt="{{$plan->title}}" height="200px" width="200px">
                         <div class="card-body">
