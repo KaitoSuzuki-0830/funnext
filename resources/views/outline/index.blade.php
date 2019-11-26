@@ -42,7 +42,7 @@
 <hr>
 <div class="row">
     <div class="col-md-10"><h3>Category</h3></div>
-    <div class="col-md-2"><a href="#"><h5>See all</h5></a></div>
+    <div class="col-md-2"><a href="{{route('category.index')}}"><h5>See all</h5></a></div>
     {{-- リンク先をcategories.indexにかえる --}}
 </div>
 
