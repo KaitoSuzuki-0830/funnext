@@ -60,7 +60,7 @@
 </main>
 <footer>
     <div class="input-group bg-dark text-white p-5">
-        <div class="container-fulid">
+        <div class="container-fluid">
             <a href="/about">使い方</a>
         <hr>
         <div class="row">
