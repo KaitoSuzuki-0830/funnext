@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
- <div class="card-header">イベント　詳細　</div>
+ <h1>イベント　詳細　</h1>
  <div class="card" style="width:100%;">
         <img src="{{ $plan->featured }}" class="card-img-top" alt="{{$plan->title}}" height="200px" width="200px">
             <div class="card-body">
@@ -8,6 +8,7 @@
                 {{-- <p class="card-text"><i class="fas fa-map-marker-alt"></i> {{$plan->prefecture->name}}</p> --}}
                 <p class="card-text"><i class="far fa-map"></i> {{$plan->place}}</p>
                 <p class="card-text"><i class="fas fa-tag"></i> {{$group->category->name}}</p>
+                <p class="card-text"><i class="fas fa-users"></i> {{$group->name}}</p>
                 <p class="card-text">{{$plan->description}}</p>
                 <p class="card-text"><i class="fas fa-yen-sign"></i> {{$plan->price}}
                     <form action="{{ route('pay') }}" method="POST">
@@ -26,7 +27,7 @@
                     </form>
                 </p>
             </div>
-    </div>
+</div>
 
  </div>
 
