@@ -18,7 +18,7 @@ class group extends Model
         return $this->belongsTo('App\User');
     }
 
-    public function plan(){
+    public function plans(){
         return $this->belongsToMany('App\Plan');
     }
 
