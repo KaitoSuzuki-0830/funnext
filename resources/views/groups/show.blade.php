@@ -75,7 +75,6 @@
                             </p>
                         </div>
                 </div>
-        </div>
         @endforeach
     </div>
     <div class="col-sm-4"></div>
