@@ -60,7 +60,29 @@
 </main>
 <footer>
     <div class="input-group bg-dark text-white p-5">
-
+        <div class="container">
+            <a href="/about">使い方</a>
+        <hr>
+            <thead>
+                <th>アカウント</th>
+                <th>探す・作る</th>
+                <th>サービス</th>
+            </thead>
+            <tbody>
+                <td><a href=""></a>Sign up</td>
+                <td><a href=""></a>グループ</td>
+                <td><a href=""></a>About</td>
+                <td><a href=""></a>Log in</td>
+                <td><a href=""></a>イベント</td>
+                <td><a href=""></a>Contact</td>
+                <td><a href=""></a></td>
+                <td><a href=""></a>カテゴリー</td>
+                <td><a href=""></a></td>
+            </tbody>
+        <hr>
+        <small>©︎ Relaccum 2019 ・　KaitoSuzuki</small>
+        <small>Terms of Service ・ Privacy Policy ・ Cookie Policy</small>
+        </div>
     </div>
 
 </footer>
