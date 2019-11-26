@@ -4,7 +4,7 @@
     <div class="col-md-2"></div>
     <div class="col-md-4">
         <form action="outline.index/search" method="get">
-          <div class="form-group">
+          <div class="input-group">
               <input type="search" name="search" class="form-control">
               <span class="input-group-prepend">
                   <button type="submit" class="btn btn-primary">Search</button>
