@@ -42,12 +42,9 @@
                 <a href="{{route('plans.create')}}">イベントを作りますか?</a>
             </div>
     </div>
-    <form action="{{ url('/images')}}" method="POST" enctype="multipart/form-data" class="form-horizontal">
-        {{ csrf_field()}}
     <div class="form-group">
         <label for="featured">グループ写真</label>
-        <input type="file" name="featured" id="image" class="form-control">
-    </div>
+        <input type="file" name="featured" class="form-control">
     </div>
     <div class="form-group text-center">
         <button type="submit" class="btn btn-success btn-lg">グループを作成</button>
