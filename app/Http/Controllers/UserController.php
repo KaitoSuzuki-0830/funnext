@@ -19,6 +19,6 @@ class UserController extends Controller
 
         $user = User::findOrFail($userId);
 
-        $user->groups()->attach($request->group_id);
+        //$user->groups()->attach($request->group_id);
     }
 }
