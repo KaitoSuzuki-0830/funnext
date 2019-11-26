@@ -10,7 +10,7 @@
                 </select>
             </div> --}}
         </div>
-        <div class="col-md-2"><button type="submit"></button><i class="fas fa-arrow-left"></i> 戻る</div>
+        <div class="col-md-2"></div>
     </div>
     @if(count($groups) > 0)
      <table class="table table-bordered">
