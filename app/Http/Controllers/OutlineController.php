@@ -25,7 +25,7 @@ class OutlineController extends Controller
      public function search(Request $request)
     {
         $search = $request->get('search');
-        $groups = DB::table('groups')->where('name','like','%'.$search.'%')->get();
+        $groups = group::where('name','like','%'.$search.'%')->get();
         return view('outline.index')->with('groups',$groups);
     }
     /**
