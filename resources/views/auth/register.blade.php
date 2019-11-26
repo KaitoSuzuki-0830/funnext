@@ -72,13 +72,13 @@
                         <div class="form-group">
                             <div class="row">
                                 <div class="col-md-2"></div>
-                                <div class="col-md-9">
+                                <div class="col-md-8">
                                     <a href="{{ url('/login/github') }}" class="btn btn-github"><i class="fab fa-github"></i> Github</a>
                                     <a href="{{ url('/login/twitter') }}" class="btn btn-twitter"><i class="fab fa-twitter"></i> Twitter</a>
                                     <a href="{{ url('/login/facebook') }}" class="btn btn-facebook"><i class="fab fa-facebook-square"></i> Facebook</a>
                                     <a href="{{ url('/login/google')}}" class="brn brn-google"><i class="fab fa-google"></i> Google</a>
                                 </div>
-                                <div class="col-md-1"></div>
+                                <div class="col-md-2"></div>
                             </div>
                         </div>
                 </form>
