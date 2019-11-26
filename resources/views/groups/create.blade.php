@@ -35,7 +35,7 @@
             <label for="plan">イベントを選択してください</label>
             <select name="plan_id"  multiple class="form-control">
               @foreach($plans as $plan)
-                   <option value="{{ $plan->id}}">{{ $plan->name }}</option>
+                   <option value="{{ $plan->id}}">{{ $plan->title }}</option>
                @endforeach
             </select>
             <div class="form-group">
