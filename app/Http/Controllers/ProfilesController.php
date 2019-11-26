@@ -21,6 +21,10 @@ class ProfilesController extends Controller
                                 ->with('prefecture',Prefecture::all());
     }
 
+
+
+
+
     /**
      * Show the form for creating a new resource.
      *
@@ -110,14 +114,4 @@ class ProfilesController extends Controller
         return redirect()->back();
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
-    }
 }

@@ -10,6 +10,7 @@ use App\Category;
 use App\group;
 use App\plan;
 use Illuminate\Support\Facades\Storage;
+use DB;
 
 class GroupsController extends Controller
 {
@@ -24,6 +25,15 @@ class GroupsController extends Controller
         $groups = group::all();
         return view('groups.index')->with('groups',$groups);
     }
+
+    // public function filter(Request $request){
+    //     $group_name = DB::table('groups')
+    //                         ->select('category_id')
+    //                         ->groupBy('category_id')
+    //                         ->orderBy('Controller','ASC')
+    //                         ->get();
+    //     return view('groups.show',compact('group_name'));
+    // }
 
     /**
      * Show the form for creating a new resource.
@@ -78,6 +88,13 @@ class GroupsController extends Controller
     {
         return view('groups.show')->with('group',$group)
                                   ->with('user',Auth::user());
+
+        // フィルター機能
+        $name = DB::table('groups')
+                            ->select('Category')
+                            ->groupBy('Category')
+                            ->orderBy('Controller','ASC')
+                            ->get();
     }
 
     /**
