@@ -28,7 +28,7 @@
   <div class="d-inline-block">
   <div class="card-deck" style="width:24rem;">
     <a href="{{route('groups.show',['id'=>$group->id])}}" class="card">
-    <img src="{{asset($group->featured)}}" class="card-img" alt="{{$group->name}}" height="200px" width="220px">
+    <img src="{{asset($group->featured)}}" class="card-img" alt="{{$group->name}}" height="200px" width="250px">
     <div class="card-img-overlay">
         <div class="card-title"><h3>{{$group->name}}</h3></div>
         <p class="card-text"><i class="fas fa-users"></i> members</p>
@@ -42,7 +42,8 @@
 <hr>
 <div class="row">
     <div class="col-md-10"><h3>Category</h3></div>
-    <div class="col-md-2"><a href="{{route('plans.index')}}"><h5>See all</h5></a></div>
+    <div class="col-md-2"><a href="#"><h5>See all</h5></a></div>
+    {{-- リンク先をcategories.indexにかえる --}}
 </div>
 
 @foreach($categories as $category)
