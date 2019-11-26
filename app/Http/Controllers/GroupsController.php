@@ -33,7 +33,8 @@ class GroupsController extends Controller
     public function create()
     {
         return view('groups.create')->with('user',Auth::user())
-                                    ->with('categories',Category::all());
+                                    ->with('categories',Category::all())
+                                    ->with('plans',Plan::all());
     }
 
     /**
