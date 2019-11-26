@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <main>
-<div class="input-group bg-dark text-white p-2">
+<div class="input-group bg-navy text-white p-2">
     <div class="col-md-2"></div>
     <div class="col-md-4">
         <form action="/search" method="get">
@@ -54,4 +54,10 @@
     </div>
 @endforeach
 </main>
+<footer>
+    <div class="input-group bg-dark text-white p-2">
+
+    </div>
+
+</footer>
 @endsection
