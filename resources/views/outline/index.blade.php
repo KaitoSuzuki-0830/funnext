@@ -30,7 +30,7 @@
     <div class="card-img-overlay">
         <div class="card-title"><h3>{{$group->name}}</h3></div>
         <p class="card-text"><i class="fas fa-users"></i> members</p>
-        <p class="card-text"><i class="fas fa-tag"></i>{{$group->category->name}}</p>
+        {{-- <p class="card-text"><i class="fas fa-tag"></i>{{$group->category->name}}</p> --}}
     </div>
     </a>
     </div>
