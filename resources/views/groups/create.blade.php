@@ -22,7 +22,7 @@
     </div>
     <div class="form-group">
      <label for="category">カテゴリーを選択してください</label>
-     <select name="category_id" multiple class="form-control">
+     <select name="category_id" class="form-control">
        @foreach($categories as $category)
             <option value="{{ $category->id}}">{{ $category->name }}</option>
         @endforeach
@@ -30,6 +30,17 @@
      <div class="form-group">
          <a href="{{route('category.create')}}">カテゴリーがございませんか?</a>
      </div>
+    </div>
+    <div class="form-group">
+            <label for="plan">イベントを選択してください</label>
+            <select name="plan_id"  multiple class="form-control">
+              @foreach($plans as $plan)
+                   <option value="{{ $plan->id}}">{{ $plan->name }}</option>
+               @endforeach
+            </select>
+            <div class="form-group">
+                <a href="{{route('plans.create')}}">イベントを作りますか?</a>
+            </div>
     </div>
     <form action="{{ url('/images')}}" method="POST" enctype="multipart/form-data" class="form-horizontal">
         {{ csrf_field()}}
