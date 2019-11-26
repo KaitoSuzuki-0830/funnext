@@ -8,14 +8,20 @@
    <table class="table table-bordered">
     <thead>
      <tr>
+      <th>イメージ</th>
       <th>カテゴリー名</th>
+      <th>グループ一覧</th>
       <th><a href="{{ route('category.create')}}" class="btn btn-success"><i class="fas fa-plus"></i>　追加</a></th>
+      <th>削除</th>
+
      </tr>
     </thead>
     <tbody>
      @foreach($categories as $category)
       <tr>
+          <td>category image</td>
           <td>{{ $category->name}}</td>
+          <td>groups list</td>
           <td><a href="{{ route('category.edit',['id'=>$category->id])}}" class="btn btn-secondary"><i class="fas fa-edit"> 編集</i></a></td>
           <td>
             <form action="{{ route('category.destroy',['id'=>$category->id])}}" method="post">
@@ -28,9 +34,6 @@
      @endforeach
     </tbody>
    </table>
-   <div class="form-group text-center">
-    <a href="{{route('groups.create')}}" class="btn btn-primary btn-lg"><i class="fas fa-arrow-left"></i> 戻る</a>
-   </div>
  @else
   <p class="text-center">カテゴリーはありません</p>
  @endif
