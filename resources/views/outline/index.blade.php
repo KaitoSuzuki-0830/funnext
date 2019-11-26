@@ -38,21 +38,13 @@
 </div>
 @endforeach
 <hr>
-{{-- <h3>イベント　一覧</h3>
-@foreach($plans as $plan)
-  <div class="d-inline-block">
-  <div class="card-deck" style="width:24rem;">
-    <a href="{{route('plans.index',['id'=>$plan->id])}}" class="card">
-    <img src="{{asset($plan->featured)}}" class="card-img" alt="{{$plan->title}}" height="100%" width="100%">
-    <div class="card-img-overlay">
-        <div class="card-title"><h3>{{$plan->title}}</h3></div>
-        <p class="card-text"><i class="fas fa-tag"></i>{{$plan->category->name}}</p>
-        <p class="card-text"><i class="fas fa-map-marker-alt"></i>{{$plan->prefecture->name}}</p>
-        <p class="card-text"><i class="fas fa-yen-sign"></i>{{$plan->price}}</p>
+<h3>Category list</h3>
+@foreach($categories as $category)
+    <div class="d-inline-block">
+        <div class="card-deck" style="width:24rem;">
+            <a href="" class="card">
+                <img src="#" alt="#" class="card-img" height="200px" width="200px">
+            </a>
+        </div>
     </div>
-    </a>
-    </div>
-    </div>
-@endforeach --}}
-
 @endsection
