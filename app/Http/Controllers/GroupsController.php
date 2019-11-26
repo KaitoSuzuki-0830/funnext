@@ -56,7 +56,8 @@ class GroupsController extends Controller
         $featured_new_name = time().$featured->getClientOriginalName();
         // $filePath = 'images/'.$featured_new_name;
         // Storage::disk('s3')->put($filePath,file_get_contents($featured));
-        $group->featured = secure_asset('images/'.$featured_new_name);
+        $featured->move('uploads/groups/',$featured_new_name);
+        $group->featured = secure_asset('uploads/groups/'.$featured_new_name);
 
         $group->save();
 
