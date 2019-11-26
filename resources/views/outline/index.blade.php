@@ -44,6 +44,10 @@
         <div class="card-deck" style="width:24rem;">
             <a href="" class="card">
                 <img src="#" alt="#" class="card-img" height="200px" width="200px">
+                <div class="card-img-overlay">
+                    <h3>{{$category->name}}</h3>
+                    <p class="card-text"><i class="fas fa-users"></i> Group's count</p>
+                </div>
             </a>
         </div>
     </div>
