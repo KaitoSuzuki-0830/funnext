@@ -3,9 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Plan;
 use App\group;
-use DB;
+use App\Category;
 
 class OutlineController extends Controller
 {
@@ -17,9 +16,9 @@ class OutlineController extends Controller
     public function index()
     {
         $groups = group::take(6)->get();
-        $plans = plan::all();
+        $categories = Category::take(6)->get();
         return view('outline.index')->with('groups',$groups)
-                                    ->with('plans',$plans);
+                                    ->with('categories',$categories);
     }
 
      public function search(Request $request)
