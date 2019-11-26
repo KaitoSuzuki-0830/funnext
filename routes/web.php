@@ -52,4 +52,4 @@ Route::get('/user/{userId}','UserController@show');
 Route::get('login/{provider}', 'Auth\LoginController@redirectToProvider');
 Route::get('login/{provider}/callback','Auth\LoginController@handleProviderCallback');
 
-Route::get('/seach','OutlineController@search');
+Route::get('/search','OutlineController@search');

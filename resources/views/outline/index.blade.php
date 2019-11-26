@@ -3,7 +3,7 @@
 <div class="input-group bg-dark text-white p-2">
     <div class="col-md-2"></div>
     <div class="col-md-4">
-        <form action="outline.index/search" method="get">
+        <form action="/search" method="get">
           <div class="input-group">
               <input type="search" name="search" class="form-control">
               <span class="input-group-prepend">
