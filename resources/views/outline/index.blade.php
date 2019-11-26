@@ -62,7 +62,7 @@
 
 <footer>
     <div class="container-fluid">
-        <tbody class="input-group bg-dark p-5">
+        <div class="input-group bg-dark p-5">
             <a href="/about">使い方</a>
         <hr>
         <tbody class="row">
@@ -92,8 +92,8 @@
         </tbody>
 
         <hr>
-        <small>©︎ Relaccum 2019 ・　KaitoSuzuki</small>
-        <p>Terms of Service ・ Privacy Policy ・ Cookie Policy</p>
+            <small>©︎ Relaccum 2019 ・　KaitoSuzuki</small>
+            <p>Terms of Service ・ Privacy Policy ・ Cookie Policy</p>
         </div>
     </div>
 </footer>
