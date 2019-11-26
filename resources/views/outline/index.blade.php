@@ -3,13 +3,14 @@
 <div class="input-group bg-dark text-white p-2">
     <div class="col-md-2"></div>
     <div class="col-md-4">
-        <div class="input-group md-form form-sm form-1 p-1">
-         <div class="input-group-prepend">
-            <span class="input-group-text cyan lighten-2" id="basic-text1"><i class="fas fa-search text-white"
-            aria-hidden="true"></i></span>
-         </div>
-            <input class="form-control my-0 py-1" type="text" placeholder="Search" aria-label="Search">
-        </div>
+        <form action="outline.index/search" method="get">
+          <div class="form-group">
+              <input type="search" name="search" class="form-control">
+              <span class="input-group-prepend">
+                  <button type="submit" class="btn btn-primary">Search</button>
+              </span>
+          </div>
+        </form>
     </div>
     <div class="col-md-2"></div>
     <div class="col-md-1">

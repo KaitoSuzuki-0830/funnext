@@ -21,6 +21,12 @@ class OutlineController extends Controller
                                     ->with('plans',$plans);
     }
 
+     public function search(Request $request)
+    {
+        $search = $request->get('search');
+        $groups = DB::table('groups')->where('name','like','%'.$search.'%')->paginate(5);
+        return view('outline.index',['groups'=> $groups]);
+    }
     /**
      * Show the form for creating a new resource.
      *
