@@ -37,7 +37,7 @@
              <form action="{{ route('groups.destroy',['id' => $group->id])}}" method="groups">
                @csrf
                @method('DELETE')
-               <button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+               <button class="btn btn-danger"><i class="fas fa-trash-alt" onclick="return confirm('本当に削除しますか')"></i></button>
              </td>
         </tr>
        @endforeach
