@@ -42,6 +42,12 @@ class CategoryController extends Controller
         //dd($request->all());
         $category =new Category;
         $category->name = $request->name;
+
+        $featured = $request->featured;
+        $featured_new_name = time().$featured->getClientOriginalName();
+        $featured->move('uploads/categories/',$featured_new_name);
+        $category->featured = secure_asset('uploads/categories/'.$featured_new_name);
+
         $category->save();
 
         Session::flash('success','カテゴリーを作成しました');
@@ -80,6 +86,13 @@ class CategoryController extends Controller
     public function update(CreateCategoryRequest $request,Category $category)
     {
         $category->name = $request->name;
+
+        if($request->hasFile('featured')){
+            $featured = $request->featured;
+            $featured_new_name = time().$featured->getClientOriginalName();
+            $featured->move('uploads/plans/',$featured_new_name);
+            $category->featured = $featured_new_name;
+        }
         $category->save();
 
         return redirect(route('category.index'));
