@@ -50,11 +50,11 @@
             <a href="#" class="card">
                 <img src="#" alt="#" class="card-img" height="150px" width="150px">
                 <div class="card-img-overlay">
-                    <h3>{{$category->name}}</h3>
                     <p class="card-text"><i class="fas fa-users"></i> Group's count</p>
                 </div>
             </a>
         </div>
+        <h6>{{$category->name}}</h6>
     </div>
 @endforeach
 @endsection
