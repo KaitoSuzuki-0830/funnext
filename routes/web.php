@@ -53,4 +53,4 @@ Route::get('login/{provider}', 'Auth\LoginController@redirectToProvider');
 Route::get('login/{provider}/callback','Auth\LoginController@handleProviderCallback');
 
 Route::get('/search','OutlineController@search');
-Route::get('/group/{groupid}/{id}','GroupsController@join')->name('group.join');
+Route::get('/group/{groupid}/{id}','GroupsController@join');
