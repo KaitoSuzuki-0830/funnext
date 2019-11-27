@@ -55,6 +55,7 @@ Route::get('login/{provider}/callback','Auth\LoginController@handleProviderCallb
 Route::get('/search','OutlineController@search');
 Route::get('/search','GroupsController@search');
 Route::get('/search','PlansController@search');
+
 Route::get('/group/{groupid}/{userid}',[
     'uses' => 'GroupsController@join',
     'as' => 'group.join'

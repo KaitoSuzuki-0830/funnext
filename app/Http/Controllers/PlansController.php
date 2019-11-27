@@ -137,7 +137,7 @@ class PlansController extends Controller
     public function search(Request $request)
     {
         $search = $request->get('search');
-        $plans = plan::where('name','like','%'.$search.'%')->get();
+        $plans = plan::where('title','like','%'.$search.'%')->get();
 
         return view('plans.index')->with('plans',$plans);
     }
