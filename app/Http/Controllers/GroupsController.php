@@ -72,7 +72,6 @@ class GroupsController extends Controller
         $group->save();
 
         $group->plans()->attach($request->plan_id);
-        $group->users()->attach($request->user_id);
 
         Session::flash('success','新しいグループを作成しました！');
         return redirect(route('groups.index'));
@@ -152,6 +151,15 @@ class GroupsController extends Controller
         Storage::disk('s3')->delete('images/'.$image);
         Session::flash('success','グループを削除しました');
         return redirect(route('groups.index'));
+    }
+
+    public function join($groupid,$id){
+
+        $group = group::find($groupid);
+        $group->users()->attach($id);
+        Session::flash('success','Joined successfully');
+        return redirect()->route('outline.index');
+
     }
 
 

@@ -37,7 +37,7 @@ Route::put('/profile/update',[
 ]);
 
 Route::resource('groups','GroupsController');
-Route::resource('images','GroupsController',['only'=>['store','destroy']]);
+// Route::resource('images','GroupsController',['only'=>['store','destroy']]);
 Route::resource('category','CategoryController');
 Route::resource('plans','PlansController');
 
@@ -53,3 +53,4 @@ Route::get('login/{provider}', 'Auth\LoginController@redirectToProvider');
 Route::get('login/{provider}/callback','Auth\LoginController@handleProviderCallback');
 
 Route::get('/search','OutlineController@search');
+Route::get('/group/{groupid}/{id}','GroupsController@join')->name('group.join');
