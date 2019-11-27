@@ -9,7 +9,7 @@
         <div class="col-sm-4">
             <h1>{{ $group->name}}</h1>
             <p></p>
-            <p><i class="fas fa-user"></i> {{ $group->user->name}}</p>
+            <p><i class="fas fa-user"></i> {{ $organiser}}</p>
             <p><i class="fas fa-tag"></i> {{ $group->category->name}}</p>
             <p><i class="fas fa-home"></i> {{ $group->created_at}}</p>
             <p></p>

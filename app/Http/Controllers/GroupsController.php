@@ -86,8 +86,9 @@ class GroupsController extends Controller
      */
     public function show(group $group)
     {
+        $organiser = User::find($group->user_id);
         return view('groups.show')->with('group',$group)
-                                  ->with('user',Auth::user());
+                                  ->with('organiser',$organiser);
 
         // フィルター機能
         // $name = DB::table('groups')
