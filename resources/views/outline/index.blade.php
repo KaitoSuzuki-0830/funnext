@@ -35,8 +35,8 @@
         <p class="card-text"><i class="fas fa-tag"></i>{{$group->category->name}}</p>
     </div>
     </a>
-    <a href="{{ route('group.join',['group_id'=>$group->id,'id'=>Auth::id()])}}" class="btn float-right"><i class="fas fa-plus-circle fa-2x"></i></a>
     </div>
+    <a href="{{ route('group.join',['group_id'=>$group->id,'id'=>Auth::id()])}}" class="btn float-right"><i class="fas fa-plus-circle fa-2x"></i></a>
 
 </div>
 @endforeach
