@@ -19,7 +19,7 @@
     <tbody>
      @foreach($categories as $category)
       <tr>
-          <td>category image</td>
+          <td><img src="{{ $category->featured }}" alt="{{ $category->name }}" height="100px" width="100px;"></td>
           <td>{{ $category->name}}</td>
           <td><a href="#" class="btn btn-info"><i class="fas fa-list-ul"></i> groups list</a></td>
           <td><a href="{{ route('category.edit',['id'=>$category->id])}}" class="btn btn-secondary"><i class="fas fa-edit"> 編集</i></a></td>
