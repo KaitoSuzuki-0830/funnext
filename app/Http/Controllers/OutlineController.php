@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\group;
 use App\Category;
+use Illuminate\Support\Facades\Auth;
 
 class OutlineController extends Controller
 {
@@ -17,9 +18,11 @@ class OutlineController extends Controller
     {
         $groups = group::take(9)->get();
         $categories = Category::take(12)->get();
+        $user_id = Auth::user()->id();
 
         return view('outline.index')->with('groups',$groups)
-                                    ->with('categories',$categories);
+                                    ->with('categories',$categories)
+                                    ->with('user_id',$user_id);
     }
 
      public function search(Request $request)
