@@ -18,11 +18,11 @@ class OutlineController extends Controller
     {
         $groups = group::take(9)->get();
         $categories = Category::take(12)->get();
-        $user_id = Auth::user()->id();
+        $user = User::find(Auth::id());
 
         return view('outline.index')->with('groups',$groups)
                                     ->with('categories',$categories)
-                                    ->with('user_id',$user_id);
+                                    ->with('user',$user);
     }
 
      public function search(Request $request)
