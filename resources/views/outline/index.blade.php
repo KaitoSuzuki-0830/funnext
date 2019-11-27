@@ -48,7 +48,7 @@
     <div class="d-inline-block">
         <div class="card-deck" style="width:19rem;">
             <a href="#" class="card">
-                <img src="#" alt="#" class="card-img" height="150px" width="150px">
+                <img src="{{ $category->featured}}" alt="{{ $category->name}}" class="card-img" height="150px" width="150px">
                 <div class="card-img-overlay">
                     <p class="card-text"><i class="fas fa-users"></i> Group's count</p>
                 </div>
