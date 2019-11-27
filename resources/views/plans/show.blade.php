@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
- <h1>イベント　詳細　</h1>
+ <h1>イベント　詳細</h1>
  <div class="card" style="width:100%;">
         <img src="{{ $plan->featured }}" class="card-img-top" alt="{{$plan->title}}" height="200px" width="200px">
             <div class="card-body">
