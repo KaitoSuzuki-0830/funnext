@@ -5,7 +5,7 @@
         <div class="col-sm-8">
             <img src="{{ $group->featured }}" alt="{{ $group->title }}" height="300px" width="100%">
         </div>
-        <p class="col-sm-4">
+        <div class="col-sm-4">
             <h1>{{ $group->name}}</h1>
             <p></p>
             <p><i class="fas fa-user"></i> {{ $organiser->name}}</p>
