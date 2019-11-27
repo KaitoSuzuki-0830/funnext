@@ -20,10 +20,10 @@
 <hr>
     <div class="row" height="50px" width="100%">
         <div class="col-md-8">
-            <div class="col-md-3"><a href="#">概要</a></div>
-            <div class="col-md-3"><a href="{{ route('plans.index')}}">イベント</a></div>
-            <div class="col-md-3"><a href="#">メンバー</a></div>
-            <div class="col-md-3"><a href="#">会話</a></div>
+            <div class="col-md-2"><a href="#">概要</a></div>
+            <div class="col-md-2"><a href="{{ route('plans.index')}}">イベント</a></div>
+            <div class="col-md-2"><a href="#">メンバー</a></div>
+            <div class="col-md-2"><a href="#">会話</a></div>
         </div>
         <div class="col-md-4">
             <a href="{{ route('group.join',['group_id'=>$group->id,'id'=>Auth::id()])}}" class="btn btn-danger btn-lg" role="button"><i class="fas fa-plus-circle fa-1x">Join</i></a>
