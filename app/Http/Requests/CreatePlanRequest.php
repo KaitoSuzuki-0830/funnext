@@ -26,7 +26,7 @@ class CreatePlanRequest extends FormRequest
         return [
             'title'=>'required|max:20',
             'description'=>'required|min:20',
-            'featured'=>'required|image',
+            'featured'=>'required|image|max:2000',
             'category_id'=>'required',
             'place'=>'required',
             'price'=>'required'
