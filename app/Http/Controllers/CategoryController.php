@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Session;
 use App\Category;
 use App\Http\Requests\CreteCategoryRequest;
+use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Auth;
 
 class CategoryController extends Controller
@@ -86,14 +86,16 @@ class CategoryController extends Controller
     public function update(CreateCategoryRequest $request,Category $category)
     {
         $category->name = $request->name;
-
         if($request->hasFile('featured')){
             $featured = $request->featured;
             $featured_new_name = time().$featured->getClientOriginalName();
             $featured->move('uploads/plans/',$featured_new_name);
             $category->featured = $featured_new_name;
         }
+
         $category->save();
+
+        Session::flash('success','Category Updated Successfully');
 
         return redirect(route('category.index'));
     }
