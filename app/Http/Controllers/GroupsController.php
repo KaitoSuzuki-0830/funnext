@@ -10,7 +10,7 @@ use App\Category;
 use App\group;
 use App\plan;
 use Illuminate\Support\Facades\Storage;
-use DB;
+use App\User;
 
 class GroupsController extends Controller
 {
