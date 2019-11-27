@@ -54,7 +54,7 @@
                 </div>
             </a>
         </div>
-        <p class="font-weight-bold">{{$category->name}}</p>
+        <p class="font-weight-bolder">{{$category->name}}</p>
     </div>
 @endforeach
 @endsection
