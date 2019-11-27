@@ -33,7 +33,7 @@
     </a>
   </div>
   <div class="row justify-content-center">
-    <a href="group/{{$group->id}}/{{Auth::id()}}" class="btn btn-success btn-sm" role="button"><i class="fas fa-plus-circle fa-1x">Join</i></a>
+    <a href="{{ url(group/{$group->id}/{Auth::id()}) }}" class="btn btn-success btn-sm" role="button"><i class="fas fa-plus-circle fa-1x">Join</i></a>
   </div>
 </div>
 @endforeach

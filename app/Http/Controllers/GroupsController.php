@@ -153,10 +153,10 @@ class GroupsController extends Controller
         return redirect(route('groups.index'));
     }
 
-    public function join($groupid,$id){
+    public function join($groupid,$userid){
 
         $group = group::find($groupid);
-        $group->users()->attach($id);
+        $group->users()->attach($userid);
         Session::flash('success','Joined successfully');
         return redirect()->route('outline.index');
 
