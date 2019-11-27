@@ -1,7 +1,6 @@
 @extends('layouts.app')
 @section('content')
 <body>
-    <div class="container">
     <div class="row">
         <div class="col-sm-8">
             <img src="{{ $group->featured }}" alt="{{ $group->title }}" height="300px" width="100%">
@@ -14,22 +13,12 @@
             <p><i class="fas fa-home"></i> {{ $group->created_at}}</p>
             <p></p>
             <p><div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">シェア</a></div>
-            </p>
+            <p>twitter share</p>
+            <p><a href="{{ route('group.join',['group_id'=>$group->id,'id'=>Auth::id()])}}" class="btn btn-danger" role="button"><i class="fas fa-plus-circle fa-1x">Join</i></a></p>
         </div>
     </div>
 <hr>
-    <div class="row" height="50px" width="100%">
-        <div class="col-md-8">
-            <div class="col-md-2"><a href="#">概要</a></div>
-            <div class="col-md-2"><a href="{{ route('plans.index')}}">イベント</a></div>
-            <div class="col-md-2"><a href="#">メンバー</a></div>
-            <div class="col-md-2"><a href="#">会話</a></div>
-        </div>
-        <div class="col-md-4">
-            <a href="{{ route('group.join',['group_id'=>$group->id,'id'=>Auth::id()])}}" class="btn btn-danger btn-lg" role="button"><i class="fas fa-plus-circle fa-1x">Join</i></a>
-        </div>
-    </div>
-<hr>
+
     <div class="row">
         <div class="col-sm-8">
             <h5 class="text-center"><a href="#">グループ概要</a></h5>
