@@ -28,13 +28,12 @@
   <div class="d-inline-block">
   <div class="card-deck" style="width:24.5rem;">
     <a href="{{route('groups.show',['id'=>$group->id])}}" class="card">
+    <a href="{{ route('group.join',['group_id'=>$group->id,'id'=>Auth::id()])}}" class="float-right"><i class="fas fa-plus-circle fa-2x"></i></a>
     <img src="{{asset($group->featured)}}" class="card-img" alt="{{$group->name}}" height="200px" width="200px">
     <div class="card-img-overlay">
         <div class="card-title"><h3>{{$group->name}}</h3></div>
         <p class="card-text"><i class="fas fa-users"></i> members</p>
         <p class="card-text"><i class="fas fa-tag"></i>{{$group->category->name}}</p>
-        <p class="card-text float-right"><i class="fas fa-plus-circle fa-2x"></i></p>
-        {{-- <a href="{{ route('group.join',['group_id'=>$group->id,'id'=>Auth::id()])}}"></a> --}}
     </div>
     </a>
     </div>
