@@ -27,8 +27,7 @@
             {{-- <i href="{{ route('plans.create')}}"><i class="fas fa-plus"> イベント作成</i></i> --}}
         </div>
         <div class="col-sm-4">
-            <button type="submit" class="btn btn-danger" value="参加"></button>
-            <button type="submit" class="btn btn-outline-secondary" value="..."></button>
+                <a href="{{ route('group.join',['group_id'=>$group->id,'id'=>Auth::id()])}}" class="btn btn-success" role="button"><i class="fas fa-plus-circle fa-1x">Join</i></a>
         </div>
     </div>
     <hr>
