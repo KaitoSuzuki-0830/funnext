@@ -7,6 +7,7 @@ use App\Category;
 use App\Http\Requests\CreteCategoryRequest;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Storage;
 
 class CategoryController extends Controller
 {
@@ -46,7 +47,7 @@ class CategoryController extends Controller
         $featured = $request->file('featured');
         $featured_new_name = time().$featured->getClientOriginalName();
         $featured->move('uploads/categories/',$featured_new_name);
-        $category->featured = $featured_new_name;
+        //$category->featured = secure_asset('uploads/categories/'.$featured_new_name;
 
         $category->save();
 
