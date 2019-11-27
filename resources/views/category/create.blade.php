@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
  <div class="card">
-   <div class="card-header">{{ isset($category)?'カテゴリーを編集':'カテゴリーを作成'}}</div>
+   <div class="card-header">カテゴリーを作成しましょう</div>
    <div class="card-body">
     @if(count($errors)>0)
      <ul class="list-group">
@@ -10,23 +10,18 @@
       @endforeach
      </ul>
     @endif
-     <form action="{{ isset($category)? route('category.update',['id'=>$category->id]): route('category.store') }}" method="post">
-      @csrf
-      @if(isset($category))
-       @method('PUT')
-      @endif
+     <form action="{{ route('category.store')}}" method="post" enctype="multipart/form-data">
+     {{csrf_field()}}
       <div class="form-group">
         <label for="name">カテゴリー名</label>
-        <input type="text" name="name" class="form-control" value={{ isset($category)? $category->name :''}}>
+        <input type="text" name="name" class="form-control">
       </div>
       <div class="form-group">
           <label for="featured">カテゴリー写真</label>
           <input type="file" name="featured" class="form-control">
       </div>
       <div class="form-group text-center">
-        <button type="submit" class="btn btn-success btn-lg">
-         {{ isset($category)?'カテゴリーを編集': 'カテゴリーを作成'}}
-        </button>
+          <button type="submit" class="btn btn-success btn-lg">カテゴリーを作成</button>
       </div>
      </form>
    </div>
