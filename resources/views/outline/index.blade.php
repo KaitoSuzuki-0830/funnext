@@ -32,7 +32,7 @@
     </div>
     </a>
   </div>
-  <a href="{{ route('group.join',['group_id'=>$group->id,'id'=>Auth::id()])}}" class="btn btn-primary"><i class="fas fa-plus-circle fa-1x">Join</i></a>
+  <a href="{{ route('group.join',['group_id'=>$group->id,'id'=>Auth::id()])}}" class="btn btn-success justify-content-center" role="button"><i class="fas fa-plus-circle fa-1x">Join</i></a>
 </div>
 @endforeach
 <hr>
