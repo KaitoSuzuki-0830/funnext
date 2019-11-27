@@ -43,7 +43,7 @@ class CategoryController extends Controller
         $category =new Category;
         $category->name = $request->name;
 
-        $featured = $request->featured;
+        $featured = $request->file('featured');
         $featured_new_name = time().$featured->getClientOriginalName();
         $featured->move('uploads/categories/',$featured_new_name);
         $category->featured = $featured_new_name;
@@ -86,6 +86,7 @@ class CategoryController extends Controller
     public function update(CreateCategoryRequest $request,Category $category)
     {
         $category->name = $request->name;
+
         if($request->hasFile('featured')){
             $featured = $request->featured;
             $featured_new_name = time().$featured->getClientOriginalName();
