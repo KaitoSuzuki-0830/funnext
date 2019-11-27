@@ -2,7 +2,7 @@
 @section('content')
 <div class="card-body">
     <div class="row">
-        <div class="col-md-4"><h1>グループ一覧</h1></div>
+        <div class="col-md-4"><h1>グループ 一覧</h1></div>
         <div class="col-md-8">
                 <form action="/search" method="get">
                     <div class="input-group">
@@ -37,7 +37,7 @@
              <form action="{{ route('groups.destroy',['id' => $group->id])}}" method="groups">
                @csrf
                @method('DELETE')
-               <button class="btn btn-danger"><i class="fas fa-trash-alt" onclick="return confirm('本当に削除しますか')"></i></button>
+               <button class="btn btn-danger"><i class="fas fa-trash-alt" onclick="return confirm('本当に削除しますか?')"></i></button>
              </td>
         </tr>
        @endforeach

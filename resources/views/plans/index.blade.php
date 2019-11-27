@@ -39,7 +39,7 @@
              <form action="{{ route('plans.destroy',['id' => $plan->id])}}" method="post">
                @csrf
                @method('DELETE')
-               <button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+               <button class="btn btn-danger"><i class="fas fa-trash-alt" onclick="return confirm('本当に削除しますか?')"></i></button>
              </td>
         </tr>
        @endforeach
