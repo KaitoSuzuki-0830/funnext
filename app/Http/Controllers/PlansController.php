@@ -134,4 +134,12 @@ class PlansController extends Controller
         return redirect(route('plans.index'));
     }
 
+    public function search(Request $request)
+    {
+        $search = $request->get('search');
+        $plans = plan::where('name','like','%'.$search.'%')->get();
+
+        return view('plans.index')->with('plans',$plans);
+    }
+
 }
