@@ -33,7 +33,7 @@
         <div class="card-title"><h3>{{$group->name}}</h3></div>
         <p class="card-text"><i class="fas fa-users"></i> members</p>
         <p class="card-text"><i class="fas fa-tag"></i>{{$group->category->name}}</p>
-        <a href="{{ route('group.join',['group_id'=>$group->id,'id'=>Auth::id()])}}" class="card-text float-right"><i class="fas fa-plus-circle fa-2x"></i></a>
+        <p><a href="{{ route('group.join',['group_id'=>$group->id,'id'=>Auth::id()])}}" class="card-text"><i class="fas fa-plus-circle fa-2x"></i></a></p>
     </div>
     </a>
     </div>
