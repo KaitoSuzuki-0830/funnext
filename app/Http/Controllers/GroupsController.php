@@ -162,5 +162,13 @@ class GroupsController extends Controller
 
     }
 
+    public function search(Request $request)
+    {
+        $search = $request->get('search');
+        $groups = group::where('name','like','%'.$search.'%')->get();
+
+        return view('groups.index')->with('groups',$groups);
+    }
+
 
 }

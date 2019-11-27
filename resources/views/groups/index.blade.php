@@ -2,15 +2,17 @@
 @section('content')
 <div class="card-body">
     <div class="row">
-        <div class="col-md-5"><h1>グループ一覧</h1></div>
-        <div class="col-md-5">
-            {{-- <div class="form-group">
-                <select name="filter_group" id="filter_group" class="form-control" required>
-                    <option value=""></option>
-                </select>
-            </div> --}}
+        <div class="col-md-4"><h1>グループ一覧</h1></div>
+        <div class="col-md-8">
+                <form action="/search" method="get">
+                    <div class="input-group">
+                        <input type="search" name="search" class="form-control">
+                        <span class="input-group-prepend">
+                            <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i></button>
+                        </span>
+                    </div>
+                </form>
         </div>
-        <div class="col-md-2"></div>
     </div>
     @if(count($groups) > 0)
      <table class="table table-bordered">
