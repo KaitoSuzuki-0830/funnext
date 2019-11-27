@@ -9,7 +9,7 @@
         <div class="col-sm-4">
             <h1>{{ $group->name}}</h1>
             <p></p>
-            <p><i class="fas fa-user"></i> {{ $organiser}}</p>
+            <p><i class="fas fa-user"></i> {{ $organiser->name}}</p>
             <p><i class="fas fa-tag"></i> {{ $group->category->name}}</p>
             <p><i class="fas fa-home"></i> {{ $group->created_at}}</p>
             <p></p>
@@ -39,7 +39,7 @@
         </div>
         <div class="col-sm-4">
             <h6>代表者</h6>
-            <p>{{ $organiser}}</p>
+            <p>{{ $organiser->name }}</p>
             <h6>メンバー(Count)<a href="#">一覧</a></h6>
             <p><i class="fas fa-users"></i></p>
         </div>
