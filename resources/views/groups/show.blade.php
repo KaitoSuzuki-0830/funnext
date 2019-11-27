@@ -39,7 +39,7 @@
         </div>
         <div class="col-sm-4">
             <h6>代表者</h6>
-            <p>{{ $group->user->name}}</p>
+            <p>{{ $organiser}}</p>
             <h6>メンバー(Count)<a href="#">一覧</a></h6>
             <p><i class="fas fa-users"></i></p>
         </div>
