@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\group;
 use App\Category;
+use App\User;
 use Illuminate\Support\Facades\Auth;
 
 class OutlineController extends Controller
