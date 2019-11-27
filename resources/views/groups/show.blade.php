@@ -67,7 +67,7 @@
         <div class="col-sm-4"></div>
     </div>
 <hr>
-    <div class="col-md-6 col-md-offset-3">
+    <div class="col-md-12 ">
      <div id="disqus_thread">
      {{-- 　　ディスカッションページ --}}
         <script>
