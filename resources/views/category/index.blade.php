@@ -11,7 +11,7 @@
       <th>イメージ</th>
       <th>カテゴリー名</th>
       <th>グループ一覧</th>
-      <th colspan="2"><a href="{{ route('category.create')}}" class="btn btn-success"><i class="fas fa-plus"></i>　追加</a></th>
+      <th><a href="{{ route('category.create')}}" class="btn btn-success"><i class="fas fa-plus"></i>　追加</a></th>
 
 
      </tr>
@@ -22,7 +22,6 @@
           <td><img src="{{ $category->featured }}" alt="{{ $category->name }}" height="100px" width="100px;"></td>
           <td>{{ $category->name}}</td>
           <td><a href="#" class="btn btn-info"><i class="fas fa-list-ul"></i> groups list</a></td>
-          <td><a href="{{ route('category.edit',['id'=>$category->id])}}" class="btn btn-secondary"><i class="fas fa-edit"> 編集</i></a></td>
           <td>
             <form action="{{ route('category.destroy',['id'=>$category->id])}}" method="post">
              @csrf
