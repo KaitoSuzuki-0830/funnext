@@ -17,6 +17,19 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//入力ページ
+Route::get('/contact', 'ContactController@index')->name('contact.index');
+
+//確認ページ
+Route::post('/contact/confirm', 'ContactController@confirm')->name('contact.confirm');
+
+//送信完了ページ
+Route::post('/contact/thanks', 'ContactController@send')->name('contact.send');
+
+Route::get('/contact', 'ContactController@index')->name('contact.index');
+Route::get('/contact', 'ContactController@confirm');
+Route::get('/contact', 'ContactController@thanks');
+
 Route::view('/about', 'about');
 Route::resource('outline','OutlineController')->middleware('auth');
 Route::get('/help','ContactsController@help');
@@ -41,9 +54,6 @@ Route::resource('groups','GroupsController');
 Route::resource('category','CategoryController');
 Route::resource('plans','PlansController');
 
-Route::get('contacts','ContactsController@index');
-Route::post('contacts/confirm','ContactsController@confirm');
-Route::post('contacts/complete','ContactsController@complete');
 
 Route::post('/pay','PaymentController@pay')->name('pay');
 
