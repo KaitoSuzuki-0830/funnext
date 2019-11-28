@@ -145,10 +145,10 @@ class GroupsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(group $group,$image)
+    public function destroy(group $group)
     {
         $group->delete();
-        Storage::disk('s3')->delete('images/'.$image);
+       // Storage::disk('s3')->delete('images/'.$image);
         Session::flash('success','グループを削除しました');
         return redirect(route('groups.index'));
     }
