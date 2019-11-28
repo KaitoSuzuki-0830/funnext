@@ -145,8 +145,9 @@ class GroupsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(group $group)
+    public function destroy($id)
     {
+        $group = group::find($id);
         $group->forceDelete();
        // Storage::disk('s3')->delete('images/'.$image);
         Session::flash('success','グループを削除しました');
