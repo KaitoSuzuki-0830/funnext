@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-md-4"><h1>グループ 一覧</h1></div>
         <div class="col-md-8">
-                <form action="/search" method="get">
+                <form action="/groupsearch" method="get">
                     <div class="input-group">
                         <input type="search" name="search" class="form-control">
                         <span class="input-group-prepend">

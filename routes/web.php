@@ -52,9 +52,9 @@ Route::get('/user/{userId}','UserController@show');
 Route::get('login/{provider}', 'Auth\LoginController@redirectToProvider');
 Route::get('login/{provider}/callback','Auth\LoginController@handleProviderCallback');
 
-Route::get('/search','OutlineController@search');
-Route::get('/search','GroupsController@search');
-Route::get('/search','PlansController@search');
+Route::get('/outlinesearch','OutlineController@search');
+Route::get('/groupsearch','GroupsController@search');
+Route::get('/plansearch','PlansController@search');
 
 Route::get('/group/{groupid}/{userid}',[
     'uses' => 'GroupsController@join',

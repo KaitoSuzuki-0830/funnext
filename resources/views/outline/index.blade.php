@@ -4,7 +4,7 @@
     {{-- Search box  --}}
     <div class="col-md-1"></div>
     <div class="col-md-10">
-        <form action="/search" method="get">
+        <form action="/outlinesearch" method="get">
           <div class="input-group">
               <input type="search" name="search" class="form-control">
               <span class="input-group-prepend">
