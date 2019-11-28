@@ -7,7 +7,6 @@ use App\Category;
 use App\Http\Requests\CreteCategoryRequest;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Storage;
 
 class CategoryController extends Controller
 {
