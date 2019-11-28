@@ -12,7 +12,8 @@
                     <input
                         name="email"
                         value="{{ old('email') }}"
-                        type="text">
+                        type="text"
+                        class="form-control">
                     @if ($errors->has('email'))
                         <p class="error-message">{{ $errors->first('email') }}</p>
                     @endif
@@ -22,14 +23,15 @@
                     <input
                         name="title"
                         value="{{ old('title') }}"
-                        type="text">
+                        type="text"
+                        class="form-control">
                     @if ($errors->has('title'))
                         <p class="error-message">{{ $errors->first('title') }}</p>
                     @endif
             </div>
             <div class="form-group">
                     <label>お問い合わせ内容</label>
-                    <textarea name="body">{{ old('body') }}</textarea>
+                    <textarea name="body" cols="10" rows="10" class="form-control">{{ old('body') }}</textarea>
                     @if ($errors->has('body'))
                         <p class="error-message">{{ $errors->first('body') }}</p>
                     @endif
