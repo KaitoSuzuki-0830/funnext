@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 //入力ページ
-Route::view('/contact', 'ContactController@index')->name('contact.index');
+Route::get('/contact', 'ContactController@index')->name('contact.index');
 
 //確認ページ
 Route::post('/contact/confirm', 'ContactController@confirm')->name('contact.confirm');
@@ -30,7 +30,9 @@ Route::get('/contact', 'ContactController@index')->name('contact.index');
 Route::get('/contact', 'ContactController@confirm')->name('contact.index');
 Route::get('/contact', 'ContactController@send');
 
+Route::view('/contact','contact');
 Route::view('/about', 'about');
+
 Route::resource('outline','OutlineController')->middleware('auth');
 // Route::get('/help','ContactsController@help');
 
