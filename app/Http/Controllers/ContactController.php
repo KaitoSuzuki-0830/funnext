@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Mail\ContactSendmail;
 
 class ContactController extends Controller
 {
@@ -50,8 +51,8 @@ class ContactController extends Controller
             return redirect()
                 ->route('contact.index')
                 ->withInput($inputs);
-
-        } else {
+        }
+        else {
             //入力されたメールアドレスにメールを送信
             \Mail::to($inputs['email'])->send(new ContactSendmail($inputs));
 
