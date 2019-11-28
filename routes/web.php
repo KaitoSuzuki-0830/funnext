@@ -16,7 +16,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
+Route::resource('contact','ContactController');
 //入力ページ
 Route::get('/contact', 'ContactController@index')->name('contact.index');
 
@@ -30,7 +30,6 @@ Route::get('/contact', 'ContactController@index')->name('contact.index');
 Route::get('/contact', 'ContactController@confirm')->name('contact.index');
 Route::get('/contact', 'ContactController@send');
 
-Route::view('/contact','contact');
 Route::view('/about', 'about');
 
 Route::resource('outline','OutlineController')->middleware('auth');
