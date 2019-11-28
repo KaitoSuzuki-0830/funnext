@@ -9,6 +9,7 @@ class group extends Model
 {
     //use SoftDeletes;
     //protected $dates = ['deleted_at'];
+    protected $fillable = ['name','slug','description','featured','category_id','user_id'];
 
     public function category(){
         return $this->belongsTo('App\Category');
