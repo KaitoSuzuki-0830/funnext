@@ -12,7 +12,7 @@ $factory->define(group::class, function (Faker $faker) {
         'slug' => str_slug($name),
         'description' => $faker->paragraph(3),
         'featured' => secure_asset('uploads/groups/php2.png'),
-        'category_id' => $faker->randomDigit,
+        'category_id' => $faker->randomDigitNotNull,
         'user_id' => $faker->randomDigitNotNull
 
     ];
