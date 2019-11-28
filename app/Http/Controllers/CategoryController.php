@@ -44,10 +44,10 @@ class CategoryController extends Controller
         $category =new Category;
         $category->name = $request->name;
 
-        $featured = $request->file('featured');
+        $featured = $request->featured;
         $featured_new_name = time().$featured->getClientOriginalName();
         $featured->move('uploads/categories/',$featured_new_name);
-        //$category->featured = secure_asset('uploads/categories/'.$featured_new_name;
+        $category->featured = secure_asset('uploads/categories/'.$featured_new_name);
 
         $category->save();
 
