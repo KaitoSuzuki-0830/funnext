@@ -32,7 +32,7 @@
         <tr>
            <td> <img src="{{ asset('uploads/plans/'.$plan->featured)}}" alt="{{ $plan->title }}" height="90px" width="90px"style="border-radius: 80%"></td>
            <td>{{ $plan->title}}</td>
-           <td>Prefecture</td>
+           <td>{{ $plan->place}}</td>
            <td>¥ {{$plan->price}}</td>
            <td><a href="{{ route('plans.show',['id'=>$plan->id])}}" class="btn btn-primary"><i class="far fa-eye"></i></a></td>
            <td>
@@ -51,4 +51,4 @@
   </div>
   </div>
 
- @endsection
+@endsection
