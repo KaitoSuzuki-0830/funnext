@@ -32,7 +32,7 @@ Route::get('/contact', 'ContactController@thanks');
 
 Route::view('/about', 'about');
 Route::resource('outline','OutlineController')->middleware('auth');
-Route::get('/help','ContactsController@help');
+// Route::get('/help','ContactsController@help');
 
 Auth::routes();
 
