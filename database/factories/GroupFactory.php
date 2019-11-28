@@ -7,6 +7,7 @@ use Faker\Generator as Faker;
 
 $factory->define(group::class, function (Faker $faker) {
     return [
+        'id'=>$faker->randomDigitNot(0),
         $name=$faker->sentence(3),
         'name'=> $name,
         'slug' => str_slug($name),
