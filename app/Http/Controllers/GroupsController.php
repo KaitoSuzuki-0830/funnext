@@ -148,7 +148,7 @@ class GroupsController extends Controller
     public function destroy($id)
     {
         $group = group::find($id);
-        $group->forceDelete();
+        $group->delete();
        // Storage::disk('s3')->delete('images/'.$image);
         Session::flash('success','グループを削除しました');
         return redirect(route('groups.index'));
