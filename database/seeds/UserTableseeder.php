@@ -25,7 +25,8 @@ class UserTableseeder extends Seeder
             'about' => '自己紹介を記入してください。より具体的に書くことであなたことをより理解できるプロフィールになります。',
             'facebook' => 'https://www.facebook.com',
             'twitter'=>'https://www.twitter.com',
-            'instagram'=>'webサイトを追加する'
+            'instagram'=>'webサイトを追加する',
+            'place'=>'Tokyo'
         ]);
     }
 }
