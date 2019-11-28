@@ -28,7 +28,7 @@ Route::post('/contact/thanks', 'ContactController@send')->name('contact.send');
 
 Route::get('/contact', 'ContactController@index')->name('contact.index');
 Route::get('/contact', 'ContactController@confirm');
-Route::get('/contact', 'ContactController@thanks');
+Route::get('/contact', 'ContactController@send');
 
 Route::view('/about', 'about');
 Route::resource('outline','OutlineController')->middleware('auth');
