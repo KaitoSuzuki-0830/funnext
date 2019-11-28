@@ -34,7 +34,7 @@
            <td>{{ $group->category->name}}</td>
            <td><a href="{{ route('groups.show',['id'=>$group->id])}}" class="btn btn-primary"><i class="far fa-eye"></i></a></td>
            <td>
-             <form action="{{ route('groups.destroy',['id' => $group->id])}}" method="groups">
+             <form action="{{ route('groups.destroy',['id' => $group->id])}}" method="post">
                @csrf
                @method('DELETE')
                <button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
