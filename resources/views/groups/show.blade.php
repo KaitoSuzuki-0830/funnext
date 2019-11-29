@@ -22,20 +22,20 @@
 
     <div class="row">
         <div class="col-sm-8">
-            <h5 class="text-center"><a href="#">グループ概要</a></h5>
+            <h5 class="text-center">グループ概要</h5>
             <p>{{ $group->description}}</p>
         </div>
         <div class="col-sm-4">
             <h6>代表者</h6>
             <p>{{ $organiser->name }}</p>
-            <h6>メンバー(Count)<a href="#">一覧</a></h6>
+            <h6>メンバー(Count)一覧</h6>
             <p><i class="fas fa-users"></i></p>
         </div>
     </div>
 <hr>
     <div class="row">
         <div class="col-sm-8">
-            <h5 class="text-center"><a href="#">イベントリスト</a></h5>
+            <h5 class="text-center">イベントリスト</h5>
             @foreach($group->plans as $plan)
                 <div class="card" style="width:100%;">
                     <img src="{{ $plan->featured }}" class="card-img-top" alt="{{$plan->title}}" height="200px" width="200px">
