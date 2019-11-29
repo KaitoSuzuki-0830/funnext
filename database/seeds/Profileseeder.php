@@ -15,10 +15,10 @@ class Profileseeder extends Seeder
     public function run()
     {
         $user=User::create([
-            'name'=>'user',
+            'name'=>'guest',
             'email'=>'sample@gmail.com',
             'password'=>bcrypt('password')
-        ]);
+        ]);;
 
         Profile::create([
             'user_id'=>$user->id,

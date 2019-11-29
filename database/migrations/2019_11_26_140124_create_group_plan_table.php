@@ -14,7 +14,7 @@ class CreateGroupPlanTable extends Migration
     public function up()
     {
         Schema::create('group_plan', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->Increments('id');
             $table->integer('group_id');
             $table->integer('plan_id');
             $table->timestamps();
