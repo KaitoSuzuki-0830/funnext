@@ -57,10 +57,10 @@ class PlansController extends Controller
         $plan->user_id = Auth::user()->id;
         $plan->category_id = $request->category_id;
 
-        $featured = $request->featured;
-        $featured_new_name = time().$featured->getClientOriginalName();
-        $featured->move('uploads/plans/',$featured_new_name);
-        $plan->featured = secure_asset('uploads/plans/'.$featured_new_name);
+        // $featured = $request->featured;
+        // $featured_new_name = time().$featured->getClientOriginalName();
+        // $featured->move('uploads/plans/',$featured_new_name);
+        // $plan->featured = secure_asset('uploads/plans/'.$featured_new_name);
 
         $plan->save();
 
@@ -108,12 +108,12 @@ class PlansController extends Controller
         $plan->price = $request->price;
         $plan->pref_id = $request->pref_id;
         $plan->category_id = $request->category_id;
-        if($request->hasFile('featured')){
-            $featured = $request->featured;
-            $featured_new_name = time().$featured->getClientOriginalName();
-            $featured->move('uploads/plans/',$featured_new_name);
-            $plan->featured = $featured_new_name;
-        }
+        // if($request->hasFile('featured')){
+        //     $featured = $request->featured;
+        //     $featured_new_name = time().$featured->getClientOriginalName();
+        //     $featured->move('uploads/plans/',$featured_new_name);
+        //     $plan->featured = $featured_new_name;
+        // }
 
         $plan->save();
         Session::flash('success','イベントを更新しました');
