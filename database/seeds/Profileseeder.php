@@ -22,9 +22,9 @@ class Profileseeder extends Seeder
 
         Profile::create([
             'user_id'=>$user->id,
-            'avatar' =>'uploads/avatar/sample.png',
+            'avatar' =>secure_asset('uploads/avatar/sample.png'),
             'about' => '自己紹介を書くことができます',
-            'place'=>'Tokyo',
+            'pref_id'=>,
             'facebook' => 'facebookアカウント追加してください',
             'instagram'=>'その他webリンクを追加する',
             'twitter'=>'Twitterアカウント追加してください'
