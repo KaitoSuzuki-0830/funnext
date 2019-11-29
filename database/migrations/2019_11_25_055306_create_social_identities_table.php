@@ -14,7 +14,7 @@ class CreateSocialIdentitiesTable extends Migration
     public function up()
     {
         Schema::create('social_identities', function (Blueprint $table) {
-            $table->Increments('id');
+            $table->increments('id');
             $table->bigInteger('user_id');
             $table->string('provider_name')->nullable();
             $table->string('provider_id')->unique()->nullable();
