@@ -54,8 +54,8 @@
     <label for="In"><i class="fas fa-link"></i> Webリンク</label>
     <input type="text" name="weblink" class="form-control" value="{{ $user->profile->instagram}}">
 </div>
-<div class="form-group text-center btn-lg">
-    <button type="submit" class="btn btn-success btn-sm">更新する</button>
+<div class="form-group text-center">
+    <button type="submit" class="btn btn-success btn-lg">更新する</button>
 </div>
  </form>
  </div>
