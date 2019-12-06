@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<div id="g1">
+<div id="g1 p-5">
 <div class="card-body">
     <div class="row">
         <div class="col-md-4"><h1>グループ 一覧</h1></div>
