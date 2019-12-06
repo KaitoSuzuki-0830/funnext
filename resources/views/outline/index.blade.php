@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<img src="https://images.unsplash.com/photo-1525026198548-4baa812f1183?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1233&q=80" alt="" width="100vw" height="500px">
+<img src="https://images.unsplash.com/photo-1525026198548-4baa812f1183?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1233&q=80" alt="" width="1500px" height="500px">
 <div class="input-group bg-dark text-white p-2">
     {{-- Search box  --}}
     <div class="col-md-1"></div>
