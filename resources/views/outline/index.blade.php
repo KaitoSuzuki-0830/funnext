@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('content')
+<img src="https://images.pexels.com/photos/3224164/pexels-photo-3224164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
 <div class="input-group bg-dark text-white p-2">
     {{-- Search box  --}}
     <div class="col-md-1"></div>
