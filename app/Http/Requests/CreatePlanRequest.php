@@ -26,9 +26,10 @@ class CreatePlanRequest extends FormRequest
         return [
             'title'=>'required|max:20',
             'description'=>'required|min:20',
-            'category_id'=>'required',
+            'price'=>'required|numeric',
+            'pref_id'=>'required',
             'place'=>'required',
-            'price'=>'required'
+            'category_id'=>'required',
         ];
     }
 }
