@@ -18,7 +18,6 @@ class CreatePlansTable extends Migration
             $table->string('title');
             $table->string('slug');
             $table->text('description');
-            $table->string('featured');
             $table->integer('price');
             $table->integer('pref_id');
             $table->string('place');
