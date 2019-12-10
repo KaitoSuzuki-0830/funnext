@@ -40,9 +40,6 @@
     </script>
     <div id="app">
         @include('inc.footer')
-        <div class="container">
-        @yield('content')
-        </div>
     </div>
     <script id="dsq-count-scr" src="//myproduct.disqus.com/count.js" async></script>
     <div id="fb-root"></div>
