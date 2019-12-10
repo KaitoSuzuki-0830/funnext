@@ -1,6 +1,4 @@
-body {
-    background-color:aquamarine;
-}
+
 /* footer */
 #footerlist{
     list-style: none;
@@ -14,7 +12,6 @@ body {
 footer{
     border-top: 1px solid #bfcbd9;
     width: 100%;
-    background-color: chocolate;
 }
 
 h3.footermenu{
@@ -34,6 +31,6 @@ li.footercontent{
     line-height: 30px;
 }
 
-h5.righttext{
+small.righttext{
     text-align: center;
 }
