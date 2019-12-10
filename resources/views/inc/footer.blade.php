@@ -3,21 +3,22 @@
         <div class="container">
             <div class="row">
                 <ul class="col-md-4" id="footerlist">
-                        <li>アカウント</li>
-                        <li>探す・作る</li>
-                        <li>サービス</li>
+                        <li><h5>ABOUT</h5></li>
+                        <li>Relaccumとは</li>
+                        <li>利用規約</li>
+                        <li>お問い合わせ</li>
                 </ul>
                 <ul class="col-md-4" id="footerlist">
-                        <li><a href="">Sign up</a></li>
-                        <li><a href="">グループ</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Log in</a></li>
-                        <li><a href="">イベント</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="">カテゴリー</a></li>
+                        <li><h5>Menu</h5></li></li>
+                        <li><a href="">グループを探す</a></li>
+                        <li><a href="">イベントを探す</a></li>
+                        <li><a href="">カテゴリーを探す</a></li>
                 </ul>
                 <ul class="col-md-4" id="footerlist">
                         <h3>Follow us</h3>
+                        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
                 </ul>
             </div>
             <div class="col-md 12">
