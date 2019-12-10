@@ -9,6 +9,9 @@ body {
 #snsicon{
     float: left;
 }
+li.footercontent a{
+    text-decoration: none;
+}
 
 /* .footercontent{
 
