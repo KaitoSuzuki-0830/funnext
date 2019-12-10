@@ -26,6 +26,7 @@
         @include('inc.navbar')
         <div class="container">
         @yield('content')
+        @include('inc.footer')
         </div>
     </div>
     <script src="{{ asset('js/app.js') }}"></script>
@@ -38,9 +39,6 @@
             toastr.info("{{ Session::get('info')}}")
         @endif
     </script>
-    <div id="app">
-        @include('inc.footer')
-    </div>
     <script id="dsq-count-scr" src="//myproduct.disqus.com/count.js" async></script>
     <div id="fb-root"></div>
 <script async  crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v5.0&appId=467764400530816&autoLogAppEvents=1"></script>
