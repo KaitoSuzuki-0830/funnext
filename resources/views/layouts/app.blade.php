@@ -26,8 +26,8 @@
         @include('inc.navbar')
         <div class="container">
         @yield('content')
-        @include('inc.footer')
         </div>
+        @include('inc.footer')
     </div>
     <script src="{{ asset('js/app.js') }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
