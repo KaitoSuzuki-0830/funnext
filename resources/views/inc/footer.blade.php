@@ -16,13 +16,15 @@
                 </ul>
                 <ul class="col-md-4" id="footerlist">
                         <h3>Follow us</h3>
-                        <li><a href=""><i class="fab fa-facebook"></i></a></li>
-                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-facebook fa-2x"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram fa-2x"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter fa-2x"></i></a></li>
                 </ul>
             </div>
-            <div class="col-md-12">
-                <h5>©︎Relaccum 2019 ・　KaitoSuzuki</h5>
+            <div class="row">
+                <div class="col-md-12">
+                    <h5>©︎Relaccum 2019 ・　KaitoSuzuki</h5>
+                </div>
             </div>
         </div>
     </div>
