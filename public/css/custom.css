@@ -1,4 +1,7 @@
 body {
     background-color:aquamarine;
 }
-
+/* footer */
+#footerlist{
+    list-style: none;
+}
