@@ -8,6 +8,7 @@ body {
 
 #snsicon{
     float: left;
+    justify-content: center;
 }
 
 footer{

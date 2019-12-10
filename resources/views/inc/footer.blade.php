@@ -5,9 +5,8 @@
                 <div class="col-md-4">
                     <h3 class="footermenu">ABOUT</h3>
                     <ul id="footerlist">
-                        <li class="footercontent">Relaccumとは</li>
-                        <li class="footercontent">利用規約</li>
-                        <li class="footercontent">お問い合わせ</li>
+                        <li class="footercontent"><a href="">Relaccumとは</a></li>
+                        <li class="footercontent"><a href="">お問い合わせ</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
