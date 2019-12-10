@@ -18,6 +18,7 @@ footer{
 }
 
 h3.footermenu{
+    margin-top: 10px;
     text-align: center;
     font-style: bold;
 }
