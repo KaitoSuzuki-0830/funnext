@@ -1,10 +1,7 @@
 <footer>
-        <div class="container-fluid">
-            <div class="container">
-                <div class="input-group p-5">
-                    <a href="/about">使い方</a>
-                <hr>
-                <tbody class="row">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
                 <tbody class="col-md-4">
                     <thead>
                         <th>アカウント</th>
@@ -23,15 +20,14 @@
                         <td><a href="">カテゴリー</a></td>
                         <td><a href=""></a></td>
                 </tbody>
-                <div class="">
                     <tbody class="col-md-4">
                         <td>Follow us</td>
                     </tbody>
-                </div>
-                <hr>
-                    <small>©︎Relaccum 2019 ・　KaitoSuzuki</small>
-                    <p>Terms of Service ・ Privacy Policy ・ Cookie Policy</p>
-                </div>
+            </div>
+            <div class="col-md 12">
+                <small>©︎Relaccum 2019 ・　KaitoSuzuki</small>
+                <p>Terms of Service ・ Privacy Policy ・ Cookie Policy</p>
             </div>
         </div>
+    </div>
 </footer>
