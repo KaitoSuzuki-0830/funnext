@@ -10,10 +10,6 @@ body {
     float: left;
 }
 
-/* .footercontent{
-
-} */
-
 footer{
     width: 100%;
     background-color: chocolate;
@@ -22,4 +18,9 @@ footer{
 h3.footermenu{
     text-align: center;
     font-style: bold;
+}
+
+li.footercontent{
+    text-align: center;
+    text-decoration: none;
 }
