@@ -82,7 +82,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <img src="uploads/logo/relaccumtitle.png" alt="">
+                    <img src="uploads/logo/relaccumtitle.png" alt="" width="80%" height="80%">
                 </div>
 
 
