@@ -18,3 +18,8 @@ footer{
     width: 100%;
     background-color: chocolate;
 }
+
+.footermenu{
+    text-align: center;
+    font-style: bold;
+}
