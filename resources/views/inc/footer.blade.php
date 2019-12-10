@@ -28,7 +28,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h5>©︎Relaccum 2019 ・　KaitoSuzuki</h5>
+                    <h5 class="righttext">©︎Relaccum 2019 ・　KaitoSuzuki</h5>
                 </div>
             </div>
         </div>

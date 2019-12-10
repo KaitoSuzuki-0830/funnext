@@ -18,12 +18,21 @@ footer{
 }
 
 h3.footermenu{
-    margin-top: 10px;
+    margin-top: 15px;
     text-align: center;
     font-style: bold;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
 }
 
 li.footercontent{
     text-align: center;
     line-height: 30px;
+}
+
+h5.righttext{
+    text-align: center;
 }
