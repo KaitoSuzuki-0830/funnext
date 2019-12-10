@@ -11,6 +11,7 @@ body {
 }
 
 footer{
+    margin-top: 10%;
     width: 100%;
     background-color: chocolate;
 }
@@ -22,5 +23,5 @@ h3.footermenu{
 
 li.footercontent{
     text-align: center;
-    text-decoration: none;
+    line-height: 30px;
 }
