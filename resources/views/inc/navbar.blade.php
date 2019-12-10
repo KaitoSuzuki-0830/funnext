@@ -31,7 +31,7 @@
                         <a class="nav-link" href="/about">Relaccumとは</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/contact">ヘルプ</a>
+                        <a class="nav-link" href="/contact">Contact</a>
                     </li>
                 <!-- Authentication Links -->
                 @guest

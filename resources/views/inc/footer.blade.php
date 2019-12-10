@@ -5,16 +5,16 @@
                 <div class="col-md-4">
                     <h3 class="footermenu">ABOUT</h3>
                     <ul id="footerlist">
-                        <li class="footercontent"><a href="">Relaccumとは</a></li>
-                        <li class="footercontent"><a href="">お問い合わせ</a></li>
+                        <li class="footercontent"><a href="/about">Relaccumとは</a></li>
+                        <li class="footercontent"><a href="/help">お問い合わせ</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <h3 class="footermenu">Menu</h3>
                     <ul id="footerlist">
-                        <li class="footercontent"><a href="">グループを探す</a></li>
-                        <li class="footercontent"><a href="">イベントを探す</a></li>
-                        <li class="footercontent"><a href="">カテゴリーを探す</a></li>
+                        <li class="footercontent"><a href="{{route('groups.index')}}">グループを探す</a></li>
+                        <li class="footercontent"><a href="{{route('plans.index')}}">イベントを探す</a></li>
+                        <li class="footercontent"><a href="{{route('category.index')}}">カテゴリーを探す</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
@@ -28,7 +28,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h5 class="righttext">©︎Relaccum 2019 ・　KaitoSuzuki</h5>
+                    <h5 class="righttext">Copyright ©︎Relaccum 2019 by KaitoSuzuki</h5>
                 </div>
             </div>
         </div>
