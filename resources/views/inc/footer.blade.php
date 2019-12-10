@@ -19,7 +19,7 @@
                 </div>
                 <div class="col-md-4">
                     <h3 class="footermenu">Follow us</h3>
-                    <ul id="footerlist">
+                    <ul id="footerlist" class="snsbutton">
                         <li id="snsicon" class="footercontent"><a href="https://www.facebook.com/profile.php?id=100043318232181"><i class="fab fa-facebook fa-2x"></i></a></li>
                         <li id="snsicon" class="footercontent"><a href="https://www.instagram.com/suzukai_kaito830/?hl=ja"><i class="fab fa-instagram fa-2x"></i></a></li>
                         <li id="snsicon" class="footercontent"><a href="https://twitter.com/Sakigake830"><i class="fab fa-twitter fa-2x"></i></a></li>
