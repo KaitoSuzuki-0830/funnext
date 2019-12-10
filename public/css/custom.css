@@ -9,6 +9,7 @@ body {
 #snsicon{
     float: left;
     margin-right: 10px;
+    vertical-align: middle;
 }
 
 footer{
