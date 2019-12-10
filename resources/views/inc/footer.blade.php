@@ -2,14 +2,14 @@
     <div class="container-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <h3 class="footermenu">ABOUT</h3>
                     <ul id="footerlist">
                         <li class="footercontent"><a href="">Relaccumとは</a></li>
                         <li class="footercontent"><a href="">お問い合わせ</a></li>
                     </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <h3 class="footermenu">Menu</h3>
                     <ul id="footerlist">
                         <li class="footercontent"><a href="">グループを探す</a></li>
@@ -17,7 +17,7 @@
                         <li class="footercontent"><a href="">カテゴリーを探す</a></li>
                     </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <h3 class="footermenu">Follow us</h3>
                     <ul id="footerlist">
                         <li id="snsicon" class="footercontent"><a href="https://www.facebook.com/profile.php?id=100043318232181"><i class="fab fa-facebook fa-2x"></i></a></li>
