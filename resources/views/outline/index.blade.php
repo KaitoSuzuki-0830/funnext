@@ -13,9 +13,8 @@
         </div>
     </div>
 <div class="container">
-    <div class="col-md-2"></div>
-    <div class="col-md-8"><h3>グループ</h3></div>
-    <div class="col-md-2"><a href="{{route('groups.index')}}"><h5>See all</h5></a></div>
+    <h3>グループ</h3>
+    <a href="{{route('groups.index')}}"><h5>See all</h5></a>
 @foreach($groups as $group)
   <div class="d-inline-block">
   <div class="card-deck" style="width:24.5rem;">
@@ -34,11 +33,8 @@
 </div>
 @endforeach
 <hr>
-<div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-8"><h3>Category</h3></div>
-    <div class="col-md-2"><a href="{{route('category.index')}}"><h5>See all</h5></a></div>
-</div>
+    <h3>Category</h3>
+    <a href="{{route('category.index')}}"><h5>See all</h5></a>
 @foreach($categories as $category)
     <div class="d-inline-block">
         <div class="card-deck" style="width:19rem;">
@@ -49,7 +45,7 @@
                 </div>
             </a>
         </div>
-        <h6 class="font-weight-bolder">{{$category->name}}</h6>
+        <h5 class="font-weight-bolder">{{$category->name}}</h5>
     </div>
 </div>
 @endforeach
