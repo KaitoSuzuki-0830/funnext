@@ -82,7 +82,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <h1><img src="uploads/logo/relaccumtitle.png" width="30%" class="firsttitle"></h1>
+                    <img src="uploads/logo/relaccumtitle.png" width="30%" class="firsttitle">
                     <h3 class="firstsubtitle">新しい関係がここにある</h3>
                     <img src="https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80" alt="" width="100%" id="firstimage">
                 </div>
