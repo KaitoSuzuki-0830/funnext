@@ -48,10 +48,7 @@ h5.righttext{
     position: absolute;
     color: cornflowerblue;
     font-size: 12px;
-}
-
-#logo{
-    position: absolute;
     top: 0;
     left: 0;
 }
+
