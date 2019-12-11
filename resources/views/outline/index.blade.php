@@ -1,7 +1,6 @@
 @extends('layouts.app')
 @section('content')
-
-<div class="input-group bg-dark text-white p-2" id="searchbox">
+    <div class="input-group bg-dark text-white p-2" id="searchbox">
         <div class="col-md-12">
             <form action="/outlinesearch" method="get">
               <div class="input-group">
@@ -12,12 +11,11 @@
               </div>
             </form>
         </div>
-</div>
-<div class="row">
-    <div class="col-md-10"><h3>グループ</h3></div>
+    </div>
+<div class="container">
+    <div class="col-md-2"></div>
+    <div class="col-md-8"><h3>グループ</h3></div>
     <div class="col-md-2"><a href="{{route('groups.index')}}"><h5>See all</h5></a></div>
-</div>
-
 @foreach($groups as $group)
   <div class="d-inline-block">
   <div class="card-deck" style="width:24.5rem;">
@@ -37,7 +35,8 @@
 @endforeach
 <hr>
 <div class="row">
-    <div class="col-md-10"><h3>Category</h3></div>
+    <div class="col-md-2"></div>
+    <div class="col-md-8"><h3>Category</h3></div>
     <div class="col-md-2"><a href="{{route('category.index')}}"><h5>See all</h5></a></div>
 </div>
 @foreach($categories as $category)
@@ -52,5 +51,6 @@
         </div>
         <h6 class="font-weight-bolder">{{$category->name}}</h6>
     </div>
+</div>
 @endforeach
 @endsection
