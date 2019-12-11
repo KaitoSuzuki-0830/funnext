@@ -1,6 +1,6 @@
 @extends('layouts.app')
-<img src="https://images.unsplash.com/photo-1478812954026-9c750f0e89fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="" width="100%" height="20%">
 @section('content')
+<img src="https://images.unsplash.com/photo-1478812954026-9c750f0e89fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="" width="100%" height="20%">
 <div class="input-group bg-dark text-white p-2">
     <div class="col-md-1"></div>
     <div class="col-md-10">
