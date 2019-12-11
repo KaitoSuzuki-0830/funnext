@@ -35,3 +35,16 @@ h5.righttext{
     text-align: center;
     font-size: 12px;
 }
+
+/* 　1枚目 */
+＃firstimage{
+    opacity: 0.8;
+}
+
+.firsttitle{
+    position: relative;
+}
+
+.firstsubtitle{
+    position: relative;
+}
