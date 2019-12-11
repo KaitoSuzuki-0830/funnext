@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @section('content')
-<div class="container-fluid">
 
 <div class="input-group bg-dark text-white p-2">
         <div class="col-md-12">
@@ -13,7 +12,6 @@
               </div>
             </form>
         </div>
-</div>
 </div>
 <div class="row">
     <div class="col-md-10"><h3>グループ</h3></div>
