@@ -60,16 +60,21 @@ h5.righttext{
     position: relative;/*相対配置*/
     }
 
-  .toppage p {
+.toppage p {
     position: absolute;/*絶対配置*/
     color: white;/*文字は白に*/
     top: 0;
     left: 0;
     }
 
-  .toppage img {
+.toppage img {
     width: 100%;
     }
+
+/* outline */
+#searchbox{
+    width: 100%;
+}
 
 
 
