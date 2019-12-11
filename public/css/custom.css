@@ -42,7 +42,7 @@ h5.righttext{
 }
 
 .firsttitle{
-    position: relative;
+    position: absolute;
 }
 
 .firstsubtitle{
