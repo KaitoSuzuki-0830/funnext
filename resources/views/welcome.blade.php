@@ -84,6 +84,8 @@
                 <div class="title m-b-md">
                     <img src="https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80" alt="" width="100%" id="firstimage">
                 </div>
+                <h1 class="firsttitle"><img src="uploads/logo/relaccumtitle.png" width="30%"></h1>
+                <h3 class="firstsubtitle">新しい関係がここにある</h3>
 
 
             </div>
