@@ -1,8 +1,9 @@
 @extends('layouts.app')
 @section('content')
 <div class="container-fluid">
-    <div class="input-group text-white p-2" id="searchbox">
-        <div class="col-md-12">
+    <div class="input-group text-white p-3" >
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
             <form action="/outlinesearch" method="get">
               <div class="input-group">
                   <input type="search" name="search" class="form-control">
@@ -12,6 +13,7 @@
               </div>
             </form>
         </div>
+        <div class="col-md-2"></div>
     </div>
 </div>
 <div class="container" id="bottomsearch">
@@ -30,7 +32,7 @@
     </a>
   </div>
   <div class="row justify-content-center">
-    <a href="{{route('group.join',['groupid'=>$group->id,'userid'=>$user->id])}}" class="btn btn-success btn-sm text-reset" role="button"><i class="fas fa-plus-circle fa-1x">Join</i></a>
+    <a href="{{route('group.join',['groupid'=>$group->id,'userid'=>$user->id])}}" class="btn btn-success btn-sm text-reset" role="button"><i class="fas fa-plus-circle fa-2x">Join</i></a>
   </div>
 </div>
 @endforeach
@@ -44,9 +46,6 @@
         <div class="card-deck" style="width:19rem;">
             <a href="{{route('category.show',['id'=>$group->id])}}" class="card">
                 <img src="{{ $category->featured}}" alt="{{ $category->name}}" class="card-img" height="150px" width="150px">
-                <div class="card-img-overlay">
-                    <p class="card-text"><i class="fas fa-users"></i> Group's count</p>
-                </div>
             </a>
         </div>
         <h5 class="row justify-content-center">{{$category->name}}</h5>
