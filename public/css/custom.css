@@ -37,6 +37,9 @@ h5.righttext{
 }
 
 /* 　1枚目 */
+.title{
+    position: relative;
+}
 
 #firsttitle{
     position: absolute;
@@ -44,7 +47,7 @@ h5.righttext{
     left: 0;
 }
 
-#firstsubtitle{
+.title h3{
     position: absolute;
     color: cornflowerblue;
     font-size: 12px;
