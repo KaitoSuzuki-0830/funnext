@@ -11,9 +11,8 @@
               </div>
             </form>
 </div>
-<div class="container">
 <div class="row">
-    <div class="col-md-10"><h3>グループ</h3></div>
+    <div class="col-md-8"><h3>グループ</h3></div>
     <div class="col-md-2"><a href="{{route('groups.index')}}"><h5>See all</h5></a></div>
 </div>
 
@@ -51,6 +50,5 @@
         </div>
         <h6 class="font-weight-bolder">{{$category->name}}</h6>
     </div>
-</div>
 @endforeach
 @endsection
