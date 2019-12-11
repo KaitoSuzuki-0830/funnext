@@ -78,7 +78,7 @@
                     @endauth
                 </div>
             @endif
-            <div class="content">
+            {{-- <div class="content"> --}}
                 {{-- <div class="title m-b-md"> --}}
                     <div id="title">
                         <img src="https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80"  width="100%">
@@ -87,7 +87,7 @@
                     </div>
 
                 {{-- </div> --}}
-            </div>
+            {{-- </div> --}}
         </div>
 
     </body>
