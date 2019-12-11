@@ -46,6 +46,6 @@ h5.righttext{
 }
 
 #firstsubtitle{
-    position: relative;
+    position: absolute;
     font-size: 12px;
 }
