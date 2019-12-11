@@ -37,6 +37,10 @@ h5.righttext{
 }
 
 /* 　1枚目 */
+#title{
+    position: relative;
+}
+
 #firstimage{
     opacity: 0.8;
 }
@@ -47,5 +51,6 @@ h5.righttext{
 
 #firstsubtitle{
     position: absolute;
+    color: cornflowerblue;
     font-size: 12px;
 }
