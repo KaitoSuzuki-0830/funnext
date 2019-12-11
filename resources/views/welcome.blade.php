@@ -65,6 +65,7 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
+            <img src="uploads/logo/relaccumtitle.png" height="10%" width="20%" id="titlelogo">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
