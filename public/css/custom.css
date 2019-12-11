@@ -54,3 +54,7 @@ h5.righttext{
     color: cornflowerblue;
     font-size: 12px;
 }
+
+#logo{
+    margin-left: 0;
+}

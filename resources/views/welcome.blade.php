@@ -64,6 +64,7 @@
         </style>
     </head>
     <body>
+        <img src="uploads/logo/relaccumtitle.png" height="10%" width="20%" id="logo">
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -82,7 +83,7 @@
                 {{-- <div class="title m-b-md"> --}}
                     <div id="title">
                         <img src="https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80"  width="100%">
-                        <h3 id="firstsubtitle"><img src="uploads/logo/relaccumtitle.png" height="10%" width="30%" id="firsttitle">さあ、新しい関係を探そう！</h3>
+                        <h3 id="firstsubtitle">さあ、新しい関係を探そう！</h3>
                     </div>
 
                 {{-- </div> --}}
