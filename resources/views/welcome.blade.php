@@ -78,9 +78,9 @@
                     @endauth
                 </div>
             @endif
-            <img src="https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80"  width="100%" id="firstimage">
             <div class="content">
                 <div class="title m-b-md">
+                    <img src="https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80"  width="100%" id="firstimage">
                     <img src="uploads/logo/relaccumtitle.png" height="10%" width="30%" id="firsttitle">
                     <h3 id="firstsubtitle">さあ、新しいリレーションを探そう！</h3>
                 </div>
