@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
     <div class="container-fluid">
         <a class="navbar-brand" href="{{ url('/') }}">
-            <img src="uploads/logo/relaccumtitle.png" alt="relaccum" width="200px" height="80px">
+            <img src="uploads/logo/relaccumtitle.png" alt="relaccum" width="200px" height="60px">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
             <span class="navbar-toggler-icon"></span>
@@ -47,7 +47,7 @@
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                             @if(Auth::check())
-                                <img src="{{ isset($user)? secure_asset($user->profile->avatar): Auth::user()->profile->avatar }}" alt="{{ Auth::user()->name}}" height="80px" width="80px" style="border-radius: 50%" class="profile-image img-circle">
+                                <img src="{{ isset($user)? secure_asset($user->profile->avatar): Auth::user()->profile->avatar }}" alt="{{ Auth::user()->name}}" height="60px" width="60px" style="border-radius: 50%" class="profile-image img-circle">
                             @endif
                             {{ Auth::user()->name }} <span class="caret"></span>
                         </a>

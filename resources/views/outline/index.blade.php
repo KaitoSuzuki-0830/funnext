@@ -18,7 +18,7 @@
 </div>
 <div class="container" id="bottomsearch">
     <h3>Groups</h3>
-    <a href="{{route('groups.index')}}"><h5>See all</h5></a>
+    <a href="{{route('groups.index')}}"><h5>すべて見る</h5></a>
 @foreach($groups as $group)
   <div class="d-inline-block">
   <div class="card-deck" style="width:24.5rem;">
@@ -40,7 +40,7 @@
 <hr>
 <div class="container">
     <h3>Categories</h3>
-    <a href="{{route('category.index')}}"><h5>See all</h5></a>
+    <a href="{{route('category.index')}}"><h5>すべて見る</h5></a>
 @foreach($categories as $category)
     <div class="d-inline-block">
         <div class="card-deck" style="width:19rem;">
