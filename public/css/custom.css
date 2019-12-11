@@ -39,21 +39,22 @@ h5.righttext{
 /* 　1枚目 */
 /* .title{
     position: relative;
-}
+}*/
 
-#titlelogo{
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 
-.title h5{
+/* .title h5{
     position: absolute;
     color: cornflowerblue;
     font-size: 12px;
     top: 0;
     left: 0;
-} */
+}  */
+
+#titlelogo{
+    left: 0;
+    top: 0;
+
+}
 
 .example {/*親div*/
     position: relative;/*相対配置*/
