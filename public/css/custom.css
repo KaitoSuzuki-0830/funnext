@@ -56,18 +56,18 @@ h5.righttext{
 
 }
 
-.example {/*親div*/
+.toppage {/*親div*/
     position: relative;/*相対配置*/
     }
 
-  .example p {
+  .toppage p {
     position: absolute;/*絶対配置*/
     color: white;/*文字は白に*/
     top: 0;
     left: 0;
     }
 
-  .example img {
+  .toppage img {
     width: 100%;
     }
 

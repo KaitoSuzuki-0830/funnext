@@ -65,7 +65,6 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            <img src="uploads/logo/relaccumtitle.png" height="10%" width="20%" id="titlelogo">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -81,10 +80,11 @@
             @endif
             {{-- <div class="content"> --}}
                 {{-- <div class="title m-b-md"> --}}
-                        <div class="example">
-                                <img src="https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80"  width="100%">
-                                <p>SUNSET</p>
-                        </div>
+                    <div class="toppage">
+                        <img src="uploads/logo/relaccumtitle.png" height="10%" width="20%" id="titlelogo">
+                        <img src="https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80">
+                        <p>さあ、新しい関係を探そう！</p>
+                    </div>
                     {{-- <div class="title">
                         <img src="uploads/logo/relaccumtitle.png" height="10%" width="20%" id="titlelogo">
                         <h5>さあ、新しい関係を探そう！</h5>
