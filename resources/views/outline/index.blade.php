@@ -13,7 +13,7 @@
             </form>
         </div>
 </div>
-<div class="row">
+<div class="row1">
     <div class="col-md-8"><h3>グループ</h3></div>
     <div class="col-md-2"><a href="{{route('groups.index')}}"><h5>See all</h5></a></div>
 </div>
