@@ -7,13 +7,13 @@
             <div class="card-body">
                     <div class="cp_qa">
                             <input id="cp_conttab1" type="radio" name="tabs" checked>
-                            <label for="cp_conttab1" class="cp_tabitem">category</label>
+                            <label for="cp_conttab1" class="cp_tabitem">グループ</label>
                             <input id="cp_conttab2" type="radio" name="tabs">
-                            <label for="cp_conttab2" class="cp_tabitem">category</label>
+                            <label for="cp_conttab2" class="cp_tabitem">イベント</label>
                             <input id="cp_conttab3" type="radio" name="tabs">
-                            <label for="cp_conttab3" class="cp_tabitem">category</label>
+                            <label for="cp_conttab3" class="cp_tabitem">カテゴリー</label>
                             <input id="cp_conttab4" type="radio" name="tabs">
-                            <label for="cp_conttab4" class="cp_tabitem">category</label>
+                            <label for="cp_conttab4" class="cp_tabitem">トラブル</label>
                             <div id="cp_content1">
                             <div class="cp_qain">
                             <div class="cp_actab">
