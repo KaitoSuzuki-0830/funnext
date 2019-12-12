@@ -101,13 +101,16 @@ h5.righttext{
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     }
+
     .cp_qa {
     margin: 0 auto;
     background: #ffffff;
     }
+
     .cp_qa input {
     display: none;
     }
+
     /* カテゴリー */
     .cp_qa #cp_content1,
     .cp_qa #cp_content2,
@@ -125,13 +128,15 @@ h5.righttext{
     color: #bbbbbb;
     border: 1px solid transparent;
     }
+
     .cp_qa label.cp_tabitem:before {
     margin-right: 10px;
     }
-    .cp_qa label.cp_tabitem[for*='1']:before { content: '\f2bd'; }
-    .cp_qa label.cp_tabitem[for*='2']:before { content: '\f15c'; }
-    .cp_qa label.cp_tabitem[for*='3']:before { content: '\f0f4'; }
-    .cp_qa label.cp_tabitem[for*='4']:before { content: '\f001'; }
+
+    .cp_qa label.cp_tabitem[for*='1']
+    .cp_qa label.cp_tabitem[for*='2']
+    .cp_qa label.cp_tabitem[for*='3']
+    .cp_qa label.cp_tabitem[for*='4']
     .cp_qa label.cp_tabitem:hover {
     cursor: pointer;
     color: #888888;
