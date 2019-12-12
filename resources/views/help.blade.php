@@ -37,7 +37,6 @@
                             </div>
                             </div>
                             <div id="cp_content2">
-                            <p>説明テキスト 説明テキスト 説明テキスト</p>
                             <div class="cp_qain">
                             <div class="cp_actab">
                             <input id="cp_tabfour054" type="checkbox" name="tabs">
@@ -54,7 +53,6 @@
                             </div>
                             </div>
                             <div id="cp_content3">
-                            <p>説明テキスト 説明テキスト 説明テキスト</p>
                             <div class="cp_qain">
                             <div class="cp_actab">
                             <input id="cp_tabfour056" type="checkbox" name="tabs">
@@ -71,7 +69,6 @@
                             </div>
                             </div>
                             <div id="cp_content4">
-                            <p>説明テキスト 説明テキスト 説明テキスト</p>
                             <div class="cp_qain">
                             <div class="cp_actab">
                             <input id="cp_tabfour058" type="checkbox" name="tabs">
