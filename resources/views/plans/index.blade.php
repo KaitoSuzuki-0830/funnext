@@ -19,7 +19,6 @@
      <table class="table table-bordered">
      <thead>
         <tr>
-          <th>イメージ</th>
           <th>タイトル</th>
           <th>場所</th>
           <th>値段</th>
@@ -31,7 +30,6 @@
 
       @foreach($plans as $plan)
         <tr>
-           <td> <img src="{{ asset('uploads/plans/'.$plan->featured)}}" alt="{{ $plan->title }}" height="90px" width="90px"style="border-radius: 80%"></td>
            <td>{{ $plan->title}}</td>
            <td>{{ $plan->place}}</td>
            <td>¥ {{$plan->price}}</td>
