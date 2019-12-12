@@ -9,7 +9,6 @@
 </div>
 
  <div class="card" style="width:100%;">
-        <img src="{{ $plan->featured }}" class="card-img-top" alt="{{$plan->title}}" height="200px" width="200px">
             <div class="card-body">
                 <div class="card-title"><h3>{{$plan->title}}</h3></div>
                 {{-- <p class="card-text"><i class="fas fa-map-marker-alt"></i> {{$plan->prefecture->name}}</p> --}}
