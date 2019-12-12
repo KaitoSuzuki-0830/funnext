@@ -81,6 +81,10 @@ h5.righttext{
     background: none;
 }
 
+#searchicon{
+    margin-top: 20px;
+}
+
 .searchbutton{
     margin-top: 25px;
     margin-left: -25px;
