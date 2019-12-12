@@ -6,6 +6,7 @@
                     <h3 class="footermenu">ABOUT</h3>
                     <ul id="footerlist">
                         <li class="footercontent"><a href="/about">Relaccumとは</a></li>
+                        <li class="footercontent"><a href="/help">よくある質問</a></li>
                         <li class="footercontent"><a href="/contact">お問い合わせ</a></li>
                     </ul>
                 </div>
