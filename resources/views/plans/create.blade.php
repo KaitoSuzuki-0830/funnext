@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('content')
+<div class="container">
  <div class="card">
   <div class="card-header">イベントを作成</div>
   <div class="card-body">
@@ -66,6 +67,7 @@
         <button type="submit" class="btn btn-success btn-lg">イベント作成</button>
     </div>
 </form>
+</div>
 </div>
 </div>
 @endsection

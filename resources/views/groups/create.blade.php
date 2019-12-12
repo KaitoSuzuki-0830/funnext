@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('content')
+<div class="container">
  <div class="card">
      <div class="card-header">グループを作成しましょう</div>
      <div class="card-body">
@@ -52,4 +53,5 @@
     </form>
      </div>
  </div>
+</div>
 @endsection

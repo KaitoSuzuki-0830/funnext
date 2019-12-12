@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('content')
+<div class="container">
 <div class="card-body">
     <div class="row">
         <div class="col-md-4"><h1>イベント　一覧</h1></div>
@@ -50,5 +51,5 @@
   @endif
   </div>
   </div>
-
+</div>
 @endsection
