@@ -32,6 +32,8 @@ Route::post('/contact/thanks', 'ContactController@send')->name('contact.send');
 
 Route::view('/about', 'about');
 
+Route::view('/help','help');
+
 Route::resource('outline','OutlineController')->middleware('auth');
 // Route::get('/help','ContactsController@help');
 
