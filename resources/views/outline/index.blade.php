@@ -9,7 +9,7 @@
                 <span class="input-group-prepend">
                     <button type="submit"><i class="fas fa-search"></i></button>
                 </span>
-                  <input type="search" name="search" class="form-control" placeholder="グループ名やカテゴリーから検索" id="serachbox">
+                  <input type="search" name="search" class="form-control" placeholder="グループ名やカテゴリーから検索" id="searchbox">
               </div>
             </form>
         </div>
