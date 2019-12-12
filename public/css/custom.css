@@ -78,10 +78,13 @@ h5.righttext{
     border-left: none !important;
     box-shadow: none !important;
     margin-top: 20px;
+    background: none;
 }
 
 .searchbutton{
-
+    margin-top: 25px;
+    margin-left: -25px;
+    background: none;
 }
 
 #groupposition{
