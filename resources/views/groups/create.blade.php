@@ -2,7 +2,7 @@
 @section('content')
 <div class="container">
  <div class="card">
-     <div class="card-header">グループを作成しましょう</div>
+     <div class="card-header" class="themetitle">グループを作成しましょう</div>
      <div class="card-body">
      @if(count($errors)>0)
         <ul class="list-group">

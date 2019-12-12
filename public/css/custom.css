@@ -90,5 +90,11 @@ h5.righttext{
     margin-top: 30px;
 }
 
+/* 各ページタイトル文字を編集 */
+.themetitle{
+    font-size: 30px;
+    text-align: center;
+}
+
 
 
