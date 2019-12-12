@@ -26,16 +26,11 @@ Route::post('/contact/confirm', 'ContactController@confirm')->name('contact.conf
 //送信完了ページ
 Route::post('/contact/thanks', 'ContactController@send')->name('contact.send');
 
-// Route::get('/contact', 'ContactController@index')->name('contact.index');
-// Route::get('/contact', 'ContactController@confirm')->name('contact.index');
-// Route::get('/contact', 'ContactController@send');
-
 Route::view('/about', 'about');
 
 Route::view('/help','help');
 
 Route::resource('outline','OutlineController')->middleware('auth');
-// Route::get('/help','ContactsController@help');
 
 Auth::routes();
 
@@ -53,10 +48,10 @@ Route::put('/profile/update',[
 ]);
 
 Route::resource('groups','GroupsController');
-// Route::resource('images','GroupsController',['only'=>['store','destroy']]);
-Route::resource('category','CategoryController');
-Route::resource('plans','PlansController');
 
+Route::resource('category','CategoryController');
+
+Route::resource('plans','PlansController');
 
 Route::post('/pay','PaymentController@pay')->name('pay');
 
