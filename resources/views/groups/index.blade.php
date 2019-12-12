@@ -14,7 +14,7 @@
         </div>
     </div>
     @if(count($groups) > 0)
-     <table class="table table-bordered">
+     <table class="table table-bordered" id="tableposition">
      <thead>
         <tr>
           <th>イメージ</th>

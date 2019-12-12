@@ -245,3 +245,7 @@ h5.righttext{
     width: 100%;
 }
 
+/* カテゴリー、グループ、イベントの一覧ページテーブルの場所 */
+#tableposition{
+    margin-top: 20px;
+}

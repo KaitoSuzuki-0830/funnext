@@ -14,7 +14,7 @@
         </div>
     </div>
     @if(count($plans) > 0)
-     <table class="table table-bordered">
+     <table class="table table-bordered" id="tableposition">
      <thead>
         <tr>
           <th>タイトル</th>
