@@ -79,6 +79,14 @@ h5.righttext{
     box-shadow: none !important;
     margin-top: 20px;
     background: none;
+
+    display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .searchbutton{
