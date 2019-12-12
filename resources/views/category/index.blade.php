@@ -7,10 +7,8 @@
             <div class="col-md-6">
                 <form action="/categorysearch" method="get">
                     <div class="input-group">
-                        <input type="search" name="search" class="form-control" placeholder="カテゴリー名で検索">
-                        <span class="input-group-prepend">
-                            <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i></button>
-                        </span>
+                        <i class="fas fa-search" id="searchicon"></i>
+                        <input type="search" name="search" class="form-control" placeholder="カテゴリー名で検索" id="searchbox">
                     </div>
                 </form>
             </div>
