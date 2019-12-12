@@ -234,5 +234,8 @@ h5.righttext{
     transform: rotate(45deg);
     }
 
-
+/* relaccumについて　about page */
+#about1{
+    background-color: black;
+}
 
