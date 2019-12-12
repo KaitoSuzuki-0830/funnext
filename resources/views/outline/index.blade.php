@@ -5,8 +5,8 @@
         <div class="col-md-3"></div>
         <div class="col-md-6">
             <form action="/outlinesearch" method="get">
-              <i class="fas fa-search" id="searchicon"></i>
               <div class="input-group">
+                <i class="fas fa-search" id="searchicon"></i>
                 <input type="search" name="search" class="form-control" placeholder="グループ名やカテゴリーから検索" id="searchbox">
               </div>
             </form>
