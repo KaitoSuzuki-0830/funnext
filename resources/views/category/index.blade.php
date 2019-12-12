@@ -15,8 +15,6 @@
                 </form>
             </div>
         </div>
-
-
   @if(count($categories) >0)
    <table class="table table-bordered">
     <thead>
