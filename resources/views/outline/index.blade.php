@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <div class="container-fluid">
-    <div class="input-group text-white p-3" >
+    <div class="input-group bg-aqua text-white p-3" >
         <div class="col-md-3"></div>
         <div class="col-md-6" >
             <form action="/outlinesearch" method="get">
