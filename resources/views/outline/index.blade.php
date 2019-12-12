@@ -4,7 +4,7 @@
     <div class="input-group">
         <div class="col-md-3"></div>
         <div class="col-md-6">
-            <input type="submit" class="searchbutton"><i class="fas fa-search"></i>
+            <i class="fas fa-search"></i>
             <form action="/outlinesearch" method="get">
               <div class="input-group">
                 <input type="search" name="search" class="form-control" placeholder="グループ名やカテゴリーから検索" id="searchbox">
