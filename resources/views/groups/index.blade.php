@@ -7,7 +7,7 @@
         <div class="col-md-8">
                 <form action="/groupsearch" method="get">
                     <div class="input-group">
-                        <input type="search" name="search" class="form-control">
+                        <input type="search" name="search" class="form-control" placeholder="グループ名で検索">
                         <span class="input-group-prepend">
                             <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i></button>
                         </span>

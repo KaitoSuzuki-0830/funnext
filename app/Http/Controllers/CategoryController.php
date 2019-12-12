@@ -113,4 +113,12 @@ class CategoryController extends Controller
         Session::flash('success','カテゴリーを削除しました');
         return redirect(route('category.index'));
     }
+
+    public function search(Request $request)
+    {
+        $search = $request->get('search');
+        $categories = Category::where('name','like','%'.$search.'%')->get();
+
+        return view('category.index')->with('category',$categories);
+    }
 }

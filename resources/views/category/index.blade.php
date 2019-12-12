@@ -1,9 +1,22 @@
 @extends('layouts.app')
 @section('content')
 <div class="container">
-<div class="card">
- <div class="card-header">すべてのカテゴリー</div>
- <div class="card-body">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-4"><h1>カテゴリー　一覧</h1></div>
+            <div class="col-md-8">
+                <form action="/categorysearch" method="get">
+                    <div class="input-group">
+                        <input type="search" name="search" class="form-control" placeholder="グループ名で検索">
+                        <span class="input-group-prepend">
+                            <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i></button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
   @if(count($categories) >0)
    <table class="table table-bordered">
     <thead>
@@ -12,8 +25,6 @@
       <th>カテゴリー名</th>
       <th>グループ一覧</th>
       <th><a href="{{ route('category.create')}}" class="btn btn-success"><i class="fas fa-plus"></i>　追加</a></th>
-
-
      </tr>
     </thead>
     <tbody>
