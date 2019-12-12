@@ -68,4 +68,4 @@ Route::get('/categorysearch','CategoryController@search');
 Route::get('/group/{groupid}/{userid}',[
     'uses' => 'GroupsController@join',
     'as' => 'group.join'
-    ]);
+]);

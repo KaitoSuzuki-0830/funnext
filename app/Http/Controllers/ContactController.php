@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Mail\ContactSendmail;
+use App\Mail;
 
 class ContactController extends Controller
 {
