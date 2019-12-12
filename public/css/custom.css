@@ -240,6 +240,10 @@ h5.righttext{
     }
 
 /* relaccumについて　about page */
+#about0{
+    background-color: blue;
+    height: 10%;
+}
 #about1{
     background-color: black;
     width: 100%;
