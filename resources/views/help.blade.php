@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
         <div class="card">
-            <div class="card-header" class="themetitle">よくある質問</div>
+            <div class="card-header" id="themetitle">よくある質問</div>
             <div class="card-body">
                     <div class="cp_qa">
                             <input id="cp_conttab1" type="radio" name="tabs" checked>

@@ -2,7 +2,7 @@
 @section('content')
 <div class="container">
  <div class="card">
-  <div class="card-header" class="themetitle">イベントを作成</div>
+  <div class="card-header" id="themetitle">イベントを作成</div>
   <div class="card-body">
   @if(count($errors) >0)
      <ul class="list-group">
