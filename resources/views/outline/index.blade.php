@@ -1,9 +1,9 @@
 @extends('layouts.app')
 @section('content')
 <div class="container-fluid">
-    <div class="input-group text-white p-3" id="serachbox">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
+    <div class="input-group text-white p-3" >
+        <div class="col-md-3"></div>
+        <div class="col-md-6" id="serachbox">
             <form action="/outlinesearch" method="get">
               <div class="input-group">
                   <input type="search" name="search" class="form-control" placeholder="グループ名やカテゴリーから検索">
@@ -13,7 +13,7 @@
               </div>
             </form>
         </div>
-        <div class="col-md-2"></div>
+        <div class="col-md-3"></div>
     </div>
 </div>
 <div class="container" id="groupposition">
