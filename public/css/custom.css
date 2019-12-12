@@ -73,8 +73,6 @@ h5.righttext{
 
 /* outline */
 #searchbox{
-    padding: 0;
-    width: 90%;
     border-top: none !important;
     border-right: none !important;
     border-left: none !important;
@@ -82,16 +80,13 @@ h5.righttext{
     margin-top: 20px;
 }
 
+.searchbutton{
+
+}
+
 #groupposition{
     margin-top: 50px;
 }
 
-.searchorder{
-    list-style: none;
-}
-
-.searchcontent{
-    float: left;
-}
 
 
