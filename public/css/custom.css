@@ -79,10 +79,19 @@ h5.righttext{
     border-right: none !important;
     border-left: none !important;
     box-shadow: none !important;
+    margin-top: 20px;
 }
 
 #groupposition{
-    margin-top: 20px;
+    margin-top: 50px;
+}
+
+.searchorder{
+    list-style: none;
+}
+
+.searchcontent{
+    float: left;
 }
 
 
