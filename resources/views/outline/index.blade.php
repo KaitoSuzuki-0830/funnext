@@ -7,8 +7,8 @@
             <form action="/outlinesearch" method="get">
               <div class="input-group">
                 <input type="search" name="search" class="form-control" placeholder="グループ名やカテゴリーから検索" id="searchbox">
-                <button type="submit" class="searchbutton"><i class="fas fa-search"></i></button>
               </div>
+              <button type="submit" class="searchbutton"><i class="fas fa-search"></i></button>
             </form>
         </div>
         <div class="col-md-3"></div>
