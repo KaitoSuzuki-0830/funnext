@@ -1,12 +1,12 @@
 @extends('layouts.app')
 @section('content')
 <div class="container-fluid">
-    <div class="input-group text-white p-3" >
+    <div class="input-group text-white p-3" id="serachbox">
         <div class="col-md-2"></div>
         <div class="col-md-8">
             <form action="/outlinesearch" method="get">
               <div class="input-group">
-                  <input type="search" name="search" class="form-control">
+                  <input type="search" name="search" class="form-control" placeholder="グループ名やカテゴリーから検索">
                   <span class="input-group-prepend">
                       <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i></button>
                   </span>
@@ -16,8 +16,8 @@
         <div class="col-md-2"></div>
     </div>
 </div>
-<div class="container" id="bottomsearch">
-    <h3>Groups</h3>
+<div class="container" id="groupposition">
+    <h2>Groups</h2>
     <a href="{{route('groups.index')}}"><h5>すべて見る</h5></a>
 @foreach($groups as $group)
   <div class="d-inline-block">
@@ -39,7 +39,7 @@
 </div>
 <hr>
 <div class="container">
-    <h3>Categories</h3>
+    <h2>Categories</h2>
     <a href="{{route('category.index')}}"><h5>すべて見る</h5></a>
 @foreach($categories as $category)
     <div class="d-inline-block">

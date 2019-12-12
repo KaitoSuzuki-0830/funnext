@@ -73,10 +73,15 @@ h5.righttext{
 
 /* outline */
 #searchbox{
+    padding: 0;
     width: 100%;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    box-shadow: none !important;
 }
 
-#bottomsearch{
+#groupposition{
     margin-top: 20px;
 }
 
