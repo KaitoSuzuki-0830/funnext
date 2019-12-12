@@ -3,8 +3,8 @@
 <div class="container">
     <div class="card-body">
         <div class="row">
-            <div class="col-md-4"><h1>カテゴリー　一覧</h1></div>
-            <div class="col-md-8">
+            <div class="col-md-6"><h1>カテゴリー</h1></div>
+            <div class="col-md-6">
                 <form action="/categorysearch" method="get">
                     <div class="input-group">
                         <input type="search" name="search" class="form-control" placeholder="カテゴリー名で検索">

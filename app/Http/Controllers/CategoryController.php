@@ -83,7 +83,7 @@ class CategoryController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(CreateCategoryRequest $request,Category $category)
+    public function update(CreteCategoryRequest $request,Category $category)
     {
         $category->name = $request->name;
 
