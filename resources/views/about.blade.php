@@ -41,6 +41,21 @@
     </div>
 </div>
 <div class="container-fluid" id="about3">
+    <div class="container">
+        <div class='abouttitle'>
+            <h1>Relaccumを始める</h1>
+        </div>
+        <div class="indexrole">
+            <img src="uploads/logo/サーチアイコン.png">
+            <h2 class="rolename">見つける</h2>
+            <p>あなたが興味のあるコトをグループ、カテゴリー、イベントから探してみましょう。</p>
+        </div>
+        <div class="indexrole">
+            <img src="uploads/logo/プラスのアイコン素材.png">
+            <h2 class="rolename">始める</h2>
+            <p>あなたが興味のあるコトをグループ、カテゴリー、イベントから作ってみましょう。</p>
+        </div>
+    </div>
 </div>
 <div class="container-fluid" id="about4">
 </div>
