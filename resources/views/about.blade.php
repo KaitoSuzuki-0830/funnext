@@ -42,9 +42,18 @@
     <div class="container">
         <h1 class='abouttitle'>やりたいことを探す</h1>
         <div class="option"><img src="uploads/logo/サーチアイコン.png" class="iconabout3"></div>
-        <div class="option"><h3>探す</h3></div>
+        <div class="option2">
+            <h3>探す</h3>
+            <p><a href="">グループ</a></p>
+            <p><a href="">カテゴリー</a></p>
+            <p><a href="">イベント</a></p>
+        </div>
         <div class="option"><img src="uploads/logo/プラスのアイコン素材.png" class="iconabout3"></div>
-        <div class="option"><h3>作る</h3></div>
+        <div class="option2">
+            <h3>作る</h3>
+            <p><a href="">グループ</a></p>
+            <p><a href="">イベント</a></p>
+        </div>
     </div>
 </div>
 @endsection
