@@ -296,6 +296,13 @@ p.about1subtext2{
 }
 
 
+
+#about3{
+    background-color: greenyellow;
+    height: 600px;
+}
+
+
 /* カテゴリー、グループ、イベントの一覧ページテーブルの場所 */
 #tableposition{
     margin-top: 20px;

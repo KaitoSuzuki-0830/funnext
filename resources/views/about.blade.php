@@ -38,7 +38,7 @@
         </div>
     </div>
 </div>
-<div class="container-fluid" id="about1">
+<div class="container-fluid" id="about3">
 
 </div>
 @endsection
