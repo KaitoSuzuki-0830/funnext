@@ -25,7 +25,7 @@
                             <div class="cp_actab">
                             <input id="cp_tabfour052" type="checkbox" name="tabs">
                             <div class="cp_plus">+</div>
-                            <label for="cp_tabfour052">イベントを行いたい場合はグループ作成は必須ですか？</label>
+                            <label for="cp_tabfour052">イベントを実施する時にグループ作成は必須ですか？</label>
                             <div class="cp_actab-content">いいえ、イベント作成ページの際「その他」をお選びください。</div>
                             </div>
                             <div class="cp_actab">
