@@ -250,8 +250,8 @@ h5.righttext{
     text-decoration: none;
     font-size: 17px;
     color: black;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
 
 }
 
@@ -285,11 +285,12 @@ p.about1subtext2{
 }
 
 .abouttitle{
-    /* margin-top: 30px; */
     text-align: center;
     font-weight: bold;
     font-size: 30px;
+    margin-top: 30px;
 }
+
 
 .rolecontent{
     width: 33%;
