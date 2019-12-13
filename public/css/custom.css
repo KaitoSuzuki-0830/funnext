@@ -260,17 +260,23 @@ h5.righttext{
     height: 40%;
 }
 
-/* h3.about1text{
-    margin-left: 51%;
-    font-size: 30px;
+h2.about1text{
+    font-size: 50px;
     font-weight: bold;
-    position: relative;
+    margin-top: 10px;
+    color: cornflowerblue;
 }
 p.about1subtext{
-    margin-left: 51%;
-    font-size: 15px;
-    position: relative;
-} */
+    font-size: 30px;
+    margin-top: 10px;
+    color: cornflowerblue;
+}
+
+p.about1subtext2{
+    font-size: 30px;
+    margin-top: 10px;
+    color: cornflowerblue;
+}
 
 
 /* カテゴリー、グループ、イベントの一覧ページテーブルの場所 */
