@@ -20,7 +20,7 @@
 </div>
 <div class="container-fluid" id="about2">
     <div class="container">
-        <h1 class='about2title'>できること</h1>
+        <h1 id='about2title'>できること</h1>
         <div class="row">
             <div class="colmd-6"></div>
             <div class="colmd-6"></div>
