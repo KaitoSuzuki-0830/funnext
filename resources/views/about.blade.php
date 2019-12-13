@@ -27,8 +27,8 @@
             <p>美術館に行く、新しい食べ物を試す、ハイキングに行く、地ビールツアーに参加、または、ただ新しい友達に会いに出かける</p>
         </div>
         <div class="rolecontent">
-                <img src="uploads/logo/タグアイコン3.png">
-                <h2 class="rolename">グループ</h2>
+                <img src="uploads/logo/タグアイコン.png">
+                <h2 class="rolename">カテゴリー</h2>
                 <p>美術館に行く、新しい食べ物を試す、ハイキングに行く、地ビールツアーに参加、または、ただ新しい友達に会いに出かける</p>
         </div>
         <div class="rolecontent">
@@ -37,5 +37,8 @@
                 <p>美術館に行く、新しい食べ物を試す、ハイキングに行く、地ビールツアーに参加、または、ただ新しい友達に会いに出かける</p>
         </div>
     </div>
+</div>
+<div class="container-fluid" id="about1">
+
 </div>
 @endsection
