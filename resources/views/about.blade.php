@@ -46,12 +46,12 @@
             <h1>Relaccumを始める</h1>
         </div>
         <div class="indexrole">
-            <img src="uploads/logo/サーチアイコン.png">
+            <img src="uploads/logo/サーチアイコン.png" width="30%" height="30%" class="starticon">
             <h2 class="rolename">見つける</h2>
             <p>あなたが興味のあるコトをグループ、カテゴリー、イベントから探してみましょう。</p>
         </div>
         <div class="indexrole">
-            <img src="uploads/logo/プラスのアイコン素材.png">
+            <img src="uploads/logo/プラスのアイコン素材.png" width="30%" height="30%" class="starticon">
             <h2 class="rolename">始める</h2>
             <p>あなたが興味のあるコトをグループ、カテゴリー、イベントから作ってみましょう。</p>
         </div>
