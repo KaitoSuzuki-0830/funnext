@@ -50,14 +50,14 @@
         </div>
         <div class="indexrole">
             <h2 class="rolename">見つける</h2>
-            <p>あなたが興味のあるコトをグループ、カテゴリー、イベントから探してみましょう。</p>
+            <p class="rolesubtext">あなたが興味のあるコトをグループ、カテゴリー、イベントから探してみましょう。</p>
         </div>
         <div class="indexrole">
             <img src="uploads/logo/プラス.png" class="starticon">
         </div>
         <div class="indexrole">
             <h2 class="rolename">始める</h2>
-            <p>あなたが興味のあるコトをグループ、カテゴリー、イベントから作ってみましょう。</p>
+            <p class="rolesubtext">あなたが興味のあるコトをグループ、カテゴリー、イベントから作ってみましょう。</p>
         </div>
     </div>
 </div>

@@ -297,7 +297,7 @@ p.about1subtext2{
 }
 
 #about3{
-    background-color: greenyellow;
+    background-color: black;
     height: 300px;
 }
 .indexrole{
@@ -306,9 +306,18 @@ p.about1subtext2{
     width: 25%;
 }
 
-
 .starticon{
     color: #00BCD4;
+}
+
+h2.rolename{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+p.rolesubtext{
+    font-size: 12px;
+    color: white;
 }
 
 #about4{
