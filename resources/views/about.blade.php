@@ -48,9 +48,9 @@
             <div class="col-md-4">
                 <div class="option">
                     <h3>探す</h3>
-                    <p><a href="">グループ</a></p>
-                    <p><a href="">カテゴリー</a></p>
-                    <p><a href="">イベント</a></p>
+                    <p><a href=""><i class="fas fa-users fa-3x"></i> グループ</a></p>
+                    <p><a href=""><i class="fas fa-tag fa-3x"></i> カテゴリー</a></p>
+                    <p><a href=""><i class="far fa-calendar-alt fa-3x"> イベント</a></p>
                 </div>
             </div>
             <div class="col-md-2">
@@ -59,8 +59,9 @@
             <div class="col-md-4">
                 <div class="option">
                     <h3>作る</h3>
-                    <p><a href=""><i class="fas fa-users fa-3x"></i>グループ</a></p>
-                    <p><a href=""><i class="far fa-calendar-alt fa-3x"></i>イベント</a></p>
+                    <p><a href=""><i class="fas fa-users fa-3x"></i> グループ</a></p>
+                    <p><a href=""><i class="far fa-calendar-alt fa-3x"></i> イベント</a></p>
+                    <p><a href=""><i class="far fa-calendar-alt fa-3x"> イベント</a></p>
                 </div>
             </div>
         </div>
