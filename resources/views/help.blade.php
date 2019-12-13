@@ -80,7 +80,7 @@
                             <input id="cp_tabfour059" type="checkbox" name="tabs">
                             <div class="cp_plus">+</div>
                             <label for="cp_tabfour059">ユーザー間で揉めています</label>
-                            <div class="cp_actab-content">解決できない場合は直ちに「Contact」から当社に連絡をお願いいたします。</div>
+                            <div class="cp_actab-content">解決できない場合は直ちに「Contact」から当社に連絡をお願いいたします。また、当社が解決に努められるように現状説明などを「お問い合わせ内容」に具体的にお書きください。</div>
                             </div>
                             </div>
                             </div>
