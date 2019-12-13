@@ -321,6 +321,11 @@ p.about1subtext2{
     color: #00BCD4;
 }
 
+#about4{
+    background-color:palegoldenrod;
+    height: 250px;
+}
+
 
 /* カテゴリー、グループ、イベントの一覧ページテーブルの場所 */
 #tableposition{
