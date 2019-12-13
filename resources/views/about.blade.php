@@ -47,28 +47,28 @@
                 <h1>ポリシー</h1>
             </div>
             <div class="policycontent">
-                    <img src="uploads/logo/チームのフリーアイコン.png">
-                    <h2 class="rolename">グループ</h2>
+                    <img src="uploads/logo/履歴書アイコン1.png">
+                    <h2 class="rolename">プロフィール</h2>
                     <p>美術館に行く、新しい食べ物を試す、ハイキングに行く、地ビールツアーに参加、または、ただ新しい友達に会いに出かける</p>
             </div>
             <div class="policycontent">
-                <img src="uploads/logo/タグアイコン.png">
-                <h2 class="rolename">カテゴリー</h2>
+                <img src="uploads/logo/おこづかいアイコン2.png">
+                <h2 class="rolename">オンライン決済</h2>
                 <p>美術館に行く、新しい食べ物を試す、ハイキングに行く、地ビールツアーに参加、または、ただ新しい友達に会いに出かける</p>
             </div>
             <div class="policycontent">
-                <img src="uploads/logo/風船アイコン3.png">
-                <h2 class="rolename">イベント</h2>
+                <img src="uploads/logo/タイマーアイコン.png">
+                <h2 class="rolename">イベントキャンセル</h2>
                 <p>美術館に行く、新しい食べ物を試す、ハイキングに行く、地ビールツアーに参加、または、ただ新しい友達に会いに出かける</p>
             </div>
             <div class="policycontent">
-                <img src="uploads/logo/風船アイコン3.png">
-                <h2 class="rolename">イベント</h2>
+                <img src="uploads/logo/仲間.png">
+                <h2 class="rolename">ユーザー</h2>
                 <p>美術館に行く、新しい食べ物を試す、ハイキングに行く、地ビールツアーに参加、または、ただ新しい友達に会いに出かける</p>
             </div>
             <div class="policycontent">
-                <img src="uploads/logo/風船アイコン3.png">
-                <h2 class="rolename">イベント</h2>
+                <img src="uploads/logo/パンチアイコン1.png">
+                <h2 class="rolename">トラブル</h2>
                 <p>美術館に行く、新しい食べ物を試す、ハイキングに行く、地ビールツアーに参加、または、ただ新しい友達に会いに出かける</p>
             </div>
     </div>
