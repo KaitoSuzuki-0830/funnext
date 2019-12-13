@@ -51,6 +51,9 @@
         <div class="indexrole">
             <h2 class="rolename">見つける</h2>
             <p class="rolesubtext">あなたが興味のあるコトをグループ、カテゴリー、イベントから探してみましょう。</p>
+            <a href="" class="indexlink">グループから探す</a>
+            <a href="" class="indexlink">カテゴリーから探す</a>
+            <a href="" class="indexlink">イベントから探す</a>
         </div>
         <div class="indexrole">
             <img src="uploads/logo/プラス.png" class="starticon">
@@ -58,6 +61,9 @@
         <div class="indexrole">
             <h2 class="rolename">始める</h2>
             <p class="rolesubtext">あなたが興味のあるコトをグループ、カテゴリー、イベントから作ってみましょう。</p>
+            <a href=""　class="indexlink">グループを作る</a>
+            <a href="" class="indexlink">カテゴリーを作る</a>
+            <a href="" class="indexlink">イベントを作る</a>
         </div>
     </div>
 </div>

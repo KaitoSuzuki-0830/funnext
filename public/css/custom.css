@@ -250,6 +250,7 @@ h5.righttext{
     color: black;
     margin-top: 20px;
     margin-right: 20px;
+    text-decoration: #3AA9E0;
 }
 
 #about1{
@@ -321,6 +322,11 @@ h2.rolename{
 p.rolesubtext{
     font-size: 12px;
     color: white;
+}
+
+a.indexlink{
+    color: teal;
+    text-decoration: none;
 }
 
 #about4{
