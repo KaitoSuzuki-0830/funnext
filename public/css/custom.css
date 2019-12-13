@@ -259,3 +259,8 @@ h5.righttext{
 #tableposition{
     margin-top: 20px;
 }
+
+/* グループ詳細ページ　group.show */
+#groupshow{
+    margin-top: 20px;
+}
