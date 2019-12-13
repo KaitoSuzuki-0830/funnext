@@ -305,6 +305,12 @@ p.about1subtext2{
     height: 600px;
 }
 
+.iconabout3{
+    height: 50%;
+    widows: 50%;
+    color: #00BCD4;
+}
+
 
 /* カテゴリー、グループ、イベントの一覧ページテーブルの場所 */
 #tableposition{

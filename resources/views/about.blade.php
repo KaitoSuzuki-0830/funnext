@@ -1,9 +1,9 @@
 @extends('layouts.app')
 @section('content')
 <div class="container-fluid" id="about0">
-    <a href="about1" id="abouttitle">Relaccum</a>
-    <a href="about2" id="abouttitle">できること</a>
-    <a href="about3" id="abouttitle">探す</a>
+    <a href="#about1" id="abouttitle">Relaccum</a>
+    <a href="#about2" id="abouttitle">できること</a>
+    <a href="#about3" id="abouttitle">探す</a>
     <a href="" id="abouttitle">Follow Us</a>
 </div>
 <div class="container-fluid" id="about1">
@@ -41,9 +41,9 @@
 <div class="container-fluid" id="about3">
     <div class="container">
         <h1 class='abouttitle'>やりたいことを探す</h1>
-        <div class="option"><img src="uploads/logo/サーチアイコン.png"></div>
+        <div class="option"><img src="uploads/logo/サーチアイコン.png" class="iconabout3"></div>
         <div class="option"><h3>探す</h3></div>
-        <div class="option"><img src="uploads/logo/プラスのアイコン素材.png"></div>
+        <div class="option"><img src="uploads/logo/プラスのアイコン素材.png" class="iconabout3"></div>
         <div class="option"><h3>作る</h3></div>
     </div>
 </div>
