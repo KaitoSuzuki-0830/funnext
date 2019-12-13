@@ -258,6 +258,17 @@ h5.righttext{
     background-color: black;
 }
 
+.left{
+    width: 50%;
+    height: 100%;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
 /* カテゴリー、グループ、イベントの一覧ページテーブルの場所 */
 #tableposition{
     margin-top: 20px;
