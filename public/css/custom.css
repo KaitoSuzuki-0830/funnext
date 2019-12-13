@@ -241,8 +241,7 @@ h5.righttext{
 
 /* relaccumについて　about page */
 #about0{
-    background-color:aqua;
-    height: 15%;
+    height: 50px;
     text-align: center;
 }
 
@@ -257,7 +256,7 @@ h5.righttext{
 
 #about1{
     background-color: black;
-    height: 400px;
+    height: 600px;
 }
 
 .about1text{
@@ -281,7 +280,7 @@ p.about1subtext2{
 
 #about2{
     background-color: red;
-    height: 400px;
+    height: 600px;
 }
 
 .abouttitle{
@@ -300,7 +299,7 @@ p.about1subtext2{
 
 #about3{
     background-color: greenyellow;
-    height: 400px;
+    height: 600px;
 }
 
 
@@ -312,7 +311,7 @@ p.about1subtext2{
 
 #about4{
     background-color:palegoldenrod;
-    height: 250px;
+    height: 300px;
 }
 
 
