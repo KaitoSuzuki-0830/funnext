@@ -39,12 +39,12 @@
     </div>
 </div>
 <div class="container-fluid" id="about3">
-    <h1 class="container">
+    <div class="container">
         <h1 class='abouttitle'>やりたいことを探す</h1>
         <div class="option"><img src="uploads/logo/サーチアイコン.png"></div>
         <div class="option"><h3>探す</h3></div>
         <div class="option"><img src="uploads/logo/プラスのアイコン素材.png"></div>
         <div class="option"><h3>作る</h3></div>
-    </h1>
+    </div>
 </div>
 @endsection
