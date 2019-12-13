@@ -293,7 +293,7 @@ p.about1subtext2{
     width: 33%;
     text-align: center;
     float: left;
-    margin-top: 150px;
+    margin-top: 60px;
 }
 
 #about3{
@@ -303,6 +303,7 @@ p.about1subtext2{
 .indexrole{
     float: left;
     margin-top: 30px;
+    width: 25%;
 }
 
 
