@@ -6,11 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Category extends Model
 {
-    public function group(){
+    public function groups(){
         return $this->hasMany('App\group');
     }
 
-    public function plan(){
+    public function plans(){
         return $this->hasMany('App\Plan');
     }
 }

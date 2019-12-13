@@ -2,7 +2,7 @@
 @section('content')
 <body>
     <div class="container">
-        @foreach($groups as $group)
+        @foreach($category->groups as $group)
             <div class="d-inline-block">
             <div class="card-deck" style="width:24.5rem;">
               <a href="{{route('groups.show',['id'=>$group->id])}}" class="card">
