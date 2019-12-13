@@ -7,9 +7,14 @@
     <a href="" id="abouttitle">Follow Us</a>
 </div>
 <div class="container-fluid" id="about1">
-    <img src="uploads/logo/relaccumtitle.png" width="50%" height="30%">
-    <h3　class="about1text">Relaccum（関係)＋Accum（蓄積)</h3>
-    <p class="about1subtext">Relaccumとは、新しい関係がたくさん溜まる場所です。</p>
-    <p class="about1subtext">さあ、新しい関係を作ってみましょう！</p>
+    <div class="col-md-6">
+        <img src="uploads/logo/relaccumtitle.png" height="35%">
+    </div>
+    <div class="col-md-6">
+        <h3　class="about1text">Relaccum（関係)＋Accum（蓄積)</h3>
+        <p class="about1subtext">Relaccumとは、新しい関係がたくさん溜まる場所です。</p>
+        <p class="about1subtext">さあ、新しい関係を作ってみましょう！</p>
+    </div>
+
 </div>
 @endsection
