@@ -32,7 +32,7 @@
                             <input id="cp_tabfour053" type="checkbox" name="tabs">
                             <div class="cp_plus">+</div>
                             <label for="cp_tabfour053">グループの代表者に責任は？</label>
-                            <div class="cp_actab-content">はい、ユーザーが自由にコミニティを作成、運営することはできますがRelaccumが決めているポリシーには守っていただく責任は全ユーザーにございます。</div>
+                            <div class="cp_actab-content">はい、ユーザーが自由にコミニティを作成、運営することはできますが当社が決めているポリシーには全ユーザーがお守りください。</div>
                             </div>
                             </div>
                             </div>
