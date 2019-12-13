@@ -12,9 +12,9 @@
             <img src="uploads/logo/relaccumtitle.png" width="100%">
         </div>
         <div class="col-md-6">
-            <h1 class="about1text">Relaccum（関係)＋Accum（蓄積)</h1>
-            <p class="about1subtext">Relaccumとは、新しい関係がたくさん溜まる場所です。</p>
-            <p class="about1subtext2">さあ、新しい関係を作ってみましょう！</p>
+            <h1 class="about1text">Relation（関係)＋Accum（蓄積)</h1>
+            <p class="about1subtext">Relaccumとは、新しい関係がたくさん溜まっているサービスです。</p>
+            <p class="about1subtext2">さあ、新しい関係を始めてみましょう！</p>
         </div>
     </div>
 </div>
@@ -67,12 +67,5 @@
         </div>
     </div>
 </div>
-<div class="container-fluid" id="about4">
-    <div class="container">
-        <div class="followcontent">
-            <i class="fab fa-facebook　fa-2x"></i>
-            <p class="followname">カテゴリー</p>
-        </div>
-    </div>
-</div>
+
 @endsection
