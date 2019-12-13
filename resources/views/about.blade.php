@@ -39,33 +39,6 @@
     </div>
 </div>
 <div class="container-fluid" id="about3">
-    <div class="container">
-        <h1 class='abouttitle'>やりたいことを探す</h1>
-        <div class="row">
-            <div class="col-md-2">
-                <div class="option"><img src="uploads/logo/サーチアイコン.png" width="50%" height="50%"></div>
-            </div>
-            <div class="col-md-4">
-                <div class="option">
-                    <h3>探す</h3>
-                    <p><a href=""><i class="fas fa-users fa-2x"></i> グループ</a></p>
-                    <p><a href=""><i class="fas fa-tag fa-2x"></i> カテゴリー</a></p>
-                    <p><a href=""><i class="far fa-calendar-alt fa-2x"> イベント</a></p>
-                </div>
-            </div>
-            <div class="col-md-2">
-                <div class="option"><img src="uploads/logo/プラスのアイコン素材.png" width="50%" height="50%"></div>
-            </div>
-            <div class="col-md-4">
-                <div class="option">
-                    <h3>作る</h3>
-                    <p><a href=""><i class="fas fa-users fa-2x"></i> グループ</a></p>
-                    <p><a href=""><i class="far fa-calendar-alt fa-2x"></i> イベント</a></p>
-                    <p><a href=""><i class="far fa-calendar-alt fa-2x"> イベント</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 
 @endsection
