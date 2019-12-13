@@ -241,8 +241,14 @@ h5.righttext{
 
 /* relaccumについて　about page */
 #about0{
-    background-color: blue;
+    background-color:aqua;
     height: 10%;
+    text-align: center;
+}
+
+#abouttitle{
+    text-decoration: none;
+    color: white;
 }
 #about1{
     background-color: black;
