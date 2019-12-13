@@ -27,13 +27,13 @@
             <p>美術館に行く、新しい食べ物を試す、ハイキングに行く、地ビールツアーに参加、または、ただ新しい友達に会いに出かける</p>
         </div>
         <div class="rolecontent">
-                <img src="uploads/logo/チームのフリーアイコン.png">
+                <img src="uploads/logo/タグアイコン3.png">
                 <h2 class="rolename">グループ</h2>
                 <p>美術館に行く、新しい食べ物を試す、ハイキングに行く、地ビールツアーに参加、または、ただ新しい友達に会いに出かける</p>
         </div>
         <div class="rolecontent">
-                <img src="uploads/logo/チームのフリーアイコン.png">
-                <h2 class="rolename">グループ</h2>
+                <img src="uploads/logo/風船アイコン3.png">
+                <h2 class="rolename">イベント</h2>
                 <p>美術館に行く、新しい食べ物を試す、ハイキングに行く、地ビールツアーに参加、または、ただ新しい友達に会いに出かける</p>
         </div>
     </div>
