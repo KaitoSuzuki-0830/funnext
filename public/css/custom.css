@@ -254,9 +254,21 @@ h5.righttext{
     margin-left: 10px;
 
 }
+
 #about1{
     background-color: black;
     height: 30%;
+}
+
+h3.about1text{
+    margin-left: 51%;
+    font-size: 30px;
+    font-weight: bold;
+}
+p.about1subtext{
+    margin-left: 51%;
+    font-size: 15px;
+
 }
 
 
