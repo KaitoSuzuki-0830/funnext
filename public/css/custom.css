@@ -278,7 +278,7 @@ p.about1subtext2{
 
 #about2{
     background-color: red;
-    height: 600px;
+    height: 400px;
 }
 
 .abouttitle{
@@ -298,7 +298,11 @@ p.about1subtext2{
 
 #about3{
     background-color: greenyellow;
-    height: 600px;
+    height: 300px;
+}
+.indexrole{
+    float: left;
+    margin-top: 30px;
 }
 
 
