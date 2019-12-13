@@ -9,7 +9,7 @@
 <div class="container-fluid" id="about1">
     <div class="row">
         <div class="col-md-6">
-            <img src="uploads/logo/relaccumtitle.png" height="35%">
+            <img src="uploads/logo/relaccumtitle.png">
         </div>
         <div class="col-md-6">
             <h3　class="about1text">Relaccum（関係)＋Accum（蓄積)</h3>
