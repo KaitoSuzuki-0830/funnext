@@ -38,7 +38,7 @@
         </div>
     </div>
 </div>
-<h1 class="container-fluid" id="about3">
+<div class="container-fluid" id="about3">
     <h1 class="container">
         <h1 class='abouttitle'>やりたいことを探す</h1>
         <div class="option"><img src="uploads/logo/サーチアイコン.png"></div>
