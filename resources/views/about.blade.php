@@ -3,8 +3,8 @@
 <div class="container-fluid" id="about0">
     <a href="#about1" id="abouttitle">Relaccum</a>
     <a href="#about2" id="abouttitle">できること</a>
-    <a href="#about3" id="abouttitle">探す</a>
-    <a href="#about4" id="abouttitle">Follow Us</a>
+    <a href="#about3" id="abouttitle">始める</a>
+    <a href="#about4" id="abouttitle">シェア</a>
 </div>
 <div class="container-fluid" id="about1">
     <div class="row">
