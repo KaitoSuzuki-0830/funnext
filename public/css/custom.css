@@ -241,7 +241,7 @@ h5.righttext{
 
 /* relaccumについて　about page */
 #about0{
-    height: 50px;
+    margin: 10px;
     text-align: center;
 }
 
@@ -250,7 +250,6 @@ h5.righttext{
     color: black;
     margin-top: 20px;
     margin-right: 20px;
-    margin-left: 20px;
 }
 
 #about1{
@@ -266,14 +265,14 @@ h5.righttext{
 }
 p.about1subtext{
     font-size: 30px;
-    margin-top: 25px;
-    color: cornflowerblue;
+    margin-top: 60px;
+    color: white;
 }
 
 p.about1subtext2{
-    font-size: 30px;
-    margin-top: 25px;
-    color: cornflowerblue;
+    font-size: 35px;
+    margin-top: 75px;
+    color: white;
     text-align: center;
 }
 
