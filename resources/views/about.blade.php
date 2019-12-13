@@ -2,7 +2,7 @@
 @section('content')
 <div class="container-fluid" id="about0">
     <a href="#about1" id="abouttitle">Relaccum</a>
-    <a href="#about2" id="abouttitle">できること</a>
+    <a href="#about2" id="abouttitle">コミニティー</a>
     <a href="#about3" id="abouttitle">始める</a>
     <a href="#about4" id="abouttitle">シェア</a>
 </div>
@@ -21,7 +21,7 @@
 <div class="container-fluid" id="about2">
     <div class="container">
         <div class='abouttitle'>
-            <h1>サービス説明</h1>
+            <h1>コミニティー説明</h1>
         </div>
         <div class="rolecontent">
             <img src="uploads/logo/チームのフリーアイコン.png">
