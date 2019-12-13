@@ -242,17 +242,19 @@ h5.righttext{
 /* relaccumについて　about page */
 #about0{
     background-color:aqua;
-    height: 10%;
+    height: 15%;
     text-align: center;
 }
 
 #abouttitle{
     text-decoration: none;
-    color: white;
+    font-size: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+
 }
 #about1{
     background-color: black;
-    width: 100%;
 }
 
 /* カテゴリー、グループ、イベントの一覧ページテーブルの場所 */
