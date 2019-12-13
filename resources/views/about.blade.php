@@ -18,4 +18,13 @@
         </div>
     </div>
 </div>
+<div class="container-fluid" id="about2">
+    <div class="container">
+        <h1>できること</h1>
+        <div class="row">
+            <div class="colmd-6"><i class="fas fa-plus" style="size:5x"></i></div>
+            <div class="colmd-6"><i class="fas fa-search" style="size:5x"></i></div>
+        </div>
+    </div>
+</div>
 @endsection

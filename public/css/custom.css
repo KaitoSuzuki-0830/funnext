@@ -279,6 +279,11 @@ p.about1subtext2{
     text-align: center;
 }
 
+#about2{
+    background-color: darkblue;
+    height: 40%;
+}
+
 
 /* カテゴリー、グループ、イベントの一覧ページテーブルの場所 */
 #tableposition{
