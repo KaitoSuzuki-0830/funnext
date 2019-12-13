@@ -50,7 +50,7 @@
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                             @if(Auth::check())
-                                <img src="{{ isset($user)? secure_asset($user->profile->avatar): Auth::user()->profile->avatar }}" alt="{{ Auth::user()->name}}" height="60px" width="60px" style="border-radius: 50%" class="profile-image img-circle">
+                                <img src="{{ isset($user)? secure_asset($user->profile): Auth::user()->profile}}" alt="{{ Auth::user()->name}}" height="60px" width="60px" style="border-radius: 50%" class="profile-image img-circle">
                             @endif
                             {{ Auth::user()->name }} <span class="caret"></span>
                         </a>
