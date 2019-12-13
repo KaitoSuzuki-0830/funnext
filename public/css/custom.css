@@ -258,14 +258,6 @@ h5.righttext{
     background-color: black;
 }
 
-.logodescription{
-    list-style: none;
-}
-
-#logodes{
-    float: left;
-}
-
 /* カテゴリー、グループ、イベントの一覧ページテーブルの場所 */
 #tableposition{
     margin-top: 20px;
