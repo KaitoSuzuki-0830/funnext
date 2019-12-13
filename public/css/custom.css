@@ -260,11 +260,11 @@ h5.righttext{
     height: 40%;
 }
 
-h2.about1text{
+.about1text{
     font-size: 50px;
     font-weight: bold;
     margin-top: 10px;
-    color: cornflowerblue;
+    color: 3AA9E0;
 }
 p.about1subtext{
     font-size: 30px;

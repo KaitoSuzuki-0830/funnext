@@ -12,7 +12,7 @@
             <img src="uploads/logo/relaccumtitle.png" width="100%">
         </div>
         <div class="col-md-6">
-            <h2　class="about1text">Relaccum（関係)＋Accum（蓄積)</h2>
+            <h1 class="about1text">Relaccum（関係)＋Accum（蓄積)</h1>
             <p class="about1subtext">Relaccumとは、新しい関係がたくさん溜まる場所です。</p>
             <p class="about1subtext2">さあ、新しい関係を作ってみましょう！</p>
         </div>
