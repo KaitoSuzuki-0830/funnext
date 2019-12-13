@@ -263,18 +263,18 @@ h5.righttext{
 .about1text{
     font-size: 50px;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 20px;
     color: #3AA9E0;
 }
 p.about1subtext{
     font-size: 30px;
-    margin-top: 250px;
+    margin-top: 25px;
     color: cornflowerblue;
 }
 
 p.about1subtext2{
     font-size: 30px;
-    margin-top: 30px;
+    margin-top: 25px;
     color: cornflowerblue;
     text-align: center;
 }
