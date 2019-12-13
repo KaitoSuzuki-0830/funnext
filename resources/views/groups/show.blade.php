@@ -4,7 +4,7 @@
     <div class="container">
     <div class="row" id="groupshow">
         <div class="col-sm-8">
-            <img src="{{ $group->featured }}" alt="{{ $group->title }}" height="450px" width="100%">
+            <img src="{{ $group->featured }}" alt="{{ $group->title }}" height="350px" width="100%">
         </div>
         <div class="col-sm-4">
             <h1>{{ $group->name}}</h1>
