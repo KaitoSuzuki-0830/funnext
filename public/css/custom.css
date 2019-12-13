@@ -280,14 +280,17 @@ p.about1subtext2{
 }
 
 #about2{
-    background-color: aliceblue;
+    background-color: red;
     height: 400px;
 }
 
 #about2title{
     text-align: center;
-    margin-top: 30px;
     font-weight: bold;
+}
+
+.rolecontent{
+    width: 33%;
 }
 
 
@@ -300,3 +303,5 @@ p.about1subtext2{
 #groupshow{
     margin-top: 20px;
 }
+
+
