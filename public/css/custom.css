@@ -284,7 +284,8 @@ p.about1subtext2{
     height: 400px;
 }
 
-#about2title{
+#abouttitle{
+    margin-top: 30px;
     text-align: center;
     font-weight: bold;
 }
