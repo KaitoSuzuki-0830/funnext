@@ -19,20 +19,20 @@
                             <div class="cp_actab">
                             <input id="cp_tabfour051" type="checkbox" name="tabs">
                             <div class="cp_plus">+</div>
-                            <label for="cp_tabfour051">質問テキスト</label>
-                            <div class="cp_actab-content">答えテキスト</div>
+                            <label for="cp_tabfour051">グループとは？</label>
+                            <div class="cp_actab-content">グループとは同じ趣味や目的を持ったユーザーが集まって作られるものです。グループを作ることで新規ユーザーが参加しやすくなります。</div>
                             </div>
                             <div class="cp_actab">
                             <input id="cp_tabfour052" type="checkbox" name="tabs">
                             <div class="cp_plus">+</div>
-                            <label for="cp_tabfour052">質問テキスト 質問テキスト</label>
-                            <div class="cp_actab-content">答えテキスト</div>
+                            <label for="cp_tabfour052">グループを作らないとイベントは行えませんか？</label>
+                            <div class="cp_actab-content">いいえ、イベント作成ページの際「その他」をお選びください。</div>
                             </div>
                             <div class="cp_actab">
                             <input id="cp_tabfour053" type="checkbox" name="tabs">
                             <div class="cp_plus">+</div>
-                            <label for="cp_tabfour053">質問テキスト 質問テキスト</label>
-                            <div class="cp_actab-content">答えテキスト</div>
+                            <label for="cp_tabfour053">グループの代表者に責任はありますか？</label>
+                            <div class="cp_actab-content">はい、ユーザーが自由にコミニティを作成、運営することはできますがRelaccumが決めているポリシーには守っていただく責任は全ユーザーにございます。</div>
                             </div>
                             </div>
                             </div>
