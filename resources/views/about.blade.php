@@ -56,4 +56,12 @@
         </div>
     </div>
 </div>
+<div class="container-fluid" id="about4">
+    <div class="container">
+        <div class="followcontent">
+            <i class="fab fa-facebook　fa-3x"></i>
+            <p class="followname">カテゴリー</p>
+        </div>
+    </div>
+</div>
 @endsection
