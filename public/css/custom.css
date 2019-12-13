@@ -259,16 +259,6 @@ h5.righttext{
     height: 30%;
 }
 
-.left{
-    width: 50%;
-    height: 100%;
-}
-
-.right{
-    width: 50%;
-    height: 100%;
-    float: left;
-}
 
 /* カテゴリー、グループ、イベントの一覧ページテーブルの場所 */
 #tableposition{
