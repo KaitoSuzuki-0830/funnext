@@ -284,10 +284,11 @@ p.about1subtext2{
     height: 400px;
 }
 
-#abouttitle{
+.abouttitle{
     margin-top: 30px;
     text-align: center;
     font-weight: bold;
+    font-size: 30px;
 }
 
 .rolecontent{

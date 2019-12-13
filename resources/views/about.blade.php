@@ -20,7 +20,7 @@
 </div>
 <div class="container-fluid" id="about2">
     <div class="container">
-        <h3 id='abouttitle'>できること</h3>
+        <h3 class='abouttitle'>できること</h3>
         <div class="rolecontent">
             <img src="uploads/logo/チームのフリーアイコン.png">
             <h2 class="rolename">グループ</h2>
@@ -40,10 +40,10 @@
 </div>
 <div class="container-fluid" id="about3">
     <div class="container">
-        <h3 id='about2title'>やりたいことを探す</h3>
+        <h3 class='abouttitle'>やりたいことを探す</h3>
         <div class="option"><img src="uploads/logo/サーチアイコン.png"></div>
         <div class="option"><h3>探す</h3></div>
-        <div class="option"><img src="uploads/logo/＋のアイコン素材.png"></div>
+        <div class="option"><img src="uploads/logo/プラスのアイコン素材.png"></div>
         <div class="option"><h3>作る</h3></div>
     </div>
 </div>
