@@ -4,7 +4,7 @@
     <a href="#about1" id="abouttitle">Relaccum</a>
     <a href="#about2" id="abouttitle">できること</a>
     <a href="#about3" id="abouttitle">探す</a>
-    <a href="" id="abouttitle">Follow Us</a>
+    <a href="#about4" id="abouttitle">Follow Us</a>
 </div>
 <div class="container-fluid" id="about1">
     <div class="row">
@@ -12,7 +12,7 @@
             <img src="uploads/logo/relaccumtitle.png" width="100%">
         </div>
         <div class="col-md-6">
-            <h1 class="about1text">Relation（関係)＋Accum（蓄積)</h1>
+            <h1 class="about1text">Relation(関係)＋Accum(蓄積)</h1>
             <p class="about1subtext">Relaccumとは、新しい関係がたくさん溜まっているサービスです。</p>
             <p class="about1subtext2">さあ、新しい関係を始めてみましょう！</p>
         </div>
