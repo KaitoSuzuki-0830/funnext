@@ -300,10 +300,15 @@ p.about1subtext2{
     background-color: black;
     height: 300px;
 }
+
+.abouttitle{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
 .indexrole{
     float: left;
     margin-top: 30px;
-    width: 25%;
 }
 
 .starticon{
