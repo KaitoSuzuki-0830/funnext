@@ -7,7 +7,7 @@
             <form action="/outlinesearch" method="get">
               <div class="input-group">
                 <i class="fas fa-search" id="searchicon"></i>
-                <input type="search" name="search" class="form-control" placeholder="グループ名やカテゴリーで検索" id="searchbox">
+                <input type="search" name="search" class="form-control" placeholder="グループ,カテゴリー,イベント名で検索" id="searchbox">
               </div>
             </form>
         </div>
@@ -15,8 +15,16 @@
     </div>
 </div>
 <div class="container" id="groupposition">
-    <h2>Groups</h2>
-    <a href="{{route('groups.index')}}"><h5>すべて見る</h5></a>
+    <h2>グループ</h2>
+    <div class="row">
+        <div class="col-md2">
+            <h5>グループ</h5>
+        </div>
+        <div class="col-md-8"></div>
+        <div class="col-md2">
+            <a href="{{route('groups.index')}}"><h5>すべて見る</h5></a>
+        </div>
+    </div>
 @foreach($groups as $group)
   <div class="d-inline-block">
   <div class="card-deck" style="width:24.5rem;">
@@ -37,7 +45,7 @@
 </div>
 <hr>
 <div class="container">
-    <h2>Categories</h2>
+    <h2>カテゴリー</h2>
     <a href="{{route('category.index')}}"><h5>すべて見る</h5></a>
 @foreach($categories as $category)
     <div class="d-inline-block">
@@ -49,5 +57,10 @@
         <h5 class="row justify-content-center">{{$category->name}}</h5>
     </div>
 @endforeach
+</div>
+<hr>
+<div class="container">
+        <h2>イベント</h2>
+        <a href="{{route('category.index')}}"><h5>すべて見る</h5></a>
 </div>
 @endsection
