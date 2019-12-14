@@ -17,11 +17,11 @@
 <div class="container" id="groupposition">
     <h2>グループ</h2>
     <div class="row">
-        <div class="col-md-1">
+        <div class="col-md-2">
             <h5>グループ</h5>
         </div>
-        <div class="col-md-10"></div>
-        <div class="col-md-1">
+        <div class="col-md-8"></div>
+        <div class="col-md-2">
             <a href="{{route('groups.index')}}"><h5>すべて見る</h5></a>
         </div>
     </div>
