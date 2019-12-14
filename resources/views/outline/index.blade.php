@@ -20,8 +20,8 @@
         <div class="col-md-2">
             <h5>グループ</h5>
         </div>
-        <div class="col-md-9"></div>
-        <div class="col-md-1">
+        <div class="col-md-8"></div>
+        <div class="col-md-2">
             <a href="{{route('groups.index')}}"><h5>すべて見る</h5></a>
         </div>
     </div>
@@ -45,13 +45,14 @@
 </div>
 <hr>
 <div class="container">
-    <div class="row">
-        <div class="col-md-2"><h2>カテゴリー</h2></div>
-        <div class="col-md-9">カテゴリー</div>
-        <div class="col-md-1">
-            <a href="{{route('category.index')}}"><h5>すべて見る</h5></a>
+    <h2>カテゴリー</h2>
+        <div class="row">
+            <div class="col-md-2"><h5>カテゴリー</h5></div>
+            <div class="col-md-8"></div>
+            <div class="col-md-2">
+                <a href="{{route('category.index')}}"><h5>すべて見る</h5></a>
+            </div>
         </div>
-    </div>
 @foreach($categories as $category)
     <div class="d-inline-block">
         <div class="card-deck" style="width:19rem;">
@@ -65,10 +66,11 @@
 </div>
 <hr>
 <div class="container">
+    <h2>イベント</h2>
     <div class="row">
-        <div class="col-md-2"><h2>イベント</h2></div>
-        <div class="col-md-9">イベント</div>
-        <div class="col-md-1">
+        <div class="col-md-2"><h5>イベント</h5></div>
+        <div class="col-md-8"></div>
+        <div class="col-md-2">
             <a href="{{route('plans.index')}}"><h5>すべて見る</h5></a>
         </div>
     </div>
