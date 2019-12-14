@@ -75,6 +75,7 @@
         </div>
     </div>
 @foreach($plans as $plan)
+<div class="d-inline-block">
     <div class="card text-center" style="width: 24.5rem;">
         <div class="card-body">
           <h5 class="card-title">{{ $plan->title}}</h5>
@@ -82,6 +83,7 @@
           <a href="{{route('plans.show',['id'=>$plan->id])}}" class="btn btn-primary">詳細へ</a>
         </div>
     </div>
+</div>
 @endforeach
 </div>
 @endsection
