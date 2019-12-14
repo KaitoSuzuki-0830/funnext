@@ -8,16 +8,16 @@
     <div class="col-md-1"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="私はこのイベントに参加します！参加者、募集なう！！！" data-hashtags="relaccum #リレキューム　#Relaccum #イベント" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></<a></div>
 </div>
 
- <div class="card" style="width:100%;">
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
             <div class="card-body">
                 <div class="card-title"><h3>{{$plan->title}}</h3></div>
-                {{-- <p class="card-text"><i class="fas fa-map-marker-alt"></i> {{$plan->prefecture->name}}</p> --}}
-                <p class="card-text"><i class="far fa-map"></i> {{$plan->place}}</p>
-                <p class="card-text"><i class="fas fa-tag"></i> {{$plan->category->name}}</p>
-                {{-- <p class="card-text"><i class="fas fa-users"></i> {{$plan->group->name}}</p> --}}
-                <p class="card-text">{{$plan->description}}</p>
-                <p class="card-text"><i class="fas fa-yen-sign"></i> {{$plan->price}}
-                    <form action="{{ route('pay') }}" method="POST">
+                    <p class="card-text"><i class="fas fa-map-marker-alt"></i>　{{$plan->place}}</p>
+                    <p class="card-text"><i class="fas fa-tag"></i> {{$plan->category->name}}</p>
+                    <p class="card-text">{{$plan->description}}</p>
+                    <p class="card-text"><i class="fas fa-yen-sign"></i> {{$plan->price}}
+                        <form action="{{ route('pay') }}" method="POST">
                         {{ csrf_field() }}
                         <script
                             src="https://checkout.stripe.com/checkout.js" class="stripe-button"
@@ -30,10 +30,12 @@
                             data-locale="auto"
                             data-currency="JPY">
                         </script>
-                    </form>
-                </p>
+                        </form>
+                    </p>
             </div>
         </div>
     </div>
+    <div class="col-md-6"></div>
+</div>
 </div>
 @endsection
