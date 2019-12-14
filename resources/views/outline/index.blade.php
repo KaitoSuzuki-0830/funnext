@@ -64,7 +64,6 @@
     </div>
 @endforeach
 </div>
-<hr>
 <div class="container">
     <h2>イベント</h2>
     <div class="row">
