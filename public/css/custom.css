@@ -365,6 +365,10 @@ a.indexlink{
     text-align: center;
 }
 
+#snslist{
+    list-style: none;
+}
+
 .snscontent{
     float: left;
     text-align: center;
