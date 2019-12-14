@@ -102,20 +102,20 @@
 </div>
 <div class="container-fluid" id="about5">
     <div class="container">
-        <div class='abouttitle'>
+        <div class='snstitle'>
             <h1>Follow Relaccum</h1>
         </div>
         <div class="snscontent">
-                <a href="" class="snsicon"><i class="fab fa-facebook fa-5x my-example"></i></a>
-                <h2 class="snsname">Facebook</h2>
+            <a href="" class="snsicon"><i class="fab fa-facebook fa-5x my-example"></i></a>
+            <h2 class="snsname">Facebook</h2>
         </div>
         <div class="snscontent">
-                <a href="" class="snsicon"><i class="fab fa-twitter fa-5x my-example"></i></a>
-                <h2 class="snsname">Twitter</h2>
+            <a href="" class="snsicon"><i class="fab fa-twitter fa-5x my-example"></i></a>
+            <h2 class="snsname">Twitter</h2>
         </div>
         <div class="snscontent">
-                <a href="" class="snsicon"><i class="fab fa-instagram fa-5x my-example"></i></a>
-                <h2 class="snsname">Instagram</h2>
+            <a href="" class="snsicon"><i class="fab fa-instagram fa-5x my-example"></i></a>
+            <h2 class="snsname">Instagram</h2>
         </div>
     </div>
 </div>
