@@ -7,6 +7,7 @@ use App\group;
 use App\Category;
 use App\User;
 use App\Plan;
+use App\Prefecture;
 use Illuminate\Support\Facades\Auth;
 
 class OutlineController extends Controller
@@ -26,7 +27,8 @@ class OutlineController extends Controller
         return view('outline.index')->with('groups',$groups)
                                     ->with('categories',$categories)
                                     ->with('user',$user)
-                                    ->with('plans',$plans);
+                                    ->with('plans',$plans)
+                                    ->with('prefectures',Prefecture::all());;
     }
 
      public function search(Request $request)
@@ -40,7 +42,8 @@ class OutlineController extends Controller
         return view('outline.index')->with('groups',$groups)
                                     ->with('user',$user)
                                     ->with('categories',$categories)
-                                    ->with('plans',$plans);
+                                    ->with('plans',$plans)
+                                    ->with('prefectures',Prefecture::all());;
 
     }
     /**
