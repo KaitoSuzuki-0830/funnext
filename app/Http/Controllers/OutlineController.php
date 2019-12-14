@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\group;
 use App\Category;
 use App\User;
+use App\Plan;
 use Illuminate\Support\Facades\Auth;
 
 class OutlineController extends Controller
@@ -20,10 +21,12 @@ class OutlineController extends Controller
         $groups = group::take(3)->get();
         $categories = Category::take(4)->get();
         $user = User::find(Auth::id());
+        $plans = Plan::take(3)->get();
 
         return view('outline.index')->with('groups',$groups)
                                     ->with('categories',$categories)
-                                    ->with('user',$user);
+                                    ->with('user',$user)
+                                    ->with('plans',$plans);
     }
 
      public function search(Request $request)
@@ -31,10 +34,13 @@ class OutlineController extends Controller
         $search = $request->get('search');
         $groups = group::where('name','like','%'.$search.'%')->get();
         $user = User::find(Auth::id());
-        $categories = Category::take(4)->get();
+        $categories = Category::where('name','like','%'.$search.'%')->get();
+        $plans = Plan::where('name','like','%'.$search.'%')->get();
+
         return view('outline.index')->with('groups',$groups)
                                     ->with('user',$user)
-                                    ->with('categories',$categories);
+                                    ->with('categories',$categories)
+                                    ->with('plans',$plans);
 
     }
     /**
