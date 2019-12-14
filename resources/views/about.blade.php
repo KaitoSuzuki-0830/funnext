@@ -101,5 +101,14 @@
     </div>
 </div>
 <div class="container-fluid" id="about5">
+    <div class="container">
+        <div class='abouttitle'>
+            <h1>Follow Relaccum</h1>
+        </div>
+        <div class="snscontent">
+                <a href=""><i class="fab fa-facebook fa-3x my-example"></i></a>
+                <h2 class="rolename">Facebook</h2>
+        </div>
+    </div>
 </div>
 @endsection
