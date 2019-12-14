@@ -55,7 +55,7 @@
         </div>
 @foreach($categories as $category)
     <div class="d-inline-block">
-        <div class="card-deck" style="width:24.5rem;">
+        <div class="card-deck bg-info mb-3" style="width:24.5rem;">
             <a href="{{route('category.show',['id'=>$category->id])}}" class="card">
                 <img src="{{ $category->featured}}" alt="{{ $category->name}}" class="card-img" height="150px" width="150px">
             </a>
