@@ -78,7 +78,7 @@
     <div class="card text-center" style="width: 24.5rem;">
         <div class="card-body">
           <h5 class="card-title">{{ $plan->title}}</h5>
-          <p class="card-text" id="eventplace"><i class="fas fa-map-marked-alt"></i> {{$plan->prefectures->name}}</p>
+          <p class="card-text" id="eventplace"><i class="fas fa-tag"></i> {{ $plan->categories->name}}</p>
           <p class="card-text" id="eventplace"><i class="fas fa-map-marker-alt"></i> {{ $plan->place }}</p>
           <a href="{{route('plans.show',['id'=>$plan->id])}}" class="btn btn-primary">詳細へ</a>
         </div>
