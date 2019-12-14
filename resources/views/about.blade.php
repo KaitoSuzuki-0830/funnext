@@ -69,7 +69,7 @@
             <div class="policycontent">
                 <img src="uploads/logo/パンチアイコン1.png">
                 <h2 class="rolename">トラブル</h2>
-                <p>当社が解決に努められるように現状説明などを「お問い合わせ内容」に具体的にお書きください。<a href="" class="indexlink">Contact</a></p>
+                <p>当社が解決に努められるように現状説明などを「お問い合わせ内容」に具体的にお書きください。<a href="" class="policylink">Contact</a></p>
             </div>
     </div>
 </div>

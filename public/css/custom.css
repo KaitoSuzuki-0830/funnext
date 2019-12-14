@@ -316,6 +316,11 @@ p.about1subtext2{
     margin-top: 60px;
 }
 
+a.policylink{
+    color: white;
+    text-decoration: none
+}
+
 
 
 #about4{
