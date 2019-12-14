@@ -395,6 +395,11 @@ a.indexlink{
     margin-top: 20px;
 }
 
+/* Outline.index イベント場所の文字 */
+#eventplace{
+    font-size: 10px;
+}
+
 /* グループ詳細ページ　group.show */
 #groupshow{
     margin-top: 20px;
