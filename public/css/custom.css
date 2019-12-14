@@ -358,6 +358,21 @@ a.indexlink{
     height: 300px;
 }
 
+.snscontent{
+    float: left;
+    text-align: center;
+}
+
+.snsicon{
+    color: #3AA9E0;
+}
+
+.snsname{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 
 /* カテゴリー、グループ、イベントの一覧ページテーブルの場所 */
 #tableposition{

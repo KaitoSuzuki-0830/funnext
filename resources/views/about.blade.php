@@ -106,16 +106,16 @@
             <h1>Follow Relaccum</h1>
         </div>
         <div class="snscontent">
-                <a href=""><i class="fab fa-facebook fa-5x my-example"></i></a>
-                <h2 class="rolename">Facebook</h2>
+                <a href="" class="snsicon"><i class="fab fa-facebook fa-5x my-example"></i></a>
+                <h2 class="snsname">Facebook</h2>
         </div>
         <div class="snscontent">
-                <a href=""><i class="fab fa-twitter fa-5x my-example"></i></a>
-                <h2 class="rolename">Twitter</h2>
+                <a href="" class="snsicon"><i class="fab fa-twitter fa-5x my-example"></i></a>
+                <h2 class="snsname">Twitter</h2>
         </div>
         <div class="snscontent">
-                <a href=""><i class="fab fa-instagram fa-5x my-example"></i></a>
-                <h2 class="rolename">Instagram</h2>
+                <a href="" class="snsicon"><i class="fab fa-instagram fa-5x my-example"></i></a>
+                <h2 class="snsname">Instagram</h2>
         </div>
     </div>
 </div>
