@@ -115,7 +115,7 @@
                 <h2 class="snsname">Twitter</h2>
             </li>
             <li class="snscontent">
-                <a href="" class="snsicon1"><i class="fab fa-instagram fa-4x my-example"></i></a>
+                <a href="" class="snsicon"><i class="fab fa-instagram fa-4x my-example"></i></a>
                 <h2 class="snsname">Instagram</h2>
             </li>
         </ul>
