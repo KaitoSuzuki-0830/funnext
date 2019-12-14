@@ -258,6 +258,12 @@ h5.righttext{
     height: 600px;
 }
 
+#logoimage{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 400px;
+}
+
 .about1text{
     font-size: 50px;
     font-weight: bold;
@@ -318,7 +324,7 @@ p.about1subtext2{
 
 a.policylink{
     color: white;
-    text-decoration: none
+    text-decoration: none;
 }
 
 #about4{

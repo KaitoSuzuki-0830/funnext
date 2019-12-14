@@ -10,7 +10,7 @@
 <div class="container-fluid" id="about1">
     <div class="row">
         <div class="col-md-6">
-            <img src="uploads/logo/relaccumtitle.png" width="100%">
+            <img src="uploads/logo/relaccumtitle.png" width="100%" id="logoimage">
         </div>
         <div class="col-md-6">
             <h1 class="about1text">Relation(関係)＋Accum(蓄積)</h1>
