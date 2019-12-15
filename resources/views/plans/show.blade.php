@@ -35,78 +35,93 @@
         </div>
     </div>
     <div class="col-md-6">
-            <div id="gmap"></div><!-- 地図を表示する領域 -->
+        <div id="map" style="height:550px; width: 100%; margin:2rem auto 0;"></div>
+                <div id="map_info">
+                  <p id="venue">東京スカイツリー</p>
+                  <p id="address">〒131-0045 東京都墨田区押上１−１−２</p>
+                  <p id="url"><a href="http://www.tokyo-skytree.jp/" target="_blank">www.tokyo-skytree.jp</a></p>
+                  <p id="zoom">17</p>
+                </div>
+                <div id="map_container">
+                  <div id="map_canvas"></div>
+                </div>
+                <!-- jQuery の読み込み -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                <script>
+                function initMap() {
+                  jQuery(function($){
+                    var map, map_center;
+                    //初期のズーム レベル（指定がなければ 16）
+                    var zoom = $("#zoom").text() ?  parseInt($("#zoom").text()): 16;
+                    //マーカーのタイトル
+                    var title = $('#venue').text();
 
-            <script>
-            function initMap() {
-              var target = document.getElementById('gmap');
-              //マップを生成して表示
-              var map = new google.maps.Map(document.getElementById('gmap'), {
-                center: {lat: 40.748441, lng: -73.985616},
-                zoom: 15
-              });
-              //情報ウィンドウのインスタンスの生成
-              var infoWindow = new google.maps.InfoWindow;
+                    //マップ生成のオプション
+                    //center は Geolocation から取得して後で設定
+                    var opts = {
+                      zoom: zoom,
+                      mapTypeId: "roadmap"  //初期マップ タイプ
+                    };
 
-              //ブラウザが Geolocation に対応しているかを判定
-              //対応していない場合の処理
-              if(!navigator.geolocation){
-                //情報ウィンドウの位置をマップの中心位置に指定
-                infoWindow.setPosition(map.getCenter());
-                //情報ウィンドウのコンテンツを設定
-                infoWindow.setContent('Geolocation に対応していません。');
-                //情報ウィンドウを表示
-                infoWindow.open(map);
-              }
+                    //マップのインスタンスを生成
+                    map = new google.maps.Map(document.getElementById("map_canvas"), opts);
 
-              //ブラウザが対応している場合、position にユーザーの位置情報が入る
-              navigator.geolocation.getCurrentPosition(function(position) {
-                //position から緯度経度（ユーザーの位置）のオブジェクトを作成し変数に代入
-                var pos = {
-                  lat: position.coords.latitude,
-                  lng: position.coords.longitude
-                };
+                    //ジオコーディングのインスタンスの生成
+                    var geocoder = new google.maps.Geocoder();
 
-                //DirectionsService のオブジェクトを生成
-                var directionsService = new google.maps.DirectionsService();
-                //DirectionsRenderer のオブジェクトを生成
-                var directionsRenderer = new google.maps.DirectionsRenderer();
-                //directionsRenderer と地図を紐付け
-                directionsRenderer.setMap(map);
+                    var address = $('#address').text();
+                    var my_reg = /〒\s?\d{3}(-|ー)\d{4}/;
+                    //郵便番号を含めるとおかしくなる場合があったので、郵便番号は削除
+                    address = address.replace(my_reg, '');
 
-                // ルートを取得するリクエスト
-                var request = {
-                  origin: pos,      // 出発地点の緯度経度（ユーザーの位置）
-                  destination: "Central Park",   // 到着地点
-                  travelMode: 'TRANSIT',  //公共交通機関
-                  transitOptions: {
-                    modes: ['BUS'],  //バス
-                    routingPreference: 'FEWER_TRANSFERS'  //乗換の少ないルート
-                  },
-                };
+                    //geocoder.geocode() にアドレスを渡して、コールバック関数を記述して処理
+                    geocoder.geocode( { 'address': address}, function(results, status) {
+                      if (status === 'OK' && results[0]) {
+                        //results[0].geometry.location に緯度・経度のオブジェクトが入っている
+                        map_center = results[0].geometry.location;
+                        //地図の中心位置を設定
+                        map.setCenter(map_center);
+                        //マーカーのインスタンスを生成
+                        var marker = new google.maps.Marker({
+                          //マーカーを配置する Map オブジェクトを指定
+                          map: map,
+                          //マーカーの初期の場所を示す LatLng を指定
+                          position: map_center,
+                          //マーカーをアニメーションで表示
+                          animation: google.maps.Animation.DROP,
+                          title: title
+                        });
 
-                //DirectionsService のオブジェクトのメソッド route() にリクエストを渡し、
-                //コールバック関数で結果を setDirections(result) で directionsRenderer にセットして表示
-                directionsService.route(request, function(result, status) {
-                  //ステータスがOKの場合、
-                  if (status === 'OK') {
-                    directionsRenderer.setDirections(result); //取得したルート（結果：result）をセット
-                  }else{
-                    alert("取得できませんでした：" + status);
-                  }
-                });
+                        //情報ウィンドウに表示するコンテンツを作成
+                        //urlが指定してあればリンクつきのタイトルと住所を表示（URLがない場合もあるため）
+                        var url = $("#url a").attr('href');
+                        var content;
+                        if (url) {
+                          content = '<div id="map_content"><p><a href="' + url + '" target="_blank"> ' + title + '</a><br />' + address + '</p></div>';
+                        }else {
+                          //urlが指定してなければ、リンクなしのタイトルと住所を表示
+                          content = '<div id="map_content"><p>' + title + '<br />' + address + '</p></div>';
+                        }
 
-              }, function() {  //位置情報の取得をユーザーがブロックした場合のコールバック
-                //情報ウィンドウの位置をマップの中心位置に指定
-                infoWindow.setPosition(map.getCenter());
-                //情報ウィンドウのコンテンツを設定
-                infoWindow.setContent('Error: Geolocation が無効です。');
-                //情報ウィンドウを表示
-                infoWindow.open(map);
-              });
-            }
-            </script>
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9iATwHWcm3sUqBSZnJB3v1VMbV9_s6lw&callback=initMap" async defer></script><!-- YOUR_API_KEYの部分は取得した APIキーで置き換えます。 -->
+                        //情報ウィンドウのインスタンスを生成
+                        var infowindow = new google.maps.InfoWindow({
+                          content: content,
+                        });
+
+                        //marker をクリックすると情報ウィンドウを表示(リスナーの登録）
+                        google.maps.event.addListener(marker, 'click', function() {
+                          //第2引数にマーカーを指定して紐付け
+                          infowindow.open(map, marker);
+                        });
+                      } else {
+                        alert("住所から位置の取得ができませんでした。: " + status);
+                      }
+                    });
+                  });
+                }
+                </script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+                <!-- YOUR_API_KEYの部分は取得した APIキーで置き換えます。 -->
     </div>
 </div>
 <hr>
