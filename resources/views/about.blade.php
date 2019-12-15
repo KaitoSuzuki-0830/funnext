@@ -66,7 +66,7 @@
             <div class="policycontent">
                 <img src="uploads/logo/パンチアイコン1.png">
                 <h2 class="rolename">トラブル</h2>
-                <p>ユーザー間でトラブルが起きた場合は、直ちに「<a href="/contact" class="policylink">Contact</a>」からお知らせください。また、解決がスムーズになるように現状説明などを「お問い合わせ内容」に具体的にお書きください。</p>
+                <p>ユーザー間でトラブルが起きた場合は、すぐに「<a href="/contact" class="policylink">Contact</a>」からお知らせください。また、解決がスムーズになるように現状説明などを「お問い合わせ内容」に具体的にお書きください。</p>
             </div>
     </div>
 </div>

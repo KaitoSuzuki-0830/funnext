@@ -83,7 +83,7 @@
                     <div class="toppage">
                         <img src="uploads/logo/relaccumtitle.png" height="10%" width="20%" id="titlelogo">
                         <img src="https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80">
-                        <p>さあ、新しい関係を探そう！</p>
+                        <h1 id="welcometitle">さあ、新しい関係を探そう！</h1>
                     </div>
         </div>
     </body>
