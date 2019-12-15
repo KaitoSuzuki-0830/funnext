@@ -21,9 +21,7 @@
 </div>
 <div class="container-fluid" id="about2">
     <div class="container">
-        <div class='abouttitle'>
-            <h1>コミニティー説明</h1>
-        </div>
+        <h1 class='abouttitle'>コミニティー説明</h1>
         <div class="rolecontent">
             <img src="uploads/logo/チームのフリーアイコン.png">
             <h2 class="rolename">グループ</h2>

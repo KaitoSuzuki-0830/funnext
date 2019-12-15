@@ -290,8 +290,8 @@ p.about1subtext2{
 .abouttitle{
     text-align: center;
     font-weight: bold;
-    font-size: 30px;
-    /* margin-top: 30px; */
+    color: white;
+    padding-top: 40px;
 }
 
 
@@ -310,8 +310,8 @@ p.about1subtext2{
 .policytitle{
     text-align: center;
     font-weight: bold;
-    font-size: 30px;
     color: white;
+    padding-top: 35px;
 }
 
 .policycontent{
@@ -331,11 +331,6 @@ a.policylink{
     height: 300px;
 }
 
-.abouttitle{
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-}
 .indexrole{
     float: left;
     margin-top: 30px;
@@ -365,9 +360,9 @@ a.indexlink{
 
 .snstitle{
     color: black;
-    font-size: 20px;
     font-weight: bold;
     text-align: center;
+    padding-top: 40px;
 }
 
 #snslist{
