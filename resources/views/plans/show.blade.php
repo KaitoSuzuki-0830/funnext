@@ -35,22 +35,78 @@
         </div>
     </div>
     <div class="col-md-6">
-        <div id="map" style="height: 500px; width: 80%; margin: 2rem auto 0;"></div>
-            <!-- jqueryの読み込む -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-            <!-- google map api -->
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9iATwHWcm3sUqBSZnJB3v1VMbV9_s6lw"
-            ></script>
-            <!-- js -->
-            <script type="text/javascript">
-              var map = new google.maps.Map(document.getElementById('map'), {
-                center: {
-                  lat: -34.397, //緯度を設定
-                  lng: 150.644 //経度を設定
-                },
-                zoom: 8 //地図のズームを設定
+            <div id="gmap"></div><!-- 地図を表示する領域 -->
+
+            <script>
+            function initMap() {
+              var target = document.getElementById('gmap');
+              //マップを生成して表示
+              var map = new google.maps.Map(document.getElementById('gmap'), {
+                center: {lat: 40.748441, lng: -73.985616},
+                zoom: 15
               });
+              //情報ウィンドウのインスタンスの生成
+              var infoWindow = new google.maps.InfoWindow;
+
+              //ブラウザが Geolocation に対応しているかを判定
+              //対応していない場合の処理
+              if(!navigator.geolocation){
+                //情報ウィンドウの位置をマップの中心位置に指定
+                infoWindow.setPosition(map.getCenter());
+                //情報ウィンドウのコンテンツを設定
+                infoWindow.setContent('Geolocation に対応していません。');
+                //情報ウィンドウを表示
+                infoWindow.open(map);
+              }
+
+              //ブラウザが対応している場合、position にユーザーの位置情報が入る
+              navigator.geolocation.getCurrentPosition(function(position) {
+                //position から緯度経度（ユーザーの位置）のオブジェクトを作成し変数に代入
+                var pos = {
+                  lat: position.coords.latitude,
+                  lng: position.coords.longitude
+                };
+
+                //DirectionsService のオブジェクトを生成
+                var directionsService = new google.maps.DirectionsService();
+                //DirectionsRenderer のオブジェクトを生成
+                var directionsRenderer = new google.maps.DirectionsRenderer();
+                //directionsRenderer と地図を紐付け
+                directionsRenderer.setMap(map);
+
+                // ルートを取得するリクエスト
+                var request = {
+                  origin: pos,      // 出発地点の緯度経度（ユーザーの位置）
+                  destination: "Central Park",   // 到着地点
+                  travelMode: 'TRANSIT',  //公共交通機関
+                  transitOptions: {
+                    modes: ['BUS'],  //バス
+                    routingPreference: 'FEWER_TRANSFERS'  //乗換の少ないルート
+                  },
+                };
+
+                //DirectionsService のオブジェクトのメソッド route() にリクエストを渡し、
+                //コールバック関数で結果を setDirections(result) で directionsRenderer にセットして表示
+                directionsService.route(request, function(result, status) {
+                  //ステータスがOKの場合、
+                  if (status === 'OK') {
+                    directionsRenderer.setDirections(result); //取得したルート（結果：result）をセット
+                  }else{
+                    alert("取得できませんでした：" + status);
+                  }
+                });
+
+              }, function() {  //位置情報の取得をユーザーがブロックした場合のコールバック
+                //情報ウィンドウの位置をマップの中心位置に指定
+                infoWindow.setPosition(map.getCenter());
+                //情報ウィンドウのコンテンツを設定
+                infoWindow.setContent('Error: Geolocation が無効です。');
+                //情報ウィンドウを表示
+                infoWindow.open(map);
+              });
+            }
             </script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9iATwHWcm3sUqBSZnJB3v1VMbV9_s6lw&callback=initMap" async defer></script><!-- YOUR_API_KEYの部分は取得した APIキーで置き換えます。 -->
     </div>
 </div>
 <hr>
