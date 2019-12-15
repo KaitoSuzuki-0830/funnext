@@ -252,6 +252,7 @@ h5.righttext{
     margin-top: 20px;
     margin-right: 20px;
     text-decoration: #3AA9E0;
+    position: -webkit-sticky;
     position: sticky;
     top: 0px;
 }
@@ -301,6 +302,7 @@ h2.about1go{
     font-weight: bold;
     color: white;
     padding-top: 40px;
+
 }
 
 
