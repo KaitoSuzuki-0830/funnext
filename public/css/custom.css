@@ -1,7 +1,3 @@
-h1.toppage{
-    position: relative;
-    color: darkturquoise;
-}
 
 /* footer */
 #footerlist{
@@ -41,31 +37,18 @@ h5.righttext{
     margin-top: 30px;
 }
 
-/* 　1枚目 */
-/* .title{
-    position: relative;
-}*/
 
-
-/* .title h5{
-    position: absolute;
-    color: cornflowerblue;
-    font-size: 12px;
-    top: 0;
-    left: 0;
-}  */
 
 #titlelogo{
     margin: 0;
     padding: 0;
-
 }
 
 .toppage {/*親div*/
     position: relative;/*相対配置*/
     }
 
-.toppage p {
+.toppage h1{
     position: absolute;/*絶対配置*/
     color: white;/*文字は白に*/
     top: 0;
@@ -74,6 +57,7 @@ h5.righttext{
 
 .toppage img {
     width: 100%;
+    opacity: 0.8;
     }
 
 /* outline */
