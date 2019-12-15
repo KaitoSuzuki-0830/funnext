@@ -16,7 +16,7 @@
             <h1 class="about1text">Relation(関係)＋Accum(蓄積)</h1>
             <p class="about1subtext">Relaccumとは、新しい関係がたくさん溜まっていくサービスです。</p>
             <p class="about1subtext2">あなたが求めている関係がきっとあります！</p>
-            <h2 class="abou1go">さあ、新しい関係を始めてみましょう！</h2>
+            <h2 class="about1go">さあ、新しい関係を始めてみましょう！</h2>
         </div>
     </div>
 </div>
