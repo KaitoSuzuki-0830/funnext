@@ -243,6 +243,8 @@ h5.righttext{
 #about0{
     margin: 10px;
     text-align: center;
+    position: sticky;
+    top: 0px;
 }
 
 #abouttitle{
@@ -289,7 +291,7 @@ h2.about1go{
 }
 
 #about2{
-    background-color: red;
+    background-color: #0B5394;
     height: 500px;
 }
 
