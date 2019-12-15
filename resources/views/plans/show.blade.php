@@ -38,7 +38,7 @@
                 <div id="map_info">
                   {{-- <p id="venue">東京スカイツリー</p> --}}
                   <p id="address">{{ $plan->place }}</p>
-                  <p id="url"><a href="http://www.tokyo-skytree.jp/" target="_blank">www.tokyo-skytree.jp</a></p>
+                  {{-- <a id="url"><a href="http://www.tokyo-skytree.jp/" target="_blank">www.tokyo-skytree.jp</a></a> --}}
                   <p id="zoom">17</p>
                 </div>
                 <div id="map_container">
