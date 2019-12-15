@@ -418,7 +418,7 @@ a.indexlink{
     width: 100%;
     height: 500px;
   }
-  #url, #zoom {
+  #venue,#address,#url, #zoom {
     display: none;  /* 非表示 */
   }
   /* 情報ウィンドウ（マーカーをクリックすると表示される領域）内 */
@@ -426,5 +426,4 @@ a.indexlink{
     width: 250px;
     height: 70px;
   }
-
 

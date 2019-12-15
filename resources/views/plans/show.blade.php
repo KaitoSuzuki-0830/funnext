@@ -36,7 +36,7 @@
     </div>
     <div class="col-md-6">
                 <div id="map_info">
-                  {{-- <p id="venue">東京スカイツリー</p> --}}
+                  <p id="venue">会場先</p>
                   <p id="address">{{ $plan->place }}</p>
                   {{-- <a id="url"><a href="http://www.tokyo-skytree.jp/" target="_blank">www.tokyo-skytree.jp</a></a> --}}
                   <p id="zoom">17</p>
