@@ -120,7 +120,7 @@
                   });
                 }
                 </script>
-                <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9iATwHWcm3sUqBSZnJB3v1VMbV9_s6lw&callback=initMap" async defer></script>
                 <!-- YOUR_API_KEYの部分は取得した APIキーで置き換えます。 -->
     </div>
 </div>
