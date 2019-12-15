@@ -14,8 +14,9 @@
         </div>
         <div class="col-md-6">
             <h1 class="about1text">Relation(関係)＋Accum(蓄積)</h1>
-            <p class="about1subtext">Relaccumとは、新しい関係がたくさん溜まっているサービスです。</p>
-            <p class="about1subtext2">さあ、新しい関係を始めてみましょう！</p>
+            <p class="about1subtext">Relaccumとは、新しい関係がたくさん溜まっていくサービスです。</p>
+            <p class="about1subtext">あなたが求めている関係がきっとあります！</p>
+            <h2 class="about1subtext2">さあ、新しい関係を始めてみましょう！</h2>
         </div>
     </div>
 </div>
@@ -100,15 +101,15 @@
         <h1 class='snstitle'>Follow Relaccum</h1>
         <ul id="snslist">
             <li class="snscontent">
-                <a href="" class="snsicon"><i class="fab fa-facebook fa-4x my-example"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100043318232181" class="snsicon"><i class="fab fa-facebook fa-4x my-example"></i></a>
                 <h2 class="snsname">Facebook</h2>
             </li>
             <li class="snscontent">
-                <a href="" class="snsicon"><i class="fab fa-twitter fa-4x my-example"></i></a>
+                <a href="https://twitter.com/Sakigake830" class="snsicon"><i class="fab fa-twitter fa-4x my-example"></i></a>
                 <h2 class="snsname">Twitter</h2>
             </li>
             <li class="snscontent">
-                <a href="" class="snsicon"><i class="fab fa-instagram fa-4x my-example"></i></a>
+                <a href="https://www.instagram.com/suzukai_kaito830/?hl=ja" class="snsicon"><i class="fab fa-instagram fa-4x my-example"></i></a>
                 <h2 class="snsname">Instagram</h2>
             </li>
         </ul>
