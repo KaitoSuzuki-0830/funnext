@@ -35,10 +35,9 @@
         </div>
     </div>
     <div class="col-md-6">
-        <div id="map" style="height:550px; width: 100%; margin:2rem auto 0;"></div>
                 <div id="map_info">
-                  <p id="venue">東京スカイツリー</p>
-                  <p id="address">〒131-0045 東京都墨田区押上１−１−２</p>
+                  {{-- <p id="venue">東京スカイツリー</p> --}}
+                  <p id="address">{{ $plan->place }}</p>
                   <p id="url"><a href="http://www.tokyo-skytree.jp/" target="_blank">www.tokyo-skytree.jp</a></p>
                   <p id="zoom">17</p>
                 </div>
