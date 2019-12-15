@@ -75,7 +75,7 @@
     </div>
 @foreach($plans as $plan)
 <div class="d-inline-block">
-    <div class="card text-center" style="width: 24rem;">
+    <div class="card text-center" style="width: 18rem;">
         <div class="card-body">
           <h5 class="card-title">{{ $plan->title}}</h5>
           <p class="card-text" id="eventplace"><i class="fas fa-map-marker-alt"></i> {{ $plan->place }}</p>

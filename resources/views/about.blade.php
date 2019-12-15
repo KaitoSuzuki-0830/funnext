@@ -43,9 +43,7 @@
 </div>
 <div class="container-fluid" id="about3">
     <div class="container">
-            <div class='policytitle'>
-                <h1>ポリシー</h1>
-            </div>
+            <h1 class="policytitle">ポリシー</h1>
             <div class="policycontent">
                     <img src="uploads/logo/履歴書アイコン1.png">
                     <h2 class="rolename">プロフィール</h2>
@@ -76,9 +74,7 @@
 </div>
 <div class="container-fluid" id="about4">
     <div class="container">
-        <div class='abouttitle'>
-            <h1>Relaccumを始める</h1>
-        </div>
+        <h1 class="abouttitle">Relaccumを始める</h1>
         <div class="indexrole">
             <img src="uploads/logo/search.png" class="starticon">
         </div>
@@ -103,9 +99,7 @@
 </div>
 <div class="container-fluid" id="about5">
     <div class="container">
-        <div class='snstitle'>
-            <h1>Follow Relaccum</h1>
-        </div>
+        <h1 class='snstitle'>Follow Relaccum</h1>
         <ul id="snslist">
             <li class="snscontent">
                 <a href="" class="snsicon"><i class="fab fa-facebook fa-4x my-example"></i></a>
