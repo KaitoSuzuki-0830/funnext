@@ -243,8 +243,8 @@ h5.righttext{
 #about0{
     margin: 10px;
     text-align: center;
-    position: sticky;
-    top: 0px;
+    position: fixed;
+    top: 0;
 }
 
 
