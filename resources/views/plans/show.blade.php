@@ -35,6 +35,7 @@
         </div>
     </div>
     <div class="col-md-6">
+            <a href="comgooglemaps://?daddr=35.658581,139.745433">地図アプリで見る</a>
                 <div id="map_info">
                   <p id="venue">会場先</p>
                   <p id="address">{{ $plan->place }}</p>
