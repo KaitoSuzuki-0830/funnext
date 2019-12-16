@@ -1,12 +1,12 @@
 @extends('layouts.app')
 @section('content')
-<div class="container-fluid" id="about0">
+{{-- <div class="container-fluid" id="about0">
     <a href="#about1" id="abouttitle">Relaccum</a>
     <a href="#about2" id="abouttitle">コミニティー</a>
     <a href="#about3" id="abouttitle">ポリシー</a>
     <a href="#about4" id="abouttitle">始める</a>
     <a href="#about5" id="abouttitle">シェア</a>
-</div>
+</div> --}}
 <div class="container-fluid" id="about1">
         <img src="uploads/logo/aboutsoccer.jpg" id="welcomeimage">
         <h2 class="aboutsubtitle1">世界が変わってサッカーはライブ配信でより身近で見ることが簡単になった。だから毎日部屋で応援している日々。</h2>
