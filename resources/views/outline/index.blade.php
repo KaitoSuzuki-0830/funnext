@@ -21,7 +21,7 @@
 <div class="container">
         <h2>イベント</h2>
         <div class="row">
-            <div class="col-md-2"><h5>イベント</h5></div>
+            <div class="col-md-2"><h5>もうすぐ開催のイベントをチェック</h5></div>
             <div class="col-md-8"></div>
             <div class="col-md-2">
                 <a href="{{route('plans.index')}}"><h5>すべて見る</h5></a>
@@ -43,7 +43,7 @@
 <div class="container">
     <h2>カテゴリー</h2>
         <div class="row">
-            <div class="col-md-2"><h5>カテゴリー</h5></div>
+            <div class="col-md-2"><h5>興味のあるトピックからイベントを検索</h5></div>
             <div class="col-md-8"></div>
             <div class="col-md-2">
                 <a href="{{route('category.index')}}"><h5>すべて見る</h5></a>
@@ -65,7 +65,7 @@
     <h2>グループ</h2>
     <div class="row">
         <div class="col-md-2">
-            <h5>グループ</h5>
+            <h5>あなたが惹かれるグループを見つけよう</h5>
         </div>
         <div class="col-md-8"></div>
         <div class="col-md-2">
