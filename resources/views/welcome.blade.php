@@ -81,8 +81,7 @@
             {{-- <div class="content"> --}}
                 {{-- <div class="title m-b-md"> --}}
                     <div class="toppage">
-                        <img src="https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80">
-                        <h1>さあ、新しい関係を探そう！</h1>
+                       <h1>Laravel Product</h1>
                     </div>
         </div>
     </body>
