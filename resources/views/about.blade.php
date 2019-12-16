@@ -1,4 +1,4 @@
-@extends('layouts.app')
+
 @section('content')
 <div class="container-fluid" id="about0">
     <a href="#about1" id="abouttitle">Relaccum</a>
