@@ -64,9 +64,9 @@
         </style>
     </head>
     <body>
-        <div class="container-fluid" id="about1">
+        <div class="container-fluid" id="welcomepage">
             <img src="uploads/logo/welcomesoccer.jpeg" id="welcomeimage">
-            <h1 class="about1text">もっと簡単に集まれるように</h1>
+            <h1 class="servicedescription">もっと簡単に集まれるように</h1>
         </div>
     </body>
 </html>
