@@ -35,7 +35,7 @@ class OutlineController extends Controller
         $groups = group::where('name','like','%'.$search.'%')->get();
         $user = User::find(Auth::id());
         $categories = Category::where('name','like','%'.$search.'%')->get();
-        $plans = Plan::where('name','like','%'.$search.'%')->get();
+        $plans = Plan::where('title','like','%'.$search.'%')->get();
 
         return view('outline.index')->with('groups',$groups)
                                     ->with('user',$user)
