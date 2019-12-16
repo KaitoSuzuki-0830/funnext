@@ -388,10 +388,12 @@ a.indexlink{
 
 
 /* カテゴリー、グループ、イベントの一覧ページテーブルの場所 */
+#outlinepage{
+    position: relative;
+}
 #outlineimage{
     height: 600px;
     width: 100%;
-    position: relative;
 }
 
 h1.imgtext{

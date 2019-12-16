@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<div class="container-fluid">
+<div class="container-fluid" id="outlinepage">
     <img src="uploads/logo/categorysoccer.jpeg" id="outlineimage">
     <h1　class="imgtext">最高のイベントを企画しましょう！</h1>
 </div>
