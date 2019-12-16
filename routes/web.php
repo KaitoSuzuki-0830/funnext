@@ -14,7 +14,7 @@
 
 
 Route::get('/', function () {
-    return view('outline.index');
+    return view('home');
 });
 
 //入力ページ
