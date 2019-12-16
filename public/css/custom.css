@@ -396,11 +396,11 @@ a.indexlink{
     width: 100%;
 }
 
-h1.imgtext{
+h1#outlinetitle{
     position: absolute;
-    color: red;/*文字は白に*/
-  font-weight: bold; /*太字に*/
-  font-size: 30px;/*サイズ2倍*/
+    color: white;
+  font-weight: bold;
+  font-size: 30px;
   font-family :Quicksand, sans-serif;/*Google Font*/
   top: 30%;
   left: 50%;
