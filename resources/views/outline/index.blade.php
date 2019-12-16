@@ -2,7 +2,7 @@
 @section('content')
 <div class="container-fluid" id="outlinepage">
     <img src="uploads/logo/categorysoccer.jpeg" id="outlineimage">
-    <h1 id="outlinetitle">最高のイベントを探しましょう！</h1>
+    <h1 id="outlinetitle">最高のイベントを探そう！</h1>
 </div>
 <div class="container">
     <div class="input-group">
@@ -22,8 +22,8 @@
         <h2>イベント</h2>
         <div class="row">
             <div class="col-md-5"><h5>もうすぐ開催のイベントをチェック</h5></div>
-            <div class="col-md-6"></div>
-            <div class="col-md-1">
+            <div class="col-md-5"></div>
+            <div class="col-md-2">
                 <a href="{{route('plans.index')}}"><h5>すべて見る</h5></a>
             </div>
         </div>
@@ -44,8 +44,8 @@
     <h2>カテゴリー</h2>
         <div class="row">
             <div class="col-md-5"><h5>興味のあるトピックからイベントを検索</h5></div>
-            <div class="col-md-6"></div>
-            <div class="col-md-1">
+            <div class="col-md-5"></div>
+            <div class="col-md-2">
                 <a href="{{route('category.index')}}"><h5>すべて見る</h5></a>
             </div>
         </div>
@@ -67,8 +67,8 @@
         <div class="col-md-5">
             <h5>あなたが惹かれるグループを見つけよう</h5>
         </div>
-        <div class="col-md-6"></div>
-        <div class="col-md-1">
+        <div class="col-md-5"></div>
+        <div class="col-md-2">
             <a href="{{route('groups.index')}}"><h5>すべて見る</h5></a>
         </div>
     </div>
@@ -85,7 +85,7 @@
     </a>
   </div>
   <div class="row justify-content-center">
-    <a href="{{route('group.join',['groupid'=>$group->id,'userid'=>$user->id])}}" class="btn btn-success btn-sm text-reset" role="button"><i class="fas fa-plus-circle fa-1.5x">Join</i></a>
+    <a href="{{route('group.join',['groupid'=>$group->id,'userid'=>$user->id])}}" class="btn btn-danger btn-sm text-reset" role="button"><i class="fas fa-plus-circle fa-1.5x">参加</i></a>
   </div>
 </div>
 @endforeach
