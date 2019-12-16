@@ -1,4 +1,6 @@
-#welcomepage{
+img#welcomeimage{
+    width: 100%;
+    height: 600px;
     position: relative;
 }
 
@@ -8,7 +10,7 @@
 
 }
 
-.servicedescription{
+h1.servicedescription{
     position: absolute;
   color: red;/*文字は白に*/
   font-weight: bold; /*太字に*/
