@@ -80,9 +80,7 @@
             @endif
             {{-- <div class="content"> --}}
                 {{-- <div class="title m-b-md"> --}}
-                    <div class="toppage">
-                       <h1>Laravel Product</h1>
-                    </div>
+                @include('/about')
         </div>
     </body>
 </html>

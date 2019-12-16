@@ -90,7 +90,7 @@ class CategoryController extends Controller
         if($request->hasFile('featured')){
             $featured = $request->featured;
             $featured_new_name = time().$featured->getClientOriginalName();
-            $featured->move('uploads/plans/',$featured_new_name);
+            $featured->move('/uploads/plans/',$featured_new_name);
             $category->featured = $featured_new_name;
         }
 
