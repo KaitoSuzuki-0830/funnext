@@ -13,7 +13,7 @@
 
 
 Route::get('/', function () {
-    return view('outline.index');
+    return view('/welcome');
 });
 
 //入力ページ
