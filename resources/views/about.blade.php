@@ -7,11 +7,11 @@
     <a href="#about4" id="abouttitle">始める</a>
     <a href="#about5" id="abouttitle">シェア</a>
 </div>
-<div class="container-fluid" id="about1">
+{{-- <div class="container-fluid" id="about1">
         <img src="uploads/logo/welcomesoccer.jpeg" id="welcomeimage">
         <h1 class="about1text">もっと簡単に集まれるように</h1>
 
-</div>
+</div> --}}
 <div class="container-fluid" id="about2">
     <div class="container">
         <h1 class='abouttitle'>コミニティー説明</h1>
