@@ -198,9 +198,9 @@ h5.righttext{
     }
 
     .cp_qa .cp_qain label:hover{
-        background-color: #ffff;
-
+        background-color: #fff;
     }
+
     /* ＋アイコン */
     .cp_qa .cp_qain .cp_plus {
     font-size: 2em;
@@ -258,7 +258,7 @@ h5.righttext{
     position: absolute;
   color: white;/*文字は白に*/
   font-weight: bold; /*太字に*/
-  font-size: ;/*サイズ2倍*/
+  font-size: 20px;/*サイズ2倍*/
   font-family :Quicksand, sans-serif;/*Google Font*/
   top: 30%;
   left: 50%;
