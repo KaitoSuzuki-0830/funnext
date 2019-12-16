@@ -45,8 +45,8 @@ class User extends Authenticatable
         return $this->belongsToMany('App\group');
     }
 
-    public function plan(){
-        return $this->hasOne('App\plan');
+    public function plans(){
+        return $this->belongsToMany('App\plan');
     }
 
     public function socialAccounts()
