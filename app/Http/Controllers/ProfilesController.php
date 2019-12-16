@@ -6,6 +6,8 @@ use App\Prefecture;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
+use App\group;
+use App\Plan;
 
 
 class ProfilesController extends Controller
@@ -54,7 +56,10 @@ class ProfilesController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('user.show')->with('user',Auth::user())
+                                ->with('prefecture',Prefecture::all())
+                                ->with('plans',$plans)
+                                ->with('groups',$groups);
     }
 
     /**
@@ -88,7 +93,7 @@ class ProfilesController extends Controller
             $avatar = $request->avatar;
             $avatar_new_name = time().$avatar->getClientOriginalName();
             $avatar->move('/uploads/avatar/',$avatar_new_name);
-            $user->profile->avatar = secure_asset('/uploads/avatar/'.$avatar_new_name);
+            $user->profile->avatar = secure_asset('uploads/avatar/'.$avatar_new_name);
             $user->profile->save();
         }
 
