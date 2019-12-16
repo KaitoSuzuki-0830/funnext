@@ -30,6 +30,7 @@ class CreatePlanRequest extends FormRequest
             'pref_id'=>'required',
             'place'=>'required',
             'category_id'=>'required',
+            'featured'=>'required|image'
         ];
     }
 }

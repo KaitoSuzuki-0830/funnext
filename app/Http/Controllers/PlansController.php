@@ -49,8 +49,10 @@ class PlansController extends Controller
     {
         $plan = new Plan;
         $plan->title = $request->title;
+        $plan->featured = $request->featured;
         $plan->slug = str_slug($request->title);
         $plan->description = $request->description;
+        $plan->date = $request->date;
         $plan->price = $request->price;
         $plan->pref_id = $request->pref_id;
         $plan->place = $request->place;
@@ -105,15 +107,16 @@ class PlansController extends Controller
         $plan->title = $request->title;
         $plan->slug = str_slug($request->name);
         $plan->description = $request->description;
+        $plan->date = $request->date;
         $plan->price = $request->price;
         $plan->pref_id = $request->pref_id;
         $plan->category_id = $request->category_id;
-        // if($request->hasFile('featured')){
-        //     $featured = $request->featured;
-        //     $featured_new_name = time().$featured->getClientOriginalName();
-        //     $featured->move('uploads/plans/',$featured_new_name);
-        //     $plan->featured = $featured_new_name;
-        // }
+         if($request->hasFile('featured')){
+             $featured = $request->featured;
+             $featured_new_name = time().$featured->getClientOriginalName();
+             $featured->move('uploads/plans/',$featured_new_name);
+             $plan->featured = $featured_new_name;
+         }
 
         $plan->save();
         Session::flash('success','イベントを更新しました');

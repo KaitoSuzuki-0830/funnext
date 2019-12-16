@@ -22,6 +22,10 @@
      <textarea name="description" rows="10" cols="10" class="form-control"></textarea>
     </div>
     <div class="form-group">
+            <label for="date">イベント日時</label>
+            <<input type="text" id="input_date" class="form-control">
+        </div>
+    <div class="form-group">
         <label for="price">参加費（１人当り)</label>
         <input type="text" name="price" class="form-control">
     </div>
