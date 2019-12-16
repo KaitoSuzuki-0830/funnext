@@ -4,12 +4,6 @@ img#welcomeimage{
     position: relative;
 }
 
-#welcomeimage{
-    width: 100%;
-    height: 900px;
-
-}
-
 h1.servicedescription{
     position: absolute;
   color: red;/*文字は白に*/
@@ -63,29 +57,6 @@ h5.righttext{
     font-size: 12px;
     margin-top: 30px;
 }
-
-
-
-#titlelogo{
-    margin: 0;
-    padding: 0;
-}
-
-.toppage {/*親div*/
-    position: relative;/*相対配置*/
-    }
-
-.toppage h1{
-    position: absolute;/*絶対配置*/
-    color: white;/*文字は白に*/
-    top: 0;
-    left: 0;
-    }
-
-.toppage img {
-    width: 100%;
-    opacity: 0.8;
-    }
 
 /* outline */
 #searchbox{
