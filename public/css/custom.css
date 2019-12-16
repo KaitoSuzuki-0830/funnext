@@ -390,6 +390,7 @@ a.indexlink{
 /* カテゴリー、グループ、イベントの一覧ページテーブルの場所 */
 #outlineimage{
     height: 400px;
+    width: 100%;
     position: relative;
 }
 
