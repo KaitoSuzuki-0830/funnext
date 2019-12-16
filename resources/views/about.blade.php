@@ -64,7 +64,6 @@
 </div>
 <div class="container-fluid" id="about4">
     <div class="container">
-        <h1 class="abouttitle">Relaccumを始める</h1>
         <div class="indexrole">
             <img src="uploads/logo/search.png" class="starticon">
         </div>
