@@ -28,9 +28,9 @@
             <option value="{{ $category->id}}">{{ $category->name }}</option>
         @endforeach
      </select>
-     <div class="form-group">
-         <a href="{{route('category.create')}}">カテゴリーがございませんか?</a>
-     </div>
+     <div class="form-group text-right">
+            <a href="{{route('category.create')}}">カテゴリーがございませんか?</a>
+    </div>
     </div>
     <div class="form-group">
             <label for="plan">イベントを選択してください</label>
@@ -39,7 +39,7 @@
                    <option value="{{ $plan->id}}">{{ $plan->title }}</option>
                @endforeach
             </select>
-            <div class="form-group">
+            <div class="form-group text-right">
                 <a href="{{route('plans.create')}}">イベントを作りますか?</a>
             </div>
     </div>
