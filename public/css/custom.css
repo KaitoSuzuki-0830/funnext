@@ -252,13 +252,15 @@ h5.righttext{
 }
 
 .about1text{
-    font-size: 50px;
-    font-weight: bold;
-    padding-top: 100px;
-    color: #3AA9E0;
     position: absolute;
+  color: white;/*文字は白に*/
+  font-weight: bold; /*太字に*/
+  font-size: 2em;/*サイズ2倍*/
+  font-family :Quicksand, sans-serif;/*Google Font*/
+  top: 0;
+  left: 0;
 }
-p.about1subtext{
+/* p.about1subtext{
     font-size: 23px;
     margin-top: 60px;
     color: white;
@@ -278,7 +280,7 @@ h2.about1go{
     font-weight: bold;
     color: #03A9F4;
 
-}
+} */
 
 #about2{
     background-color: #2C7CFF;
