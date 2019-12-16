@@ -7,11 +7,11 @@
     <a href="#about4" id="abouttitle">始める</a>
     <a href="#about5" id="abouttitle">シェア</a>
 </div>
-{{-- <div class="container-fluid" id="about1">
-        <img src="uploads/logo/welcomesoccer.jpeg" id="welcomeimage">
-        <h1 class="about1text">もっと簡単に集まれるように</h1>
-
-</div> --}}
+<div class="container-fluid" id="about1">
+        <img src="uploads/logo/aboutsoccer.jpeg" id="welcomeimage">
+        <h1 class="abouttitle">Relaccumとは</h1>
+        <p class="aboutsubtitle">世界が変わってサッカーはライブ配信が普及してきた。でも毎日部屋で応援している日々。この情熱と感動は仲間がいればさらに増えるに違いない。</p>
+</div>
 <div class="container-fluid" id="about2">
     <div class="container">
         <h1 class='abouttitle'>コミニティー説明</h1>

@@ -244,23 +244,33 @@ h5.righttext{
     position: relative;
 }
 
-#abouttitle{
-    font-size: 17px;
-    color: black;
-    margin-top: 20px;
-    margin-right: 20px;
-    text-decoration: #3AA9E0;
+img#welcomeimage{
+    width: 100%;
+    height: 600px;
 }
 
+.abouttitle{
+    position: absolute;
+  color: white;/*文字は白に*/
+  font-weight: bold; /*太字に*/
+  font-size: 40px;/*サイズ2倍*/
+  font-family :Quicksand, sans-serif;/*Google Font*/
+  top: 25%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
 
-
-.about1text{
+.aboutsubtitle{
     position: absolute;
   color: white;/*文字は白に*/
   font-weight: bold; /*太字に*/
   font-size: 20px;/*サイズ2倍*/
   font-family :Quicksand, sans-serif;/*Google Font*/
-  top: 30%;
+  top: 35%;
   left: 50%;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
