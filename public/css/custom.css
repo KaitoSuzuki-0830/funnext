@@ -233,6 +233,9 @@ h5.righttext{
     text-align: center;
 }
 
+#about1{
+    position: relative;
+}
 
 #abouttitle{
     font-size: 17px;
@@ -244,8 +247,8 @@ h5.righttext{
 
 #welcomeimage{
     width: 100%;
-    height: 800px;
-    opacity: 0.8;
+    height: 900px;
+
 }
 
 .about1text{
@@ -253,17 +256,20 @@ h5.righttext{
     font-weight: bold;
     padding-top: 100px;
     color: #3AA9E0;
+    position: absolute;
 }
 p.about1subtext{
     font-size: 23px;
     margin-top: 60px;
     color: white;
+    position: absolute;
 }
 
 p.about1subtext2{
     font-size: 23px;
     margin-top: 30px;
     color: white;
+    position: absolute;
 }
 
 h2.about1go{
@@ -271,6 +277,7 @@ h2.about1go{
     font-size: 38px;
     font-weight: bold;
     color: #03A9F4;
+
 }
 
 #about2{
