@@ -256,7 +256,7 @@ img#welcomeimage{
   font-weight: bold; /*太字に*/
   font-size: 27px;
   font-family :Quicksand, sans-serif;/*Google Font*/
-  top: 40%;
+  top: 35%;
   left: 50%;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
@@ -266,6 +266,36 @@ img#welcomeimage{
 }
 
 .aboutsubtitle2{
+    position: absolute;
+  color: white;/*文字は白に*/
+  font-weight: bold; /*太字に*/
+  font-size: 27px;/*サイズ2倍*/
+  font-family :Quicksand, sans-serif;/*Google Font*/
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
+
+.aboutsubtitle3{
+    position: absolute;
+  color: white;/*文字は白に*/
+  font-weight: bold; /*太字に*/
+  font-size: 27px;/*サイズ2倍*/
+  font-family :Quicksand, sans-serif;/*Google Font*/
+  top: 45%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
+
+.aboutsubtitle4{
     position: absolute;
   color: white;/*文字は白に*/
   font-weight: bold; /*太字に*/
