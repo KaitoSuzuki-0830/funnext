@@ -53,7 +53,7 @@
                 <a href="{{route('category.index')}}"><h5>すべて見る</h5></a>
             </div>
         </div>
-@foreach($categories as $category)
+{{-- @foreach($categories as $category)
     <div class="d-inline-block">
         <div class="card-deck" style="width:18rem;">
             <a href="{{route('category.show',['id'=>$category->id])}}" class="card">
@@ -62,7 +62,7 @@
         </div>
         <h5 class="row justify-content-center">{{$category->name}}</h5>
     </div>
-@endforeach
+@endforeach --}}
 </div>
 <div class="container">
     <h2>イベント</h2>
