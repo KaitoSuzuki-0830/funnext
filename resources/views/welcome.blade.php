@@ -64,9 +64,12 @@
         </style>
     </head>
     <body>
-        <div class="container-fluid" id="welcomepage">
-            <img src="uploads/logo/welcomesoccer.jpeg" id="welcomeimage">
-            <h1 class="servicedescription">もっと簡単に集まれるように</h1>
+        <div class="container-fluid" id="about1">
+            <img src="uploads/logo/aboutsoccer.jpg" id="welcomeimage">
+            <h2 class="aboutsubtitle1">世界が変わってサッカーはライブ配信でより身近で見ることが簡単になった。</h2>
+            <h2 class="aboutsubtitle2">だから週末は部屋で応援している。だけど何かが足りない。</h2>
+            <h2 class="aboutsubtitle3">もし、この情熱と感動を分かち合える仲間と観れたら、</h2>
+            <h2 class="aboutsubtitle4">僕はもっとサッカーにハマるに違いない。</h2>
         </div>
     </body>
 </html>
