@@ -257,8 +257,13 @@ h5.righttext{
   font-weight: bold; /*太字に*/
   font-size: 2em;/*サイズ2倍*/
   font-family :Quicksand, sans-serif;/*Google Font*/
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
 }
 /* p.about1subtext{
     font-size: 23px;
