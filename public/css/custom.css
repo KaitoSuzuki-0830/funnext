@@ -228,29 +228,25 @@ h5.righttext{
     }
 
 /* relaccumについて　about page */
-/* #about0{
+#about0{
     margin: 10px;
     text-align: center;
-} */
+}
 
 
-/* #abouttitle{
+#abouttitle{
     font-size: 17px;
     color: black;
     margin-top: 20px;
     margin-right: 20px;
     text-decoration: #3AA9E0;
-} */
+}
 
-/* #about1{
-    background-color: black;
-    height: 600px;
-} */
-
-/* #logoimage{
-    margin-top: 100px;
-    margin-bottom: 100px;
-} */
+#welcomeimage{
+    width: 100%;
+    height: 800px;
+    opacity: 0.8;
+}
 
 .about1text{
     font-size: 50px;
