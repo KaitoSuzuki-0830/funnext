@@ -1,4 +1,4 @@
-
+@extends('layouts.app')
 @section('content')
 <div class="container-fluid" id="about0">
     <a href="#about1" id="abouttitle">Relaccum</a>
@@ -9,7 +9,7 @@
 </div>
 <div class="container-fluid" id="about1">
         <img src="uploads/logo/welcomesoccer.jpeg" id="welcomeimage">
-            <h1 class="about1text">もっと簡単に集まれるように</h1>
+        <h1 class="about1text">もっと簡単に集まれるように</h1>
 
 </div>
 <div class="container-fluid" id="about2">

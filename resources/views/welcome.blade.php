@@ -80,7 +80,11 @@
             @endif
             {{-- <div class="content"> --}}
                 {{-- <div class="title m-b-md"> --}}
-                @include('/about')
+                <div class="container-fluid" id="about1">
+                    <img src="uploads/logo/welcomesoccer.jpeg" id="welcomeimage">
+                    <h1 class="about1text">もっと簡単に集まれるように</h1>
+
+                </div>
         </div>
     </body>
 </html>
