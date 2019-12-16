@@ -18,6 +18,10 @@
      <input type="text" name="title" class="form-control">
     </div>
     <div class="form-group">
+            <label for="featured">イベント写真</label>
+            <input type="file" name="featured" >
+    </div>
+    <div class="form-group">
      <label for="description">イベント説明</label>
      <textarea name="description" rows="10" cols="10" class="form-control"></textarea>
     </div>
