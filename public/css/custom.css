@@ -313,7 +313,6 @@ h2.about1go{
 .policytitle{
     text-align: center;
     font-weight: bold;
-    color: white;
     padding-top: 35px;
 }
 
@@ -325,7 +324,6 @@ h2.about1go{
 }
 
 a.policylink{
-    color: white;
     text-decoration: none;
 }
 
@@ -342,12 +340,11 @@ a.policylink{
 h2.rolename{
     font-size: 20px;
     font-weight: bold;
-    color: white;
+
 }
 
 p.rolesubtext{
     font-size: 12px;
-    color: white;
 }
 
 a.indexlink{
