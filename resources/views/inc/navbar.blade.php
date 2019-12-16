@@ -24,7 +24,7 @@
                     </li>
                     @endif
                     <li class="nav-item">
-                        <a class="nav-link" href="/about">Relaccumとは</a>
+                        <a class="nav-link" href="/about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/help">Help</a>
