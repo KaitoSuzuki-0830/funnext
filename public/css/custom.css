@@ -1,7 +1,10 @@
+div#welcomepage{
+    position: relative;
+}
+
 img#welcomeimage{
     width: 100%;
     height: 600px;
-    position: relative;
 }
 
 h1.servicedescription{
