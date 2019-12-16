@@ -195,6 +195,11 @@ h5.righttext{
     padding: 10px 10px 0 48px;
     cursor: pointer;
     }
+
+    .cp_qa .cp_qain label:hover{
+        background-color: #00BCD4;
+
+    }
     /* ＋アイコン */
     .cp_qa .cp_qain .cp_plus {
     font-size: 2em;
