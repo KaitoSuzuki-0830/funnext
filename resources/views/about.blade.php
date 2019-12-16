@@ -8,10 +8,6 @@
     <a href="#about5" id="abouttitle">シェア</a>
 </div>
 <div class="container-fluid" id="about1">
-    {{-- <div class="row">
-        <div class="col-md-6">
-            <img src="uploads/logo/relaccumtitle.png" width="100%" id="logoimage">
-        </div> --}}
         <img src="uploads/logo/welcomesoccer.jpeg">
             <h1 class="about1text">Relation(関係)＋Accum(蓄積)</h1>
             <p class="about1subtext">Relaccumとは、新しい関係がたくさん溜まっていくサービスです。</p>
