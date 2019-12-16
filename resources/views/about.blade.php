@@ -9,7 +9,7 @@
 </div>
 <div class="container-fluid" id="about1">
         <img src="uploads/logo/aboutsoccer.jpg" id="welcomeimage">
-        <h1 class="abouttitle">Relaccumとは</h1>
+        <h1 class="titledescription">Relaccumとは</h1>
         <p class="aboutsubtitle">世界が変わってサッカーはライブ配信が普及してきた。でも毎日部屋で応援している日々。この情熱と感動は仲間がいればさらに増えるに違いない。</p>
 </div>
 <div class="container-fluid" id="about2">
