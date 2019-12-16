@@ -27,7 +27,7 @@
     </div>
     <div class="form-group">
             <label for="date">イベント日時</label>
-            <input type="text" name="date" class="form-control" placeholder="yyyy/mm/dd">
+            <input type="text" name="date" class="form-control" placeholder="例.yyyy/mm/dd/19:30">
         </div>
     <div class="form-group">
         <label for="price">参加費（１人当り)</label>

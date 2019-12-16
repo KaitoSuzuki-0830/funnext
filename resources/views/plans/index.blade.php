@@ -21,8 +21,7 @@
           <th>場所</th>
           <th>値段</th>
           <th>詳細</th>
-          <th>削除</th>
-         </tr>
+        </tr>
      </thead>
      <tbody>
 
