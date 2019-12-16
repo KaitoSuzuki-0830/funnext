@@ -255,9 +255,9 @@ h5.righttext{
     position: absolute;
   color: white;/*文字は白に*/
   font-weight: bold; /*太字に*/
-  font-size: 2em;/*サイズ2倍*/
+  font-size: ;/*サイズ2倍*/
   font-family :Quicksand, sans-serif;/*Google Font*/
-  top: 50%;
+  top: 25%;
   left: 50%;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
