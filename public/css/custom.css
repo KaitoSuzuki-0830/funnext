@@ -144,13 +144,13 @@ h5.righttext{
     border-top: 5px solid #00BCD4;
     }
     .cp_qa input:checked + label[for*='2'] {
-    border-top: 5px solid #FF5722;
+    border-top: 5px solid #00BCD4;
     }
     .cp_qa input:checked + label[for*='3'] {
-    border-top: 5px solid #03A9F4;
+    border-top: 5px solid #00BCD4;
     }
     .cp_qa input:checked + label[for*='4'] {
-    border-top: 5px solid #E91E63;
+    border-top: 5px solid #00BCD4;
     }
     @media screen and (max-width: 650px) {
     .cp_qa label.cp_tabitem {
@@ -257,7 +257,7 @@ h5.righttext{
   font-weight: bold; /*太字に*/
   font-size: ;/*サイズ2倍*/
   font-family :Quicksand, sans-serif;/*Google Font*/
-  top: 25%;
+  top: 30%;
   left: 50%;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
@@ -288,7 +288,6 @@ h2.about1go{
 } */
 
 #about2{
-    background-color: #2C7CFF;
     height: 500px;
 }
 
@@ -309,7 +308,6 @@ h2.about1go{
 }
 
 #about3{
-    background-color:#00BCD4;
     height: 500px;
 }
 
@@ -333,7 +331,6 @@ a.policylink{
 }
 
 #about4{
-    background-color: black;
     height: 300px;
 }
 
@@ -360,12 +357,11 @@ a.indexlink{
 }
 
 #about5{
-    background-color:palegoldenrod;
+
     height: 300px;
 }
 
 .snstitle{
-    color: black;
     font-weight: bold;
     text-align: center;
     padding-top: 40px;
