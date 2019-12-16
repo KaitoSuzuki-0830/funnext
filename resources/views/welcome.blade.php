@@ -64,27 +64,9 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ route('outline.index') }}">ホーム</a>
-                    @else
-                        <a href="{{ route('login') }}">ログイン</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">登録</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-            {{-- <div class="content"> --}}
-                {{-- <div class="title m-b-md"> --}}
-                <div class="container-fluid" id="about1">
-                    <img src="uploads/logo/welcomesoccer.jpeg" id="welcomeimage">
-                    <h1 class="about1text">もっと簡単に集まれるように</h1>
-
-                </div>
+        <div class="container-fluid" id="about1">
+            <img src="uploads/logo/welcomesoccer.jpeg" id="welcomeimage">
+            <h1 class="about1text">もっと簡単に集まれるように</h1>
         </div>
     </body>
 </html>
