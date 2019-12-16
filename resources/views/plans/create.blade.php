@@ -19,7 +19,7 @@
     </div>
     <div class="form-group">
             <label for="featured">イベント写真</label>
-            <input type="file" name="featured" >
+            <input type="file" name="featured" class="form-control">
     </div>
     <div class="form-group">
      <label for="description">イベント説明</label>
