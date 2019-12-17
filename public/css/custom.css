@@ -107,6 +107,13 @@ div#welcomecon5{
     background-color: palegreen;
 }
 
+div.welcometitle{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Kaushan Script', cursive;
+}
+
 
 
 
@@ -464,11 +471,7 @@ a.indexlink{
     height: 300px;
 }
 
-.welcomtitle{
-    font-weight: bold;
-    text-align: center;
-    padding-top: 20px;
-}
+
 
 #snslist{
     list-style: none;
