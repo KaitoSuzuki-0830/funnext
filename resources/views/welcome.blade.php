@@ -122,8 +122,8 @@
 
             </div>
         </div>
-        <div class="container" id="welcome4"></div>
-        <div class="container" id="welcome5">
+        <div class="container" id="welcomecon4"></div>
+        <div class="container" id="welcomecon5">
             <h1 class='snstitle'>Follow Relaccum</h1>
             <ul id="snslist">
             <li class="snscontent">
