@@ -14,6 +14,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <style>
             html, body {
                 background-color: #fff;
@@ -68,7 +69,7 @@
             <img src="uploads/logo/titleimage.jpg" id="titleimage"　height="600" width="100%">
             <a href="{{route('outline.index')}}" id="logoposition"><h2 id="servicename">FunNext</h2></a>
             <h2 id="titletext">ここなら、その情熱と感動が共感できる。</h2>
-            <button type="submit" class="btn btn-primary　btn-block" id="welcomebutton">始める</button>
+            <button class="btn btn-primary　btn-block" id="welcomebutton">始める</button>
         </div>
         <div class="container" id="welcomecon1">
             <h2 id="welcome1">FunNext</h2>
