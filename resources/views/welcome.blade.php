@@ -99,7 +99,8 @@
                 <p>イベントとはユーザーが提案した企画です。グループから提案されたもの、グループに入っていない「その他」から提案されたものの2つがあります。</p>
         </div>
         </div>
-        <div class="container" id="welcomecon3">
+        <div class="container" id="welcomecon3"></div>
+        <div class="container" id="welcomecon4">
             <div class="indexrole">
                 <img src="uploads/logo/search.png" class="starticon">
             </div>
@@ -122,7 +123,6 @@
 
             </div>
         </div>
-        <div class="container" id="welcomecon4"></div>
         <div class="container" id="welcomecon5">
             <h1 class='snstitle'>Follow Relaccum</h1>
             <ul id="snslist">

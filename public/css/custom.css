@@ -81,27 +81,29 @@ p.welcomedescription{
 }
 /* welcome　LP コンテンツ1 */
 div#welcomecon1{
-    height: 300px;
+    height: 400px;
     background-color: red;
 }
 
 div#welcomecon2{
-    height: 300px;
+    height: 400px;
     background-color: yellow;
 }
 
 div#welcomecon3{
-    height: 300px;
-    background-color: salmon;
-}
-
-div#welcomecon4{
-    height: 300px;
+    height: 400px;
     background-color: blue;
 }
 
+div#welcomecon4{
+    height: 200px;
+    background-color: salmon;
+}
+
+
+
 div#welcomecon5{
-    height: 300px;
+    height: 200px;
     background-color: palegreen;
 }
 
