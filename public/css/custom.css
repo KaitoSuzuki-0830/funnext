@@ -21,7 +21,7 @@
     position: relative;
 }
 
-h2#logoposition{
+a#logoposition{
     position: absolute;
     -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
