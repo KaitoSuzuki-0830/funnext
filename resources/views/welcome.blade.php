@@ -64,8 +64,9 @@
         </style>
     </head>
     <body id="welcomeimage">
-        <div id="welcometitletext">
         <h2>ここで、その情熱と感動を分かち会おう。</h2>
+        <div class="end">
+            @include(inc.footer)
         </div>
         {{-- class="aboutsubtitle1" class="aboutsubtitle2" class="aboutsubtitle3" class="aboutsubtitle4" --}}
     </body>
