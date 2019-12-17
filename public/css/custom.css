@@ -23,12 +23,7 @@
 
 a#logoposition{
     position: absolute;
-    color: white;
-  font-weight: bold;
-  font-size: 38px;
-  font-family: "Sawarabi Gothic";
-  top: 40%;
-  left: 50%;
+  font-size: 50px;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
