@@ -1,3 +1,8 @@
+#servicename{
+    color: royalblue;
+    font-family: 'Kaushan Script', cursive;
+}
+
 body#welcomeimage{
     background-image: url(uploads/logo/titleimage.jpg);
     background-size: cover;
