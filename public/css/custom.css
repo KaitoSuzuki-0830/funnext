@@ -69,6 +69,27 @@ div#welcomecon1{
     background-color: red;
 }
 
+div#welcomecon2{
+    height: 300px;
+    background-color: yellow;
+}
+
+div#welcome3{
+    height: 300px;
+    background-color: salmon;
+}
+
+div#welcome4{
+    height: 300px;
+    background-color: blue;
+}
+
+div#welcome5{
+    height: 300px;
+    background-color: palegreen;
+}
+
+
 
 
 

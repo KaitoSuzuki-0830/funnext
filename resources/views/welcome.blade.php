@@ -75,7 +75,7 @@
             <p class="welcomedescription">また、あなた自身で試合観戦などのイベントを企画することもできます。</p>
             <p class="welcomedescription">リアルで集まって大好きなサッカーを一緒に楽しめることができるサービスです。</p>
         </div>
-        <div class="container">
+        <div class="container" id="welcomecon2">
         <h1 class='abouttitle'>コミニティー説明</h1>
         <div class="rolecontent">
             <img src="uploads/logo/チームのフリーアイコン.png">
@@ -93,8 +93,8 @@
                 <p>イベントとはユーザーが提案した企画です。グループから提案されたもの、グループに入っていない「その他」から提案されたものの2つがあります。</p>
         </div>
         </div>
-        <div class="container">
-        <div class="indexrole">
+        <div class="container" id="welcomecon3">
+            <div class="indexrole">
                 <img src="uploads/logo/search.png" class="starticon">
             </div>
             <div class="indexrole">
@@ -114,8 +114,8 @@
                 <a href="" class="indexlink">カテゴリーを作る</a>
                 <a href="" class="indexlink">イベントを作る</a>
             </div>
-            </div>
-            <div class="container">
+        </div>
+        <div class="container" id="welcome5">
             <h1 class='snstitle'>Follow Relaccum</h1>
             <ul id="snslist">
             <li class="snscontent">
@@ -131,7 +131,7 @@
                 <h2 class="snsname">Instagram</h2>
             </li>
             </ul>
-            </div>
+        </div>
 
             @include('inc.footer')
     <script async  crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v5.0&appId=467764400530816&autoLogAppEvents=1"></script>
