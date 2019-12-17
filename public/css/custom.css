@@ -1,5 +1,5 @@
 
-div.welcometitletext{
+#welcometitletext{
     background-image: url(uploads/logo/aboutsoccer.jpg);
     background-size: cover;
 }
@@ -8,10 +8,6 @@ div#welcomepage{
     position: relative;
 }
 
-img#welcomeimage{
-    width: 100%;
-    height: 600px;
-}
 
 h1.servicedescription{
     position: absolute;
