@@ -68,7 +68,7 @@
                                 </button>
                             </div>
                             <div class="col-md-2">
-                                <a href="/login"class="text-right"><i class="fas fa-sign-in-alt"></i>ログインはこちら</a>
+                                <a href="/login"class="text-right"><i class="fas fa-sign-in-alt"></i> ログイン</a>
                             </div>
                         </div>
                         <hr>
