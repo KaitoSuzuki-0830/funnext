@@ -127,7 +127,7 @@
             </div>
         </div>
         <div class="container" id="welcomecon5">
-            <h1 class='welcometitle'>Follow Relaccum</h1>
+            <h1 class='welcometitle'>Follow FunNext</h1>
             <ul id="snslist">
             <li class="snscontent">
                 <a href="https://www.facebook.com/profile.php?id=100043318232181" class="snsicon"><i class="fab fa-facebook fa-4x my-example"></i></a>
