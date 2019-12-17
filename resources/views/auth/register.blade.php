@@ -62,12 +62,12 @@
                         </div>
 
                         <div class="form-group row mb-0">
-                            <div class="col-md-6 offset-md-4">
+                            <div class="col-md-6 offset-md-3">
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('登録') }}
                                 </button>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-1">
                                 <a href="/login"class="text-right"><i class="fas fa-sign-in-alt"></i> ログイン</a>
                             </div>
                         </div>
