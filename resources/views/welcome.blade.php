@@ -74,7 +74,60 @@
             <a href="{{route('outline.index')}}" id="logoposition"><h2 id="servicename">FunNext</h2></a>
             <h2 id="titletext">ここなら、その情熱と感動が共感できる。</h2>
         </div>
-
+        <div class="container">
+            <a href="{{route('outline.index')}}"><h2 id="welcome1">FunNext</h2></a>
+            <h1 class='abouttitle'>コミニティー説明</h1>
+        <div class="rolecontent">
+            <img src="uploads/logo/チームのフリーアイコン.png">
+            <h2 class="rolename">グループ</h2>
+            <p>グループとは同じ趣味や目的を持ったユーザーが集まって作られるものです。グループを作ることで新規ユーザーが参加しやすくなります。</p>
+        </div>
+        <div class="rolecontent">
+                <img src="/uploads/logo/タグアイコン.png">
+                <h2 class="rolename">カテゴリー</h2>
+                <p>カテゴリーはユーザーが興味、関心があることをワードにしたものです。カテゴリーからグループやイベントを探すことができます。</p>
+        </div>
+        <div class="rolecontent">
+                <img src="uploads/logo/風船アイコン3.png">
+                <h2 class="rolename">イベント</h2>
+                <p>イベントとはユーザーが提案した企画です。グループから提案されたもの、グループに入っていない「その他」から提案されたものの2つがあります。</p>
+        </div>
+        <div class="indexrole">
+                <img src="uploads/logo/search.png" class="starticon">
+            </div>
+            <div class="indexrole">
+                <h2 class="rolename">見つける</h2>
+                <p class="rolesubtext">あなたが興味のあるコトをグループ、カテゴリー、イベントから探してみましょう。</p>
+                <a href="" class="indexlink">グループから探す</a>
+                <a href="" class="indexlink">カテゴリーから探す</a>
+                <a href="" class="indexlink">イベントから探す</a>
+            </div>
+            <div class="indexrole">
+                <img src="uploads/logo/プラス.png" class="starticon">
+            </div>
+            <div class="indexrole">
+                <h2 class="rolename">始める</h2>
+                <p class="rolesubtext">あなたが興味のあるコトをグループ、カテゴリー、イベントから作ってみましょう。</p>
+                <a href="" class="indexlink">グループを作る</a>
+                <a href="" class="indexlink">カテゴリーを作る</a>
+                <a href="" class="indexlink">イベントを作る</a>
+            </div>
+            <h1 class='snstitle'>Follow Relaccum</h1>
+            <ul id="snslist">
+            <li class="snscontent">
+                <a href="https://www.facebook.com/profile.php?id=100043318232181" class="snsicon"><i class="fab fa-facebook fa-4x my-example"></i></a>
+                <h2 class="snsname">Facebook</h2>
+            </li>
+            <li class="snscontent">
+                <a href="https://twitter.com/Sakigake830" class="snsicon"><i class="fab fa-twitter fa-4x my-example"></i></a>
+                <h2 class="snsname">Twitter</h2>
+            </li>
+            <li class="snscontent">
+                <a href="https://www.instagram.com/suzukai_kaito830/?hl=ja" class="snsicon"><i class="fab fa-instagram fa-4x my-example"></i></a>
+                <h2 class="snsname">Instagram</h2>
+            </li>
+        </ul>
+        </div>
         <div class="end">
             @include('inc.footer')
         </div>
