@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <div class="container-fluid" id="groupimagebox">
-    <img src="uploads/logo/gsoccer.jpeg" id="groupimage">
+    <img src="uploads/logo/groupsoccer.jpeg" id="groupimage">
     <h1 class="servicedescription1">関係が続くためにグループを作ってみよう！</h1>
 </div>
 <div class="container">
