@@ -29,7 +29,7 @@ body#welcomeimage{
 
 /* コンテンツが少ないページのみminheight追加 */
 #shortcontent{
-    min-height: 50vh;
+    min-height: 65vh;
 }
 
 /* footer */
