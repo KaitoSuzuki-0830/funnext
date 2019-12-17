@@ -432,7 +432,7 @@ img#groupimage{
     width: 100%;
 }
 
-h1.servicedescription1{
+h1.grouptext{
     position: absolute;
   color:white;/*文字は白に*/
   font-weight: bold; /*太字に*/
