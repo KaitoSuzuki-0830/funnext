@@ -114,6 +114,17 @@ h1.welcometitle{
     font-family: 'Kaushan Script', cursive;
 }
 
+/* How to use ページ */
+.usestep{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.tipsimage{
+    width: 50px;
+    height: 50px;
+}
 
 
 

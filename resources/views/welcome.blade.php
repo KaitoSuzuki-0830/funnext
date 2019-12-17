@@ -102,19 +102,19 @@
         <div class="container" id="welcomecon3">
             <h1 class='welcometitle'>How to Use</h1>
             <div class="usestep">
-                <img src="uploads/logo/tip1.png">
+                <img src="uploads/logo/tip1.png" class="tipsimage">
                 <img src="uploads/logo/履歴書アイコン1.png">
                 <h2 class="usetitle">アカウント作成</h2>
                 <p>まず、あなたのアカウントを作りましょう。メールアドレス、Facebook、Googleなどのアカウントがあれば５分ほどで完了します。</p>
             </div>
             <div class="usestep">
-                <img src="uploads/logo/tip2.png">
-                <img src="uploads/logo/仲間.png">
+                <img src="uploads/logo/tip2.png" class="tipsimage">
+                <img src="uploads/logo/風船アイコン3.png">
                 <h2 class="usetitle">イベントを探す</h2>
                 <p>まず、あなたのアカウントを作りましょう。メールアドレス、Facebook、Googleなどのアカウントがあれば５分ほどで完了します。</p>
             </div>
             <div class="usestep">
-                <img src="uploads/logo/tip3.png">
+                <img src="uploads/logo/tip3.png" class="tipsimage">
                 <img src="uploads/logo/おこづかいアイコン2.png">
                 <h2 class="usetitle">オンライン決算で参加完了</h2>
                 <p>まず、あなたのアカウントを作りましょう。メールアドレス、Facebook、Googleなどのアカウントがあれば５分ほどで完了します。</p>
