@@ -3,14 +3,13 @@ body#welcomeimage{
     background-size: cover;
 }
 
-
-h1.servicedescription{
+.aboutsubtitle1{
     position: absolute;
-  color: #3AA9E0;/*文字は白に*/
+  color: white;/*文字は白に*/
   font-weight: bold; /*太字に*/
-  font-size: 55px;/*サイズ2倍*/
+  font-size: 27px;
   font-family :Quicksand, sans-serif;/*Google Font*/
-  top: 30%;
+  top: 35%;
   left: 50%;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
@@ -18,6 +17,8 @@ h1.servicedescription{
   margin:0;
   padding:0;
 }
+
+
 
 
 /* footer */
@@ -243,17 +244,16 @@ h5.righttext{
 
 img#welcomeimage{
     width: 100%;
-    height: 800px;
+    height: 600px;
 }
 
-
-.aboutsubtitle1{
+h1.servicedescription{
     position: absolute;
-  color: white;/*文字は白に*/
+  color:white;/*文字は白に*/
   font-weight: bold; /*太字に*/
-  font-size: 27px;
+  font-size: 55px;/*サイズ2倍*/
   font-family :Quicksand, sans-serif;/*Google Font*/
-  top: 35%;
+  top: 30%;
   left: 50%;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
@@ -262,50 +262,9 @@ img#welcomeimage{
   padding:0;
 }
 
-.aboutsubtitle2{
-    position: absolute;
-  color: white;/*文字は白に*/
-  font-weight: bold; /*太字に*/
-  font-size: 27px;/*サイズ2倍*/
-  font-family :Quicksand, sans-serif;/*Google Font*/
-  top: 40%;
-  left: 50%;
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  margin:0;
-  padding:0;
-}
 
-.aboutsubtitle3{
-    position: absolute;
-  color: white;/*文字は白に*/
-  font-weight: bold; /*太字に*/
-  font-size: 27px;/*サイズ2倍*/
-  font-family :Quicksand, sans-serif;/*Google Font*/
-  top: 45%;
-  left: 50%;
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  margin:0;
-  padding:0;
-}
 
-.aboutsubtitle4{
-    position: absolute;
-  color: white;/*文字は白に*/
-  font-weight: bold; /*太字に*/
-  font-size: 27px;/*サイズ2倍*/
-  font-family :Quicksand, sans-serif;/*Google Font*/
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  margin:0;
-  padding:0;
-}
+
 
 #about2{
     height: 500px;
