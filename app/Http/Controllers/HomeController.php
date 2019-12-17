@@ -28,6 +28,7 @@ class HomeController extends Controller
     {
         $user_id = Auth::user()->id;
         $user = User::find($user_id);
-        return view('home')->with('user',$user);
+        return view('outline');
+        // ->with('user',$user)
     }
 }
