@@ -13,7 +13,8 @@
         <input
             name="email"
             value="{{ $inputs['email'] }}"
-            type="hidden">
+            type="hidden"
+            class="form-control">
         </div>
         <div class="form-group">
         <label>タイトル</label>
@@ -21,7 +22,8 @@
         <input
             name="title"
             value="{{ $inputs['title'] }}"
-            type="hidden">
+            type="hidden"
+            class="form-control">
         </div>
         <div class="form-group">
         <label>お問い合わせ内容</label>
@@ -29,8 +31,10 @@
         <input
             name="body"
             value="{{ $inputs['body'] }}"
-            type="hidden">
+            type="hidden"
+            class="form-control">
         </div>
+        <div class="row">
         <div class="form-group">
         <button type="submit" name="action" value="back" class="btn btn-secondary">
             <i class="fas fa-long-arrow-alt-left"></i> 修正する
@@ -41,6 +45,7 @@
             <i class="far fa-paper-plane"></i> 送信する
         </button>
         </div>
+    </div>
     </form>
 </div>
 </div>
