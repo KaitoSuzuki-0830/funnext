@@ -38,7 +38,7 @@
                     @endif
             </div>
             <div class="form-group text-center">
-                    <button type="submit" class="buttoncolor">
+                    <button type="submit" class="btn btn-outline-success ">
                         入力内容確認
                     </button>
                 </div>
