@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
+<div class="container" id="shortcontent7">
+<div class="card">
 <div class="card-header">お問い合わせ(確認）</div>
 <div class="card-body">
     <form method="POST" action="{{ route('contact.send') }}">
@@ -30,15 +32,17 @@
             type="hidden">
         </div>
         <div class="form-group">
-        <button type="submit" name="action" value="back">
-            入力内容修正
+        <button type="submit" name="action" value="back" class="btn btn-secondary">
+            <i class="fas fa-long-arrow-alt-left"></i> 修正する
         </button>
         </div>
         <div class="form-group">
-        <button type="submit" name="action" value="submit">
-         送信する
+        <button type="submit" name="action" value="submit" class="btn btn-primary">
+            <i class="far fa-paper-plane"></i> 送信する
         </button>
         </div>
     </form>
+</div>
+</div>
 </div>
 @endsection
