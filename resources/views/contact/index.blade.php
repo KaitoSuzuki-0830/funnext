@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+<div class="container" id="shortcontent6">
 <div class="card">
-    <div class="card-header"　id="themetitle">お問い合わせ</div>
+    <div class="card-header">お問い合わせ</div>
     <div class="card-body">
             <form method="POST" action="{{ route('contact.confirm') }}">
                     @csrf

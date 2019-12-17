@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<div class="container">
+<div class="container" id="shortcontent5">
         <div class="card">
             <div class="card-header" id="themetitle">よくある質問</div>
             <div class="card-body">

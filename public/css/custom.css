@@ -30,6 +30,7 @@ body#welcomeimage{
 .card{
     margin-top: 80px;
 }
+
 /* コンテンツが少ないページのみminheight追加 */
 /* login.blade */
 #shortcontent{
@@ -47,6 +48,17 @@ body#welcomeimage{
 #shortcontent4{
     min-height: 65vh;
 }
+/* help.blade */
+#shortcontent5{
+    min-height: 65vh;
+}
+
+/* contact.index */
+#shortcontent6{
+    min-height: 65vh;
+}
+
+
 
 /* footer */
 #footerlist{
