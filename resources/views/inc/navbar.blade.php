@@ -24,9 +24,9 @@
                         <a class="nav-link" href="{{ route('plans.create')}}">Plan's Create</a>
                     </li>
                     @endif
-                    <li class="nav-item">
+                    {{-- <li class="nav-item">
                         <a class="nav-link" href="/about">About</a>
-                    </li>
+                    </li> --}}
                     <li class="nav-item">
                         <a class="nav-link" href="/help">Help</a>
                     </li>
