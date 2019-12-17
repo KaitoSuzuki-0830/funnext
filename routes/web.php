@@ -29,7 +29,7 @@ Route::view('/about', 'about');
 
 Route::view('/help','help');
 
-Route::resource('outline','OutlineController')->middleware('auth');
+Route::resource('outline','OutlineController');
 
 Auth::routes();
 
