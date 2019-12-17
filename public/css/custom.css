@@ -63,6 +63,11 @@ p.welcomedescription{
     text-align: center;
     font-size: 15px;
 }
+/* welcome　LP コンテンツ1 */
+#welcomecon1{
+    height: 300px;
+    background-color: red;
+}
 
 
 
