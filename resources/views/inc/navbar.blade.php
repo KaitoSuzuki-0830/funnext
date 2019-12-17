@@ -14,14 +14,14 @@
             <!-- Right Side Of Navbar -->
             <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('outline.index')}}">探す</a>
+                        <a class="nav-link" href="{{ route('outline.index')}}">Search</a>
                     </li>
                     @if(Auth::check())
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('groups.create')}}">グループ作成</a>
+                        <a class="nav-link" href="{{ route('groups.create')}}">Group's Create</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('plans.create')}}">イベント作成</a>
+                        <a class="nav-link" href="{{ route('plans.create')}}">Plan's Create</a>
                     </li>
                     @endif
                     <li class="nav-item">
@@ -36,11 +36,11 @@
                 <!-- Authentication Links -->
                 @guest
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('login') }}">{{ __('ログイン') }}</a>
+                        <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                     </li>
                 @if (Route::has('register'))
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('register') }}">{{ __('登録') }}</a>
+                        <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                     </li>
                     @endif
                 @else
@@ -54,13 +54,13 @@
                         </a>
 
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{ route('user.profile') }}">プロフィール</a>
-                            <a class="dropdown-item" href="#">参加履歴</a>
-                            <a class="dropdown-item" href="#">グループ履歴</a>
+                            <a class="dropdown-item" href="{{ route('user.profile') }}">Profile</a>
+                            <a class="dropdown-item" href="#">Event History</a>
+                            <a class="dropdown-item" href="#">Group History</a>
                             <a class="dropdown-item" href="{{ route('logout') }}"
                                onclick="event.preventDefault();
                                         document.getElementById('logout-form').submit();">
-                                {{ __('ログアウト') }}
+                                {{ __('Logout') }}
                             </a>
 
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">

@@ -5,17 +5,17 @@
                 <div class="col-md-4">
                     <h3 class="footermenu">ABOUT</h3>
                     <ul id="footerlist">
-                        <li class="footercontent"><a href="/about">Relaccumとは</a></li>
-                        <li class="footercontent"><a href="/help">よくある質問</a></li>
-                        <li class="footercontent"><a href="/contact">お問い合わせ</a></li>
+                        <li class="footercontent"><a href="/about">FunNext</a></li>
+                        <li class="footercontent"><a href="/help">FAQ</a></li>
+                        <li class="footercontent"><a href="/contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <h3 class="footermenu">Menu</h3>
+                    <h3 class="footermenu">Search</h3>
                     <ul id="footerlist">
-                        <li class="footercontent"><a href="{{route('groups.index')}}">グループを探す</a></li>
-                        <li class="footercontent"><a href="{{route('plans.index')}}">イベントを探す</a></li>
-                        <li class="footercontent"><a href="{{route('category.index')}}">カテゴリーを探す</a></li>
+                        <li class="footercontent"><a href="{{route('plans.index')}}">Event</a></li>
+                        <li class="footercontent"><a href="{{route('groups.index')}}">Group</a></li>
+                        <li class="footercontent"><a href="{{route('category.index')}}">Category</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
