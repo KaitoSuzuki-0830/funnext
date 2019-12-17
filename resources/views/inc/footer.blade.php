@@ -29,7 +29,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h5 class="righttext">Copyright ©︎Relaccum 2019 by KaitoSuzuki</h5>
+                    <h5 class="righttext">Copyright ©︎FunNext 2019 by KaitoSuzuki</h5>
                 </div>
             </div>
         </div>
