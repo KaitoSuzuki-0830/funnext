@@ -11,11 +11,6 @@
     position: relative;
 }
 
-img#titleimage{
-    height: 600px;
-    width: 100%;
-}
-
 h2#titletext{
     position: absolute;
     color: white;
