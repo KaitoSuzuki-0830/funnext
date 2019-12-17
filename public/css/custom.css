@@ -26,9 +26,21 @@ body#welcomeimage{
   margin:0;
   padding:0;
 }
-
+/* ログインページ関連　空間開ける */
+.card{
+    margin-top: 100px;
+}
 /* コンテンツが少ないページのみminheight追加 */
+/* login.blade */
 #shortcontent{
+    min-height: 65vh;
+}
+/* registrer.blade */
+#shortcontent2{
+    min-height: 65vh;
+}
+/* verify.blade */
+#shortcontent3{
     min-height: 65vh;
 }
 
