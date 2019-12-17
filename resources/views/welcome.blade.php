@@ -71,7 +71,7 @@
         </div>
         <div class="container">
             <a href="{{route('outline.index')}}"><h2 id="welcome1">FunNext</h2></a>
-            <h1 class='abouttitle'>コミニティー説明</h1>
+        <h1 class='abouttitle'>コミニティー説明</h1>
         <div class="rolecontent">
             <img src="uploads/logo/チームのフリーアイコン.png">
             <h2 class="rolename">グループ</h2>
@@ -87,6 +87,8 @@
                 <h2 class="rolename">イベント</h2>
                 <p>イベントとはユーザーが提案した企画です。グループから提案されたもの、グループに入っていない「その他」から提案されたものの2つがあります。</p>
         </div>
+        </div>
+        <div class="container">
         <div class="indexrole">
                 <img src="uploads/logo/search.png" class="starticon">
             </div>
@@ -107,6 +109,8 @@
                 <a href="" class="indexlink">カテゴリーを作る</a>
                 <a href="" class="indexlink">イベントを作る</a>
             </div>
+            </div>
+            <div class="container">
             <h1 class='snstitle'>Follow Relaccum</h1>
             <ul id="snslist">
             <li class="snscontent">
@@ -121,8 +125,9 @@
                 <a href="https://www.instagram.com/suzukai_kaito830/?hl=ja" class="snsicon"><i class="fab fa-instagram fa-4x my-example"></i></a>
                 <h2 class="snsname">Instagram</h2>
             </li>
-        </ul>
-        </div>
+            </ul>
+            </div>
+
             @include('inc.footer')
     <script async  crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v5.0&appId=467764400530816&autoLogAppEvents=1"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
