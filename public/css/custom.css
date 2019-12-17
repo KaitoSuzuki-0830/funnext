@@ -3,6 +3,10 @@
     font-family: 'Kaushan Script', cursive;
 }
 
+.container{
+    min-height:50vh;
+}
+
 body#welcomeimage{
     background-image: url(uploads/logo/titleimage.jpg);
     background-size: cover;
