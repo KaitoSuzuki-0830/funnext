@@ -50,6 +50,20 @@ h2#titletext{
   padding:0;
 }
 
+button#welcomebutton{
+    position: absolute;
+    color: white;
+  font-size: 30px;
+  font-family: "Sawarabi Gothic";
+  top: 55%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
+
 h2#welcome1{
     text-align: center;
     color: #00BCD4;
