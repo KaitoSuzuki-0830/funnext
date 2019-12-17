@@ -86,17 +86,17 @@
         <div class="rolecontent">
             <img src="uploads/logo/チームのフリーアイコン.png">
             <h2 class="rolename">グループ</h2>
-            <p>グループとは同じ趣味や目的を持ったユーザーが集まって作られるものです。グループを作ることで新規ユーザーが参加しやすくなります。</p>
+            <p class="welcometext">グループとは同じ趣味や目的を持ったユーザーが集まって作られるものです。グループを作ることで新規ユーザーが参加しやすくなります。</p>
         </div>
         <div class="rolecontent">
                 <img src="/uploads/logo/タグアイコン.png">
                 <h2 class="rolename">カテゴリー</h2>
-                <p>カテゴリーはユーザーが興味、関心があることをワードにしたものです。カテゴリーからグループやイベントを探すことができます。</p>
+                <p class="welcometext">カテゴリーはユーザーが興味、関心があることをワードにしたものです。カテゴリーからグループやイベントを探すことができます。</p>
         </div>
         <div class="rolecontent">
                 <img src="uploads/logo/風船アイコン3.png">
                 <h2 class="rolename">イベント</h2>
-                <p>イベントとはユーザーが提案した企画です。グループから提案されたもの、グループに入っていない「その他」から提案されたものの2つがあります。</p>
+                <p class="welcometext">イベントとはユーザーが提案した企画です。グループから提案されたもの、グループに入っていない「その他」から提案されたものの2つがあります。</p>
         </div>
         </div>
         <div class="container" id="welcomecon3">
@@ -107,7 +107,7 @@
                 </div>
                 <img src="uploads/logo/履歴書アイコン1.png">
                 <h2 class="usetitle">アカウント作成</h2>
-                <p>まず、あなたのアカウントを作りましょう。メールアドレス、Facebook、Googleなどのアカウントがあれば５分ほどで完了します。</p>
+                <p class="welcometext">まず、あなたのアカウントを作りましょう。メールアドレス、Facebook、Googleなどのアカウントがあれば５分ほどで完了します。</p>
             </div>
             <div class="usestep">
                 <div class="tipsicon">
@@ -115,7 +115,7 @@
                 </div>
                 <img src="uploads/logo/風船アイコン3.png">
                 <h2 class="usetitle">イベントを探す</h2>
-                <p>まず、あなたのアカウントを作りましょう。メールアドレス、Facebook、Googleなどのアカウントがあれば５分ほどで完了します。</p>
+                <p class="welcometext">まず、あなたのアカウントを作りましょう。メールアドレス、Facebook、Googleなどのアカウントがあれば５分ほどで完了します。</p>
             </div>
             <div class="usestep">
                 <div class="tipsicon">
@@ -123,7 +123,7 @@
                 </div>
                 <img src="uploads/logo/おこづかいアイコン2.png">
                 <h2 class="usetitle">オンライン決算で参加完了</h2>
-                <p>まず、あなたのアカウントを作りましょう。メールアドレス、Facebook、Googleなどのアカウントがあれば５分ほどで完了します。</p>
+                <p class="welcometext">まず、あなたのアカウントを作りましょう。メールアドレス、Facebook、Googleなどのアカウントがあれば５分ほどで完了します。</p>
             </div>
         </div>
         <div class="container" id="welcomecon4">
