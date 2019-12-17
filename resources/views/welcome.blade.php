@@ -8,7 +8,9 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet">
         <!-- Styles -->
         <style>
             html, body {
@@ -48,7 +50,7 @@
                 font-size: 84px;
             }
 
-            .links > a {
+            .links  a {
                 color: #636b6f;
                 padding: 0 25px;
                 font-size: 13px;
@@ -61,6 +63,7 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
         </style>
     </head>
     <body id="welcomeimage">
