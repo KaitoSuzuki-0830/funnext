@@ -82,7 +82,7 @@
         </div>
         <div class="col-md-5"></div>
         <div class="col-md-2">
-            <a href="{{route('groups.index')}}"><h5 class="seeallcolor">すべて見る</h5></a>
+            <a href="{{route('groups.index')}}"　class="seeallcolor"><h5>すべて見る</h5></a>
         </div>
     </div>
 @foreach($groups as $group)
