@@ -63,7 +63,7 @@
             }
         </style>
     </head>
-    <body>
+    <body id="welcomeimage">
         <div id="welcometitletext">
         <h2>世界が変わってサッカーはライブ配信でより身近で見ることが簡単になった。</h2>
         <h2>だから週末は部屋で応援している。だけど何かが足りない。</h2>

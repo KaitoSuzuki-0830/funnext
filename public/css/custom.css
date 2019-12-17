@@ -1,4 +1,4 @@
-body{
+body#welcomeimage{
     background-image: url(uploads/logo/aboutsoccer.jpg);
     background-size: cover;
 }
