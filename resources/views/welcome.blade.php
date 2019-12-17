@@ -122,6 +122,7 @@
 
             </div>
         </div>
+        <div class="container" id="welcome4"></div>
         <div class="container" id="welcome5">
             <h1 class='snstitle'>Follow Relaccum</h1>
             <ul id="snslist">
@@ -139,7 +140,6 @@
             </li>
             </ul>
         </div>
-
             @include('inc.footer')
     <script async  crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v5.0&appId=467764400530816&autoLogAppEvents=1"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
