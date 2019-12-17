@@ -3,6 +3,10 @@
     font-family: 'Kaushan Script', cursive;
 }
 
+#servicename:hover{
+    opacity: 0.8;
+}
+
 .container{
     min-height:50vh;
 }
