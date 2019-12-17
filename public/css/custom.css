@@ -32,8 +32,7 @@ a#logoposition{
   margin:0;
   padding:0;
   text-decoration: none;
-  color: white;
-  background-color: #00BCD4;
+
 }
 
 
@@ -63,6 +62,8 @@ a#welcomebutton{
   transform: translate(-50%,-50%);
   margin:0;
   padding:0;
+  color: white;
+  background-color: #00BCD4;
 }
 
 h2#welcome1{
