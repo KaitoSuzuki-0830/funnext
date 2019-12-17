@@ -14,9 +14,9 @@ img#welcomeimage{
 
 h1.servicedescription{
     position: absolute;
-  color: red;/*文字は白に*/
+  color: #3AA9E0;/*文字は白に*/
   font-weight: bold; /*太字に*/
-  font-size: 30px;/*サイズ2倍*/
+  font-size: 55px;/*サイズ2倍*/
   font-family :Quicksand, sans-serif;/*Google Font*/
   top: 30%;
   left: 50%;

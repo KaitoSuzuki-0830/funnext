@@ -9,7 +9,7 @@
 </div> --}}
 <div class="container-fluid" id="welcomepage">
         <img src="uploads/logo/welcomesoccer.jpeg" id="welcomeimage">
-        <h1 class="servicedescription">もっと簡単に集まれるように</h1>
+        <h1 class="servicedescription">もっと簡単に好きなことで集まろう！</h1>
 </div>
 <div class="container-fluid" id="about2">
     <div class="container">
