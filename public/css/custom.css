@@ -43,6 +43,10 @@ body#welcomeimage{
 #shortcontent3{
     min-height: 65vh;
 }
+/* password resset */
+#shortcontent4{
+    min-height: 65vh;
+}
 
 /* footer */
 #footerlist{
