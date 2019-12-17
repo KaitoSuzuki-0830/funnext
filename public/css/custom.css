@@ -12,7 +12,7 @@ body#welcomeimage{
     background-size: cover;
 }
 
-.aboutsubtitle1{
+.titletext{
     position: absolute;
   color: white;/*文字は白に*/
   font-weight: bold; /*太字に*/
