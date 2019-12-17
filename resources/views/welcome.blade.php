@@ -77,7 +77,7 @@
         </div>
         <div class="container" id="welcomecon1">
             <h2 id="welcome1">FunNext</h2>
-            <p class="welcomedescription">誰でもカンタンにサッカー関連イベントに参加しサッカーが好きな人との新しい出会いが得られます。</p>
+            <p class="welcomedescription">誰でもカンタンにイベントに参加しサッカーが好きな人との新しい出会いがあります。</p>
             <p class="welcomedescription">また、あなた自身で試合観戦などのイベントを企画することもできます。</p>
             <p class="welcomedescription">リアルで集まって大好きなサッカーを一緒に楽しめることができるサービスです。</p>
         </div>
