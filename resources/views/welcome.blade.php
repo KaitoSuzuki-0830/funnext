@@ -69,6 +69,21 @@
         </style>
     </head>
     <body>
+            <div class="top-left links">
+                <a href="{{route('outline.index')}}"><h1 id="servicename">FunNext</h1></a>
+            </div>
+            @if (Route::has('login'))
+            <div class="top-right links">
+                @auth
+                    <a href="{{route('outline.index')}}"><h3 class="welcomelink">Home</h3></a>
+                @else
+                    <a href="{{ route('login') }}"><h3 class="welcomelink">Login</h3></a>
+                    @if (Route::has('register'))
+                        <a href="{{ route('register') }}"><h3 class="welcomelink">Register</h3></a>
+                    @endif
+                @endauth
+            </div>
+        @endif
         <div class="container-fluid" id="welcomepage">
             <img src="uploads/logo/titleimage.jpg" id="titleimage"　height="600" width="100%">
             <h2 id="titletext">ここで、その情熱と感動を分かち会おう。</h2>

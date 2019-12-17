@@ -7,6 +7,16 @@
     opacity: 0.8;
 }
 
+/* welcomepage 右上リンク */
+.welcomelink{
+    color: #00BCD4;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.welcomelink:hover{
+    opacity: 0.8;
+}
+
 #welcomepage{
     position: relative;
 }
