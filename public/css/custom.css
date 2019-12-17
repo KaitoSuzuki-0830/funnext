@@ -7,10 +7,6 @@
     opacity: 0.8;
 }
 
-.container{
-    min-height:20vh;
-}
-
 body#welcomeimage{
     background-image: url(uploads/logo/titleimage.jpg);
     background-size: cover;
