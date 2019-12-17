@@ -49,21 +49,16 @@ h2#titletext{
   margin:0;
   padding:0;
 }
-
-h2.titletext{
-    position: absolute;
-  color: white;/*文字は白に*/
-  font-weight: bold; /*太字に*/
-  font-size: 27px;
-  font-family: "Sawarabi Gothic";
-  top: 35%;
-  left: 50%;
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  margin:0;
-  padding:0;
+h2#welcome1{
+    text-align: center;
+    color: #3AA9E0;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
 }
+
+
+
+
 /* ログインページ関連　空間開ける */
 .card{
     margin-top: 80px;

@@ -71,7 +71,10 @@
         </div>
         <div class="container">
             <a href="{{route('outline.index')}}"><h2 id="welcome1">FunNext</h2></a>
-            <h1 class='abouttitle'>コミニティー説明</h1>
+            <p id="welcomedescription">誰でもカンタンにイベントに参加しサッカーを通じて新しい出会いが生まれるサービスです。</p>
+        </div>
+        <div class="container">
+        <h1 class='abouttitle'>コミニティー説明</h1>
         <div class="rolecontent">
             <img src="uploads/logo/チームのフリーアイコン.png">
             <h2 class="rolename">グループ</h2>
