@@ -50,7 +50,7 @@ h2#titletext{
   padding:0;
 }
 
-button#welcomebutton{
+a#welcomebutton{
     position: absolute;
   font-size: 30px;
   font-family: "Sawarabi Gothic";
