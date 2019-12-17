@@ -423,7 +423,7 @@ h1#outlinetitle{
 }
 
 /* create group　グループ作成ページ */
-div#groupimagebox{
+#groupimagebox{
     position: relative;
 }
 
