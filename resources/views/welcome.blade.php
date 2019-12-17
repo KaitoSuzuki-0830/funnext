@@ -71,7 +71,7 @@
         </div>
         <div class="container">
             <a href="{{route('outline.index')}}"><h2 id="welcome1">FunNext</h2></a>
-        <h1 class='abouttitle'>コミニティー説明</h1>
+            <h1 class='abouttitle'>コミニティー説明</h1>
         <div class="rolecontent">
             <img src="uploads/logo/チームのフリーアイコン.png">
             <h2 class="rolename">グループ</h2>
@@ -110,38 +110,6 @@
                 <a href="" class="indexlink">イベントを作る</a>
             </div>
             </div>
-            <div class="container">
-                    <h2>イベント</h2>
-                    <div class="row">
-                        <div class="col-md-5"><h5>もうすぐ開催のイベントをチェック</h5></div>
-                        <div class="col-md-5"></div>
-                        <div class="col-md-2">
-                            <a href="{{route('plans.index')}}"><h5>すべて見る</h5></a>
-                        </div>
-                    </div>
-                @foreach($plans as $plan)
-                <div class="d-inline-block">
-                    <div class="card text-center" style="width: 20rem;">
-                        <div class="card-body">
-                          <h5 class="card-title">{{ $plan->title}}</h5>
-                          <p class="card-text" id="eventplace"><i class="fas fa-map-marker-alt"></i> {{ $plan->place }}</p>
-                          <a href="{{route('plans.show',['id'=>$plan->id])}}" class="btn btn-primary">詳細へ</a>
-                        </div>
-                    </div>
-                </div>
-                {{-- 新しいイベントカード
-                <div class="d-inline-block">
-                <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-                </div> --}}
-                @endforeach
-                </div>
             <div class="container">
             <h1 class='snstitle'>Follow Relaccum</h1>
             <ul id="snslist">
