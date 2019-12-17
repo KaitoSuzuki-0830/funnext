@@ -498,6 +498,17 @@ h1#outlinetitle{
     font-size: 12px;
 }
 
+/* すべて見る */
+a.seeallcolor{
+    color: #00BCD4;
+    text-decoration: none;
+}
+
+a.seeallcolor:hover{
+    opacity: 0.8;
+}
+
+
 /* グループ詳細ページ　group.show */
 #groupshow{
     margin-top: 20px;
@@ -551,3 +562,5 @@ h1.grouptext{
   margin:0;
   padding:0;
 }
+
+

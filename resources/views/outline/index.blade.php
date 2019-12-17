@@ -24,7 +24,7 @@
             <div class="col-md-5"><h5>もうすぐ開催のイベントをチェック</h5></div>
             <div class="col-md-5"></div>
             <div class="col-md-2">
-                <a href="{{route('plans.index')}}"><h5>すべて見る</h5></a>
+                <a href="{{route('plans.index')}}" class="seeallcolor"><h5>すべて見る</h5></a>
             </div>
         </div>
     @foreach($plans as $plan)
@@ -58,7 +58,7 @@
             <div class="col-md-5"><h5>興味のあるトピックからイベントを検索</h5></div>
             <div class="col-md-5"></div>
             <div class="col-md-2">
-                <a href="{{route('category.index')}}"><h5>すべて見る</h5></a>
+                <a href="{{route('category.index')}}" class="seeallcolor"><h5>すべて見る</h5></a>
             </div>
         </div>
 @foreach($categories as $category)
@@ -82,7 +82,7 @@
         </div>
         <div class="col-md-5"></div>
         <div class="col-md-2">
-            <a href="{{route('groups.index')}}"><h5>すべて見る</h5></a>
+            <a href="{{route('groups.index')}}"><h5 class="seeallcolor">すべて見る</h5></a>
         </div>
     </div>
 @foreach($groups as $group)
