@@ -49,8 +49,9 @@
           </div>
     </div> --}}
     @endforeach
+    <hr>
     </div>
-<hr>
+
 <div class="container">
     <h2>カテゴリー</h2>
         <div class="row">
@@ -70,8 +71,9 @@
         <h5 class="row justify-content-center">{{$category->name}}</h5>
     </div>
 @endforeach
-</div>
 <hr>
+</div>
+
 <div class="container" id="groupposition">
     <h2>グループ</h2>
     <div class="row">

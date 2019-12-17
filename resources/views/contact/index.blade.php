@@ -7,7 +7,6 @@
     <div class="card-body">
             <form method="POST" action="{{ route('contact.confirm') }}">
                     @csrf
-
             <div class="form-group">
             <label>メールアドレス</label>
                     <input
