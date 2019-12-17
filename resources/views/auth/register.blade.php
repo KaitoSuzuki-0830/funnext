@@ -66,7 +66,7 @@
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('登録') }}
                                 </button>
-                                <a href="/login">ログインはこちらから</a>
+                                <a href="/login"class="text-right">ログインはこちらから</a>
                             </div>
                         </div>
                         <hr>
