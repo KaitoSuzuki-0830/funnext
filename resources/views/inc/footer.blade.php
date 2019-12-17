@@ -5,7 +5,7 @@
                 <div class="col-md-4">
                     <h3 class="footermenu">ABOUT</h3>
                     <ul id="footerlist">
-                        <li class="footercontent"><a href="/about">FunNext</a></li>
+                        <li class="footercontent"><a href="/welcome">FunNext</a></li>
                         <li class="footercontent"><a href="/help">FAQ</a></li>
                         <li class="footercontent"><a href="/contact">Contact</a></li>
                     </ul>
