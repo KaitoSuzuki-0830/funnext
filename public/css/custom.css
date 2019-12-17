@@ -64,7 +64,7 @@ p.welcomedescription{
     font-size: 15px;
 }
 /* welcome　LP コンテンツ1 */
-#welcomecon1{
+div#welcomecon1{
     height: 300px;
     background-color: red;
 }
