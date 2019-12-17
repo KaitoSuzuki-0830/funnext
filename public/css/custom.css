@@ -553,5 +553,6 @@ h1.grouptext{
 }
 
 button.buttoncolor{
-    color: #00BCD4;
+    color: white;
+    background-color: #00BCD4;
 }
