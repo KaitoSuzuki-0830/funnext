@@ -50,15 +50,16 @@ h2#titletext{
   padding:0;
 }
 
-h2#welcome1{
+a#welcome1{
     text-align: center;
     color: #3AA9E0;
     font-family: 'Kaushan Script', cursive;
     font-size: 60px;
     padding-top: 30px;
+    text-decoration: none;
 }
 
-p#welcomedescription{
+p.welcomedescription{
     text-align: center;
     font-size: 15px;
 }
