@@ -17,7 +17,6 @@
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
-                width: 100%
                 margin: 0;
             }
 
@@ -49,7 +48,7 @@
                 font-size: 84px;
             }
 
-            .links a {
+            .links > a {
                 color: #636b6f;
                 padding: 0 25px;
                 font-size: 13px;
@@ -67,7 +66,6 @@
     <body>
         <div id="app">
             @include('inc.navbar')
-        </div>
         <div class="welcometitletext">
         <h2>世界が変わってサッカーはライブ配信でより身近で見ることが簡単になった。</h2>
         <h2>だから週末は部屋で応援している。だけど何かが足りない。</h2>
