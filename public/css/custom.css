@@ -32,7 +32,7 @@ a#logoposition{
   margin:0;
   padding:0;
   text-decoration: none;
-  width: 10%;
+
 }
 
 
@@ -64,6 +64,7 @@ a#welcomebutton{
   padding:0;
   color: white;
   background-color: #00BCD4;
+  width: 10%;
 }
 
 h2#welcome1{
@@ -80,35 +81,31 @@ p.welcomedescription{
     font-size: 23px;
     font-weight: bold;
     padding-top: 30px;
-
 }
 /* welcome　LP コンテンツ1 */
 div#welcomecon1{
     height: 400px;
-    background-color: red;
     padding-bottom: 30px;
 }
 
 div#welcomecon2{
     height: 400px;
-    background-color: yellow;
+    padding-bottom: 30px;
 }
 
 div#welcomecon3{
     height: 400px;
-    background-color: aquamarine;
+    padding-bottom: 30px;
 }
 
 div#welcomecon4{
     height: 200px;
-    background-color: salmon;
 }
 
 
 
 div#welcomecon5{
     height: 200px;
-    background-color: palegreen;
 }
 
 h1.welcometitle{
