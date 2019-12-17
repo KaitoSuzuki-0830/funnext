@@ -82,7 +82,7 @@
             <p class="welcomedescription">リアルで集まって大好きなサッカーを一緒に楽しめることができるサービスです。</p>
         </div>
         <div class="container" id="welcomecon2">
-        <h1 class='abouttitle'>コミニティー説明</h1>
+        <h1 class='welcometitle'>Community</h1>
         <div class="rolecontent">
             <img src="uploads/logo/チームのフリーアイコン.png">
             <h2 class="rolename">グループ</h2>
@@ -99,8 +99,11 @@
                 <p>イベントとはユーザーが提案した企画です。グループから提案されたもの、グループに入っていない「その他」から提案されたものの2つがあります。</p>
         </div>
         </div>
-        <div class="container" id="welcomecon3"></div>
+        <div class="container" id="welcomecon3">
+            <h1 class='welcometitle'>How to Use</h1>
+        </div>
         <div class="container" id="welcomecon4">
+            <h1 class='welcometitle'>Let's Start</h1>
             <div class="indexrole">
                 <img src="uploads/logo/search.png" class="starticon">
             </div>
@@ -124,7 +127,7 @@
             </div>
         </div>
         <div class="container" id="welcomecon5">
-            <h1 class='snstitle'>Follow Relaccum</h1>
+            <h1 class='welcometitle'>Follow Relaccum</h1>
             <ul id="snslist">
             <li class="snscontent">
                 <a href="https://www.facebook.com/profile.php?id=100043318232181" class="snsicon"><i class="fab fa-facebook fa-4x my-example"></i></a>
