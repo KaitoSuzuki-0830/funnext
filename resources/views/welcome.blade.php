@@ -66,8 +66,12 @@
 
         </style>
     </head>
-    <body id="welcomeimage">
+    <body>
+        <div class="container-fluid" id="welcomepage">
+            <img src="uploads/logo/titleimage.jpg" id="titleimage">
             <h2 id="titletext">ここで、その情熱と感動を分かち会おう。</h2>
+        </div>
+
         <div class="end">
             @include('inc.footer')
         </div>

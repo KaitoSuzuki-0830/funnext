@@ -7,9 +7,28 @@
     opacity: 0.8;
 }
 
-body#welcomeimage{
-    background-image: url(uploads/logo/titleimage.jpg);
+#welcomepage{
     position: relative;
+}
+
+img#titleimage{
+    height: 600px;
+    width: 100%;
+}
+
+h2#titletext{
+    position: absolute;
+    color: white;
+  font-weight: bold;
+  font-size: 58px;
+  font-family: "Sawarabi Gothic";
+  top: 30%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
 }
 
 h2.titletext{
