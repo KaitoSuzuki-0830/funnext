@@ -1,5 +1,9 @@
 body{
-    background-image: url(aboutsoccer.jpg);
+    width: 100%;
+}
+
+.welcometitletext{
+    background-image: url(uploads/logo/aboutsoccer.jpg);
     background-size: cover;
 }
 
@@ -425,7 +429,7 @@ h1#outlinetitle{
     position: absolute;
     color: white;
   font-weight: bold;
-  font-size: 45px;
+  font-size: 58px;
   font-family :Quicksand, sans-serif;/*Google Font*/
   top: 30%;
   left: 50%;

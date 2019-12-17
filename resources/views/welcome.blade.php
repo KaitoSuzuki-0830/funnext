@@ -68,10 +68,12 @@
         <div id="app">
             @include('inc.navbar')
         </div>
+        <div class="welcometitletext">
         <h2>世界が変わってサッカーはライブ配信でより身近で見ることが簡単になった。</h2>
         <h2>だから週末は部屋で応援している。だけど何かが足りない。</h2>
         <h2>もし、この情熱と感動を分かち合える仲間と観れたら、</h2>
         <h2>僕はもっとサッカーにハマるに違いない。</h2>
+        </div>
         {{-- class="aboutsubtitle1" class="aboutsubtitle2" class="aboutsubtitle3" class="aboutsubtitle4" --}}
     </body>
 </html>
