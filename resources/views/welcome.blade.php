@@ -70,8 +70,9 @@
             <h2 id="titletext">ここなら、その情熱と感動が共感できる。</h2>
         </div>
         <div class="container">
-            <a href="{{route('outline.index')}}"><h2 id="welcome1">FunNext</h2></a>
-            <p id="welcomedescription">誰でもカンタンにイベントに参加しサッカーを通じて新しい出会いが生まれるサービスです。</p>
+            <h2><a href="{{route('outline.index')}}" id="welcome1">FunNext</a>とは</h2>
+            <p id="welcomedescription">誰でもカンタンにイベントに参加しサッカーを通じて新しい出会いがたくさんあります。また、あなたが試合観戦などのイベントを企画することもできます。リアルタイムで集まって大好きなサッカーを一緒に見ることができるサービスです。</p>
+
         </div>
         <div class="container">
         <h1 class='abouttitle'>コミニティー説明</h1>
