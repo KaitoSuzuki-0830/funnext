@@ -16,6 +16,9 @@ Route::get('/welcome', function () {
     return view('welcome');
 })->name('welcome');
 
+Route::get('/', function () {
+    return view('welcome');
+});
 //入力ページ
 Route::get('/contact', 'ContactController@index')->name('contact.index');
 
