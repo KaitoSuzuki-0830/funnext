@@ -17,7 +17,7 @@ body#welcomeimage{
   color: white;/*文字は白に*/
   font-weight: bold; /*太字に*/
   font-size: 27px;
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Sawarabi Gothic";
   top: 35%;
   left: 50%;
   -ms-transform: translate(-50%,-50%);
@@ -281,7 +281,7 @@ h1.servicedescription{
   color:white;/*文字は白に*/
   font-weight: bold; /*太字に*/
   font-size: 55px;/*サイズ2倍*/
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Sawarabi Gothic";
   top: 30%;
   left: 50%;
   -ms-transform: translate(-50%,-50%);
@@ -345,11 +345,12 @@ a.policylink{
 h2.rolename{
     font-size: 20px;
     font-weight: bold;
-
+    font-family: "Sawarabi Gothic";
 }
 
 p.rolesubtext{
     font-size: 12px;
+    font-family: "Sawarabi Gothic";
 }
 
 a.indexlink{
@@ -403,7 +404,7 @@ h1#outlinetitle{
     color: white;
   font-weight: bold;
   font-size: 58px;
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Sawarabi Gothic";
   top: 30%;
   left: 50%;
   -ms-transform: translate(-50%,-50%);
