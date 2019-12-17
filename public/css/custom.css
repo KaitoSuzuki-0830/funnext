@@ -31,6 +31,11 @@ body#welcomeimage{
   padding:0;
 }
 
+/* コンテンツが少ないページのみminheight追加 */
+#shortcontent{
+    min-height: 30vh;
+}
+
 /* footer */
 #footerlist{
     list-style: none;
