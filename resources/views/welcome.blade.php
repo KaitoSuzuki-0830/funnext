@@ -68,7 +68,7 @@
             <img src="uploads/logo/titleimage.jpg" id="titleimage"　height="600" width="100%">
             <a href="{{route('outline.index')}}" id="logoposition"><h2 id="servicename">FunNext</h2></a>
             <h2 id="titletext">ここなら、その情熱と感動が共感できる。</h2>
-            <button class="btn btn-primary" id="welcomebutton">始める</button>
+            <input type="button" value="リンク" id="welcomebutton"　onClick="location.href='http://google.com'">
         </div>
         <div class="container" id="welcomecon1">
             <h2 id="welcome1">FunNext</h2>
