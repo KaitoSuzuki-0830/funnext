@@ -9,10 +9,10 @@
 
 body#welcomeimage{
     background-image: url(uploads/logo/titleimage.jpg);
-    background-size: cover;
+    position: relative;
 }
 
-.titletext{
+h2.titletext{
     position: absolute;
   color: white;/*文字は白に*/
   font-weight: bold; /*太字に*/
@@ -283,10 +283,6 @@ h5.righttext{
     position: relative;
 }
 
-img#welcomeimage{
-    width: 100%;
-    height: 600px;
-}
 
 h1.servicedescription{
     position: absolute;

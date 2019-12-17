@@ -7,8 +7,8 @@
     <a href="#about4" id="abouttitle">始める</a>
     <a href="#about5" id="abouttitle">シェア</a>
 </div> --}}
-<div class="container-fluid" id="welcomepage">
-        <img src="uploads/logo/welcomesoccer.jpeg" id="welcomeimage">
+<div class="container-fluid" id="aboutpage">
+        <img src="uploads/logo/welcomesoccer.jpeg" id="aboutimage">
         <h1 class="servicedescription">もっと気軽に好きなことで集まろう。</h1>
 </div>
 <div class="container-fluid" id="about2">

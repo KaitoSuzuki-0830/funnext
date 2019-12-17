@@ -64,7 +64,7 @@
         </style>
     </head>
     <body id="welcomeimage">
-        <h2 id="titletext">ここで、その情熱と感動を分かち会おう。</h2>
+            <h2 id="titletext">ここで、その情熱と感動を分かち会おう。</h2>
         <div class="end">
             @include('inc.footer')
         </div>
