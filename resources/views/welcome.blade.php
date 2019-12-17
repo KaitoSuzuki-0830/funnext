@@ -72,7 +72,7 @@
         <div class="container-fluid" id="welcomepage">
             <img src="uploads/logo/titleimage.jpg" id="titleimage"　height="600" width="100%">
             <a href="{{route('outline.index')}}" id="logoposition"><h2 id="servicename">FunNext</h2></a>
-            <h2 id="titletext">ここなら、その情熱と感動が共感できる。</h2>
+            <h2 id="titletext">ここなら、この情熱と感動が共感できる。</h2>
             <a class="btn btn-info btn-lg" role="button" href="/register" id="welcomebutton"><i class="fas fa-sign-in-alt"></i>　FunNextを始める</a>
         </div>
         <div class="container" id="welcomecon1">
