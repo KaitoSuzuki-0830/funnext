@@ -69,19 +69,9 @@
         </style>
     </head>
     <body>
-        <a href="{{route('outline.index')}}" class="top-left links"><h1 id="servicename">FunNext</h1></a>
-        @if (Route::has('login'))
-            @auth
-                    <a href="{{route('outline.index')}}" class="top-right links"><h3 class="welcomelink">Home</h3></a>
-            @else
-                    <a href="{{ route('login') }}" class="top-right links"><h3 class="welcomelink">Login</h3></a>
-                @if (Route::has('register'))
-                    <a href="{{ route('register') }}" class="top-right links"><h3 class="welcomelink">Register</h3></a>
-                @endif
-            @endauth
-        @endif
         <div class="container-fluid" id="welcomepage">
             <img src="uploads/logo/titleimage.jpg" id="titleimage"　height="600" width="100%">
+            <a href="{{route('outline.index')}}" id="logoposition"><h2 id="servicename">FunNext</h2></a>
             <h2 id="titletext">ここで、その情熱と感動を分かち会おう。</h2>
         </div>
 
