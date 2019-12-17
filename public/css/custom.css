@@ -53,8 +53,8 @@ h2#titletext{
 
 a#welcomebutton{
     position: absolute;
-  font-size: 30px;
-  font-family: "Sawarabi Gothic";
+  font-size: 20px;
+  font-family: 'Kaushan Script', cursive;
   top: 55%;
   left: 50%;
   -ms-transform: translate(-50%,-50%);
