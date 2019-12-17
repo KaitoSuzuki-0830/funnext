@@ -77,12 +77,16 @@ h2#welcome1{
 
 p.welcomedescription{
     text-align: center;
-    font-size: 15px;
+    font-size: 23px;
+    font-weight: bold;
+    padding-top: 30px;
+
 }
 /* welcome　LP コンテンツ1 */
 div#welcomecon1{
     height: 400px;
     background-color: red;
+    padding-bottom: 30px;
 }
 
 div#welcomecon2{
@@ -132,6 +136,7 @@ h1.welcometitle{
 
 p.welcometext{
     font-size: 12px;
+    font-weight: bold;
 }
 
 
@@ -472,12 +477,11 @@ a.policylink{
 h2.rolename{
     font-size: 20px;
     font-weight: bold;
-    font-family: "Sawarabi Gothic";
 }
 
 p.rolesubtext{
     font-size: 12px;
-    font-family: "Sawarabi Gothic";
+    font-family: bold;
 }
 
 a.indexlink{

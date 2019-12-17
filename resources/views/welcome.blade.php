@@ -106,7 +106,7 @@
                 <img src="uploads/logo/tip1.png" class="tipsimage">
                 </div>
                 <img src="uploads/logo/履歴書アイコン1.png">
-                <h2 class="usetitle">アカウント作成</h2>
+                <h2 class="rolename">アカウント作成</h2>
                 <p class="welcometext">まず、あなたのアカウントを作りましょう。メールアドレス、Facebook、Googleなどのアカウントがあれば５分ほどで完了します。</p>
             </div>
             <div class="usestep">
@@ -114,7 +114,7 @@
                 <img src="uploads/logo/tip2.png" class="tipsimage">
                 </div>
                 <img src="uploads/logo/風船アイコン3.png">
-                <h2 class="usetitle">イベントを探す</h2>
+                <h2 class="rolename">イベントを探す</h2>
                 <p class="welcometext">まず、あなたのアカウントを作りましょう。メールアドレス、Facebook、Googleなどのアカウントがあれば５分ほどで完了します。</p>
             </div>
             <div class="usestep">
@@ -122,7 +122,7 @@
                 <img src="uploads/logo/tip3.png" class="tipsimage">
                 </div>
                 <img src="uploads/logo/おこづかいアイコン2.png">
-                <h2 class="usetitle">オンライン決算で参加完了</h2>
+                <h2 class="rolename">オンライン決算</h2>
                 <p class="welcometext">まず、あなたのアカウントを作りましょう。メールアドレス、Facebook、Googleなどのアカウントがあれば５分ほどで完了します。</p>
             </div>
         </div>
@@ -133,7 +133,7 @@
             </div>
             <div class="indexrole">
                 <h2 class="rolename">見つける</h2>
-                <p class="rolesubtext">あなたが興味のあるコトをイベント、カテゴリー、グループから探してみましょう。</p>
+                <p class="welcometext">あなたが興味のあるコトをイベント、カテゴリー、グループから探してみましょう。</p>
                 <a href="{{route('category.index')}}" class="indexlink">カテゴリーから探す</a>
                 <a href="{{route('plans.index')}}" class="indexlink">イベントから探す</a>
                 <a href="{{route('groups.index')}}" class="indexlink">グループから探す</a>
@@ -143,7 +143,7 @@
             </div>
             <div class="indexrole">
                 <h2 class="rolename">始める</h2>
-                <p class="rolesubtext">あなたが興味のあるコトをイベント、カテゴリー、グループから作ってみましょう。</p>
+                <p class="welcometext">あなたが興味のあるコトをイベント、カテゴリー、グループから作ってみましょう。</p>
                 <a href="{{route('plans.create')}}" class="indexlink">イベントを作る</a>
                 <a href="{{route('groups.create')}}" class="indexlink">グループを作る</a>
                 <a href="{{route('category.create')}}" class="indexlink">カテゴリーを作る</a>
