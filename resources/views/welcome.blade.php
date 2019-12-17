@@ -69,20 +69,16 @@
         </style>
     </head>
     <body>
-            <div class="top-left links">
-                <a href="{{route('outline.index')}}"><h1 id="servicename">FunNext</h1></a>
-            </div>
-            @if (Route::has('login'))
-            <div class="top-right links">
-                @auth
-                    <a href="{{route('outline.index')}}"><h3 class="welcomelink">Home</h3></a>
-                @else
-                    <a href="{{ route('login') }}"><h3 class="welcomelink">Login</h3></a>
-                    @if (Route::has('register'))
-                        <a href="{{ route('register') }}"><h3 class="welcomelink">Register</h3></a>
-                    @endif
-                @endauth
-            </div>
+        <a href="{{route('outline.index')}}" class="top-left links"><h1 id="servicename">FunNext</h1></a>
+        @if (Route::has('login'))
+            @auth
+                    <a href="{{route('outline.index')}}" class="top-right links"><h3 class="welcomelink">Home</h3></a>
+            @else
+                    <a href="{{ route('login') }}" class="top-right links"><h3 class="welcomelink">Login</h3></a>
+                @if (Route::has('register'))
+                    <a href="{{ route('register') }}" class="top-right links"><h3 class="welcomelink">Register</h3></a>
+                @endif
+            @endauth
         @endif
         <div class="container-fluid" id="welcomepage">
             <img src="uploads/logo/titleimage.jpg" id="titleimage"　height="600" width="100%">
