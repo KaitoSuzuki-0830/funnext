@@ -64,7 +64,8 @@ a#welcomebutton{
   padding:0;
   color: white;
   background-color: #00BCD4;
-  width: 10%;
+  width: 20%;
+  line-height: 40px;
 }
 
 h2#welcome1{
@@ -113,6 +114,7 @@ h1.welcometitle{
     text-align: center;
     padding-top: 20px;
     font-family: 'Kaushan Script', cursive;
+    color: #00A1EB;
 }
 
 /* How to use ページ */
