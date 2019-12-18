@@ -95,19 +95,21 @@ h2#welcome1{
 
 p.welcomedescription{
     text-align: center;
-    font-size: 50px;
+    font-size: 26px;
     font-weight: bold;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 /* welcome　LP コンテンツ1 */
 div#welcomecon1{
     height: 600px;
-    margin-top: 250px;
+    margin-top: 200px;
+    margin-bottom: 200px;
 
 }
 
 div#welcomecon2{
     height: 600px;
+    padding-top: 100px;
     padding-bottom: 100px;
     background-color: #00BCD4;
     color: white;
@@ -115,23 +117,19 @@ div#welcomecon2{
 
 div#welcomecon3{
     height: 600px;
+    padding-top: 100px;
     padding-bottom: 100px;
 
 }
 
 div#welcomecon4{
-    height: 300px;
+    height: 600px;
     background-color: #00BCD4;
+    padding-top: 100px;
     padding-bottom: 50px;
     color: white;
 }
 
-
-
-div#welcomecon5{
-    height: 300px;
-    padding-bottom: 50px;
-}
 
 h1.welcometitle2{
     font-weight: bold;
