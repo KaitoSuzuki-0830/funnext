@@ -464,10 +464,21 @@ h1.servicedescription{
     height: 500px;
 }
 
-.abouttitle{
+/* welcomeページ一覧バー　ページ内リンク */
+div#welcomebar{
+    position: fixed;
     text-align: center;
+    display: none;
+    width: 550px;
+    height: 50px;
+    left: 34%;
+    padding: 5px;
+}
+
+a.abouttitle{
     font-weight: bold;
-    padding-top: 40px;
+    font-size: 20px;
+    color: #00A1EB;
 }
 
 
@@ -670,16 +681,5 @@ h1.grouptext{
   padding:0;
 }
 
-/* welcomeページ一覧バー　ページ内リンク */
-div#welcomebar{
-    position: fixed;
-    color: #00A1EB;
-    text-align: center;
-    display: none;
-    width: 550px;
-    height: 50px;
-    font-size: 20px;
-    left: 34%;
-    padding: 5px;
-}
+
 
