@@ -89,12 +89,6 @@ class GroupsController extends Controller
         return view('groups.show')->with('group',$group)
                                   ->with('organiser',$organiser);
 
-        // フィルター機能
-        // $name = DB::table('groups')
-        //                     ->select('Category')
-        //                     ->groupBy('Category')
-        //                     ->orderBy('Controller','ASC')
-        //                     ->get();
     }
 
     /**

@@ -20,7 +20,9 @@ class ProfilesController extends Controller
     public function index()
     {
      return view('user.profile')->with('user',Auth::user())
-                                ->with('prefecture',Prefecture::all());
+                                ->with('prefecture',Prefecture::all())
+                                ->with('groups',group::all())
+                                ->with('plans',Plan::all());
     }
 
 
