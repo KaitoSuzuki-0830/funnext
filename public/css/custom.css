@@ -56,7 +56,7 @@ a#welcomebutton{
   font-size: 20px;
   font-family: 'Kaushan Script', cursive;
   top: 55%;
-  left: 50%;
+  left: 55%;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
@@ -64,6 +64,23 @@ a#welcomebutton{
   padding:0;
   color: white;
   background-color: #00BCD4;
+  width: 20%;
+  line-height: 40px;
+}
+
+a#welcomebutton2{
+    position: absolute;
+  font-size: 20px;
+  font-family: 'Kaushan Script', cursive;
+  top: 55%;
+  left: 35%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  color: #00BCD4;
+  background-color: white;
   width: 20%;
   line-height: 40px;
 }
@@ -93,24 +110,27 @@ div#welcomecon2{
     height: 600px;
     padding-bottom: 100px;
     background-color: #00BCD4;
+    color: white;
 }
 
 div#welcomecon3{
     height: 600px;
     padding-bottom: 100px;
+
 }
 
 div#welcomecon4{
-    height: 600px;
+    height: 300px;
     background-color: #00BCD4;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    color: white;
 }
 
 
 
 div#welcomecon5{
-    height: 600px;
-    padding-bottom: 100px;
+    height: 300px;
+    padding-bottom: 50px;
 }
 
 h1.welcometitle{
