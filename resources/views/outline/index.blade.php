@@ -40,7 +40,7 @@
     @endforeach
     <hr>
     </div>
-
+@foreach($categories as $category)
 <div class="container">
     <h2>カテゴリー</h2>
         <div class="row">
@@ -59,6 +59,7 @@
         <h5 class="row justify-content-center">{{$category->name}}</h5>
     </div>
 <hr>
+@endforeach
 </div>
 
 {{-- <div class="container" id="groupposition">
