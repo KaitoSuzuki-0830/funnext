@@ -19,7 +19,7 @@ class OutlineController extends Controller
     public function index()
     {
         $groups = group::take(3)->get();
-        $categories = Category::take(4)->get();
+        $categories = Category::take(20)->orderBy('id','asc')->get();
         $user = User::find(Auth::id());
         $plans = Plan::take(4)->get();
 
