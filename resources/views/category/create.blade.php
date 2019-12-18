@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<div class="container">
+<div class="container" id="shorcontent9">
  <div class="card">
    <div class="card-header">カテゴリーを作成しましょう</div>
    <div class="card-body">
