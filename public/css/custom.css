@@ -673,7 +673,7 @@ h1.grouptext{
 /* welcomeページ一覧バー　ページ内リンク */
 div#welcomebar{
     color: #00A1EB;
-    margin: 10px;
     text-align: center;
+    display: none;
 }
 
