@@ -528,7 +528,7 @@ a.indexlink{
     width: 100%;
 }
 
-h1#outlinetitle{
+h1.pagestitle{
     position: absolute;
     color: white;
   font-weight: bold;

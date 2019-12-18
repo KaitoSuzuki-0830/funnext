@@ -2,7 +2,7 @@
 @section('content')
 <div class="container-fluid" id="outlinepage">
     <img src="uploads/logo/categorysoccer.jpeg" id="outlineimage">
-    <h1 id="outlinetitle">最高のイベントを探そう！</h1>
+    <h1 class="pagestitle">最高のイベントを探そう！</h1>
 </div>
 <div class="container">
     <div class="input-group">
