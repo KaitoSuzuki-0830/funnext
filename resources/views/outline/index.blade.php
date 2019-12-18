@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <div class="container-fluid" id="outlinepage">
-    <img src="uploads/photo/outline.jpeg" id="outlineimage">
+    <img src="uploads/photo/outline.jpg" id="outlineimage">
     <h1 class="pagestitle">最高のイベントを探そう！</h1>
 </div>
 <div class="container">
