@@ -85,28 +85,31 @@ p.welcomedescription{
 }
 /* welcome　LP コンテンツ1 */
 div#welcomecon1{
-    height: 400px;
-    padding-bottom: 30px;
+    height: 600px;
+    padding-bottom: 100px;
 }
 
 div#welcomecon2{
-    height: 400px;
-    padding-bottom: 30px;
+    height: 600px;
+    padding-bottom: 100px;
+    background-color: #00BCD4;
 }
 
 div#welcomecon3{
-    height: 400px;
-    padding-bottom: 30px;
+    height: 600px;
+    padding-bottom: 100px;
 }
 
 div#welcomecon4{
-    height: 200px;
+    height: 300px;
+    background-color: #00BCD4;
 }
 
 
 
 div#welcomecon5{
-    height: 200px;
+    height: 300px;
+    padding-bottom: 50px;
 }
 
 h1.welcometitle{
