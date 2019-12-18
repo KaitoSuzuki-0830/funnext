@@ -69,6 +69,14 @@
         </style>
     </head>
     <body>
+        <div class="container" id="welcomebar">
+            <a href="#welcomecon1" class="abouttitle">Relaccum</a>
+            <a href="#welcomecon2" class="abouttitle">コミニティー</a>
+            <a href="#welcomecon3" class="abouttitle">ポリシー</a>
+            <a href="#welcomecon4" class="abouttitle">始める</a>
+            <a href="#welcomecon5" class="abouttitle">シェア</a>
+        </div>
+
         <div class="container-fluid" id="welcomepage">
             <img src="uploads/logo/titleimage.jpg" id="titleimage"　height="600" width="100%">
             <a href="{{route('outline.index')}}" id="logoposition"><h2 id="servicename">FunNext</h2></a>

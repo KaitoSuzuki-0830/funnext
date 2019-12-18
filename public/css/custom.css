@@ -439,11 +439,6 @@ h5.righttext{
     }
 
 /* relaccumについて　about page */
-#about0{
-    margin: 10px;
-    text-align: center;
-}
-
 #about1{
     position: relative;
 }
@@ -473,7 +468,6 @@ h1.servicedescription{
     text-align: center;
     font-weight: bold;
     padding-top: 40px;
-
 }
 
 
@@ -676,4 +670,11 @@ h1.grouptext{
   padding:0;
 }
 
+/* welcomeページ一覧バー　ページ内リンク */
+div#welcomebar{
+    height: 100px;
+    color: #00A1EB;
+    margin: 10px;
+    text-align: center;
+}
 
