@@ -38,7 +38,7 @@
          <input type="file" name="featured" class="form-control">
      </div>
      <div class="form-group text-center"></div>
-        <button type="submit" class="btn btn-success btn-block">グループを更新</button>
+        <button type="submit" class="btn btn-primary btn-block">グループを更新</button>
      </div>
     </form>
   </div>

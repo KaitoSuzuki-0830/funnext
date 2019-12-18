@@ -39,7 +39,7 @@
      <input type="file" name="featured" class="form-control">
     </div>
     <div class="form-group text-center">
-     <button type="submit" class="btn btn-success btn-block">更新する</button>
+     <button type="submit" class="btn btn-primary btn-block">更新する</button>
     </div>
     </form>
   </div>

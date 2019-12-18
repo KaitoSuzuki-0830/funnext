@@ -1,7 +1,5 @@
 @extends('layouts.app')
 @section('content')
-    <img src="uploads/logo/aboutsoccer.jpg" id="categoryimg">
-    <h1 class="pagestitle">あなたの興味・関心から探そう！</h1>
 <div class="container">
  <div class="card">
    <div class="card-header">カテゴリーを作成しましょう</div>
@@ -24,7 +22,7 @@
           <input type="file" name="featured" class="form-control">
       </div>
       <div class="form-group text-center">
-          <button type="submit" class="btn btn-success btn-lg">カテゴリーを作成</button>
+          <button type="submit" class="btn btn-primary btn-lg">カテゴリーを作成</button>
       </div>
      </form>
    </div>

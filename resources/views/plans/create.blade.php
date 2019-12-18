@@ -72,7 +72,7 @@
         <a href="{{route('category.create')}}">カテゴリーがございませんか?</a>
     </div>
     <div class="form-group text-center">
-        <button type="submit" class="btn btn-success btn-lg">イベント作成</button>
+        <button type="submit" class="btn btn-primary btn-lg">イベント作成</button>
     </div>
 </form>
 </div>
