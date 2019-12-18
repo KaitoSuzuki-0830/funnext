@@ -67,9 +67,10 @@
             }
 
         </style>
+
     </head>
     <body>
-        <div class="container" id="welcomebar">
+        <div class="container" id="welcomebar" style="display:none">
             <a href="#welcomecon1" class="abouttitle">Relaccum</a>
             <a href="#welcomecon2" class="abouttitle">コミニティー</a>
             <a href="#welcomecon3" class="abouttitle">ポリシー</a>
@@ -77,6 +78,20 @@
             <a href="#welcomecon5" class="abouttitle">シェア</a>
         </div>
 
+        <script>
+            $(function(){
+                  // #で始まるリンクをクリックしたら実行されます
+                  $('a[href^="#"]').click(function() {
+                    // スクロールの速度
+                    var speed = 4000; // ミリ秒で記述
+                    var href= $(this).attr("href");
+                    var target = $(href == "#" || href == "" ? 'html' : href);
+                    var position = target.offset().top;
+                    $('body,html').animate({scrollTop:position}, speed, 'swing');
+                    return false;
+                  });
+                });
+            </script>
         <div class="container-fluid" id="welcomepage">
             <img src="uploads/logo/titleimage.jpg" id="titleimage"　height="600" width="100%">
             <a href="{{route('outline.index')}}" id="logoposition"><h2 id="servicename">FunNext</h2></a>
