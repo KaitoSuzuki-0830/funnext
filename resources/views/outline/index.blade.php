@@ -58,8 +58,7 @@
         </div>
         <h5 class="row justify-content-center">{{$category->name}}</h5>
     </div>
-<hr>
-@endforeach
+    @endforeach
 </div>
 
 {{-- <div class="container" id="groupposition">
