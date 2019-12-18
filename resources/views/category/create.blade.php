@@ -1,9 +1,7 @@
 @extends('layouts.app')
 @section('content')
-<div class="container-fluid" id="categorypage">
     <img src="uploads/logo/aboutsoccer.jpg" id="categoryimg">
     <h1 class="pagestitle">あなたの興味・関心から探そう！</h1>
-</div>
 <div class="container">
  <div class="card">
    <div class="card-header">カテゴリーを作成しましょう</div>
