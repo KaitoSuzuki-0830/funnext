@@ -137,7 +137,7 @@
             <div class="container">
                 <h1 class='welcometitle2'>Let's Start</h1>
                 <div class="indexrole">
-                    <img src="uploads/logo/search.png" class="starticon">
+                    <img src="uploads/logo/探す.png" class="starticon">
                     <h2 class="rolename">見つける</h2>
                     <p class="welcometext">あなたが興味のあるコトをイベント、カテゴリー、グループから探してみましょう。</p>
                     <a href="{{route('category.index')}}" class="indexlink">カテゴリーから探す</a>
@@ -145,7 +145,7 @@
                     <a href="{{route('groups.index')}}" class="indexlink">グループから探す</a>
                 </div>
                 <div class="indexrole">
-                    <img src="uploads/logo/プラス.png" class="starticon">
+                    <img src="uploads/logo/始める.png" class="starticon">
                     <h2 class="rolename">始める</h2>
                     <p class="welcometext">あなたが興味のあるコトをイベント、カテゴリー、グループから作ってみましょう。</p>
                     <a href="{{route('plans.create')}}" class="indexlink">イベントを作る</a>

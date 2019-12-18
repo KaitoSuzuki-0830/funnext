@@ -475,7 +475,7 @@ h1.servicedescription{
 }
 
 a#createacount{
-    color: #00BCD4;
+    color: #00A1EB;
     text-decoration: none;
 }
 
@@ -517,7 +517,7 @@ p.rolesubtext{
 }
 
 a.indexlink{
-    color: #00BCD4;
+    color: white;
     text-decoration: none;
 }
 
@@ -539,7 +539,8 @@ a.indexlink{
 }
 
 .snsicon{
-    color: #00BCD4;
+    color: #4B4B4B;
+
 }
 
 .snsname{
