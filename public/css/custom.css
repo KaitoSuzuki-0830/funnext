@@ -562,6 +562,15 @@ a.seeallcolor:hover{
     opacity: 0.8;
 }
 
+a#seeallcolor{
+    color: #00BCD4;
+    text-decoration: none;
+}
+
+a#seeallcolor:hover{
+    opacity: 0.8;
+}
+
 
 /* グループ詳細ページ　group.show */
 #groupshow{
