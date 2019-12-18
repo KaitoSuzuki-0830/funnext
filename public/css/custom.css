@@ -170,8 +170,9 @@ h1.welcometitle{
 }
 
 p.welcometext{
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bold;
+    margin: 30px;
 }
 
 
@@ -510,8 +511,9 @@ a.policylink{
 
 .indexrole{
     float: left;
-    margin-top: 30px;
+    padding-top: 30px;
     text-align: center;
+    width: 50%;
 }
 
 h2.rolename{
