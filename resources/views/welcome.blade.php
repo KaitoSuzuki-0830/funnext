@@ -70,7 +70,7 @@
 
     </head>
     <body>
-        <div class="container" id="welcomebar" style="display:none">
+        <div class="container" id="welcomebar">
             <a href="#welcomecon1" class="abouttitle">Relaccum</a>
             <a href="#welcomecon2" class="abouttitle">コミニティー</a>
             <a href="#welcomecon3" class="abouttitle">ポリシー</a>
