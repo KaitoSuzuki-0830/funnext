@@ -40,9 +40,9 @@ h2#titletext{
     position: absolute;
     color: white;
   font-weight: bold;
-  font-size: 38px;
+  font-size: 35px;
   font-family: "Sawarabi Gothic";
-  top: 40%;
+  top: 35%;
   left: 50%;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
@@ -64,8 +64,8 @@ a#welcomebutton{
   padding:0;
   color: white;
   background-color: #00BCD4;
-  width: 20%;
-  line-height: 40px;
+  width: 25%;
+  line-height: 60px;
 }
 
 a#welcomebutton2{
@@ -81,8 +81,8 @@ a#welcomebutton2{
   padding:0;
   color: #00BCD4;
   background-color: white;
-  width: 20%;
-  line-height: 40px;
+  width: 25%;
+  line-height: 60px;
 }
 
 h2#welcome1{
