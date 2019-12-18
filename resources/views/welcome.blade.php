@@ -107,7 +107,7 @@
                 </div>
                 <img src="uploads/logo/履歴書アイコン1.png">
                 <h2 class="rolename">アカウント作成</h2>
-                <p class="welcometext">まず、あなたのアカウントを作りましょう。メールアドレス、Facebook、Googleなどのアカウントがあれば５分ほどで完了します。</p>
+                <p class="welcometext">まず、あなたのアカウントを作りましょう。登録は<a href="/register" id="createacount">こちら</a>から</p>
             </div>
             <div class="usestep">
                 <div class="tipsicon">
@@ -115,15 +115,15 @@
                 </div>
                 <img src="uploads/logo/風船アイコン3.png">
                 <h2 class="rolename">イベントを探す</h2>
-                <p class="welcometext">まず、あなたのアカウントを作りましょう。メールアドレス、Facebook、Googleなどのアカウントがあれば５分ほどで完了します。</p>
+                <p class="welcometext">お近くのイベントを探してみましょう。カテゴリーやグループからもイベントを探すことができます。</p>
             </div>
             <div class="usestep">
                 <div class="tipsicon">
                 <img src="uploads/logo/tip3.png" class="tipsimage">
                 </div>
                 <img src="uploads/logo/おこづかいアイコン2.png">
-                <h2 class="rolename">オンライン決算</h2>
-                <p class="welcometext">まず、あなたのアカウントを作りましょう。メールアドレス、Facebook、Googleなどのアカウントがあれば５分ほどで完了します。</p>
+                <h2 class="rolename">お支払い</h2>
+                <p class="welcometext">イベントの参加費をオンライン決済で支払うことでイベント参加が完了します。</p>
             </div>
         </div>
         <div class="container" id="welcomecon4">

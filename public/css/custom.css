@@ -444,6 +444,11 @@ h1.servicedescription{
     height: 500px;
 }
 
+a#createacount{
+    color: #00BCD4;
+    text-decoration: none;
+}
+
 .policytitle{
     text-align: center;
     font-weight: bold;
@@ -482,7 +487,7 @@ p.rolesubtext{
 }
 
 a.indexlink{
-    color: #3AA9E0;
+    color: #00BCD4;
     text-decoration: none;
 }
 
@@ -504,7 +509,7 @@ a.indexlink{
 }
 
 .snsicon{
-    color: #3AA9E0;
+    color: #00BCD4;
 }
 
 .snsname{
