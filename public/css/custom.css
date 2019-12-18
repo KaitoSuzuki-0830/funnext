@@ -1,5 +1,6 @@
 #servicename{
     color: #00BCD4;
+    font-size: 50px;
     font-family: 'Kaushan Script', cursive;
 }
 
@@ -23,9 +24,8 @@
 
 a#logoposition{
     position: absolute;
-  font-size: 50px;
   top: 5%;
-  left: 5%;
+  left: 7%;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
@@ -40,9 +40,9 @@ h2#titletext{
     position: absolute;
     color: white;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 55px;
   font-family: "Sawarabi Gothic";
-  top: 35%;
+  top: 25%;
   left: 50%;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
@@ -450,7 +450,7 @@ h1.servicedescription{
   font-weight: bold; /*太字に*/
   font-size: 55px;/*サイズ2倍*/
   font-family: "Sawarabi Gothic";
-  top: 30%;
+  top: 25%;
   left: 50%;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
