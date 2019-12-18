@@ -130,11 +130,10 @@ div#welcomecon4{
     color: white;
 }
 
-div#welcomecon4{
+div#welcomecon5{
     height: 400px;
-
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     color: #00BCD4;
 }
 
@@ -511,7 +510,6 @@ a.policylink{
 
 .indexrole{
     float: left;
-    padding-top: 30px;
     text-align: center;
     width: 50%;
 }
