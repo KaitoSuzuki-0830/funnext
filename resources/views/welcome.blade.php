@@ -86,7 +86,7 @@
         </div>
         <div class="container-fluid" id="welcomecon2">
             <div class="container" >
-            <h1 class='welcometitle'>Community</h1>
+            <h1 class='welcometitle2'>Community</h1>
             <div class="rolecontent">
                 <img src="uploads/logo/チームのフリーアイコン.png">
                 <h2 class="rolename">グループ</h2>
@@ -135,7 +135,7 @@
         </div>
         <div class="container-fluid" id="welcomecon4">
             <div class="container">
-                <h1 class='welcometitle'>Let's Start</h1>
+                <h1 class='welcometitle2'>Let's Start</h1>
                 <div class="indexrole">
                     <img src="uploads/logo/search.png" class="starticon">
                     <h2 class="rolename">見つける</h2>

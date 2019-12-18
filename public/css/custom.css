@@ -90,20 +90,20 @@ h2#welcome1{
     color: #00BCD4;
     font-family: 'Kaushan Script', cursive;
     font-size: 60px;
-    padding-top: 30px;
     text-decoration: none;
 }
 
 p.welcomedescription{
     text-align: center;
-    font-size: 23px;
+    font-size: 50px;
     font-weight: bold;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 /* welcome　LP コンテンツ1 */
 div#welcomecon1{
     height: 600px;
-    padding-bottom: 100px;
+    margin-top: 250px;
+
 }
 
 div#welcomecon2{
@@ -133,10 +133,16 @@ div#welcomecon5{
     padding-bottom: 50px;
 }
 
+h1.welcometitle2{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+}
+
 h1.welcometitle{
     font-weight: bold;
     text-align: center;
-    padding-top: 20px;
     font-family: 'Kaushan Script', cursive;
     color: #00A1EB;
 }
@@ -539,7 +545,7 @@ a.indexlink{
 }
 
 .snsname{
-    color: black;
+
     font-weight: bold;
     font-size: 15px;
 }
