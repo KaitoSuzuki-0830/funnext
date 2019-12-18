@@ -1,9 +1,5 @@
 @extends('layouts.app')
 @section('content')
-<div class="container-fluid" id="groupimagebox">
-    <img src="uploads/logo/categorysoccer.jpeg" id="groupimage">
-    <h1 class="grouptext">もっといい関係が続くために</h1>
-</div>
 <div class="container">
  <div class="card">
      <div class="card-body">
