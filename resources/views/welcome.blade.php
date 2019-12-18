@@ -81,7 +81,7 @@
         <script>
             jQuery(function($){
                 $(window).on('load scroll', function(){
-                    if ($(window).scrollTop() > 300) {
+                    if ($(window).scrollTop() > 200) {
                     $('#welcomebar').fadeIn(400);
                     } else {
                     $('#welcomebar').fadeOut(400);
