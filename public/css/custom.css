@@ -123,9 +123,17 @@ div#welcomecon3{
 }
 
 div#welcomecon4{
-    height: 600px;
+    height: 300px;
     background-color: #00BCD4;
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+div#welcomecon4{
+    height: 300px;
+    background-color: #00BCD4;
+    padding-top: 50px;
     padding-bottom: 50px;
     color: white;
 }

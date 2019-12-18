@@ -152,6 +152,10 @@
                     <a href="{{route('groups.create')}}" class="indexlink">グループを作る</a>
                     <a href="{{route('category.create')}}" class="indexlink">カテゴリーを作る</a>
                 </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="welcomecon5">
+            <div class="container">
                 <h1 class='welcometitle'>Follow Us</h1>
                 <ul id="snslist">
                 <li class="snscontent">
