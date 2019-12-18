@@ -40,7 +40,6 @@
     @endforeach
     <hr>
     </div>
-@foreach($categories as $category)
 <div class="container">
     <h2>カテゴリー</h2>
         <div class="row">
@@ -50,6 +49,7 @@
                 <a href="{{route('category.index')}}" class="seeallcolor"><h5>すべて見る</h5></a>
             </div>
         </div>
+    @foreach($categories as $category)
     <div class="d-inline-block">
         <div class="card-deck" style="width:18rem;">
             <a href="{{route('category.show',['id'=>$category->id])}}" class="card">
