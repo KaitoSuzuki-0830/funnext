@@ -71,11 +71,11 @@
     </head>
     <body>
         <div class="container" id="welcomebar">
-            <a href="#welcomecon1" class="abouttitle">Relaccum</a>
-            <a href="#welcomecon2" class="abouttitle">コミニティー</a>
-            <a href="#welcomecon3" class="abouttitle">ポリシー</a>
-            <a href="#welcomecon4" class="abouttitle">始める</a>
-            <a href="#welcomecon5" class="abouttitle">シェア</a>
+            <a href="#welcomecon1" class="abouttitle">FunNext</a>
+            <a href="#welcomecon2" class="abouttitle">Community</a>
+            <a href="#welcomecon3" class="abouttitle">Usage</a>
+            <a href="#welcomecon4" class="abouttitle">Start</a>
+            <a href="#welcomecon5" class="abouttitle">Share</a>
         </div>
 
         <script>
