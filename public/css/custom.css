@@ -1,3 +1,7 @@
+a.nav-link:hover{
+    color: #00BCD4;
+}
+
 #servicename{
     color: #00BCD4;
     font-size: 50px;
@@ -641,6 +645,7 @@ a#showbutton{
 
 a#showbutton:hover{
     opacity: 0.8;
+    background-color: red;
 }
 
 
@@ -653,10 +658,14 @@ a#planjoin{
 
 a#seemorebutton{
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     line-height: 30px;
     background-color: #00A1EB;
+}
+
+div#onecard:hover{
+    opacity: 0.8;
 }
 
 /* すべて見る */
