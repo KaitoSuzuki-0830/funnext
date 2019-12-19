@@ -17,6 +17,9 @@
 <div class="container">
 <div class="row">
     <div class="col-md-6">
+        <div id="eventimage">
+        <img src="{{asset($plan->featured)}}" alt="{{$plan->name}}" height="500px" width="500px">
+        </div>
         <div class="card">
             <div class="card-body">
                 <div class="card-title"><h3>{{$plan->title}}</h3></div>
