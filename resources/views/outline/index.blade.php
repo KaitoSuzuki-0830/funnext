@@ -36,8 +36,8 @@
     </div>
     @endforeach --}}
 @foreach($plans as $plan)
+<a href="{{ route('plans.show',['id'=>$plan->id])}}" id="planoverall">
 <div class="d-inline-block">
-    <a href="{{ route('plans.show',['id'=>$plan->id])}}" id="planoverall">
     <div class="card" style="width: 18rem;">
         <img src="{{asset($plan->featured)}}" class="card-img-top" alt="{{$plan->title}}">
         <div class="card-body">
@@ -59,8 +59,8 @@
           <a href="{{ route('plans.show',['id'=>$plan->id])}}" class="btn btn-info"　role="button" id="showbutton">Details</a>
         </div>
       </div>
-    </a>
 </div>
+</a>
            {{-- <td><a href="{{route('plan.join',['planid'=>$plan->id,'userid'=>$user->id])}}" class="btn btn-danger" role="button" id="planjoin">Join</a></td> --}}
     @endforeach
     <a href="{{route('plans.index')}}" class="btn btn-info" role="button" id="seemorebutton"><h5>すべて見る</h5></a>
