@@ -7,8 +7,8 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Prefecture extends Model
 {
-    public function plan(){
-        return $this->hasOne('App\Plan');
+    public function plans(){
+        return $this->hasMany('App\Plan');
     }
 
     public function profile(){

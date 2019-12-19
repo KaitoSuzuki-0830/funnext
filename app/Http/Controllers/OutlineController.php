@@ -7,6 +7,7 @@ use App\group;
 use App\Category;
 use App\User;
 use App\Plan;
+use App\Prefecture;
 use Illuminate\Support\Facades\Auth;
 
 class OutlineController extends Controller
