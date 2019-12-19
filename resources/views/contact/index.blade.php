@@ -40,7 +40,7 @@
                     <button type="submit" class="btn btn-primary">
                         入力内容確認
                     </button>
-                </div>
+            </div>
             </form>
     </div>
 </div>

@@ -40,7 +40,7 @@
 <div class="d-inline-block" id="cardsize">
     <div class="card" style="width: 18rem;">
         <img src="{{asset($plan->featured)}}" class="card-img-top" alt="{{$plan->title}}">
-        <div class="card-body">
+        <div class="card-body" id="outlinecard">
           <h5 class="card-title" id="eventtitle">{{ $plan->title}}</h5>
           <table class="eventtableposition">
             <tr class="tablelist">
