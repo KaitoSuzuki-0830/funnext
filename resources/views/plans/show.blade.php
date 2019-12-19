@@ -2,9 +2,9 @@
 @section('content')
 <div class="container-fluid" id="planheader">
 <div class="container" id="headertext">
-    <h5>{{$plan->date}}</h5>
+    <h5 id="plandate">{{$plan->date}}</h5>
     <h2 id="pagetitle">{{$plan->title}}</h2>
-    <div class="row">
+    <div class="row" id="textbottom">
         <div class="col-md-1">アバター</div>
         <div class="col-md-1">名前</div>
         <div class="col-md-6"></div>
