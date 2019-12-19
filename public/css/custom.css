@@ -823,3 +823,11 @@ div#outlinecard{
 div#outlineeventcard{
     margin-top: 38px;
 }
+
+table td{
+    background: aqua;
+}
+
+table tr:nth-child(odd) td{
+    background: #00A1EB;
+}
