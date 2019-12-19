@@ -701,6 +701,13 @@ a#seeallcolor:hover{
     margin-top: 20px;
 }
 
+div#join{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+}
+
 /* google map 関連 */
 #map_container {
     clear: both;
