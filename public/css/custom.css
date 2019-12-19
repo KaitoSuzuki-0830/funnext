@@ -598,6 +598,12 @@ a.indexlink:hover{
 h5#cardname{
     margin-top: 15px;
     margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+a#cardsize{
+    margin-top: 25px;
+
 }
 
 h1.pagestitle{
