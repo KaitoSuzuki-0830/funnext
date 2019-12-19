@@ -629,6 +629,22 @@ h1.pagestitle{
 #eventplace{
     font-size: 12px;
 }
+/* Outline.index イベント一覧　ボタン */
+a#showbutton{
+    font-size: 10px;
+  font-family: 'Kaushan Script', cursive;
+  color: white;
+  background-color: #00BCD4;
+  width: 25%;
+  line-height: 25px;
+}
+
+a#planjoin{
+    font-size: 10px;
+  font-family: 'Kaushan Script', cursive;
+  width: 25%;
+  line-height: 25px;
+}
 
 /* すべて見る */
 a.seeallcolor{

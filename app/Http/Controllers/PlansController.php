@@ -145,4 +145,13 @@ class PlansController extends Controller
         return view('plans.index')->with('plans',$plans);
     }
 
+    public function join($planid,$userid){
+
+        $plan = Plan::find($planid);
+        $plan->users()->attach($userid);
+        Session::flash('success','Joined successfully');
+        return redirect()->route('outline.index');
+
+    }
+
 }

@@ -27,7 +27,7 @@
                 <a href="{{route('plans.index')}}" class="seeallcolor"><h5>すべて見る</h5></a>
             </div>
         </div>
-    @foreach($plans as $plan)
+    {{-- @foreach($plans as $plan)
     <div class="d-inline-block">
         <div class="card text-center" style="width: 20rem;">
             <div class="card-body">
@@ -37,7 +37,27 @@
             </div>
         </div>
     </div>
+    @endforeach --}}
+    @if(count($plans) > 0)
+     <table class="table table-bordered" id="tableposition">
+     <tbody>
+
+    @foreach($plans as $plan)
+        <tr>
+            <td>{{ $plan->featured}}</td>
+           <td>{{ $plan->title}}</td>
+           <td>{{ $plan->prefectures->name}}</td>
+           <td>¥ {{$plan->price}}</td>
+           <td>人数</td>
+           <td><a href="{{ route('plans.show',['id'=>$plan->id])}}" class="btn btn-info"　role="button" id="showbutton">Details</a></td>
+           <td><a href="{{route('plan.join',['planid'=>$plan->id,'userid'=>$user->id])}}" class="btn btn-danger" role="button" id="planjoin">Join</a></td>
+        </tr>
     @endforeach
+     </tbody>
+     </table>
+   @else
+     <P class ="text-center">イベントはありません</p>
+  @endif
     <hr>
     </div>
 <div class="container">
