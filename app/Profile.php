@@ -9,7 +9,7 @@ use App\group;
 
 class profile extends Model
 {
-    protected $fillable = ['user_id','about','place','facebook','weblink','twitter'];
+    protected $fillable = ['user_id','about','avatar','pref_id','facebook','weblink','twitter'];
 
     public function user(){
         return $this->belongsTo('App\User');
