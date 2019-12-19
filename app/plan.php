@@ -10,20 +10,16 @@ class Plan extends Model
         return $this->belongsTo('App\Category');
     }
 
-    public function user(){
-        return $this->belongsTo('App\User');
+    public function users(){
+        return $this->belongsToMany('App\User');
     }
 
     public function groups(){
         return $this->belongsToMany('App\group');
     }
 
-    public function plans(){
-        return $this->belongsToMany('App\User');
-    }
-
     public function prefecture(){
-        return $this->hasOne('App\Prefecture');
+        return $this->belongsTo('App\Prefecture');
     }
 
     public function profile(){
