@@ -15,10 +15,10 @@
 </div>
 <div class="container-fluid" id="planmain">
 <div class="container">
+    <img src="{{asset($plan->featured)}}" alt="{{$plan->name}}" height="500px" width="100%">
     <div class="row">
         <div class="col-md-6">
             <div class="card" id="eventimage">
-                <img src="{{asset($plan->featured)}}" alt="{{$plan->name}}" height="500px" width="500px" class="card-img-top">
                     <div class="card-body">
                         <h3 class="card-title">{{$plan->title}}</h3>
                         <p class="card-text">{{$plan->description}}</p>
