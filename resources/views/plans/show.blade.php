@@ -29,8 +29,9 @@
         </div>
         <div class="col-md-6">
             <div id="join">
-                    <h3>時間</h3>
-                    <h3>場所</h3>
+                    <h5>時間</h5>
+                    <h5>場所</h5>
+                    <h5>金額</h5>
                     <form action="{{ route('pay') }}" method="POST" id="paymentbutton">
                     {{ csrf_field() }}
                         <script
