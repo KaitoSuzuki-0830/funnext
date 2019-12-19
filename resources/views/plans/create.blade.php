@@ -49,7 +49,7 @@
             </div>
         </div>
     </div>
-    <div class="form-group">
+    {{-- <div class="form-group">
      <label for="group">グループを選択してください</label>
      <select name="group_id" class="form-control">
         @foreach ($groups as $group)
@@ -59,7 +59,7 @@
     </div>
     <div class="form-group text-right">
         <a href="{{route('groups.create')}}">グループがない時は...</a>
-    </div>
+    </div> --}}
     <div class="form-group">
      <label for="category">カテゴリーを選択してください</label>
      <select name = "category_id" class="form-control">
