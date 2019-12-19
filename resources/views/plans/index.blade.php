@@ -8,7 +8,7 @@
             <form action="/plansearch" method="get">
                 <div class="input-group">
                     <i class="fas fa-search" id="searchicon"></i>
-                    <input type="search" name="search" class="form-control" placeholder="プラン名で検索" id="searchbox">
+                    <input type="search" name="search" class="form-control" placeholder="イベント名で検索" id="searchbox">
                 </div>
             </form>
         </div>
@@ -31,18 +31,18 @@
            <td>{{ $plan->place}}</td>
            <td>¥ {{$plan->price}}</td>
            <td><a href="{{ route('plans.show',['id'=>$plan->id])}}" class="btn btn-primary"><i class="far fa-eye"></i></a></td>
-           <td>
+           {{-- <td>
              <form action="{{ route('plans.destroy',['id' => $plan->id])}}" method="post">
                @csrf
                @method('DELETE')
                <button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
-             </td>
+             </td> --}}
         </tr>
        @endforeach
      </tbody>
      </table>
    @else
-     <P class ="text-center">イベントはありません</p>
+     <P class ="text-center">イベントは現在ありません</p>
   @endif
   </div>
   </div>
