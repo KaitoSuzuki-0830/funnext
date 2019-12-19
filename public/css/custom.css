@@ -664,6 +664,15 @@ a#seemorebutton{
     background-color: #00A1EB;
 }
 
+h5#eventtitle{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+tr.tablelist{
+    text-align: center;
+}
+
 a#seemorebutton2{
     width: 100%;
     margin-top: 20px;

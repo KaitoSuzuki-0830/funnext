@@ -40,18 +40,19 @@
     <div class="card" style="width: 18rem;">
         <img src="{{asset($plan->featured)}}" class="card-img-top" alt="{{$plan->title}}">
         <div class="card-body">
-          <h5 class="card-title">{{ $plan->title}}</h5>
+          <h5 class="card-title" id="eventtitle">{{ $plan->title}}</h5>
           <table>
-            <tr>
-                <td colspan="2">{{$plan->date}}</td>
+            <tr class="tablelist">
+                <td>時計</td>
+                <td>{{$plan->date}}</td>
             </tr>
-            <tr>
+            <tr class="tablelist">
                 <td>人数</td>
                 <td>5</td>
             </tr>
-            <tr>
-                <td>¥</td>
-                <td>{{$plan->price}}</td>
+            <tr class="tablelist">
+                <td>金額</td>
+                <td>¥{{$plan->price}}</td>
             </tr>
           </table>
           <a href="{{ route('plans.show',['id'=>$plan->id])}}" class="btn btn-info"　role="button" id="showbutton">Details</a>
