@@ -94,7 +94,7 @@ class ProfilesController extends Controller
         if($request->hasFile('avatar')){
             $avatar = $request->avatar;
             $avatar_new_name = time().$avatar->getClientOriginalName();
-            $avatar->move('/uploads/avatar/',$avatar_new_name);
+            $avatar->move('uploads/avatar/',$avatar_new_name);
             $user->profile->avatar = secure_asset('uploads/avatar/'.$avatar_new_name);
             $user->profile->save();
         }
