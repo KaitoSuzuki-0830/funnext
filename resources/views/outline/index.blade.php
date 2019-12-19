@@ -46,7 +46,7 @@
         <tr>
             <td>{{ $plan->featured}}</td>
            <td>{{ $plan->title}}</td>
-           {{-- <td>{{ $plan->prefectures->name }}</td> --}}
+           <td>{{ $plan->prefecture->name }}</td>
            <td>¥ {{$plan->price}}</td>
            <td>人数</td>
            <td><a href="{{ route('plans.show',['id'=>$plan->id])}}" class="btn btn-info"　role="button" id="showbutton">Details</a></td>
