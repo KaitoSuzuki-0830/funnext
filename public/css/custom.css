@@ -701,6 +701,11 @@ a#seeallcolor:hover{
     margin-top: 20px;
 }
 
+div#headertext{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 div#join{
     width: 100%;
     height: 200px;

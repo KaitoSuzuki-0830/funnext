@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <div class="container-fluid" id="planheader">
-<div class="container">
+<div class="container" id="headertext">
     <h5>{{$plan->date}}</h5>
     <h2 id="pagetitle">{{$plan->title}}</h2>
     <div class="row">
