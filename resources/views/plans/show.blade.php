@@ -15,45 +15,43 @@
 </div>
 <div class="container-fluid" id="planmain">
 <div class="container">
-<div class="row">
-    <div class="col-md-6">
-        <div id="eventimage">
-            <img src="{{asset($plan->featured)}}" alt="{{$plan->name}}" height="500px" width="500px">
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <div class="card-title"><h3>{{$plan->title}}</h3></div>
-                    <p class="card-text"><i class="fas fa-map-marker-alt"></i>{{$plan->place}}</p>
-                    <p class="card-text"><i class="fas fa-tag"></i>{{$plan->category->name}}</p>
-                    <p class="card-text">{{$plan->description}}</p>
-                    <p class="card-text"><i class="fas fa-yen-sign"></i> {{$plan->price}}</p>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card" id="eventimage">
+                <img src="{{asset($plan->featured)}}" alt="{{$plan->name}}" height="500px" width="500px" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">{{$plan->title}}</h3>
+                        <p class="card-text">{{$plan->description}}</p>
+                        <p class="card-text"><i class="fas fa-map-marker-alt"></i>{{$plan->place}}</p>
+                        <p class="card-text"><i class="fas fa-yen-sign"></i> {{$plan->price}}</p>
+                    </div>
             </div>
         </div>
     </div>
+</div>
     <div class="col-md-6">
-                <div id="join">
-                    <h3>時間</h3>
-                    <h3>場所</h3>
-                    <form action="{{ route('pay') }}" method="POST" id="paymentbutton">
-                        {{ csrf_field() }}
-                        <script
-                            src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                            data-key="pk_test_EtHmYNmqSKAqc3JTRo7H98vx003VgTohui"
-                            data-amount="{{$plan->price}}"
-                            data-name="参加費を支払う"
-                            data-label="参加する"
-                            data-description="Laravel-Myproduct.payment"
-                            data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
-                            data-locale="auto"
-                            data-currency="JPY">
-                        </script>
-                    </form>
-                </div>
-                <div id="map_info">
-                  <p id="venue">会場先</p>
-                  <p id="address">{{ $plan->place }}</p>
-                  {{-- <a id="url"><a href="http://www.tokyo-skytree.jp/" target="_blank">www.tokyo-skytree.jp</a></a> --}}
-                  <p id="zoom">17</p>
+        <div id="join">
+            <h3>時間</h3>
+            <h3>場所</h3>
+            <form action="{{ route('pay') }}" method="POST" id="paymentbutton">
+            {{ csrf_field() }}
+                <script
+                    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                    data-key="pk_test_EtHmYNmqSKAqc3JTRo7H98vx003VgTohui"
+                    data-amount="{{$plan->price}}"
+                    data-name="参加費を支払う"
+                    data-label="参加する"
+                    data-description="Laravel-Myproduct.payment"
+                    data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                    data-locale="auto"
+                    data-currency="JPY">
+                </script>
+            </form>
+        </div>
+        <div id="map_info">
+            <p id="venue">会場先</p>
+            <p id="address">{{ $plan->place }}</p>
+            <p id="zoom">17</p>
                 </div>
                 <div id="map_container">
                   <div id="map_canvas"></div>
@@ -132,10 +130,9 @@
                     });
                   });
                 }
-                </script>
-                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9iATwHWcm3sUqBSZnJB3v1VMbV9_s6lw&callback=initMap" async defer></script>
-                <!-- YOUR_API_KEYの部分は取得した APIキーで置き換えます。 -->
-                <a href="https://www.google.com/maps/dir/?api=1&destination={{ $plan->place }}">Google mapで開く</a>
+            </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9iATwHWcm3sUqBSZnJB3v1VMbV9_s6lw&callback=initMap" async defer></script>
+    <a href="https://www.google.com/maps/dir/?api=1&destination={{ $plan->place }}">Google mapで開く</a>
     </div>
 </div>
 <hr>
