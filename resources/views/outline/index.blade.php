@@ -50,7 +50,7 @@
            <td>¥ {{$plan->price}}</td>
            <td>人数</td>
            <td><a href="{{ route('plans.show',['id'=>$plan->id])}}" class="btn btn-info"　role="button" id="showbutton">Details</a></td>
-           <td><a href="{{route('plan.join',['planid'=>$plan->id,'userid'=>$user->id])}}" class="btn btn-danger" role="button" id="planjoin">Join</a></td>
+           {{-- <td><a href="{{route('plan.join',['planid'=>$plan->id,'userid'=>$user->id])}}" class="btn btn-danger" role="button" id="planjoin">Join</a></td> --}}
         </tr>
     @endforeach
      </tbody>
