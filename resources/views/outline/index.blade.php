@@ -35,7 +35,8 @@
         </div>
     </div>
     @endforeach --}}
-    @foreach($plans as $plan)
+@foreach($plans as $plan)
+<div class="d-inline-block">
     <div class="card-deck">
         <div class="card">
           <img src="{{asset($plan->featured)}}" class="card-img-top" alt="{{$plan->title}}"　height="200px" width="200px">
@@ -58,9 +59,10 @@
                         <td colspan="2"><a href="{{ route('plans.show',['id'=>$plan->id])}}" class="btn btn-info"　role="button" id="showbutton">Details</a></td>
                     </tr>
                 </table>
-        </div>
+            </div>
         </div>
     </div>
+</div>
            {{-- <td><a href="{{route('plan.join',['planid'=>$plan->id,'userid'=>$user->id])}}" class="btn btn-danger" role="button" id="planjoin">Join</a></td> --}}
     @endforeach
     <a href="{{route('plans.index')}}" class="btn btn-info" role="button" id="seemorebutton"><h5>すべて見る</h5></a>
