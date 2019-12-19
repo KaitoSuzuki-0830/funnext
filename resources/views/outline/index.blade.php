@@ -35,27 +35,37 @@
         </div>
     </div>
     @endforeach --}}
-    @if(count($plans) > 0)
-     <table class="table table-bordered" id="tableposition">
-     <tbody>
     @foreach($plans as $plan)
-        <tr>
-            <td><img src="{{asset($plan->featured)}}"  alt="{{$plan->title}}" height="200px" width="200px"></td>
-           <td>{{ $plan->title}}</td>
-           <td>¥ {{$plan->price}}</td>
-           <td>人数</td>
-           <td><a href="{{ route('plans.show',['id'=>$plan->id])}}" class="btn btn-info"　role="button" id="showbutton">Details</a></td>
+    <div class="card-deck">
+        <div class="card">
+          <img src="{{asset($plan->featured)}}" class="card-img-top" alt="{{$plan->title}}"　height="200px" width="200px">
+          <div class="card-body">
+            <h5 class="card-title">{{ $plan->title}}</h5>
+                <table>
+                    <tr>
+                        <td>date</td>
+                        <td>{{$plan->date}}</td>
+                    </tr>
+                    <tr>
+                        <td>人数</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>¥</td>
+                        <td>{{$plan->price}}</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><a href="{{ route('plans.show',['id'=>$plan->id])}}" class="btn btn-info"　role="button" id="showbutton">Details</a></td>
+                    </tr>
+                </table>
+        </div>
+        </div>
+    </div>
            {{-- <td><a href="{{route('plan.join',['planid'=>$plan->id,'userid'=>$user->id])}}" class="btn btn-danger" role="button" id="planjoin">Join</a></td> --}}
-        </tr>
     @endforeach
-     </tbody>
-     </table>
-   @else
-     <P class ="text-center">イベントはありません</p>
-  @endif
     <a href="{{route('plans.index')}}" class="btn btn-info" role="button" id="seemorebutton"><h5>すべて見る</h5></a>
     <hr>
-    </div>
+</div>
 <div class="container">
     <h2>カテゴリー</h2>
         <div class="row">
