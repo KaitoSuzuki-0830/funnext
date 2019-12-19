@@ -40,7 +40,7 @@
      <tbody>
     @foreach($plans as $plan)
         <tr>
-            <td><img src="{{asset($group->featured)}}"  alt="{{$group->name}}" height="200px" width="200px"></td>
+            <td><img src="{{asset($plan->featured)}}"  alt="{{$plan->name}}" height="200px" width="200px"></td>
            <td>{{ $plan->title}}</td>
            <td>¥ {{$plan->price}}</td>
            <td>人数</td>
