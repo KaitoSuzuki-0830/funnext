@@ -639,6 +639,11 @@ a#showbutton{
   line-height: 20px;
 }
 
+a#showbutton:hover{
+    opacity: 0.8;
+}
+
+
 a#planjoin{
     font-size: 10px;
   font-family: 'Kaushan Script', cursive;
