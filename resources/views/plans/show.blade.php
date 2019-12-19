@@ -15,7 +15,7 @@
 </div>
 <div class="container-fluid" id="planmain">
 <div class="container">
-    <img src="{{asset($plan->featured)}}"  alt="{{$plan->title}}" height="600px" width="100%">
+    <img src="{{asset($plan->featured)}}"  alt="{{$plan->title}}" height="400px" width="100%" id="singleeventimage">
     <div class="row">
         <div class="col-md-6">
             <div class="card" id="eventimage">
