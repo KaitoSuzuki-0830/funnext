@@ -812,11 +812,14 @@ img#singleeventimage{
 }
 
 div#cardsize{
-    margin-bottom: 50px;
-    margin-right: 30px;
+    margin-bottom: 38px;
+    margin-right: 38px;
+    margin-left: 38px;
 }
 
 div#outlinecard{
     height: 175px;
 }
-
+div#outlineeventcard{
+    margin-top: 38px;
+}

@@ -38,7 +38,7 @@
 @foreach($plans as $plan)
 <a href="{{ route('plans.show',['id'=>$plan->id])}}" id="planoverall">
 <div class="d-inline-block" id="cardsize">
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 18rem;" id="outlineeventcard">
         <img src="{{asset($plan->featured)}}" class="card-img-top" alt="{{$plan->title}}">
         <div class="card-body" id="outlinecard">
           <h5 class="card-title" id="eventtitle">{{ $plan->title}}</h5>
