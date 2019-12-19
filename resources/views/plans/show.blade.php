@@ -29,7 +29,7 @@
         </div>
     </div>
 </div>
-    <div class="col-md-6">
+<div class="col-md-6">
         <div id="join">
             <h3>時間</h3>
             <h3>場所</h3>
@@ -133,7 +133,7 @@
             </script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9iATwHWcm3sUqBSZnJB3v1VMbV9_s6lw&callback=initMap" async defer></script>
     <a href="https://www.google.com/maps/dir/?api=1&destination={{ $plan->place }}">Google mapで開く</a>
-    </div>
+</div>
 </div>
 <hr>
 <div class="row">
