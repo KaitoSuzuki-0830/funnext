@@ -11,7 +11,7 @@ use App\Category;
 use App\Prefecture;
 use App\group;
 use App\User;
-
+use App\profile;
 
 class PlansController extends Controller
 {
@@ -78,7 +78,12 @@ class PlansController extends Controller
      */
     public function show(Plan $plan)
     {
-        return view('plans.show')->with('plan',$plan);
+        $organiser = User::find($plan->user_id);
+        $avatar = Profile::find($plan->avatar);
+
+        return view('plans.show')->with('plan',$plan)
+                                ->with('organiser',$organiser)
+                                ->with('avatar',$avatar);
     }
 
     /**
