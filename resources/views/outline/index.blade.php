@@ -37,7 +37,7 @@
     @endforeach --}}
 @foreach($plans as $plan)
 <div class="d-inline-block">
-    <a href="{{ route('plans.show',['id'=>$plan->id])}}">
+    <a href="{{ route('plans.show',['id'=>$plan->id])}}" id="planoverall">
     <div class="card" style="width: 18rem;">
         <img src="{{asset($plan->featured)}}" class="card-img-top" alt="{{$plan->title}}">
         <div class="card-body">
