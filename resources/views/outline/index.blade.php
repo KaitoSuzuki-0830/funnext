@@ -43,15 +43,15 @@
           <h5 class="card-title" id="eventtitle">{{ $plan->title}}</h5>
           <table>
             <tr class="tablelist">
-                <td>時計</td>
+                <td><i class="far fa-clock"></i></td>
                 <td>{{$plan->date}}</td>
             </tr>
             <tr class="tablelist">
-                <td>人数</td>
+                <td><i class="fas fa-users"></i></td>
                 <td>5</td>
             </tr>
             <tr class="tablelist">
-                <td>金額</td>
+                <td><i class="fas fa-hand-holding-usd"></i></td>
                 <td>¥{{$plan->price}}</td>
             </tr>
           </table>
