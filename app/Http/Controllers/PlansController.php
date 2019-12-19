@@ -59,14 +59,15 @@ class PlansController extends Controller
         $plan->user_id = Auth::user()->id;
         $plan->category_id = $request->category_id;
 
-        // $featured = $request->featured;
-        // $featured_new_name = time().$featured->getClientOriginalName();
-        // $featured->move('uploads/plans/',$featured_new_name);
-        // $plan->featured = secure_asset('uploads/plans/'.$featured_new_name);
+         $featured = $request->featured;
+         $featured_new_name = time().$featured->getClientOriginalName();
+         $featured->move('uploads/plans/',$featured_new_name);
+         $plan->featured = secure_asset('uploads/plans/'.$featured_new_name);
 
         $plan->save();
+        $plan->users()->attach($request->user_id);
 
-        Session::flash('success','新しい企画を作成しました!');
+        Session::flash('success','新しいイベントを作成しました!');
         return redirect(route('plans.index'));
     }
 

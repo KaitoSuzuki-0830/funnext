@@ -26,14 +26,6 @@ class GroupsController extends Controller
         return view('groups.index')->with('groups',$groups);
     }
 
-    // public function filter(Request $request){
-    //     $group_name = DB::table('groups')
-    //                         ->select('category_id')
-    //                         ->groupBy('category_id')
-    //                         ->orderBy('Controller','ASC')
-    //                         ->get();
-    //     return view('groups.show',compact('group_name'));
-    // }
 
     /**
      * Show the form for creating a new resource.

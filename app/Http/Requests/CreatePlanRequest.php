@@ -24,7 +24,7 @@ class CreatePlanRequest extends FormRequest
     public function rules()
     {
         return [
-            'title'=>'required|max:20',
+            'title'=>'required|max:50',
             'description'=>'required|min:20',
             'price'=>'required|numeric',
             'pref_id'=>'required',
