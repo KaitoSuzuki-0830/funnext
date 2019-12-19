@@ -704,7 +704,7 @@ a#seeallcolor:hover{
 /* google map 関連 */
 #map_container {
     clear: both;
-    width: 90%;
+    width: 100%;
     padding: 4px;
     border: 1px solid #CCC;
   }

@@ -26,8 +26,15 @@
                     <p class="card-text"><i class="fas fa-map-marker-alt"></i>{{$plan->place}}</p>
                     <p class="card-text"><i class="fas fa-tag"></i>{{$plan->category->name}}</p>
                     <p class="card-text">{{$plan->description}}</p>
-                    <p class="card-text"><i class="fas fa-yen-sign"></i> {{$plan->price}}
-                        <form action="{{ route('pay') }}" method="POST">
+                    <p class="card-text"><i class="fas fa-yen-sign"></i> {{$plan->price}}</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+                <div id="join">
+                    <h3>時間</h3>
+                    <h3>場所</h3>
+                    <form action="{{ route('pay') }}" method="POST" id="paymentbutton">
                         {{ csrf_field() }}
                         <script
                             src="https://checkout.stripe.com/checkout.js" class="stripe-button"
@@ -40,12 +47,8 @@
                             data-locale="auto"
                             data-currency="JPY">
                         </script>
-                        </form>
-                    </p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6">
+                    </form>
+                </div>
                 <div id="map_info">
                   <p id="venue">会場先</p>
                   <p id="address">{{ $plan->place }}</p>
