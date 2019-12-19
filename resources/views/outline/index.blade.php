@@ -56,7 +56,7 @@
                 <img src="{{ $category->featured}}" alt="{{ $category->name}}" class="card-img" height="150px" width="150px">
             </a>
         </div>
-        <h5 class="row justify-content-center">{{$category->name}}</h5>
+        <h5 class="row justify-content-center" id="cardname">{{$category->name}}</h5>
     </div>
     @endforeach
 </div>
