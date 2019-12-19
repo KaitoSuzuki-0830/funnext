@@ -750,5 +750,12 @@ h1.grouptext{
   padding:0;
 }
 
+/* plan.show　詳細ページcss */
+div#planheader{
+    height: 200px;
+}
 
+div#planmain{
+    background-color:#4B4B4B;
+}
 
