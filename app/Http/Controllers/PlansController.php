@@ -79,11 +79,11 @@ class PlansController extends Controller
     public function show(Plan $plan)
     {
         $organiser = User::find($plan->user_id);
-        $ogavatar = Profile::find($plan->avatar);
+        // $ogavatar = Profile::find($plan->avatar);
+        // ->with('avatar',$ogavatar)
 
         return view('plans.show')->with('plan',$plan)
-                                ->with('organiser',$organiser)
-                                ->with('avatar',$ogavatar);
+                                ->with('organiser',$organiser);
     }
 
     /**
