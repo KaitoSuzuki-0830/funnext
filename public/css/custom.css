@@ -667,10 +667,15 @@ a#seemorebutton{
 h5#eventtitle{
     font-size: 12px;
     font-weight: bold;
+    text-align: center;
 }
 
 tr.tablelist{
     text-align: center;
+}
+
+table.eventtableposition{
+    margin: 0 auto;
 }
 
 a#seemorebutton2{

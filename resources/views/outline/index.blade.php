@@ -37,11 +37,12 @@
     @endforeach --}}
 @foreach($plans as $plan)
 <div class="d-inline-block">
+    <a href="{{ route('plans.show',['id'=>$plan->id])}}">
     <div class="card" style="width: 18rem;">
         <img src="{{asset($plan->featured)}}" class="card-img-top" alt="{{$plan->title}}">
         <div class="card-body">
           <h5 class="card-title" id="eventtitle">{{ $plan->title}}</h5>
-          <table>
+          <table class="eventtableposition">
             <tr class="tablelist">
                 <td><i class="far fa-clock"></i></td>
                 <td>{{$plan->date}}</td>
@@ -58,6 +59,7 @@
           <a href="{{ route('plans.show',['id'=>$plan->id])}}" class="btn btn-info"　role="button" id="showbutton">Details</a>
         </div>
       </div>
+    </a>
 </div>
            {{-- <td><a href="{{route('plan.join',['planid'=>$plan->id,'userid'=>$user->id])}}" class="btn btn-danger" role="button" id="planjoin">Join</a></td> --}}
     @endforeach
