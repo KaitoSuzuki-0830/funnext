@@ -38,12 +38,10 @@
     @if(count($plans) > 0)
      <table class="table table-bordered" id="tableposition">
      <tbody>
-
     @foreach($plans as $plan)
         <tr>
-            <td>{{ $plan->featured}}</td>
+            <td><img src="{{asset($group->featured)}}"  alt="{{$group->name}}" height="200px" width="200px"></td>
            <td>{{ $plan->title}}</td>
-           {{-- <td>{{ $plan->prefecture->name }}</td> --}}
            <td>¥ {{$plan->price}}</td>
            <td>人数</td>
            <td><a href="{{ route('plans.show',['id'=>$plan->id])}}" class="btn btn-info"　role="button" id="showbutton">Details</a></td>
