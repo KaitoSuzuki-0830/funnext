@@ -61,11 +61,8 @@
 <div class="container">
     <h2>カテゴリー</h2>
         <div class="row">
-            <div class="col-md-5"><h5>興味のあるトピックからイベントを検索</h5></div>
-            <div class="col-md-5"></div>
-            <div class="col-md-2">
-                <a href="{{route('category.index')}}" class="seeallcolor"><h5>すべて見る</h5></a>
-            </div>
+            <div class="col-md-6"><h5>興味のあるトピックからイベントを検索</h5></div>
+            <div class="col-md-6"></div>
         </div>
     @foreach($categories as $category)
     <div class="d-inline-block" id="onecard">
@@ -77,6 +74,7 @@
         <h5 class="row justify-content-center" id="cardname">{{$category->name}}</h5>
     </div>
     @endforeach
+    <a href="{{route('category.index')}}" class="btn btn-info" role="button" id="seemorebutton2"><h5>すべて見る</h5></a>
 </div>
 
 {{-- <div class="container" id="groupposition">

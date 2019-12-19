@@ -664,6 +664,14 @@ a#seemorebutton{
     background-color: #00A1EB;
 }
 
+a#seemorebutton2{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    background-color: #00A1EB;
+}
+
 div#onecard:hover{
     opacity: 0.8;
 }
