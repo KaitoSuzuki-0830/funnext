@@ -7,6 +7,8 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Prefecture extends Model
 {
+    protected $fillable = ['name'];
+
     public function plans(){
         return $this->hasMany('App\Plan');
     }
