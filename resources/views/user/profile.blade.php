@@ -30,14 +30,14 @@
     <label for="password">新しいパスワード</label>
     <input type="password" name="password" class="form-control">
 </div>
-<div class="form-group">
+{{-- <div class="form-group">
     <label for="name">場所</label>
     <select name="prefecture" id="pref_id">
     @foreach ($prefecture as $pref)
         <option value="{{$pref->name}}">{{$pref->name}}</option>
     @endforeach
     </select>
-</div>
+</div> --}}
 <div class="form-group">
     <label for="about">自己紹介</label>
     <textarea name="about" id="about" cols="6" rows="6" class="form-control">{{ $user->profile->about}}</textarea>
