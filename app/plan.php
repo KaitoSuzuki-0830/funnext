@@ -23,7 +23,7 @@ class Plan extends Model
     }
 
     public function prefecture(){
-        return $this->hasOne('App\Prefecture');
+        return $this->belongsTo('App\Prefecture');
     }
 
     public function profile(){
