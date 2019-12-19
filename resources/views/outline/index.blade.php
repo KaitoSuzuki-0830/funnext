@@ -37,31 +37,26 @@
     @endforeach --}}
 @foreach($plans as $plan)
 <div class="d-inline-block">
-    <div class="card-deck">
-        <div class="card">
-          <img src="{{asset($plan->featured)}}" class="card-img-top" alt="{{$plan->title}}"　height="200px" width="200px">
-          <div class="card-body">
-            <h5 class="card-title">{{ $plan->title}}</h5>
-                <table>
-                    <tr>
-                        <td>date</td>
-                        <td>{{$plan->date}}</td>
-                    </tr>
-                    <tr>
-                        <td>人数</td>
-                        <td>5</td>
-                    </tr>
-                    <tr>
-                        <td>¥</td>
-                        <td>{{$plan->price}}</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><a href="{{ route('plans.show',['id'=>$plan->id])}}" class="btn btn-info"　role="button" id="showbutton">Details</a></td>
-                    </tr>
-                </table>
-            </div>
+    <div class="card" style="width: 18rem;">
+        <img src="{{asset($plan->featured)}}" class="card-img-top" alt="{{$plan->title}}">
+        <div class="card-body">
+          <h5 class="card-title">{{ $plan->title}}</h5>
+          <table>
+            <tr>
+                <td colspan="2">{{$plan->date}}</td>
+            </tr>
+            <tr>
+                <td>人数</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>¥</td>
+                <td>{{$plan->price}}</td>
+            </tr>
+          </table>
+          <a href="{{ route('plans.show',['id'=>$plan->id])}}" class="btn btn-info"　role="button" id="showbutton">Details</a>
         </div>
-    </div>
+      </div>
 </div>
            {{-- <td><a href="{{route('plan.join',['planid'=>$plan->id,'userid'=>$user->id])}}" class="btn btn-danger" role="button" id="planjoin">Join</a></td> --}}
     @endforeach
