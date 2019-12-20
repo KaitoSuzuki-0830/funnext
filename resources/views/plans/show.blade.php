@@ -135,11 +135,10 @@
             </div>
         </div>
     </div>
-        <hr>
-            <div class="col-md-8">
-                <div id="disqus_thread">
-                    {{-- 　　ディスカッションページ --}}
-                        <script>
+<div class="col-md-8">
+    <div id="disqus_thread">
+        {{-- 　　ディスカッションページ --}}
+            <script>
                             /**
                              *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
                              *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
