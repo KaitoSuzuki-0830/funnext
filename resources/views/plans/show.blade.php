@@ -16,7 +16,7 @@
 <div class="container-fluid" id="planmain">
 <div class="container">
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-6">
             <img src="{{asset($plan->featured)}}"  alt="{{$plan->title}}" height="400px" width="100%" id="singleeventimage">
             <div class="card" id="eventimage">
                     <div class="card-body">
@@ -27,6 +27,7 @@
                     </div>
             </div>
         </div>
+        <div class="col-md-2"></div>
         <div class="col-md-4">
             <div id="join">
                     <h5>時間</h5>

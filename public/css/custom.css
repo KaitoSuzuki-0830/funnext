@@ -763,10 +763,11 @@ div#join{
     width: 100%;
     padding: 4px;
     border: 1px solid #CCC;
+    border-radius: 8px;
   }
   #map_canvas {   /* 高さ（と幅）を指定しないと地図は表示されない */
     width: 100%;
-    height: 500px;
+    height: 300px;
   }
   #venue,#address,#url, #zoom {
     display: none;  /* 非表示 */
