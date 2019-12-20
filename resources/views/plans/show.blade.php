@@ -30,9 +30,9 @@
         <div class="col-md-1"></div>
         <div class="col-md-5">
             <div id="join">
-                    <h5>時間</h5>
-                    <h5>場所</h5>
-                    <h5>金額</h5>
+                    <h5 class="joininfo"><i class="far fa-clock"></i> {{$plan->date}}</h5>
+                    <h5 class="joininfo"><i class="fas fa-map-marker-alt"></i> {{$plan->place}}</h5>
+                    <h5 class="joininfo">¥{{$plan->price}}</h5>
                     <form action="{{ route('pay') }}" method="POST" id="paymentbutton">
                     {{ csrf_field() }}
                         <script
