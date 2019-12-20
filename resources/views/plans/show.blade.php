@@ -46,18 +46,6 @@
                             data-locale="auto"
                             data-currency="JPY">
                         </script>
-                        <script type="text/javascript">
-                            $(document).ready(function(){
-                                $(".stripe-button-el span").remove();
-                                    $("button.stripe-button-el").removeAttr('style').css({
-                                        "display":"inline-block",
-                                        "width":"100%",
-                                        "padding":"15px",
-                                        "background":"#3fb0ac",
-                                        "color":"white",
-                                        "font-size":"1.3em" }).html("Sign Me Up!");
-                                });
-                        </script>
                     </form>
 
                     <div id="map_info">

@@ -749,8 +749,7 @@ div#textbottom{
 }
 
 div#join{
-    width: 100%;
-    height: 200px;
+    width: 90%;
     border-radius: 10px;
     background-color: white;
     margin-top: 50px;
@@ -761,8 +760,8 @@ div#join{
 #map_container {
     clear: both;
     width: 100%;
-    padding: 4px;
-    border: 1px solid #CCC;
+    padding: 15px;
+
     border-radius: 8px;
   }
   #map_canvas {   /* 高さ（と幅）を指定しないと地図は表示されない */
@@ -842,7 +841,6 @@ h2.disqustitle{
 }
 
 h5.joininfo{
-    text-align: center;
-    padding: 5;
+    font-size: 15px;
 }
 
