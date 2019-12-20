@@ -136,7 +136,7 @@
             </div>
         </div>
     </div>
-<div class="col-md-8">
+<div class="col-md-6">
     <h2 class="disqustitle">コメント</h2>
     <div id="disqus_thread">
         {{-- 　　ディスカッションページ --}}
