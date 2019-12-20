@@ -63,7 +63,7 @@
 </a>
            {{-- <td><a href="{{route('plan.join',['planid'=>$plan->id,'userid'=>$user->id])}}" class="btn btn-danger" role="button" id="planjoin">Join</a></td> --}}
     @endforeach
-    <a href="{{route('plans.index')}}" class="btn btn-info" role="button" id="seemorebutton"><h5 class="seealltext">すべて見る</h5></a>
+    <a href="{{route('plans.index')}}" class="btn btn-info" role="button" id="seemorebutton"><h5 class="seealltext">See all</h5></a>
     <hr>
     <h2 class="titlename">カテゴリー</h2>
         <div class="row">
@@ -80,7 +80,7 @@
         <h5 class="row justify-content-center" id="cardname">{{$category->name}}</h5>
     </div>
     @endforeach
-    <a href="{{route('category.index')}}" class="btn btn-info" role="button" id="seemorebutton2"><h5 class="seealltext">すべて見る</h5></a>
+    <a href="{{route('category.index')}}" class="btn btn-info" role="button" id="seemorebutton2"><h5 class="seealltext">See all</h5></a>
 </div>
 
 {{-- <div class="container" id="groupposition">

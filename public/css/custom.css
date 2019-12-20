@@ -702,7 +702,8 @@ a#seemorebutton2{
     margin-top: 30px;
     margin-bottom: 30px;
     line-height: 30px;
-    background-color: #00A1EB;
+    background-color: #00BCD4;
+    color: white;
 }
 
 div#onecard{
