@@ -137,6 +137,7 @@
         </div>
     </div>
 <div class="col-md-8">
+    <h2>コメント</h2>
     <div id="disqus_thread">
         {{-- 　　ディスカッションページ --}}
             <script>
