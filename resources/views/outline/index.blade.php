@@ -19,7 +19,7 @@
     </div>
 </div>
 <div class="container">
-        <h2>イベント</h2>
+        <h2 class="titlename">イベント</h2>
         <div class="row">
             <div class="col-md-6"><h5>もうすぐ開催のイベントをチェック</h5></div>
             <div class="col-md-6"></div>
@@ -67,7 +67,7 @@
     <hr>
 </div>
 <div class="container">
-    <h2>カテゴリー</h2>
+    <h2 class="titlename">カテゴリー</h2>
         <div class="row">
             <div class="col-md-6"><h5>興味のあるトピックからイベントを検索</h5></div>
             <div class="col-md-6"></div>

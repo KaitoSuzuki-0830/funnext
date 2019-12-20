@@ -609,6 +609,11 @@ a#cardsize{
     margin-top: 25px;
 }
 
+h2.titlename{
+    font-size: 35px;
+    margin-top: 50px;
+}
+
 h1.pagestitle{
     position: absolute;
     color: white;
