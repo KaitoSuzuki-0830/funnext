@@ -19,8 +19,6 @@
         </div>
         <div class="col-md-3"></div>
     </div>
-</div>
-<div class="container">
         <h2 class="titlename">イベント</h2>
         <div class="row">
             <div class="col-md-6"><h5>もうすぐ開催のイベントをチェック</h5></div>
@@ -67,8 +65,6 @@
     @endforeach
     <a href="{{route('plans.index')}}" class="btn btn-info" role="button" id="seemorebutton"><h5>すべて見る</h5></a>
     <hr>
-</div>
-<div class="container">
     <h2 class="titlename">カテゴリー</h2>
         <div class="row">
             <div class="col-md-6"><h5>興味のあるトピックからイベントを検索</h5></div>
