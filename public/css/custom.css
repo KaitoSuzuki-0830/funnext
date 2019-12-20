@@ -837,3 +837,7 @@ div#outlineeventcard{
     box-shadow: 5px 10px 20px rgba(0,0,0,0.30);
 }
 
+h2.disqusname{
+    margin-top: 50px;
+}
+

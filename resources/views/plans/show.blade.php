@@ -27,8 +27,8 @@
                     </div>
             </div>
         </div>
-        <div class="col-md-2"></div>
-        <div class="col-md-4">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
             <div id="join">
                     <h5>時間</h5>
                     <h5>場所</h5>
@@ -137,7 +137,7 @@
         </div>
     </div>
 <div class="col-md-8">
-    <h2>コメント</h2>
+    <h2 class="disqustitle">コメント</h2>
     <div id="disqus_thread">
         {{-- 　　ディスカッションページ --}}
             <script>
