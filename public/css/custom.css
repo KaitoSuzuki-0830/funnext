@@ -668,6 +668,10 @@ a#seemorebutton{
     color: white;
 }
 
+a#seemorebutton:hover{
+    opacity: 0.8;
+}
+
 h5.seealltext{
     font-size: 30px;
     font-family: 'Kaushan Script', cursive;
@@ -704,6 +708,10 @@ a#seemorebutton2{
     line-height: 30px;
     background-color: #00BCD4;
     color: white;
+}
+
+a#seemorebutton2:hover{
+    opacity: 0.8;
 }
 
 div#onecard{
