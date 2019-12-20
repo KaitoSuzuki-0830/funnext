@@ -8,12 +8,14 @@
     <div class="input-group">
         <div class="col-md-3"></div>
         <div class="col-md-6">
-            <form action="/outlinesearch" method="get">
-              <div class="input-group">
-                <i class="fas fa-search" id="searchicon"></i>
-                <input type="search" name="search" class="form-control" placeholder="イベント,カテゴリー,グループ名で検索" id="searchbox">
-              </div>
-            </form>
+            <div id="outlinesearchbox">
+                <form action="/outlinesearch" method="get">
+                    <div class="input-group">
+                        <i class="fas fa-search" id="searchicon"></i>
+                        <input type="search" name="search" class="form-control" placeholder="イベント,カテゴリー,グループ名で検索" id="searchbox">
+                    </div>
+                </form>
+            </div>
         </div>
         <div class="col-md-3"></div>
     </div>

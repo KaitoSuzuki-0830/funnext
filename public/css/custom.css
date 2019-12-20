@@ -754,6 +754,8 @@ div#join{
     background-color: white;
     margin-top: 50px;
     margin-bottom: 20px;
+    position: sticky;
+    top: 0;
 }
 
 /* google map 関連 */
