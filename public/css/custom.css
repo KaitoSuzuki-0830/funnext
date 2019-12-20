@@ -639,17 +639,16 @@ h1.pagestitle{
 }
 /* Outline.index イベント一覧　ボタン */
 a#showbutton{
-    font-size: 12px;
+    font-size: 25px;
   font-family: 'Kaushan Script', cursive;
   color: white;
   background-color: #00BCD4;
   width: 100%;
-  line-height: 20px;
+  line-height: 30px;
 }
 
 a#showbutton:hover{
     opacity: 0.8;
-    background-color: red;
 }
 
 
@@ -665,7 +664,13 @@ a#seemorebutton{
     margin-top: 20px;
     margin-bottom: 20px;
     line-height: 30px;
-    background-color: #00A1EB;
+    background-color: #00BCD4;
+    color: white;
+}
+
+h5.seealltext{
+    font-size: 30px;
+    font-family: 'Kaushan Script', cursive;
 }
 
 h5#eventtitle{
