@@ -22,7 +22,7 @@ class OutlineController extends Controller
         $groups = group::take(3)->get();
         $categories = Category::take(20)->orderBy('id','asc')->get();
         $user = User::find(Auth::id());
-        $plans = Plan::take(12)->get();
+        $plans = Plan::take(3)->get();
 
         return view('outline.index')->with('groups',$groups)
                                     ->with('categories',$categories)
