@@ -24,6 +24,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Schema::defaultStringLength(191);
+        Schema::defaultStringLength(404);
+    }
+
+    public function boot(UrlGenerator $url)
+    {
+        $url->forceScheme('https');
     }
 }
