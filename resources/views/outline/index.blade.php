@@ -74,6 +74,7 @@
     <div class="d-inline-block" id="onecard">
         <div class="card-deck" style="width:18rem;">
             <a href="{{route('plans.index',['id'=>$category->id])}}" class="card" id="cardsize">
+                {{-- 上記のコード変更 --}}
                 <img src="{{ $category->featured}}" alt="{{ $category->name}}" class="card-img" height="150px" width="150px">
             </a>
         </div>
