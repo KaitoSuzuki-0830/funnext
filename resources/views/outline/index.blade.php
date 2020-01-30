@@ -72,7 +72,7 @@
         </div>
     @foreach($categories as $category)
     <div class="d-inline-block" id="onecard">
-        <div class="card-deck" style="width:18rem;">　下の行を変更
+        <div class="card-deck" style="width:18rem;">
             <a href="{{route('plans.index',['id'=>$category->id])}}" class="card" id="cardsize">
                 <img src="{{ $category->featured}}" alt="{{ $category->name}}" class="card-img" height="150px" width="150px">
             </a>
