@@ -177,6 +177,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        // twitter認証
+        Laravel\Socialite\SocialiteServiceProvider::class,
+
     ],
 
     /*
@@ -231,7 +234,8 @@ return [
         //フィルター機能
         //'Datatables' => Yajra\Datatables\Facades\Datatables::class,
 
-
+        // Twitter認証
+        'Socialite' => Laravel\Socialite\Facades\Socialite::class
     ],
 
 ];
