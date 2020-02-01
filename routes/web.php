@@ -74,3 +74,8 @@ Route::get('/group/{groupid}/{userid}',[
     'uses' => 'GroupsController@join',
     'as' => 'group.join'
 ]);
+
+// Twitter認証のため
+Route::get('/login/{social}', 'Auth\OAuthLoginController@socialLogin')->where('social', 'twitter');
+Route::get('/login/{social}/callback', 'Auth\OAuthLoginController@handleProviderCallback')->where('social', 'twitter');
+
