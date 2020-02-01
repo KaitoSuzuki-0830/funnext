@@ -189,7 +189,7 @@ p.welcometext{
 
 /* ログインページ関連　空間開ける */
 .card{
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 /* コンテンツが少ないページのみminheight追加 */
