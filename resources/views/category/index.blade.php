@@ -41,7 +41,7 @@
     </tbody>
    </table>
  @else
-  <p class="text-center">カテゴリーはありません</p>
+  <h2 class="text-center">カテゴリーはありません</h2>
  @endif
  </div>
 </div>

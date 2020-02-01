@@ -14,7 +14,7 @@
                     <h3 class="footermenu">Search</h3>
                     <ul id="footerlist">
                         <li class="footercontent"><a href="{{route('plans.index')}}">Event</a></li>
-                        <li class="footercontent"><a href="{{route('groups.index')}}">Group</a></li>
+                        <li class="footercontent"><a href="#">Group</a></li>
                         <li class="footercontent"><a href="{{route('category.index')}}">Category</a></li>
                     </ul>
                 </div>
