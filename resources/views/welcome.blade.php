@@ -111,6 +111,7 @@
         </div>
         <div class="container-fluid" id="welcomecon1">
             <div class="container">
+                <img src="uploads/photo/titleimage.jpg" id="titleimage" height="100%" width="50%">
                 <h2 id="welcome1">FunNext</h2>
                 <p class="welcomedescription">誰でもカンタンにイベントに参加しサッカーが好きな人との新しい出会いがあります。</p>
                 <p class="welcomedescription">また、あなた自身で試合観戦などのイベントを企画することもできます。</p>
