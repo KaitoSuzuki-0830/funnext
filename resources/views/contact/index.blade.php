@@ -31,7 +31,7 @@
             </div>
             <div class="form-group">
                     <label>お問い合わせ内容</label>
-                    <textarea name="body" cols="10" rows="10" class="form-control">{{ old('body') }}</textarea>
+                    <textarea name="body" cols="6" rows="6" class="form-control">{{ old('body') }}</textarea>
                     @if ($errors->has('body'))
                         <p class="error-message">{{ $errors->first('body') }}</p>
                     @endif
