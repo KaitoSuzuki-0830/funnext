@@ -224,7 +224,9 @@ p.welcometext{
 }
 
 #shorcontent8{
-    min-height: 65vh;
+    min-height: 80vh;
+    margin-left: 50%;
+    margin-top: 20px;
 }
 
 #shorcontent9{
