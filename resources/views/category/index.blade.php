@@ -30,11 +30,11 @@
           <td>{{ $category->name}}</td>
           <td><a href="{{route('category.show',['id'=>$category->id])}}" class="btn btn-info"><i class="fas fa-list-ul"></i> groups list</a></td>
           <td>
-            <form action="{{ route('category.destroy',['id'=>$category->id])}}" method="post">
+            {{-- <form action="{{ route('category.destroy',['id'=>$category->id])}}" method="post">
              @csrf
              @method('DELETE')
              <button class="btn btn-danger"><i class="fas fa-trash-alt"></i> 削除</button>
-            </form>
+            </form> --}}
           </td>
       </tr>
      @endforeach
