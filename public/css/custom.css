@@ -185,8 +185,9 @@ p.welcometext{
 }
 
 /* タイトルサブイメージ画像 */
-#subwelcomeimage{
+img#subwelcomeimage{
     border-radius: 20px;
+    margin-top: 60px;
 }
 
 
