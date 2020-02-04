@@ -116,6 +116,7 @@
                 <p class="welcomedescription2">また、あなた自身で試合観戦などのイベントを企画することも可能。</p>
                 <p class="welcomedescription3">リアルで集まって大好きなサッカーを一緒に楽しめることができるサービス。</p>
                 <h2 id="welcomephrase">さあ、始めよう。</h2>
+                <a class="btn btn-info btn-lg" role="button" href="/register" id="welcomebutton3"><i class="fas fa-sign-in-alt"></i> Start</a>
         </div>
         <div class="container-fluid" id="welcomecon2">
             <div class="container" >
