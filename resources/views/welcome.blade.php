@@ -114,7 +114,7 @@
                 <h2 id="welcome1">FunNext</h2>
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="uploads/photo/titleimage.jpg" id="titleimage" height="100%" width="100%">
+                        <img src="uploads/photo/audience.jpg" id="subwelcomeimage" height="50%" width="100%">
                     </div>
                     <div class="col-md-6">
                         <p class="welcomedescription">誰でもカンタンにイベントに参加しサッカーが好きな人との新しい出会いがあります。</p>

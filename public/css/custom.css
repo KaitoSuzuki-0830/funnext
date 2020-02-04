@@ -184,6 +184,11 @@ p.welcometext{
     margin: 30px;
 }
 
+/* タイトルサブイメージ画像 */
+#subwelcomeimage{
+    border-radius: 20px;
+}
+
 
 
 
