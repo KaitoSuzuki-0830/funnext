@@ -13,7 +13,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <h2>{{$user->name}}</h2>
+                    {{-- <h2>{{$user->name}}</h2> --}}
                     <p></p>
                 </div>
             </div>
