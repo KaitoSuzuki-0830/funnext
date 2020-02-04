@@ -58,10 +58,10 @@ class ProfilesController extends Controller
      */
     public function show($id)
     {
-        return view('user.show')->with('user',Auth::user())
-                                ->with('prefecture',Prefecture::all())
-                                ->with('plans',$plans)
-                                ->with('groups',$groups);
+        return view('user.show')->with('user',Auth::user());
+                                // ->with('prefecture',Prefecture::all());
+                                // ->with('plans',$plans)
+                                // ->with('groups',$groups);
     }
 
     /**
