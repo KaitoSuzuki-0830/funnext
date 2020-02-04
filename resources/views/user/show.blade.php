@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="col-md-3">
-                        <img src="{{ isset($user)? secure_asset($user->profile->avatar): Auth::user()->profile->avatar}}"  height="60px" width="60px" style="border-radius: 50%" class="profile-image img-circle">
+                        {{-- <img src="{{ isset($user)? secure_asset($user->profile->avatar): Auth::user()->profile->avatar}}"  height="60px" width="60px" style="border-radius: 50%" class="profile-image img-circle"> --}}
                     </div>
                 </div>
                 <div class="col-md-6">
