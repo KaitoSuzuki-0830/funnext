@@ -115,7 +115,7 @@
                 <p class="welcomedescription1">誰でもカンタンにイベントに参加可能なサッカー専門イベントサイト。</p>
                 <p class="welcomedescription2">また、あなた自身で試合観戦などのイベントを企画することも可能。</p>
                 <p class="welcomedescription3">リアルで集まって大好きなサッカーを一緒に楽しめることができるサービス。</p>
-                <h2 id="welcomephrase">さあ、楽しみましょう。</h2>
+                <h2 id="welcomephrase">さあ、始めよう。</h2>
         </div>
         <div class="container-fluid" id="welcomecon2">
             <div class="container" >
