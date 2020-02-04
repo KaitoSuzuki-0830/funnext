@@ -58,7 +58,7 @@ h2#titletext{
 
 a#welcomebutton{
     position: absolute;
-  font-size: 20px;
+  font-size: 40px;
   font-family: 'Kaushan Script', cursive;
   top: 55%;
   left: 65%;
@@ -75,7 +75,7 @@ a#welcomebutton{
 
 a#welcomebutton2{
     position: absolute;
-  font-size: 20px;
+  font-size: 40px;
   font-family: 'Kaushan Script', cursive;
   top: 55%;
   left: 35%;
@@ -143,18 +143,17 @@ h2#welcomephrase{
     position: absolute;
     font-size: 50px;
     font-weight: bold;
-    padding-top: 100px;
-    top: 85%;
+    top: 80%;
     left: 40%;
     color: white;
 }
 
 a#welcomebutton3{
     position: absolute;
-    font-size: 20px;
+    font-size: 35px;
     font-family: 'Kaushan Script', cursive;
-    top: 55%;
-    left: 65%;
+    top: 92%;
+    left: 53%;
     -ms-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
