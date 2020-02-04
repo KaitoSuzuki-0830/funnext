@@ -89,7 +89,18 @@ a#welcomebutton2{
   line-height: 60px;
 }
 
+
+
+/* welcome　LP コンテンツ1 */
+div#welcomecon1{
+    position: relative;
+    height: 600px;
+    /* margin-top: 200px;
+    margin-bottom: 200px; */
+}
+
 h2#welcome1{
+    position: absolute;
     text-align: center;
     color: #00BCD4;
     font-family: 'Kaushan Script', cursive;
@@ -97,6 +108,7 @@ h2#welcome1{
 }
 
 p.welcomedescription{
+    position: absolute;
     text-align: center;
     font-size: 26px;
     font-weight: bold;
@@ -104,18 +116,14 @@ p.welcomedescription{
 }
 
 h2#welcomephrase{
+    position: absolute;
     text-align: center;
     font-size: 50px;
     font-weight: bold;
     padding-top: 100px;
 }
-/* welcome　LP コンテンツ1 */
-div#welcomecon1{
-    height: 600px;
-    margin-top: 200px;
-    margin-bottom: 200px;
 
-}
+
 
 div#welcomecon2{
     height: 600px;
