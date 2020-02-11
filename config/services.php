@@ -34,28 +34,28 @@ return [
         'secret' => env('SPARKPOST_SECRET'),
     ],
 
-    'facebook' => [
-        'client_id' => env('FACEBOOK_CLIENT_ID'),  // Your Facebook App ID
-        'client_secret' => env('FACEBOOK_CLIENT_SECRET'), // Your Facebook App Secret
-        'redirect' => env('FACEBOOK_URL'),
+    // 'facebook' => [
+    //     'client_id' => env('FACEBOOK_CLIENT_ID'),  // Your Facebook App ID
+    //     'client_secret' => env('FACEBOOK_CLIENT_SECRET'), // Your Facebook App Secret
+    //     'redirect' => env('FACEBOOK_URL'),
+    // ],
+
+    "twitter"=> [
+        "client_id" => env("TWITTER_CLIENT_ID"),  // Your Twitter Client ID
+        "client_secret" => env("TWITTER_CLIENT_SECRET "), // Your Twitter Client Secret
+        "redirect" => env("CALLBACK_URL"),
     ],
 
-    'twitter' => [
-        'client_id' => env('TWITTER_CLIENT_ID'),  // Your Twitter Client ID
-        'client_secret' => env('TWITTER_CLIENT_SECRET '), // Your Twitter Client Secret
-        'redirect' => env('TWITTER_URL'),
-    ],
+    // 'github' => [
+    //     'client_id' => env('GITHUB_CLIENT_ID'), // Your GitHub Client ID
+    //     'client_secret' => env('GITHUB_CLIENT_SECRET'), // Your GitHub Client Secret
+    //     'redirect' => env('GITHUB_URL'),
+    // ],
 
-    'github' => [
-        'client_id' => env('GITHUB_CLIENT_ID'), // Your GitHub Client ID
-        'client_secret' => env('GITHUB_CLIENT_SECRET'), // Your GitHub Client Secret
-        'redirect' => env('GITHUB_URL'),
-    ],
-
-    'google' => [
-        'client_id' => env('GOOGLE_CLIENT_ID'),
-        'client_secret' => env('GOOGLE_CLIENT_SECRET'),
-        'redirect' => env('GOOGLE_URL'),
-      ],
+    // 'google' => [
+    //     'client_id' => env('GOOGLE_CLIENT_ID'),
+    //     'client_secret' => env('GOOGLE_CLIENT_SECRET'),
+    //     'redirect' => env('GOOGLE_URL'),
+    //   ],
 
 ];
